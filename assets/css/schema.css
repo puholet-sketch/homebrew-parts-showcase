@@ -247,6 +247,27 @@
   opacity: 0.72;
 }
 
+.schema-svg .hotspot .glow--dot {
+  fill: #c00000;
+  stroke: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.18s ease;
+}
+
+.schema-svg .hotspot.is-hover .glow--dot,
+.schema-svg .hotspot.is-active .glow--dot {
+  opacity: 0.5;
+}
+
+/* Circles used as hits: soft fill, no huge rect stroke */
+.schema-svg .hotspot.is-hover circle.hit,
+.schema-svg .hotspot.is-active circle.hit {
+  fill: rgba(192, 0, 0, 0.22);
+  stroke: #c00000;
+  stroke-width: 1.6;
+}
+
 .schema-svg .hotspot.is-dim {
   opacity: 0.42;
 }
