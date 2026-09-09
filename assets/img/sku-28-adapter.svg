@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" role="img">
+  <rect width="600" height="600" fill="#ffffff"/>
+  <rect x="40" y="40" width="520" height="520" fill="none" stroke="#E8E4E1" stroke-width="2"/>
+  <rect x="270" y="120" width="60" height="60" fill="#C00000" transform="skewX(-12)" transform-origin="300 150"/>
+  <text x="300" y="280" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" fill="#666666" letter-spacing="0.12em">SKU 28</text>
+  <text x="300" y="330" text-anchor="middle" font-family="system-ui,sans-serif" font-size="28" font-weight="600" fill="#1A1A1A">Переходник</text>
+  <text x="300" y="380" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#666666">Homebrew Parts</text>
+  <circle cx="300" cy="460" r="36" fill="none" stroke="#C00000" stroke-width="2"/>
+  <circle cx="300" cy="460" r="18" fill="none" stroke="#1A1A1A" stroke-width="1.5"/>
+</svg>

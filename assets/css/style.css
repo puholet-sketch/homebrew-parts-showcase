@@ -433,6 +433,12 @@ a {
   flex-direction: column;
   overflow: hidden;
   transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+  scroll-margin-top: 5.5rem;
+}
+
+.card:target {
+  border-color: rgba(192, 0, 0, 0.55);
+  box-shadow: 0 0 0 2px rgba(192, 0, 0, 0.15);
 }
 
 .card:hover {

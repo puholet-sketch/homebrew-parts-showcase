@@ -21,6 +21,7 @@
       </a>
       <nav class="nav" aria-label="Разделы">
         <a href="#catalog">Каталог</a>
+        <a href="schema.html">Схема аппарата</a>
         <a href="#order">Как заказать</a>
         <a href="#disclaimer">Важно</a>
         <a href="#order" class="nav__cta">Заказать</a>
@@ -31,6 +32,7 @@
     </div>
     <nav id="mobile-nav" class="nav-mobile" hidden>
       <a href="#catalog">Каталог</a>
+      <a href="schema.html">Схема аппарата</a>
       <a href="#order">Как заказать</a>
       <a href="#disclaimer">Важно</a>
       <a href="#order">Заказать</a>
@@ -45,10 +47,10 @@
       <div class="hero__content">
         <p class="brand-hero">Homebrew <span>Parts</span></p>
         <h1>Запчасти и расходники для домашней пивоварни</h1>
-        <p class="hero__lead">Топ-20 ходовых SKU: клампы, ТЭНы, царги, расходники. Самовывоз Москва. Цены — ориентиры розницы, наличие уточняйте.</p>
+        <p class="hero__lead">Ходовые SKU: клампы, ТЭНы, царги, расходники. Интерактивная схема аппарата — наведите на узел. Самовывоз Москва. Цены — ориентиры розницы.</p>
         <div class="hero__actions">
-          <a class="btn btn--primary" href="#catalog">Смотреть каталог</a>
-          <a class="btn btn--ghost" href="#order">Как заказать</a>
+          <a class="btn btn--primary" href="schema.html">Собрать глазами</a>
+          <a class="btn btn--ghost" href="#catalog">Смотреть каталог</a>
         </div>
       </div>
       <svg class="hero__visual" viewBox="0 0 480 420" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -75,12 +77,12 @@
 
     <section class="section" id="catalog">
       <div class="section__head">
-        <h2>Каталог · топ-20</h2>
-        <p>Цены указаны как «от … ₽» по ориентирам розницы РФ (магазины / маркетплейсы). Это не прайс конкретного склада — уточняйте наличие и актуальную цену при заказе.</p>
+        <h2>Каталог · запчасти</h2>
+        <p>Цены указаны как «от … ₽» по ориентирам розницы РФ (магазины / маркетплейсы). Это не прайс конкретного склада — уточняйте наличие и актуальную цену при заказе. Схема узлов: <a href="schema.html">собрать глазами</a>.</p>
       </div>
 
       <div class="catalog">
-        <article class="card reveal">
+        <article class="card reveal" id="sku-01">
           <div class="card__media"><img src="assets/img/sku-top20-01-clamp-15.png" alt="Кламп 1,5 дюйма в сборе" width="600" height="600" loading="lazy" /></div>
           <div class="card__body">
             <span class="card__sku">SKU 01</span>
@@ -91,7 +93,7 @@
           </div>
         </article>
 
-        <article class="card reveal">
+        <article class="card reveal" id="sku-02">
           <div class="card__media"><img src="assets/img/sku-top20-02-clamp-20.png" alt="Кламп 2 дюйма в сборе" width="600" height="600" loading="lazy" /></div>
           <div class="card__body">
             <span class="card__sku">SKU 02</span>
@@ -102,7 +104,7 @@
           </div>
         </article>
 
-        <article class="card reveal">
+        <article class="card reveal" id="sku-03">
           <div class="card__media"><img src="assets/img/sku-top20-03-ten-clamp.png" alt="ТЭН под кламп 2 дюйма" width="600" height="600" loading="lazy" /></div>
           <div class="card__body">
             <span class="card__sku">SKU 03</span>
@@ -113,7 +115,7 @@
           </div>
         </article>
 
-        <article class="card reveal">
+        <article class="card reveal" id="sku-04">
           <div class="card__media"><img src="assets/img/sku-top20-04-gaskets.png" alt="Силиконовая прокладка на кламп" width="600" height="600" loading="lazy" /></div>
           <div class="card__body">
             <span class="card__sku">SKU 04</span>
@@ -124,7 +126,7 @@
           </div>
         </article>
 
-        <article class="card reveal">
+        <article class="card reveal" id="sku-05">
           <div class="card__media"><img src="assets/img/sku-top20-05-airlock.png" alt="Гидрозатвор трёхсоставной" width="600" height="600" loading="lazy" /></div>
           <div class="card__body">
             <span class="card__sku">SKU 05</span>
@@ -135,7 +137,7 @@
           </div>
         </article>
 
-        <article class="card reveal">
+        <article class="card reveal" id="sku-06">
           <div class="card__media"><img src="assets/img/sku-top20-06-hose.png" alt="Шланг силиконовый пищевой" width="600" height="600" loading="lazy" /></div>
           <div class="card__body">
             <span class="card__sku">SKU 06</span>
@@ -146,7 +148,7 @@
           </div>
         </article>
 
-        <article class="card reveal">
+        <article class="card reveal" id="sku-07">
           <div class="card__media"><img src="assets/img/sku-top20-07-fermenter.png" alt="Ферментер 30 литров" width="600" height="600" loading="lazy" /></div>
           <div class="card__body">
             <span class="card__sku">SKU 07</span>
@@ -157,7 +159,7 @@
           </div>
         </article>
 
-        <article class="card reveal">
+        <article class="card reveal" id="sku-08">
           <div class="card__media"><img src="assets/img/sku-top20-08-dimroth.png" alt="Холодильник Димрота" width="600" height="600" loading="lazy" /></div>
           <div class="card__body">
             <span class="card__sku">SKU 08</span>
@@ -168,7 +170,7 @@
           </div>
         </article>
 
-        <article class="card reveal">
+        <article class="card reveal" id="sku-09">
           <div class="card__media"><img src="assets/img/sku-top20-09-pid.png" alt="PID терморегулятор с SSR" width="600" height="600" loading="lazy" /></div>
           <div class="card__body">
             <span class="card__sku">SKU 09</span>
@@ -179,7 +181,7 @@
           </div>
         </article>
 
-        <article class="card reveal">
+        <article class="card reveal" id="sku-10">
           <div class="card__media"><img src="assets/img/sku-top20-10-hose-clamps.png" alt="Хомуты червячные нержавеющие" width="600" height="600" loading="lazy" /></div>
           <div class="card__body">
             <span class="card__sku">SKU 10</span>
@@ -190,7 +192,7 @@
           </div>
         </article>
 
-        <article class="card reveal">
+        <article class="card reveal" id="sku-11">
           <div class="card__media"><img src="assets/img/sku-top20-11-cube-lid.png" alt="Крышка куба с кламп-портами" width="600" height="600" loading="lazy" /></div>
           <div class="card__body">
             <span class="card__sku">SKU 11</span>
@@ -201,7 +203,7 @@
           </div>
         </article>
 
-        <article class="card reveal">
+        <article class="card reveal" id="sku-12">
           <div class="card__media"><img src="assets/img/sku-top20-12-tsarga.png" alt="Царга 1,5 дюйма 50 см" width="600" height="600" loading="lazy" /></div>
           <div class="card__body">
             <span class="card__sku">SKU 12</span>
@@ -212,7 +214,7 @@
           </div>
         </article>
 
-        <article class="card reveal">
+        <article class="card reveal" id="sku-13">
           <div class="card__media"><img src="assets/img/sku-top20-13-diopter.png" alt="Диоптр стеклянная царга" width="600" height="600" loading="lazy" /></div>
           <div class="card__body">
             <span class="card__sku">SKU 13</span>
@@ -223,7 +225,7 @@
           </div>
         </article>
 
-        <article class="card reveal">
+        <article class="card reveal" id="sku-14">
           <div class="card__media"><img src="assets/img/sku-top20-14-takeoff.png" alt="Узел отбора по жидкости" width="600" height="600" loading="lazy" /></div>
           <div class="card__body">
             <span class="card__sku">SKU 14</span>
@@ -234,7 +236,7 @@
           </div>
         </article>
 
-        <article class="card reveal">
+        <article class="card reveal" id="sku-15">
           <div class="card__media"><img src="assets/img/sku-top20-15-parrot.png" alt="Попугай проточный" width="600" height="600" loading="lazy" /></div>
           <div class="card__body">
             <span class="card__sku">SKU 15</span>
@@ -245,7 +247,7 @@
           </div>
         </article>
 
-        <article class="card reveal">
+        <article class="card reveal" id="sku-16">
           <div class="card__media"><img src="assets/img/sku-top20-16-hydrometer.png" alt="Ареометр" width="600" height="600" loading="lazy" /></div>
           <div class="card__body">
             <span class="card__sku">SKU 16</span>
@@ -256,7 +258,7 @@
           </div>
         </article>
 
-        <article class="card reveal">
+        <article class="card reveal" id="sku-17">
           <div class="card__media"><img src="assets/img/sku-top20-17-malt-yeast.png" alt="Солод и дрожжи" width="600" height="600" loading="lazy" /></div>
           <div class="card__body">
             <span class="card__sku">SKU 17</span>
@@ -267,7 +269,7 @@
           </div>
         </article>
 
-        <article class="card reveal">
+        <article class="card reveal" id="sku-18">
           <div class="card__media"><img src="assets/img/sku-top20-18-sanitizer.png" alt="Средство дезинфекции" width="600" height="600" loading="lazy" /></div>
           <div class="card__body">
             <span class="card__sku">SKU 18</span>
@@ -278,7 +280,7 @@
           </div>
         </article>
 
-        <article class="card reveal">
+        <article class="card reveal" id="sku-19">
           <div class="card__media"><img src="assets/img/sku-top20-19-ball-valve.png" alt="Кран шаровый кламп" width="600" height="600" loading="lazy" /></div>
           <div class="card__body">
             <span class="card__sku">SKU 19</span>
@@ -289,7 +291,7 @@
           </div>
         </article>
 
-        <article class="card reveal">
+        <article class="card reveal" id="sku-20">
           <div class="card__media"><img src="assets/img/sku-top20-20-thermometer.png" alt="Термометр биметаллический кламп" width="600" height="600" loading="lazy" /></div>
           <div class="card__body">
             <span class="card__sku">SKU 20</span>
@@ -299,6 +301,139 @@
             <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D1%82%D0%B5%D1%80%D0%BC%D0%BE%D0%BC%D0%B5%D1%82%D1%80%20%D0%BA%D0%BB%D0%B0%D0%BC%D0%BF">Заказать</a></div>
           </div>
         </article>
+
+        <article class="card reveal" id="sku-21">
+          <div class="card__media"><img src="assets/img/sku-21-spn.svg" alt="Насадка СПН" width="600" height="600" loading="lazy" /></div>
+          <div class="card__body">
+            <span class="card__sku">SKU 21</span>
+            <h3 class="card__title">Насадка СПН (спирально-призматическая)</h3>
+            <ul class="card__facts"><li>СПН нерж.</li><li>насыпная</li><li>для царги</li></ul>
+            <div class="card__price">от 890 ₽/л</div>
+            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%A1%D0%9F%D0%9D">Заказать</a></div>
+          </div>
+        </article>
+
+        <article class="card reveal" id="sku-22">
+          <div class="card__media"><img src="assets/img/sku-22-rpn.svg" alt="Насадка РПН" width="600" height="600" loading="lazy" /></div>
+          <div class="card__body">
+            <span class="card__sku">SKU 22</span>
+            <h3 class="card__title">Насадка РПН (регулярная проволочная)</h3>
+            <ul class="card__facts"><li>РПН</li><li>рулон</li><li>высокая эффективность</li></ul>
+            <div class="card__price">от 1 450 ₽</div>
+            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%A0%D0%9F%D0%9D">Заказать</a></div>
+          </div>
+        </article>
+
+        <article class="card reveal" id="sku-23">
+          <div class="card__media"><img src="assets/img/sku-23-gasket-20.svg" alt="Прокладка силикон 2 дюйма" width="600" height="600" loading="lazy" /></div>
+          <div class="card__body">
+            <span class="card__sku">SKU 23</span>
+            <h3 class="card__title">Прокладка силикон на кламп 2″</h3>
+            <ul class="card__facts"><li>пищевой силикон</li><li>2″</li><li>герметичность</li></ul>
+            <div class="card__price">от 35 ₽</div>
+            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%9F%D1%80%D0%BE%D0%BA%D0%BB%D0%B0%D0%B4%D0%BA%D0%B0%202%E2%80%B3">Заказать</a></div>
+          </div>
+        </article>
+
+        <article class="card reveal" id="sku-24">
+          <div class="card__media"><img src="assets/img/sku-24-drain.svg" alt="Кран слива куба" width="600" height="600" loading="lazy" /></div>
+          <div class="card__body">
+            <span class="card__sku">SKU 24</span>
+            <h3 class="card__title">Кран слива куба</h3>
+            <ul class="card__facts"><li>полнопроход</li><li>нерж.</li><li>нижний слив</li></ul>
+            <div class="card__price">от 650 ₽</div>
+            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%9A%D1%80%D0%B0%D0%BD%20%D1%81%D0%BB%D0%B8%D0%B2%D0%B0">Заказать</a></div>
+          </div>
+        </article>
+
+        <article class="card reveal" id="sku-25">
+          <div class="card__media"><img src="assets/img/sku-25-chiller.svg" alt="Чиллер погружной" width="600" height="600" loading="lazy" /></div>
+          <div class="card__body">
+            <span class="card__sku">SKU 25</span>
+            <h3 class="card__title">Чиллер погружной / змеевик</h3>
+            <ul class="card__facts"><li>погружной</li><li>медь/нерж.</li><li>охлаждение сусла</li></ul>
+            <div class="card__price">от 1 800 ₽</div>
+            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%A7%D0%B8%D0%BB%D0%BB%D0%B5%D1%80">Заказать</a></div>
+          </div>
+        </article>
+
+        <article class="card reveal" id="sku-26">
+          <div class="card__media"><img src="assets/img/sku-26-prv.svg" alt="Воздушный клапан" width="600" height="600" loading="lazy" /></div>
+          <div class="card__body">
+            <span class="card__sku">SKU 26</span>
+            <h3 class="card__title">Воздушный / вакуумный клапан</h3>
+            <ul class="card__facts"><li>вакуум-защита</li><li>кламп</li><li>страховка крышки</li></ul>
+            <div class="card__price">от 480 ₽</div>
+            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%92%D0%BE%D0%B7%D0%B4%D1%83%D1%88%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%BB%D0%B0%D0%BF%D0%B0%D0%BD">Заказать</a></div>
+          </div>
+        </article>
+
+        <article class="card reveal" id="sku-27">
+          <div class="card__media"><img src="assets/img/sku-27-receiver.svg" alt="Приёмная ёмкость" width="600" height="600" loading="lazy" /></div>
+          <div class="card__body">
+            <span class="card__sku">SKU 27</span>
+            <h3 class="card__title">Приёмная ёмкость 3–5 л</h3>
+            <ul class="card__facts"><li>3–5 л</li><li>пищевой</li><li>под попугай</li></ul>
+            <div class="card__price">от 190 ₽</div>
+            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%9F%D1%80%D0%B8%D1%91%D0%BC%D0%BD%D0%B0%D1%8F%20%D1%91%D0%BC%D0%BA%D0%BE%D1%81%D1%82%D1%8C">Заказать</a></div>
+          </div>
+        </article>
+
+        <article class="card reveal" id="sku-28">
+          <div class="card__media"><img src="assets/img/sku-28-adapter.svg" alt="Переходник кламп" width="600" height="600" loading="lazy" /></div>
+          <div class="card__body">
+            <span class="card__sku">SKU 28</span>
+            <h3 class="card__title">Переходник кламп 1,5↔2″</h3>
+            <ul class="card__facts"><li>1,5↔2″</li><li>AISI 304</li><li>без сварки</li></ul>
+            <div class="card__price">от 420 ₽</div>
+            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%9F%D0%B5%D1%80%D0%B5%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%20%D0%BA%D0%BB%D0%B0%D0%BC%D0%BF">Заказать</a></div>
+          </div>
+        </article>
+
+        <article class="card reveal" id="sku-29">
+          <div class="card__media"><img src="assets/img/sku-29-blank.svg" alt="Заглушка кламп" width="600" height="600" loading="lazy" /></div>
+          <div class="card__body">
+            <span class="card__sku">SKU 29</span>
+            <h3 class="card__title">Заглушка кламп 1,5″</h3>
+            <ul class="card__facts"><li>1,5″</li><li>с прокладкой</li><li>закрыть порт</li></ul>
+            <div class="card__price">от 180 ₽</div>
+            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%97%D0%B0%D0%B3%D0%BB%D1%83%D1%88%D0%BA%D0%B0%20%D0%BA%D0%BB%D0%B0%D0%BC%D0%BF">Заказать</a></div>
+          </div>
+        </article>
+
+        <article class="card reveal" id="sku-30">
+          <div class="card__media"><img src="assets/img/sku-30-mash.svg" alt="Заторный котёл" width="600" height="600" loading="lazy" /></div>
+          <div class="card__body">
+            <span class="card__sku">SKU 30</span>
+            <h3 class="card__title">Заторный котёл / ПВК</h3>
+            <ul class="card__facts"><li>под ТЭН</li><li>домашний объём</li><li>нерж.</li></ul>
+            <div class="card__price">от 8 900 ₽</div>
+            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%97%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%BE%D1%82%D1%91%D0%BB">Заказать</a></div>
+          </div>
+        </article>
+
+        <article class="card reveal" id="sku-31">
+          <div class="card__media"><img src="assets/img/sku-31-needle.svg" alt="Игольчатый кран" width="600" height="600" loading="lazy" /></div>
+          <div class="card__body">
+            <span class="card__sku">SKU 31</span>
+            <h3 class="card__title">Игольчатый кран (на отбор)</h3>
+            <ul class="card__facts"><li>тонкая регулировка</li><li>нерж.</li><li>на узел отбора</li></ul>
+            <div class="card__price">от 790 ₽</div>
+            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%98%D0%B3%D0%BE%D0%BB%D1%8C%D1%87%D0%B0%D1%82%D1%8B%D0%B9%20%D0%BA%D1%80%D0%B0%D0%BD">Заказать</a></div>
+          </div>
+        </article>
+
+        <article class="card reveal" id="sku-32">
+          <div class="card__media"><img src="assets/img/sku-32-clamp-extra.svg" alt="Хомут кламп 2 дюйма" width="600" height="600" loading="lazy" /></div>
+          <div class="card__body">
+            <span class="card__sku">SKU 32</span>
+            <h3 class="card__title">Хомут кламп 2″ (дополнительный)</h3>
+            <ul class="card__facts"><li>2″</li><li>нерж.</li><li>запас на стык</li></ul>
+            <div class="card__price">от 190 ₽</div>
+            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%A5%D0%BE%D0%BC%D1%83%D1%82%20%D0%BA%D0%BB%D0%B0%D0%BC%D0%BF%202%E2%80%B3">Заказать</a></div>
+          </div>
+        </article>
+
       </div>
     </section>
 
