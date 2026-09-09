@@ -1,7 +1,7 @@
 {
-  "v": 4,
+  "v": 5,
   "updated": "2026-09-09",
-  "next": "confirm GitHub Pages schema.html",
-  "hot_files": ["schema.html", "assets/js/schema.js", "assets/css/schema.css", "scripts/build_schema_svg.py"],
+  "next": "verify Pages catalog facts bar screenshot",
+  "hot_files": ["index.html", "assets/css/style.css", "assets/data/parts.json", "assets/img/"],
   "blockers": []
 }

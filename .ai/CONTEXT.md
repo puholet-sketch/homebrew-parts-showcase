@@ -1,11 +1,13 @@
 ---
-status: schema-hotspots-done
-next: live Pages after push
+status: catalog-facts-live
+next: partner photo consent; Avito
 blockers: none
 v: 5
 ---
 
-Homebrew Parts — статическая витрина запчастей (кламп, ТЭН, царги). Спирт не продаём.
+Homebrew Parts — витрина SKU 01–32. Спирт не продаём.
 
-Схема: `schema.html` — hotspots по контуру (шланги ≠ хомуты), drill-down, coverage 32/32.
-Live: https://puholet-sketch.github.io/homebrew-parts-showcase/schema.html
+Live: https://puholet-sketch.github.io/homebrew-parts-showcase/
+Схема: `/schema.html` (не ломать hotspots без нужды).
+Каталог: PNG `assets/img/sku-XX-*.png` + HTML facts-bar (3 колонки, SVG icons).
+Данные: `assets/data/parts.json` — у каждого SKU `facts[3]`.

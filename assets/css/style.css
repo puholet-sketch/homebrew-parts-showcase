@@ -449,17 +449,16 @@ a {
 
 .card__media {
   position: relative;
+  aspect-ratio: 1;
   background: #ffffff;
-  display: flex;
-  flex-direction: column;
   overflow: hidden;
 }
 
 .card__media img {
   width: 100%;
-  aspect-ratio: 1;
+  height: 100%;
   object-fit: contain;
-  object-position: center center;
+  object-position: center 38%;
   background: #ffffff;
 }
 
@@ -470,9 +469,14 @@ a {
   overflow: hidden;
 }
 
-/* Facts bar under photo — white rounded plaque, 3 columns */
+/* Facts bar: white rounded plaque under product, overlays PNG bottom */
 .facts-bar {
-  margin: 0 0.55rem 0.55rem;
+  position: absolute;
+  left: 0.55rem;
+  right: 0.55rem;
+  bottom: 0.55rem;
+  z-index: 2;
+  margin: 0;
   padding: 0.55rem 0.15rem;
   list-style: none;
   display: grid;
@@ -480,10 +484,7 @@ a {
   align-items: stretch;
   background: #ffffff;
   border-radius: 14px;
-  box-shadow: 0 2px 10px rgba(26, 26, 26, 0.08), 0 0 0 1px rgba(26, 26, 26, 0.04);
-  position: relative;
-  z-index: 1;
-  flex-shrink: 0;
+  box-shadow: 0 4px 16px rgba(26, 26, 26, 0.1), 0 0 0 1px rgba(26, 26, 26, 0.04);
 }
 
 .facts-bar__item {
