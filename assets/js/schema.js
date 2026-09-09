@@ -54,9 +54,49 @@
     return nodes()[id] || null;
   }
 
+  var SKU_IMG = {
+    "01": "assets/img/sku-top20-01-clamp-15.png",
+    "02": "assets/img/sku-top20-02-clamp-20.png",
+    "03": "assets/img/sku-top20-03-ten-clamp.png",
+    "04": "assets/img/sku-top20-04-gaskets.png",
+    "05": "assets/img/sku-top20-05-airlock.png",
+    "06": "assets/img/sku-top20-06-hose.png",
+    "07": "assets/img/sku-top20-07-fermenter.png",
+    "08": "assets/img/sku-top20-08-dimroth.png",
+    "09": "assets/img/sku-top20-09-pid.png",
+    "10": "assets/img/sku-top20-10-hose-clamps.png",
+    "11": "assets/img/sku-top20-11-cube-lid.png",
+    "12": "assets/img/sku-top20-12-tsarga.png",
+    "13": "assets/img/sku-top20-13-diopter.png",
+    "14": "assets/img/sku-top20-14-takeoff.png",
+    "15": "assets/img/sku-top20-15-parrot.png",
+    "16": "assets/img/sku-top20-16-hydrometer.png",
+    "17": "assets/img/sku-top20-17-malt-yeast.png",
+    "18": "assets/img/sku-top20-18-sanitizer.png",
+    "19": "assets/img/sku-top20-19-ball-valve.png",
+    "20": "assets/img/sku-top20-20-thermometer.png",
+    "21": "assets/img/sku-21-spn.svg",
+    "22": "assets/img/sku-22-rpn.svg",
+    "23": "assets/img/sku-23-gasket-20.svg",
+    "24": "assets/img/sku-24-drain.svg",
+    "25": "assets/img/sku-25-chiller.svg",
+    "26": "assets/img/sku-26-prv.svg",
+    "27": "assets/img/sku-27-receiver.svg",
+    "28": "assets/img/sku-28-adapter.svg",
+    "29": "assets/img/sku-29-blank.svg",
+    "30": "assets/img/sku-30-mash.svg",
+    "31": "assets/img/sku-31-needle.svg",
+    "32": "assets/img/sku-32-clamp-extra.svg",
+  };
+
   function skuMeta(skuId) {
     if (!skuId || !state.data.skus) return null;
     return state.data.skus[skuId] || state.data.skus[pad(skuId)] || null;
+  }
+
+  function skuImage(skuId) {
+    if (!skuId) return "";
+    return SKU_IMG[pad(skuId)] || "";
   }
 
   function pad(s) {
@@ -80,6 +120,17 @@
     return state.mode === "brewery" ? "brew-root" : "root";
   }
 
+  function setSvgVisible(svg, on) {
+    if (!svg) return;
+    if (on) {
+      svg.removeAttribute("hidden");
+      svg.style.display = "";
+    } else {
+      svg.setAttribute("hidden", "");
+      svg.style.display = "none";
+    }
+  }
+
   function setMode(mode) {
     state.mode = mode;
     state.selectedId = null;
@@ -91,8 +142,8 @@
       btn.setAttribute("aria-pressed", on ? "true" : "false");
     });
 
-    if (els.svgDistiller) els.svgDistiller.hidden = mode !== "distiller";
-    if (els.svgBrewery) els.svgBrewery.hidden = mode !== "brewery";
+    setSvgVisible(els.svgDistiller, mode === "distiller");
+    setSvgVisible(els.svgBrewery, mode === "brewery");
 
     showLayer(state.layer, false);
     renderEmptyPanel();
@@ -107,15 +158,16 @@
     svg.querySelectorAll(".layer").forEach(function (layer) {
       var match = layer.getAttribute("data-layer") === layerId;
       if (match) {
-        layer.hidden = false;
         layer.removeAttribute("hidden");
+        layer.style.display = "";
         if (animate && !reduceMotion) {
           layer.classList.remove("is-in");
           void layer.offsetWidth;
           layer.classList.add("is-in");
         }
       } else {
-        layer.hidden = true;
+        layer.setAttribute("hidden", "");
+        layer.style.display = "none";
         layer.classList.remove("is-in");
       }
     });
@@ -186,11 +238,19 @@
 
   function renderEmptyPanel() {
     els.panel.innerHTML =
-      '<p class="schema-panel__empty">Наведите или коснитесь узла на схеме. Сборки с «▸» открываются повторным тапом или кнопкой «Провалиться».</p>';
+      '<p class="schema-panel__empty">Наведите на деталь — название во всплывающей подсказке. Клик открывает карточку справа. Повторный клик по кубу, царге или холодильнику показывает разрез.</p>';
   }
 
   function renderPanel(node) {
     var sku = skuMeta(node.skuId);
+    var img = skuImage(node.skuId);
+    var photo = img
+      ? '<div class="schema-panel__media"><img src="' +
+        escapeHtml(img) +
+        '" alt="' +
+        escapeHtml(node.name) +
+        '" width="180" height="180"></div>'
+      : "";
     var skuLine = node.skuId
       ? '<div class="schema-panel__sku">SKU ' + pad(node.skuId) + "</div>"
       : '<div class="schema-panel__sku">Узел схемы</div>';
@@ -209,9 +269,9 @@
       );
       actions.push('<a class="btn btn--ghost btn--sm" href="index.html#catalog">В каталог</a>');
     }
-    if (node.drillable && node.layer) {
+    if (node.drillable && node.layer && node.layer !== state.layer) {
       actions.push(
-        '<button type="button" class="btn btn--ghost btn--sm" id="schema-drill">Провалиться</button>'
+        '<button type="button" class="btn btn--ghost btn--sm" id="schema-drill">Показать разрез</button>'
       );
     }
 
@@ -220,6 +280,7 @@
       "<h2>" +
       escapeHtml(node.name) +
       "</h2>" +
+      photo +
       '<p class="schema-panel__desc">' +
       escapeHtml(node.description || "") +
       "</p>" +
