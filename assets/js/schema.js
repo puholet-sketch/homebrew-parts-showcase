@@ -283,11 +283,29 @@
     var skuLine = node.skuId
       ? '<div class="schema-panel__sku">SKU ' + pad(node.skuId) + "</div>"
       : '<div class="schema-panel__sku">Узел схемы</div>';
+    var useText = (sku && sku.use) || "";
+    var descText = node.description || "";
+    var useBlock = useText
+      ? '<p class="schema-panel__use"><strong>Для чего:</strong> ' + escapeHtml(useText) + "</p>"
+      : descText
+        ? '<p class="schema-panel__use"><strong>Для чего:</strong> ' + escapeHtml(descText) + "</p>"
+        : "";
+    var descExtra =
+      descText && useText && descText !== useText
+        ? '<p class="schema-panel__desc">' + escapeHtml(descText) + "</p>"
+        : "";
     var facts = (node.facts || [])
       .map(function (f) {
         return "<li>" + escapeHtml(f) + "</li>";
       })
       .join("");
+    if (!facts && sku && sku.facts && sku.facts.length) {
+      facts = sku.facts
+        .map(function (f) {
+          return "<li>" + escapeHtml(f.text || f) + "</li>";
+        })
+        .join("");
+    }
     var price = sku && sku.price ? '<div class="schema-panel__price">' + escapeHtml(sku.price) + "</div>" : "";
     var related = (node.related || [])
       .map(function (rid) {
@@ -309,7 +327,7 @@
       actions.push(
         '<a class="btn btn--primary btn--sm" href="index.html#sku-' +
           pad(node.skuId) +
-          '">Карточка товара</a>'
+          '">Открыть карточку</a>'
       );
       actions.push('<a class="btn btn--ghost btn--sm" href="index.html#catalog">В каталог</a>');
     }
@@ -325,9 +343,8 @@
       escapeHtml(node.name) +
       "</h2>" +
       photo +
-      '<p class="schema-panel__desc">' +
-      escapeHtml(node.description || "") +
-      "</p>" +
+      useBlock +
+      descExtra +
       (facts ? '<ul class="schema-panel__facts">' + facts + "</ul>" : "") +
       price +
       (related ? '<div class="schema-panel__actions">' + related + "</div>" : "") +
@@ -466,12 +483,18 @@
     selectNode(target.id, { skipDrill: true });
   }
 
-  function showTooltip(name, clientX, clientY) {
-    if (!els.tooltip || !els.stage) return;
+  function showTooltip(node, clientX, clientY) {
+    if (!els.tooltip || !els.stage || !node) return;
     var wrap = els.stage.querySelector(".schema-canvas-wrap");
     if (!wrap) return;
     var rect = wrap.getBoundingClientRect();
-    els.tooltip.textContent = name;
+    var sku = skuMeta(node.skuId);
+    var use = (sku && sku.use) || node.description || "";
+    els.tooltip.innerHTML =
+      "<strong>" +
+      escapeHtml(node.name) +
+      "</strong>" +
+      (use ? '<span class="schema-tooltip__use">' + escapeHtml(use) + "</span>" : "");
     els.tooltip.style.left = clientX - rect.left + "px";
     els.tooltip.style.top = clientY - rect.top + "px";
     els.tooltip.classList.add("is-on");
@@ -489,7 +512,7 @@
       if (!hs || !svg.contains(hs)) return;
       hs.classList.add("is-hover");
       var n = getNode(hs.getAttribute("data-id"));
-      if (n) showTooltip(n.name, e.clientX, e.clientY);
+      if (n) showTooltip(n, e.clientX, e.clientY);
     });
 
     svg.addEventListener("pointermove", function (e) {
@@ -497,7 +520,7 @@
       var hs = e.target.closest(".hotspot");
       if (!hs) return;
       var n = getNode(hs.getAttribute("data-id"));
-      if (n) showTooltip(n.name, e.clientX, e.clientY);
+      if (n) showTooltip(n, e.clientX, e.clientY);
     });
 
     svg.addEventListener("pointerout", function (e) {
@@ -572,6 +595,32 @@
     }
   }
 
+  function findNodeBySku(skuId) {
+    skuId = pad(skuId);
+    var modes = state.data.modes || {};
+    var found = null;
+    Object.keys(modes).forEach(function (modeKey) {
+      if (found) return;
+      var nodes = (modes[modeKey] && modes[modeKey].nodes) || {};
+      Object.keys(nodes).forEach(function (nid) {
+        if (found) return;
+        if (pad(nodes[nid].skuId || "") === skuId) {
+          found = { mode: modeKey, id: nid };
+        }
+      });
+    });
+    return found;
+  }
+
+  function openFromHash() {
+    var m = location.hash && location.hash.match(/^#sku-(\d{2})$/);
+    if (!m) return;
+    var hit = findNodeBySku(m[1]);
+    if (!hit) return;
+    if (hit.mode !== state.mode) setMode(hit.mode);
+    selectNode(hit.id, { fromClick: true });
+  }
+
   fetch(DATA_URL)
     .then(function (r) {
       if (!r.ok) throw new Error("load failed");
@@ -583,6 +632,8 @@
       bindSvg(els.svgBrewery);
       bindChrome();
       setMode("distiller");
+      openFromHash();
+      window.addEventListener("hashchange", openFromHash);
     })
     .catch(function () {
       els.panel.innerHTML =

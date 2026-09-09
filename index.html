@@ -104,11 +104,14 @@
         <p>Цены указаны как «от … ₽» по ориентирам розницы РФ (магазины / маркетплейсы). Это не прайс конкретного склада — уточняйте наличие и актуальную цену при заказе. Схема узлов: <a href="schema.html">собрать глазами</a>.</p>
       </div>
 
-                        <div class="catalog">
-        <article class="card reveal" id="sku-01">
-          <div class="card__media">
-            <img src="assets/img/sku-01-clamp-15.png" alt="Кламп 1,5 дюйма в сборе" width="600" height="600" loading="lazy" />
-            <ul class="facts-bar" aria-label="Факты о товаре">
+                              <div class="catalog">
+        <article class="card reveal" id="sku-01" data-sku="01">
+          <button type="button" class="card__hit" data-open-sku="01" aria-label="Открыть карточку: Кламп 1,5″ в сборе">
+            <div class="card__media">
+              <div class="card__photo">
+                <img src="assets/img/sku-01-clamp-15.png" alt="Кламп 1,5 дюйма в сборе" width="600" height="600" loading="lazy" />
+              </div>
+              <ul class="facts-bar" aria-label="Факты о товаре">
             <li class="facts-bar__item">
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-steel"></use></svg></span>
               <span class="facts-bar__text">AISI 304</span>
@@ -121,20 +124,30 @@
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-gasket"></use></svg></span>
               <span class="facts-bar__text">с прокладкой</span>
             </li>
-            </ul>
-          </div>
+              </ul>
+            </div>
+          </button>
           <div class="card__body">
             <span class="card__sku">SKU 01</span>
-            <h3 class="card__title">Кламп 1,5″ в сборе</h3>
+            <h3 class="card__title">
+              <button type="button" class="card__title-btn" data-open-sku="01">Кламп 1,5″ в сборе</button>
+            </h3>
+            <p class="card__use"><span class="card__use-label">Для чего</span> Быстросъёмное соединение узлов колонны и куба на 1,5″.</p>
             <div class="card__price">от 220 ₽</div>
-            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%9A%D0%BB%D0%B0%D0%BC%D0%BF%201%2C5%E2%80%B3">Заказать</a></div>
+            <div class="card__actions">
+              <button type="button" class="btn btn--ghost btn--sm" data-open-sku="01">Подробнее</button>
+              <a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%9A%D0%BB%D0%B0%D0%BC%D0%BF%201%2C5%E2%80%B3">Заказать</a>
+            </div>
           </div>
         </article>
 
-        <article class="card reveal" id="sku-02">
-          <div class="card__media">
-            <img src="assets/img/sku-02-clamp-20.png" alt="Кламп 2 дюйма в сборе" width="600" height="600" loading="lazy" />
-            <ul class="facts-bar" aria-label="Факты о товаре">
+        <article class="card reveal" id="sku-02" data-sku="02">
+          <button type="button" class="card__hit" data-open-sku="02" aria-label="Открыть карточку: Кламп 2″ в сборе">
+            <div class="card__media">
+              <div class="card__photo">
+                <img src="assets/img/sku-02-clamp-20.png" alt="Кламп 2 дюйма в сборе" width="600" height="600" loading="lazy" />
+              </div>
+              <ul class="facts-bar" aria-label="Факты о товаре">
             <li class="facts-bar__item">
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-size"></use></svg></span>
               <span class="facts-bar__text">2″ DN51</span>
@@ -147,20 +160,30 @@
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-steel"></use></svg></span>
               <span class="facts-bar__text">пищевая сталь</span>
             </li>
-            </ul>
-          </div>
+              </ul>
+            </div>
+          </button>
           <div class="card__body">
             <span class="card__sku">SKU 02</span>
-            <h3 class="card__title">Кламп 2″ в сборе</h3>
+            <h3 class="card__title">
+              <button type="button" class="card__title-btn" data-open-sku="02">Кламп 2″ в сборе</button>
+            </h3>
+            <p class="card__use"><span class="card__use-label">Для чего</span> Соединение крупных узлов: ТЭН, царга, отбор на 2″.</p>
             <div class="card__price">от 220 ₽</div>
-            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%9A%D0%BB%D0%B0%D0%BC%D0%BF%202%E2%80%B3">Заказать</a></div>
+            <div class="card__actions">
+              <button type="button" class="btn btn--ghost btn--sm" data-open-sku="02">Подробнее</button>
+              <a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%9A%D0%BB%D0%B0%D0%BC%D0%BF%202%E2%80%B3">Заказать</a>
+            </div>
           </div>
         </article>
 
-        <article class="card reveal" id="sku-03">
-          <div class="card__media">
-            <img src="assets/img/sku-03-ten-clamp.png" alt="ТЭН под кламп 2 дюйма" width="600" height="600" loading="lazy" />
-            <ul class="facts-bar" aria-label="Факты о товаре">
+        <article class="card reveal" id="sku-03" data-sku="03">
+          <button type="button" class="card__hit" data-open-sku="03" aria-label="Открыть карточку: ТЭН под кламп 2″ (2–3,5 кВт)">
+            <div class="card__media">
+              <div class="card__photo">
+                <img src="assets/img/sku-03-ten-clamp.png" alt="ТЭН под кламп 2 дюйма" width="600" height="600" loading="lazy" />
+              </div>
+              <ul class="facts-bar" aria-label="Факты о товаре">
             <li class="facts-bar__item">
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-power"></use></svg></span>
               <span class="facts-bar__text">3 кВт 220 В</span>
@@ -173,20 +196,30 @@
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-steel"></use></svg></span>
               <span class="facts-bar__text">AISI 304</span>
             </li>
-            </ul>
-          </div>
+              </ul>
+            </div>
+          </button>
           <div class="card__body">
             <span class="card__sku">SKU 03</span>
-            <h3 class="card__title">ТЭН под кламп 2″ (2–3,5 кВт)</h3>
+            <h3 class="card__title">
+              <button type="button" class="card__title-btn" data-open-sku="03">ТЭН под кламп 2″ (2–3,5 кВт)</button>
+            </h3>
+            <p class="card__use"><span class="card__use-label">Для чего</span> Электроподогрев куба или заторника через кламп-фланец.</p>
             <div class="card__price">от 1 300 ₽</div>
-            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%A2%D0%AD%D0%9D%20%D0%BA%D0%BB%D0%B0%D0%BC%D0%BF%202%E2%80%B3">Заказать</a></div>
+            <div class="card__actions">
+              <button type="button" class="btn btn--ghost btn--sm" data-open-sku="03">Подробнее</button>
+              <a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%A2%D0%AD%D0%9D%20%D0%BA%D0%BB%D0%B0%D0%BC%D0%BF%202%E2%80%B3">Заказать</a>
+            </div>
           </div>
         </article>
 
-        <article class="card reveal" id="sku-04">
-          <div class="card__media">
-            <img src="assets/img/sku-04-gaskets.png" alt="Силиконовая прокладка на кламп" width="600" height="600" loading="lazy" />
-            <ul class="facts-bar" aria-label="Факты о товаре">
+        <article class="card reveal" id="sku-04" data-sku="04">
+          <button type="button" class="card__hit" data-open-sku="04" aria-label="Открыть карточку: Прокладка силикон на кламп 1,5″">
+            <div class="card__media">
+              <div class="card__photo">
+                <img src="assets/img/sku-04-gaskets.png" alt="Силиконовая прокладка на кламп" width="600" height="600" loading="lazy" />
+              </div>
+              <ul class="facts-bar" aria-label="Факты о товаре">
             <li class="facts-bar__item">
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-gasket"></use></svg></span>
               <span class="facts-bar__text">пищевой силикон</span>
@@ -199,20 +232,30 @@
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-seal"></use></svg></span>
               <span class="facts-bar__text">герметичность</span>
             </li>
-            </ul>
-          </div>
+              </ul>
+            </div>
+          </button>
           <div class="card__body">
             <span class="card__sku">SKU 04</span>
-            <h3 class="card__title">Прокладка силикон на кламп 1,5″</h3>
+            <h3 class="card__title">
+              <button type="button" class="card__title-btn" data-open-sku="04">Прокладка силикон на кламп 1,5″</button>
+            </h3>
+            <p class="card__use"><span class="card__use-label">Для чего</span> Герметичность каждого кламп-стыка 1,5″ — сменный расходник.</p>
             <div class="card__price">от 25 ₽</div>
-            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%9F%D1%80%D0%BE%D0%BA%D0%BB%D0%B0%D0%B4%D0%BA%D0%B0%20%D0%BA%D0%BB%D0%B0%D0%BC%D0%BF%201%2C5%E2%80%B3">Заказать</a></div>
+            <div class="card__actions">
+              <button type="button" class="btn btn--ghost btn--sm" data-open-sku="04">Подробнее</button>
+              <a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%9F%D1%80%D0%BE%D0%BA%D0%BB%D0%B0%D0%B4%D0%BA%D0%B0%20%D0%BA%D0%BB%D0%B0%D0%BC%D0%BF%201%2C5%E2%80%B3">Заказать</a>
+            </div>
           </div>
         </article>
 
-        <article class="card reveal" id="sku-05">
-          <div class="card__media">
-            <img src="assets/img/sku-05-airlock.png" alt="Гидрозатвор трёхсоставной" width="600" height="600" loading="lazy" />
-            <ul class="facts-bar" aria-label="Факты о товаре">
+        <article class="card reveal" id="sku-05" data-sku="05">
+          <button type="button" class="card__hit" data-open-sku="05" aria-label="Открыть карточку: Гидрозатвор трёхсоставной + пробка">
+            <div class="card__media">
+              <div class="card__photo">
+                <img src="assets/img/sku-05-airlock.png" alt="Гидрозатвор трёхсоставной" width="600" height="600" loading="lazy" />
+              </div>
+              <ul class="facts-bar" aria-label="Факты о товаре">
             <li class="facts-bar__item">
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-packing"></use></svg></span>
               <span class="facts-bar__text">трёхсоставной</span>
@@ -225,20 +268,30 @@
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-lid"></use></svg></span>
               <span class="facts-bar__text">с пробкой</span>
             </li>
-            </ul>
-          </div>
+              </ul>
+            </div>
+          </button>
           <div class="card__body">
             <span class="card__sku">SKU 05</span>
-            <h3 class="card__title">Гидрозатвор трёхсоставной + пробка</h3>
+            <h3 class="card__title">
+              <button type="button" class="card__title-btn" data-open-sku="05">Гидрозатвор трёхсоставной + пробка</button>
+            </h3>
+            <p class="card__use"><span class="card__use-label">Для чего</span> Сброс CO₂ при брожении без доступа воздуха в ферментер.</p>
             <div class="card__price">от 80 ₽</div>
-            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%93%D0%B8%D0%B4%D1%80%D0%BE%D0%B7%D0%B0%D1%82%D0%B2%D0%BE%D1%80">Заказать</a></div>
+            <div class="card__actions">
+              <button type="button" class="btn btn--ghost btn--sm" data-open-sku="05">Подробнее</button>
+              <a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%93%D0%B8%D0%B4%D1%80%D0%BE%D0%B7%D0%B0%D1%82%D0%B2%D0%BE%D1%80">Заказать</a>
+            </div>
           </div>
         </article>
 
-        <article class="card reveal" id="sku-06">
-          <div class="card__media">
-            <img src="assets/img/sku-06-hose.png" alt="Шланг силиконовый пищевой" width="600" height="600" loading="lazy" />
-            <ul class="facts-bar" aria-label="Факты о товаре">
+        <article class="card reveal" id="sku-06" data-sku="06">
+          <button type="button" class="card__hit" data-open-sku="06" aria-label="Открыть карточку: Шланг силикон пищевой 8–12 мм">
+            <div class="card__media">
+              <div class="card__photo">
+                <img src="assets/img/sku-06-hose.png" alt="Шланг силиконовый пищевой" width="600" height="600" loading="lazy" />
+              </div>
+              <ul class="facts-bar" aria-label="Факты о товаре">
             <li class="facts-bar__item">
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-hose"></use></svg></span>
               <span class="facts-bar__text">пищевой</span>
@@ -251,20 +304,30 @@
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-temp"></use></svg></span>
               <span class="facts-bar__text">до +200°C</span>
             </li>
-            </ul>
-          </div>
+              </ul>
+            </div>
+          </button>
           <div class="card__body">
             <span class="card__sku">SKU 06</span>
-            <h3 class="card__title">Шланг силикон пищевой 8–12 мм</h3>
+            <h3 class="card__title">
+              <button type="button" class="card__title-btn" data-open-sku="06">Шланг силикон пищевой 8–12 мм</button>
+            </h3>
+            <p class="card__use"><span class="card__use-label">Для чего</span> Вода на холодильник и переливы сусла / продукта.</p>
             <div class="card__price">от 99 ₽/м</div>
-            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%A8%D0%BB%D0%B0%D0%BD%D0%B3%20%D1%81%D0%B8%D0%BB%D0%B8%D0%BA%D0%BE%D0%BD">Заказать</a></div>
+            <div class="card__actions">
+              <button type="button" class="btn btn--ghost btn--sm" data-open-sku="06">Подробнее</button>
+              <a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%A8%D0%BB%D0%B0%D0%BD%D0%B3%20%D1%81%D0%B8%D0%BB%D0%B8%D0%BA%D0%BE%D0%BD">Заказать</a>
+            </div>
           </div>
         </article>
 
-        <article class="card reveal" id="sku-07">
-          <div class="card__media">
-            <img src="assets/img/sku-07-fermenter.png" alt="Ферментер 30 литров" width="600" height="600" loading="lazy" />
-            <ul class="facts-bar" aria-label="Факты о товаре">
+        <article class="card reveal" id="sku-07" data-sku="07">
+          <button type="button" class="card__hit" data-open-sku="07" aria-label="Открыть карточку: Ферментер 30 л с крышкой">
+            <div class="card__media">
+              <div class="card__photo">
+                <img src="assets/img/sku-07-fermenter.png" alt="Ферментер 30 литров" width="600" height="600" loading="lazy" />
+              </div>
+              <ul class="facts-bar" aria-label="Факты о товаре">
             <li class="facts-bar__item">
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-volume"></use></svg></span>
               <span class="facts-bar__text">30 л</span>
@@ -277,20 +340,30 @@
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-tap"></use></svg></span>
               <span class="facts-bar__text">под кран</span>
             </li>
-            </ul>
-          </div>
+              </ul>
+            </div>
+          </button>
           <div class="card__body">
             <span class="card__sku">SKU 07</span>
-            <h3 class="card__title">Ферментер 30 л с крышкой</h3>
+            <h3 class="card__title">
+              <button type="button" class="card__title-btn" data-open-sku="07">Ферментер 30 л с крышкой</button>
+            </h3>
+            <p class="card__use"><span class="card__use-label">Для чего</span> Ёмкость брожения сусла для домашнего пива.</p>
             <div class="card__price">от 1 400 ₽</div>
-            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%A4%D0%B5%D1%80%D0%BC%D0%B5%D0%BD%D1%82%D0%B5%D1%80%2030%20%D0%BB">Заказать</a></div>
+            <div class="card__actions">
+              <button type="button" class="btn btn--ghost btn--sm" data-open-sku="07">Подробнее</button>
+              <a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%A4%D0%B5%D1%80%D0%BC%D0%B5%D0%BD%D1%82%D0%B5%D1%80%2030%20%D0%BB">Заказать</a>
+            </div>
           </div>
         </article>
 
-        <article class="card reveal" id="sku-08">
-          <div class="card__media">
-            <img src="assets/img/sku-08-dimroth.png" alt="Холодильник Димрота" width="600" height="600" loading="lazy" />
-            <ul class="facts-bar" aria-label="Факты о товаре">
+        <article class="card reveal" id="sku-08" data-sku="08">
+          <button type="button" class="card__hit" data-open-sku="08" aria-label="Открыть карточку: Холодильник Димрота / змеевик">
+            <div class="card__media">
+              <div class="card__photo">
+                <img src="assets/img/sku-08-dimroth.png" alt="Холодильник Димрота" width="600" height="600" loading="lazy" />
+              </div>
+              <ul class="facts-bar" aria-label="Факты о товаре">
             <li class="facts-bar__item">
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-glass"></use></svg></span>
               <span class="facts-bar__text">Димрот</span>
@@ -303,20 +376,30 @@
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-hose"></use></svg></span>
               <span class="facts-bar__text">проходной</span>
             </li>
-            </ul>
-          </div>
+              </ul>
+            </div>
+          </button>
           <div class="card__body">
             <span class="card__sku">SKU 08</span>
-            <h3 class="card__title">Холодильник Димрота / змеевик</h3>
+            <h3 class="card__title">
+              <button type="button" class="card__title-btn" data-open-sku="08">Холодильник Димрота / змеевик</button>
+            </h3>
+            <p class="card__use"><span class="card__use-label">Для чего</span> Конденсация паров и охлаждение на колонне.</p>
             <div class="card__price">от 2 200 ₽</div>
-            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%94%D0%B8%D0%BC%D1%80%D0%BE%D1%82">Заказать</a></div>
+            <div class="card__actions">
+              <button type="button" class="btn btn--ghost btn--sm" data-open-sku="08">Подробнее</button>
+              <a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%94%D0%B8%D0%BC%D1%80%D0%BE%D1%82">Заказать</a>
+            </div>
           </div>
         </article>
 
-        <article class="card reveal" id="sku-09">
-          <div class="card__media">
-            <img src="assets/img/sku-09-pid.png" alt="PID терморегулятор с SSR" width="600" height="600" loading="lazy" />
-            <ul class="facts-bar" aria-label="Факты о товаре">
+        <article class="card reveal" id="sku-09" data-sku="09">
+          <button type="button" class="card__hit" data-open-sku="09" aria-label="Открыть карточку: PID / терморегулятор + SSR">
+            <div class="card__media">
+              <div class="card__photo">
+                <img src="assets/img/sku-09-pid.png" alt="PID терморегулятор с SSR" width="600" height="600" loading="lazy" />
+              </div>
+              <ul class="facts-bar" aria-label="Факты о товаре">
             <li class="facts-bar__item">
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-temp"></use></svg></span>
               <span class="facts-bar__text">PID</span>
@@ -329,20 +412,30 @@
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-temp"></use></svg></span>
               <span class="facts-bar__text">щуп К</span>
             </li>
-            </ul>
-          </div>
+              </ul>
+            </div>
+          </button>
           <div class="card__body">
             <span class="card__sku">SKU 09</span>
-            <h3 class="card__title">PID / терморегулятор + SSR</h3>
+            <h3 class="card__title">
+              <button type="button" class="card__title-btn" data-open-sku="09">PID / терморегулятор + SSR</button>
+            </h3>
+            <p class="card__use"><span class="card__use-label">Для чего</span> Удержание температуры ТЭНа и пауз затирания.</p>
             <div class="card__price">от 1 950 ₽</div>
-            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20PID%20%2B%20SSR">Заказать</a></div>
+            <div class="card__actions">
+              <button type="button" class="btn btn--ghost btn--sm" data-open-sku="09">Подробнее</button>
+              <a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20PID%20%2B%20SSR">Заказать</a>
+            </div>
           </div>
         </article>
 
-        <article class="card reveal" id="sku-10">
-          <div class="card__media">
-            <img src="assets/img/sku-10-hose-clamps.png" alt="Хомуты червячные нержавеющие" width="600" height="600" loading="lazy" />
-            <ul class="facts-bar" aria-label="Факты о товаре">
+        <article class="card reveal" id="sku-10" data-sku="10">
+          <button type="button" class="card__hit" data-open-sku="10" aria-label="Открыть карточку: Хомуты червячные нерж. набор">
+            <div class="card__media">
+              <div class="card__photo">
+                <img src="assets/img/sku-10-hose-clamps.png" alt="Хомуты червячные нержавеющие" width="600" height="600" loading="lazy" />
+              </div>
+              <ul class="facts-bar" aria-label="Факты о товаре">
             <li class="facts-bar__item">
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-steel"></use></svg></span>
               <span class="facts-bar__text">нерж.</span>
@@ -355,20 +448,30 @@
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-hose"></use></svg></span>
               <span class="facts-bar__text">на шланг</span>
             </li>
-            </ul>
-          </div>
+              </ul>
+            </div>
+          </button>
           <div class="card__body">
             <span class="card__sku">SKU 10</span>
-            <h3 class="card__title">Хомуты червячные нерж. набор</h3>
+            <h3 class="card__title">
+              <button type="button" class="card__title-btn" data-open-sku="10">Хомуты червячные нерж. набор</button>
+            </h3>
+            <p class="card__use"><span class="card__use-label">Для чего</span> Фиксация силиконовых шлангов на штуцерах.</p>
             <div class="card__price">от 150 ₽</div>
-            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D1%85%D0%BE%D0%BC%D1%83%D1%82%D1%8B%20%D1%87%D0%B5%D1%80%D0%B2%D1%8F%D1%87%D0%BD%D1%8B%D0%B5">Заказать</a></div>
+            <div class="card__actions">
+              <button type="button" class="btn btn--ghost btn--sm" data-open-sku="10">Подробнее</button>
+              <a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D1%85%D0%BE%D0%BC%D1%83%D1%82%D1%8B%20%D1%87%D0%B5%D1%80%D0%B2%D1%8F%D1%87%D0%BD%D1%8B%D0%B5">Заказать</a>
+            </div>
           </div>
         </article>
 
-        <article class="card reveal" id="sku-11">
-          <div class="card__media">
-            <img src="assets/img/sku-11-cube-lid.png" alt="Крышка куба с кламп-портами" width="600" height="600" loading="lazy" />
-            <ul class="facts-bar" aria-label="Факты о товаре">
+        <article class="card reveal" id="sku-11" data-sku="11">
+          <button type="button" class="card__hit" data-open-sku="11" aria-label="Открыть карточку: Крышка куба с кламп-портами">
+            <div class="card__media">
+              <div class="card__photo">
+                <img src="assets/img/sku-11-cube-lid.png" alt="Крышка куба с кламп-портами" width="600" height="600" loading="lazy" />
+              </div>
+              <ul class="facts-bar" aria-label="Факты о товаре">
             <li class="facts-bar__item">
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-clamp"></use></svg></span>
               <span class="facts-bar__text">кламп-порты</span>
@@ -381,20 +484,30 @@
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-lid"></use></svg></span>
               <span class="facts-bar__text">съёмная</span>
             </li>
-            </ul>
-          </div>
+              </ul>
+            </div>
+          </button>
           <div class="card__body">
             <span class="card__sku">SKU 11</span>
-            <h3 class="card__title">Крышка куба с кламп-портами</h3>
+            <h3 class="card__title">
+              <button type="button" class="card__title-btn" data-open-sku="11">Крышка куба с кламп-портами</button>
+            </h3>
+            <p class="card__use"><span class="card__use-label">Для чего</span> Крышка куба с портами под царгу и контрольные приборы.</p>
             <div class="card__price">от 3 900 ₽</div>
-            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%9A%D1%80%D1%8B%D1%88%D0%BA%D0%B0%20%D0%BA%D1%83%D0%B1%D0%B0">Заказать</a></div>
+            <div class="card__actions">
+              <button type="button" class="btn btn--ghost btn--sm" data-open-sku="11">Подробнее</button>
+              <a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%9A%D1%80%D1%8B%D1%88%D0%BA%D0%B0%20%D0%BA%D1%83%D0%B1%D0%B0">Заказать</a>
+            </div>
           </div>
         </article>
 
-        <article class="card reveal" id="sku-12">
-          <div class="card__media">
-            <img src="assets/img/sku-12-tsarga.png" alt="Царга 1,5 дюйма 50 см" width="600" height="600" loading="lazy" />
-            <ul class="facts-bar" aria-label="Факты о товаре">
+        <article class="card reveal" id="sku-12" data-sku="12">
+          <button type="button" class="card__hit" data-open-sku="12" aria-label="Открыть карточку: Царга 1,5″ ~50 см">
+            <div class="card__media">
+              <div class="card__photo">
+                <img src="assets/img/sku-12-tsarga.png" alt="Царга 1,5 дюйма 50 см" width="600" height="600" loading="lazy" />
+              </div>
+              <ul class="facts-bar" aria-label="Факты о товаре">
             <li class="facts-bar__item">
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-size"></use></svg></span>
               <span class="facts-bar__text">50 см</span>
@@ -407,20 +520,30 @@
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-packing"></use></svg></span>
               <span class="facts-bar__text">под насадку</span>
             </li>
-            </ul>
-          </div>
+              </ul>
+            </div>
+          </button>
           <div class="card__body">
             <span class="card__sku">SKU 12</span>
-            <h3 class="card__title">Царга 1,5″ ~50 см</h3>
+            <h3 class="card__title">
+              <button type="button" class="card__title-btn" data-open-sku="12">Царга 1,5″ ~50 см</button>
+            </h3>
+            <p class="card__use"><span class="card__use-label">Для чего</span> Секция колонны под насадку СПН или РПН.</p>
             <div class="card__price">от 850 ₽</div>
-            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%A6%D0%B0%D1%80%D0%B3%D0%B0%201%2C5%E2%80%B3">Заказать</a></div>
+            <div class="card__actions">
+              <button type="button" class="btn btn--ghost btn--sm" data-open-sku="12">Подробнее</button>
+              <a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%A6%D0%B0%D1%80%D0%B3%D0%B0%201%2C5%E2%80%B3">Заказать</a>
+            </div>
           </div>
         </article>
 
-        <article class="card reveal" id="sku-13">
-          <div class="card__media">
-            <img src="assets/img/sku-13-diopter.png" alt="Диоптр стеклянная царга" width="600" height="600" loading="lazy" />
-            <ul class="facts-bar" aria-label="Факты о товаре">
+        <article class="card reveal" id="sku-13" data-sku="13">
+          <button type="button" class="card__hit" data-open-sku="13" aria-label="Открыть карточку: Диоптр (стеклянная царга)">
+            <div class="card__media">
+              <div class="card__photo">
+                <img src="assets/img/sku-13-diopter.png" alt="Диоптр стеклянная царга" width="600" height="600" loading="lazy" />
+              </div>
+              <ul class="facts-bar" aria-label="Факты о товаре">
             <li class="facts-bar__item">
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-glass"></use></svg></span>
               <span class="facts-bar__text">стекло</span>
@@ -433,20 +556,30 @@
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-glass"></use></svg></span>
               <span class="facts-bar__text">обзор флегмы</span>
             </li>
-            </ul>
-          </div>
+              </ul>
+            </div>
+          </button>
           <div class="card__body">
             <span class="card__sku">SKU 13</span>
-            <h3 class="card__title">Диоптр (стеклянная царга)</h3>
+            <h3 class="card__title">
+              <button type="button" class="card__title-btn" data-open-sku="13">Диоптр (стеклянная царга)</button>
+            </h3>
+            <p class="card__use"><span class="card__use-label">Для чего</span> Визуальный контроль флегмы и кипения в колонне.</p>
             <div class="card__price">от 2 750 ₽</div>
-            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%94%D0%B8%D0%BE%D0%BF%D1%82%D1%80">Заказать</a></div>
+            <div class="card__actions">
+              <button type="button" class="btn btn--ghost btn--sm" data-open-sku="13">Подробнее</button>
+              <a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%94%D0%B8%D0%BE%D0%BF%D1%82%D1%80">Заказать</a>
+            </div>
           </div>
         </article>
 
-        <article class="card reveal" id="sku-14">
-          <div class="card__media">
-            <img src="assets/img/sku-14-takeoff.png" alt="Узел отбора по жидкости" width="600" height="600" loading="lazy" />
-            <ul class="facts-bar" aria-label="Факты о товаре">
+        <article class="card reveal" id="sku-14" data-sku="14">
+          <button type="button" class="card__hit" data-open-sku="14" aria-label="Открыть карточку: Узел отбора по жидкости">
+            <div class="card__media">
+              <div class="card__photo">
+                <img src="assets/img/sku-14-takeoff.png" alt="Узел отбора по жидкости" width="600" height="600" loading="lazy" />
+              </div>
+              <ul class="facts-bar" aria-label="Факты о товаре">
             <li class="facts-bar__item">
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-needle"></use></svg></span>
               <span class="facts-bar__text">игольчатый кран</span>
@@ -459,20 +592,30 @@
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-hose"></use></svg></span>
               <span class="facts-bar__text">доохладитель</span>
             </li>
-            </ul>
-          </div>
+              </ul>
+            </div>
+          </button>
           <div class="card__body">
             <span class="card__sku">SKU 14</span>
-            <h3 class="card__title">Узел отбора по жидкости</h3>
+            <h3 class="card__title">
+              <button type="button" class="card__title-btn" data-open-sku="14">Узел отбора по жидкости</button>
+            </h3>
+            <p class="card__use"><span class="card__use-label">Для чего</span> Точный отбор по жидкости с игольчатым краном.</p>
             <div class="card__price">от 2 090 ₽</div>
-            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%A3%D0%B7%D0%B5%D0%BB%20%D0%BE%D1%82%D0%B1%D0%BE%D1%80%D0%B0">Заказать</a></div>
+            <div class="card__actions">
+              <button type="button" class="btn btn--ghost btn--sm" data-open-sku="14">Подробнее</button>
+              <a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%A3%D0%B7%D0%B5%D0%BB%20%D0%BE%D1%82%D0%B1%D0%BE%D1%80%D0%B0">Заказать</a>
+            </div>
           </div>
         </article>
 
-        <article class="card reveal" id="sku-15">
-          <div class="card__media">
-            <img src="assets/img/sku-15-parrot.png" alt="Попугай проточный" width="600" height="600" loading="lazy" />
-            <ul class="facts-bar" aria-label="Факты о товаре">
+        <article class="card reveal" id="sku-15" data-sku="15">
+          <button type="button" class="card__hit" data-open-sku="15" aria-label="Открыть карточку: Попугай (проточный под ареометр)">
+            <div class="card__media">
+              <div class="card__photo">
+                <img src="assets/img/sku-15-parrot.png" alt="Попугай проточный" width="600" height="600" loading="lazy" />
+              </div>
+              <ul class="facts-bar" aria-label="Факты о товаре">
             <li class="facts-bar__item">
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-temp"></use></svg></span>
               <span class="facts-bar__text">онлайн °</span>
@@ -485,20 +628,30 @@
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-steel"></use></svg></span>
               <span class="facts-bar__text">нерж.</span>
             </li>
-            </ul>
-          </div>
+              </ul>
+            </div>
+          </button>
           <div class="card__body">
             <span class="card__sku">SKU 15</span>
-            <h3 class="card__title">Попугай (проточный под ареометр)</h3>
+            <h3 class="card__title">
+              <button type="button" class="card__title-btn" data-open-sku="15">Попугай (проточный под ареометр)</button>
+            </h3>
+            <p class="card__use"><span class="card__use-label">Для чего</span> Проточный карман под ареометр на выходе продукта.</p>
             <div class="card__price">от 990 ₽</div>
-            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%9F%D0%BE%D0%BF%D1%83%D0%B3%D0%B0%D0%B9">Заказать</a></div>
+            <div class="card__actions">
+              <button type="button" class="btn btn--ghost btn--sm" data-open-sku="15">Подробнее</button>
+              <a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%9F%D0%BE%D0%BF%D1%83%D0%B3%D0%B0%D0%B9">Заказать</a>
+            </div>
           </div>
         </article>
 
-        <article class="card reveal" id="sku-16">
-          <div class="card__media">
-            <img src="assets/img/sku-16-hydrometer.png" alt="Ареометр" width="600" height="600" loading="lazy" />
-            <ul class="facts-bar" aria-label="Факты о товаре">
+        <article class="card reveal" id="sku-16" data-sku="16">
+          <button type="button" class="card__hit" data-open-sku="16" aria-label="Открыть карточку: Ареометр / рефрактометр">
+            <div class="card__media">
+              <div class="card__photo">
+                <img src="assets/img/sku-16-hydrometer.png" alt="Ареометр" width="600" height="600" loading="lazy" />
+              </div>
+              <ul class="facts-bar" aria-label="Факты о товаре">
             <li class="facts-bar__item">
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-glass"></use></svg></span>
               <span class="facts-bar__text">АС-3 / АСП</span>
@@ -511,20 +664,30 @@
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-temp"></use></svg></span>
               <span class="facts-bar__text">контроль</span>
             </li>
-            </ul>
-          </div>
+              </ul>
+            </div>
+          </button>
           <div class="card__body">
             <span class="card__sku">SKU 16</span>
-            <h3 class="card__title">Ареометр / рефрактометр</h3>
+            <h3 class="card__title">
+              <button type="button" class="card__title-btn" data-open-sku="16">Ареометр / рефрактометр</button>
+            </h3>
+            <p class="card__use"><span class="card__use-label">Для чего</span> Контроль плотности и крепости сусла / дистиллята.</p>
             <div class="card__price">от 260 ₽</div>
-            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%90%D1%80%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80">Заказать</a></div>
+            <div class="card__actions">
+              <button type="button" class="btn btn--ghost btn--sm" data-open-sku="16">Подробнее</button>
+              <a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%90%D1%80%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80">Заказать</a>
+            </div>
           </div>
         </article>
 
-        <article class="card reveal" id="sku-17">
-          <div class="card__media">
-            <img src="assets/img/sku-17-malt-yeast.png" alt="Солод и дрожжи" width="600" height="600" loading="lazy" />
-            <ul class="facts-bar" aria-label="Факты о товаре">
+        <article class="card reveal" id="sku-17" data-sku="17">
+          <button type="button" class="card__hit" data-open-sku="17" aria-label="Открыть карточку: Солод пилснер + дрожжи пивные">
+            <div class="card__media">
+              <div class="card__photo">
+                <img src="assets/img/sku-17-malt-yeast.png" alt="Солод и дрожжи" width="600" height="600" loading="lazy" />
+              </div>
+              <ul class="facts-bar" aria-label="Факты о товаре">
             <li class="facts-bar__item">
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-packing"></use></svg></span>
               <span class="facts-bar__text">пилснер</span>
@@ -537,20 +700,30 @@
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-volume"></use></svg></span>
               <span class="facts-bar__text">домашнее</span>
             </li>
-            </ul>
-          </div>
+              </ul>
+            </div>
+          </button>
           <div class="card__body">
             <span class="card__sku">SKU 17</span>
-            <h3 class="card__title">Солод пилснер + дрожжи пивные</h3>
+            <h3 class="card__title">
+              <button type="button" class="card__title-btn" data-open-sku="17">Солод пилснер + дрожжи пивные</button>
+            </h3>
+            <p class="card__use"><span class="card__use-label">Для чего</span> Сырьё для домашнего пива: солод и пивные дрожжи.</p>
             <div class="card__price">от 390 ₽</div>
-            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D1%81%D0%BE%D0%BB%D0%BE%D0%B4%20%2B%20%D0%B4%D1%80%D0%BE%D0%B6%D0%B6%D0%B8">Заказать</a></div>
+            <div class="card__actions">
+              <button type="button" class="btn btn--ghost btn--sm" data-open-sku="17">Подробнее</button>
+              <a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D1%81%D0%BE%D0%BB%D0%BE%D0%B4%20%2B%20%D0%B4%D1%80%D0%BE%D0%B6%D0%B6%D0%B8">Заказать</a>
+            </div>
           </div>
         </article>
 
-        <article class="card reveal" id="sku-18">
-          <div class="card__media">
-            <img src="assets/img/sku-18-sanitizer.png" alt="Средство дезинфекции" width="600" height="600" loading="lazy" />
-            <ul class="facts-bar" aria-label="Факты о товаре">
+        <article class="card reveal" id="sku-18" data-sku="18">
+          <button type="button" class="card__hit" data-open-sku="18" aria-label="Открыть карточку: Дезинфекция для ПВК и ферментера">
+            <div class="card__media">
+              <div class="card__photo">
+                <img src="assets/img/sku-18-sanitizer.png" alt="Средство дезинфекции" width="600" height="600" loading="lazy" />
+              </div>
+              <ul class="facts-bar" aria-label="Факты о товаре">
             <li class="facts-bar__item">
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-seal"></use></svg></span>
               <span class="facts-bar__text">без ополаск.</span>
@@ -563,20 +736,30 @@
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-volume"></use></svg></span>
               <span class="facts-bar__text">ПВК/ферм.</span>
             </li>
-            </ul>
-          </div>
+              </ul>
+            </div>
+          </button>
           <div class="card__body">
             <span class="card__sku">SKU 18</span>
-            <h3 class="card__title">Дезинфекция для ПВК и ферментера</h3>
+            <h3 class="card__title">
+              <button type="button" class="card__title-btn" data-open-sku="18">Дезинфекция для ПВК и ферментера</button>
+            </h3>
+            <p class="card__use"><span class="card__use-label">Для чего</span> Санитарная обработка ПВК, шлангов и ферментера.</p>
             <div class="card__price">от 299 ₽</div>
-            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20Bio%20San">Заказать</a></div>
+            <div class="card__actions">
+              <button type="button" class="btn btn--ghost btn--sm" data-open-sku="18">Подробнее</button>
+              <a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20Bio%20San">Заказать</a>
+            </div>
           </div>
         </article>
 
-        <article class="card reveal" id="sku-19">
-          <div class="card__media">
-            <img src="assets/img/sku-19-ball-valve.png" alt="Кран шаровый кламп" width="600" height="600" loading="lazy" />
-            <ul class="facts-bar" aria-label="Факты о товаре">
+        <article class="card reveal" id="sku-19" data-sku="19">
+          <button type="button" class="card__hit" data-open-sku="19" aria-label="Открыть карточку: Кран шаровый кламп 1,5″">
+            <div class="card__media">
+              <div class="card__photo">
+                <img src="assets/img/sku-19-ball-valve.png" alt="Кран шаровый кламп" width="600" height="600" loading="lazy" />
+              </div>
+              <ul class="facts-bar" aria-label="Факты о товаре">
             <li class="facts-bar__item">
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-tap"></use></svg></span>
               <span class="facts-bar__text">полнопроход</span>
@@ -589,20 +772,30 @@
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-steel"></use></svg></span>
               <span class="facts-bar__text">AISI</span>
             </li>
-            </ul>
-          </div>
+              </ul>
+            </div>
+          </button>
           <div class="card__body">
             <span class="card__sku">SKU 19</span>
-            <h3 class="card__title">Кран шаровый кламп 1,5″</h3>
+            <h3 class="card__title">
+              <button type="button" class="card__title-btn" data-open-sku="19">Кран шаровый кламп 1,5″</button>
+            </h3>
+            <p class="card__use"><span class="card__use-label">Для чего</span> Перекрытие потока на сливе ферментера или линии отбора.</p>
             <div class="card__price">от 1 200 ₽</div>
-            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%9A%D1%80%D0%B0%D0%BD%20%D0%BA%D0%BB%D0%B0%D0%BC%D0%BF%201%2C5%E2%80%B3">Заказать</a></div>
+            <div class="card__actions">
+              <button type="button" class="btn btn--ghost btn--sm" data-open-sku="19">Подробнее</button>
+              <a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%9A%D1%80%D0%B0%D0%BD%20%D0%BA%D0%BB%D0%B0%D0%BC%D0%BF%201%2C5%E2%80%B3">Заказать</a>
+            </div>
           </div>
         </article>
 
-        <article class="card reveal" id="sku-20">
-          <div class="card__media">
-            <img src="assets/img/sku-20-thermometer.png" alt="Термометр биметаллический кламп" width="600" height="600" loading="lazy" />
-            <ul class="facts-bar" aria-label="Факты о товаре">
+        <article class="card reveal" id="sku-20" data-sku="20">
+          <button type="button" class="card__hit" data-open-sku="20" aria-label="Открыть карточку: Термометр биметаллический кламп 1,5″">
+            <div class="card__media">
+              <div class="card__photo">
+                <img src="assets/img/sku-20-thermometer.png" alt="Термометр биметаллический кламп" width="600" height="600" loading="lazy" />
+              </div>
+              <ul class="facts-bar" aria-label="Факты о товаре">
             <li class="facts-bar__item">
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-temp"></use></svg></span>
               <span class="facts-bar__text">биметалл</span>
@@ -615,20 +808,30 @@
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-temp"></use></svg></span>
               <span class="facts-bar__text">0–120°C</span>
             </li>
-            </ul>
-          </div>
+              </ul>
+            </div>
+          </button>
           <div class="card__body">
             <span class="card__sku">SKU 20</span>
-            <h3 class="card__title">Термометр биметаллический кламп 1,5″</h3>
+            <h3 class="card__title">
+              <button type="button" class="card__title-btn" data-open-sku="20">Термометр биметаллический кламп 1,5″</button>
+            </h3>
+            <p class="card__use"><span class="card__use-label">Для чего</span> Визуальный контроль температуры в кубе без электроники.</p>
             <div class="card__price">от 2 380 ₽</div>
-            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D1%82%D0%B5%D1%80%D0%BC%D0%BE%D0%BC%D0%B5%D1%82%D1%80%20%D0%BA%D0%BB%D0%B0%D0%BC%D0%BF">Заказать</a></div>
+            <div class="card__actions">
+              <button type="button" class="btn btn--ghost btn--sm" data-open-sku="20">Подробнее</button>
+              <a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D1%82%D0%B5%D1%80%D0%BC%D0%BE%D0%BC%D0%B5%D1%82%D1%80%20%D0%BA%D0%BB%D0%B0%D0%BC%D0%BF">Заказать</a>
+            </div>
           </div>
         </article>
 
-        <article class="card reveal" id="sku-21">
-          <div class="card__media">
-            <img src="assets/img/sku-21-spn.png" alt="Насадка СПН" width="600" height="600" loading="lazy" />
-            <ul class="facts-bar" aria-label="Факты о товаре">
+        <article class="card reveal" id="sku-21" data-sku="21">
+          <button type="button" class="card__hit" data-open-sku="21" aria-label="Открыть карточку: Насадка СПН (спирально-призматическая)">
+            <div class="card__media">
+              <div class="card__photo">
+                <img src="assets/img/sku-21-spn.png" alt="Насадка СПН" width="600" height="600" loading="lazy" />
+              </div>
+              <ul class="facts-bar" aria-label="Факты о товаре">
             <li class="facts-bar__item">
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-packing"></use></svg></span>
               <span class="facts-bar__text">СПН нерж.</span>
@@ -641,20 +844,30 @@
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-clamp"></use></svg></span>
               <span class="facts-bar__text">для царги</span>
             </li>
-            </ul>
-          </div>
+              </ul>
+            </div>
+          </button>
           <div class="card__body">
             <span class="card__sku">SKU 21</span>
-            <h3 class="card__title">Насадка СПН (спирально-призматическая)</h3>
+            <h3 class="card__title">
+              <button type="button" class="card__title-btn" data-open-sku="21">Насадка СПН (спирально-призматическая)</button>
+            </h3>
+            <p class="card__use"><span class="card__use-label">Для чего</span> Насадка в царге: больше поверхность контакта пара и флегмы.</p>
             <div class="card__price">от 890 ₽/л</div>
-            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%A1%D0%9F%D0%9D">Заказать</a></div>
+            <div class="card__actions">
+              <button type="button" class="btn btn--ghost btn--sm" data-open-sku="21">Подробнее</button>
+              <a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%A1%D0%9F%D0%9D">Заказать</a>
+            </div>
           </div>
         </article>
 
-        <article class="card reveal" id="sku-22">
-          <div class="card__media">
-            <img src="assets/img/sku-22-rpn.png" alt="Насадка РПН" width="600" height="600" loading="lazy" />
-            <ul class="facts-bar" aria-label="Факты о товаре">
+        <article class="card reveal" id="sku-22" data-sku="22">
+          <button type="button" class="card__hit" data-open-sku="22" aria-label="Открыть карточку: Насадка РПН (регулярная проволочная)">
+            <div class="card__media">
+              <div class="card__photo">
+                <img src="assets/img/sku-22-rpn.png" alt="Насадка РПН" width="600" height="600" loading="lazy" />
+              </div>
+              <ul class="facts-bar" aria-label="Факты о товаре">
             <li class="facts-bar__item">
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-packing"></use></svg></span>
               <span class="facts-bar__text">РПН</span>
@@ -667,20 +880,30 @@
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-packing"></use></svg></span>
               <span class="facts-bar__text">высокая эфф.</span>
             </li>
-            </ul>
-          </div>
+              </ul>
+            </div>
+          </button>
           <div class="card__body">
             <span class="card__sku">SKU 22</span>
-            <h3 class="card__title">Насадка РПН (регулярная проволочная)</h3>
+            <h3 class="card__title">
+              <button type="button" class="card__title-btn" data-open-sku="22">Насадка РПН (регулярная проволочная)</button>
+            </h3>
+            <p class="card__use"><span class="card__use-label">Для чего</span> Альтернатива СПН — регулярная проволочная насадка в царгу.</p>
             <div class="card__price">от 1 450 ₽</div>
-            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%A0%D0%9F%D0%9D">Заказать</a></div>
+            <div class="card__actions">
+              <button type="button" class="btn btn--ghost btn--sm" data-open-sku="22">Подробнее</button>
+              <a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%A0%D0%9F%D0%9D">Заказать</a>
+            </div>
           </div>
         </article>
 
-        <article class="card reveal" id="sku-23">
-          <div class="card__media">
-            <img src="assets/img/sku-23-gasket-20.png" alt="Прокладка силикон 2 дюйма" width="600" height="600" loading="lazy" />
-            <ul class="facts-bar" aria-label="Факты о товаре">
+        <article class="card reveal" id="sku-23" data-sku="23">
+          <button type="button" class="card__hit" data-open-sku="23" aria-label="Открыть карточку: Прокладка силикон на кламп 2″">
+            <div class="card__media">
+              <div class="card__photo">
+                <img src="assets/img/sku-23-gasket-20.png" alt="Прокладка силикон 2 дюйма" width="600" height="600" loading="lazy" />
+              </div>
+              <ul class="facts-bar" aria-label="Факты о товаре">
             <li class="facts-bar__item">
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-gasket"></use></svg></span>
               <span class="facts-bar__text">пищевой силикон</span>
@@ -693,20 +916,30 @@
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-seal"></use></svg></span>
               <span class="facts-bar__text">герметичность</span>
             </li>
-            </ul>
-          </div>
+              </ul>
+            </div>
+          </button>
           <div class="card__body">
             <span class="card__sku">SKU 23</span>
-            <h3 class="card__title">Прокладка силикон на кламп 2″</h3>
+            <h3 class="card__title">
+              <button type="button" class="card__title-btn" data-open-sku="23">Прокладка силикон на кламп 2″</button>
+            </h3>
+            <p class="card__use"><span class="card__use-label">Для чего</span> Герметичность кламп-стыка 2″ — сменный расходник.</p>
             <div class="card__price">от 35 ₽</div>
-            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%9F%D1%80%D0%BE%D0%BA%D0%BB%D0%B0%D0%B4%D0%BA%D0%B0%202%E2%80%B3">Заказать</a></div>
+            <div class="card__actions">
+              <button type="button" class="btn btn--ghost btn--sm" data-open-sku="23">Подробнее</button>
+              <a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%9F%D1%80%D0%BE%D0%BA%D0%BB%D0%B0%D0%B4%D0%BA%D0%B0%202%E2%80%B3">Заказать</a>
+            </div>
           </div>
         </article>
 
-        <article class="card reveal" id="sku-24">
-          <div class="card__media">
-            <img src="assets/img/sku-24-drain.png" alt="Кран слива куба" width="600" height="600" loading="lazy" />
-            <ul class="facts-bar" aria-label="Факты о товаре">
+        <article class="card reveal" id="sku-24" data-sku="24">
+          <button type="button" class="card__hit" data-open-sku="24" aria-label="Открыть карточку: Кран слива куба">
+            <div class="card__media">
+              <div class="card__photo">
+                <img src="assets/img/sku-24-drain.png" alt="Кран слива куба" width="600" height="600" loading="lazy" />
+              </div>
+              <ul class="facts-bar" aria-label="Факты о товаре">
             <li class="facts-bar__item">
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-tap"></use></svg></span>
               <span class="facts-bar__text">полнопроход</span>
@@ -719,20 +952,30 @@
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-tap"></use></svg></span>
               <span class="facts-bar__text">нижний слив</span>
             </li>
-            </ul>
-          </div>
+              </ul>
+            </div>
+          </button>
           <div class="card__body">
             <span class="card__sku">SKU 24</span>
-            <h3 class="card__title">Кран слива куба</h3>
+            <h3 class="card__title">
+              <button type="button" class="card__title-btn" data-open-sku="24">Кран слива куба</button>
+            </h3>
+            <p class="card__use"><span class="card__use-label">Для чего</span> Слив куба после прогона или мойки.</p>
             <div class="card__price">от 650 ₽</div>
-            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%9A%D1%80%D0%B0%D0%BD%20%D1%81%D0%BB%D0%B8%D0%B2%D0%B0">Заказать</a></div>
+            <div class="card__actions">
+              <button type="button" class="btn btn--ghost btn--sm" data-open-sku="24">Подробнее</button>
+              <a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%9A%D1%80%D0%B0%D0%BD%20%D1%81%D0%BB%D0%B8%D0%B2%D0%B0">Заказать</a>
+            </div>
           </div>
         </article>
 
-        <article class="card reveal" id="sku-25">
-          <div class="card__media">
-            <img src="assets/img/sku-25-chiller.png" alt="Чиллер погружной" width="600" height="600" loading="lazy" />
-            <ul class="facts-bar" aria-label="Факты о товаре">
+        <article class="card reveal" id="sku-25" data-sku="25">
+          <button type="button" class="card__hit" data-open-sku="25" aria-label="Открыть карточку: Чиллер погружной / змеевик">
+            <div class="card__media">
+              <div class="card__photo">
+                <img src="assets/img/sku-25-chiller.png" alt="Чиллер погружной" width="600" height="600" loading="lazy" />
+              </div>
+              <ul class="facts-bar" aria-label="Факты о товаре">
             <li class="facts-bar__item">
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-hose"></use></svg></span>
               <span class="facts-bar__text">погружной</span>
@@ -745,20 +988,30 @@
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-temp"></use></svg></span>
               <span class="facts-bar__text">охлаждение</span>
             </li>
-            </ul>
-          </div>
+              </ul>
+            </div>
+          </button>
           <div class="card__body">
             <span class="card__sku">SKU 25</span>
-            <h3 class="card__title">Чиллер погружной / змеевик</h3>
+            <h3 class="card__title">
+              <button type="button" class="card__title-btn" data-open-sku="25">Чиллер погружной / змеевик</button>
+            </h3>
+            <p class="card__use"><span class="card__use-label">Для чего</span> Охлаждение сусла перед внесением дрожжей.</p>
             <div class="card__price">от 1 800 ₽</div>
-            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%A7%D0%B8%D0%BB%D0%BB%D0%B5%D1%80">Заказать</a></div>
+            <div class="card__actions">
+              <button type="button" class="btn btn--ghost btn--sm" data-open-sku="25">Подробнее</button>
+              <a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%A7%D0%B8%D0%BB%D0%BB%D0%B5%D1%80">Заказать</a>
+            </div>
           </div>
         </article>
 
-        <article class="card reveal" id="sku-26">
-          <div class="card__media">
-            <img src="assets/img/sku-26-prv.png" alt="Воздушный клапан" width="600" height="600" loading="lazy" />
-            <ul class="facts-bar" aria-label="Факты о товаре">
+        <article class="card reveal" id="sku-26" data-sku="26">
+          <button type="button" class="card__hit" data-open-sku="26" aria-label="Открыть карточку: Воздушный / вакуумный клапан">
+            <div class="card__media">
+              <div class="card__photo">
+                <img src="assets/img/sku-26-prv.png" alt="Воздушный клапан" width="600" height="600" loading="lazy" />
+              </div>
+              <ul class="facts-bar" aria-label="Факты о товаре">
             <li class="facts-bar__item">
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-seal"></use></svg></span>
               <span class="facts-bar__text">вакуум-защита</span>
@@ -771,20 +1024,30 @@
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-lid"></use></svg></span>
               <span class="facts-bar__text">страховка крышки</span>
             </li>
-            </ul>
-          </div>
+              </ul>
+            </div>
+          </button>
           <div class="card__body">
             <span class="card__sku">SKU 26</span>
-            <h3 class="card__title">Воздушный / вакуумный клапан</h3>
+            <h3 class="card__title">
+              <button type="button" class="card__title-btn" data-open-sku="26">Воздушный / вакуумный клапан</button>
+            </h3>
+            <p class="card__use"><span class="card__use-label">Для чего</span> Сброс и выравнивание давления — защита крышки куба.</p>
             <div class="card__price">от 480 ₽</div>
-            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%92%D0%BE%D0%B7%D0%B4%D1%83%D1%88%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%BB%D0%B0%D0%BF%D0%B0%D0%BD">Заказать</a></div>
+            <div class="card__actions">
+              <button type="button" class="btn btn--ghost btn--sm" data-open-sku="26">Подробнее</button>
+              <a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%92%D0%BE%D0%B7%D0%B4%D1%83%D1%88%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%BB%D0%B0%D0%BF%D0%B0%D0%BD">Заказать</a>
+            </div>
           </div>
         </article>
 
-        <article class="card reveal" id="sku-27">
-          <div class="card__media">
-            <img src="assets/img/sku-27-receiver.png" alt="Приёмная ёмкость" width="600" height="600" loading="lazy" />
-            <ul class="facts-bar" aria-label="Факты о товаре">
+        <article class="card reveal" id="sku-27" data-sku="27">
+          <button type="button" class="card__hit" data-open-sku="27" aria-label="Открыть карточку: Приёмная ёмкость 3–5 л">
+            <div class="card__media">
+              <div class="card__photo">
+                <img src="assets/img/sku-27-receiver.png" alt="Приёмная ёмкость" width="600" height="600" loading="lazy" />
+              </div>
+              <ul class="facts-bar" aria-label="Факты о товаре">
             <li class="facts-bar__item">
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-volume"></use></svg></span>
               <span class="facts-bar__text">3–5 л</span>
@@ -797,20 +1060,30 @@
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-glass"></use></svg></span>
               <span class="facts-bar__text">под попугай</span>
             </li>
-            </ul>
-          </div>
+              </ul>
+            </div>
+          </button>
           <div class="card__body">
             <span class="card__sku">SKU 27</span>
-            <h3 class="card__title">Приёмная ёмкость 3–5 л</h3>
+            <h3 class="card__title">
+              <button type="button" class="card__title-btn" data-open-sku="27">Приёмная ёмкость 3–5 л</button>
+            </h3>
+            <p class="card__use"><span class="card__use-label">Для чего</span> Приём дистиллята с попугая рядом с отбором.</p>
             <div class="card__price">от 190 ₽</div>
-            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%9F%D1%80%D0%B8%D1%91%D0%BC%D0%BD%D0%B0%D1%8F%20%D1%91%D0%BC%D0%BA%D0%BE%D1%81%D1%82%D1%8C">Заказать</a></div>
+            <div class="card__actions">
+              <button type="button" class="btn btn--ghost btn--sm" data-open-sku="27">Подробнее</button>
+              <a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%9F%D1%80%D0%B8%D1%91%D0%BC%D0%BD%D0%B0%D1%8F%20%D1%91%D0%BC%D0%BA%D0%BE%D1%81%D1%82%D1%8C">Заказать</a>
+            </div>
           </div>
         </article>
 
-        <article class="card reveal" id="sku-28">
-          <div class="card__media">
-            <img src="assets/img/sku-28-adapter.png" alt="Переходник кламп" width="600" height="600" loading="lazy" />
-            <ul class="facts-bar" aria-label="Факты о товаре">
+        <article class="card reveal" id="sku-28" data-sku="28">
+          <button type="button" class="card__hit" data-open-sku="28" aria-label="Открыть карточку: Переходник кламп 1,5↔2″">
+            <div class="card__media">
+              <div class="card__photo">
+                <img src="assets/img/sku-28-adapter.png" alt="Переходник кламп" width="600" height="600" loading="lazy" />
+              </div>
+              <ul class="facts-bar" aria-label="Факты о товаре">
             <li class="facts-bar__item">
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-size"></use></svg></span>
               <span class="facts-bar__text">1,5↔2″</span>
@@ -823,20 +1096,30 @@
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-clamp"></use></svg></span>
               <span class="facts-bar__text">без сварки</span>
             </li>
-            </ul>
-          </div>
+              </ul>
+            </div>
+          </button>
           <div class="card__body">
             <span class="card__sku">SKU 28</span>
-            <h3 class="card__title">Переходник кламп 1,5↔2″</h3>
+            <h3 class="card__title">
+              <button type="button" class="card__title-btn" data-open-sku="28">Переходник кламп 1,5↔2″</button>
+            </h3>
+            <p class="card__use"><span class="card__use-label">Для чего</span> Стык кламп 1,5″ и 2″ без сварки.</p>
             <div class="card__price">от 420 ₽</div>
-            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%9F%D0%B5%D1%80%D0%B5%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%20%D0%BA%D0%BB%D0%B0%D0%BC%D0%BF">Заказать</a></div>
+            <div class="card__actions">
+              <button type="button" class="btn btn--ghost btn--sm" data-open-sku="28">Подробнее</button>
+              <a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%9F%D0%B5%D1%80%D0%B5%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%20%D0%BA%D0%BB%D0%B0%D0%BC%D0%BF">Заказать</a>
+            </div>
           </div>
         </article>
 
-        <article class="card reveal" id="sku-29">
-          <div class="card__media">
-            <img src="assets/img/sku-29-blank.png" alt="Заглушка кламп" width="600" height="600" loading="lazy" />
-            <ul class="facts-bar" aria-label="Факты о товаре">
+        <article class="card reveal" id="sku-29" data-sku="29">
+          <button type="button" class="card__hit" data-open-sku="29" aria-label="Открыть карточку: Заглушка кламп 1,5″">
+            <div class="card__media">
+              <div class="card__photo">
+                <img src="assets/img/sku-29-blank.png" alt="Заглушка кламп" width="600" height="600" loading="lazy" />
+              </div>
+              <ul class="facts-bar" aria-label="Факты о товаре">
             <li class="facts-bar__item">
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-size"></use></svg></span>
               <span class="facts-bar__text">1,5″</span>
@@ -849,20 +1132,30 @@
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-seal"></use></svg></span>
               <span class="facts-bar__text">закрыть порт</span>
             </li>
-            </ul>
-          </div>
+              </ul>
+            </div>
+          </button>
           <div class="card__body">
             <span class="card__sku">SKU 29</span>
-            <h3 class="card__title">Заглушка кламп 1,5″</h3>
+            <h3 class="card__title">
+              <button type="button" class="card__title-btn" data-open-sku="29">Заглушка кламп 1,5″</button>
+            </h3>
+            <p class="card__use"><span class="card__use-label">Для чего</span> Закрытие незанятого порта на крышке или кубе.</p>
             <div class="card__price">от 180 ₽</div>
-            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%97%D0%B0%D0%B3%D0%BB%D1%83%D1%88%D0%BA%D0%B0%20%D0%BA%D0%BB%D0%B0%D0%BC%D0%BF">Заказать</a></div>
+            <div class="card__actions">
+              <button type="button" class="btn btn--ghost btn--sm" data-open-sku="29">Подробнее</button>
+              <a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%97%D0%B0%D0%B3%D0%BB%D1%83%D1%88%D0%BA%D0%B0%20%D0%BA%D0%BB%D0%B0%D0%BC%D0%BF">Заказать</a>
+            </div>
           </div>
         </article>
 
-        <article class="card reveal" id="sku-30">
-          <div class="card__media">
-            <img src="assets/img/sku-30-mash.png" alt="Заторный котёл" width="600" height="600" loading="lazy" />
-            <ul class="facts-bar" aria-label="Факты о товаре">
+        <article class="card reveal" id="sku-30" data-sku="30">
+          <button type="button" class="card__hit" data-open-sku="30" aria-label="Открыть карточку: Заторный котёл / ПВК">
+            <div class="card__media">
+              <div class="card__photo">
+                <img src="assets/img/sku-30-mash.png" alt="Заторный котёл" width="600" height="600" loading="lazy" />
+              </div>
+              <ul class="facts-bar" aria-label="Факты о товаре">
             <li class="facts-bar__item">
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-power"></use></svg></span>
               <span class="facts-bar__text">под ТЭН</span>
@@ -875,20 +1168,30 @@
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-steel"></use></svg></span>
               <span class="facts-bar__text">нерж.</span>
             </li>
-            </ul>
-          </div>
+              </ul>
+            </div>
+          </button>
           <div class="card__body">
             <span class="card__sku">SKU 30</span>
-            <h3 class="card__title">Заторный котёл / ПВК</h3>
+            <h3 class="card__title">
+              <button type="button" class="card__title-btn" data-open-sku="30">Заторный котёл / ПВК</button>
+            </h3>
+            <p class="card__use"><span class="card__use-label">Для чего</span> Затирание и кипячение сусла в домашней пивоварне.</p>
             <div class="card__price">от 8 900 ₽</div>
-            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%97%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%BE%D1%82%D1%91%D0%BB">Заказать</a></div>
+            <div class="card__actions">
+              <button type="button" class="btn btn--ghost btn--sm" data-open-sku="30">Подробнее</button>
+              <a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%97%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%BE%D1%82%D1%91%D0%BB">Заказать</a>
+            </div>
           </div>
         </article>
 
-        <article class="card reveal" id="sku-31">
-          <div class="card__media">
-            <img src="assets/img/sku-31-needle.png" alt="Игольчатый кран" width="600" height="600" loading="lazy" />
-            <ul class="facts-bar" aria-label="Факты о товаре">
+        <article class="card reveal" id="sku-31" data-sku="31">
+          <button type="button" class="card__hit" data-open-sku="31" aria-label="Открыть карточку: Игольчатый кран (на отбор)">
+            <div class="card__media">
+              <div class="card__photo">
+                <img src="assets/img/sku-31-needle.png" alt="Игольчатый кран" width="600" height="600" loading="lazy" />
+              </div>
+              <ul class="facts-bar" aria-label="Факты о товаре">
             <li class="facts-bar__item">
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-needle"></use></svg></span>
               <span class="facts-bar__text">тонкая регул.</span>
@@ -901,20 +1204,30 @@
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-needle"></use></svg></span>
               <span class="facts-bar__text">на отбор</span>
             </li>
-            </ul>
-          </div>
+              </ul>
+            </div>
+          </button>
           <div class="card__body">
             <span class="card__sku">SKU 31</span>
-            <h3 class="card__title">Игольчатый кран (на отбор)</h3>
+            <h3 class="card__title">
+              <button type="button" class="card__title-btn" data-open-sku="31">Игольчатый кран (на отбор)</button>
+            </h3>
+            <p class="card__use"><span class="card__use-label">Для чего</span> Тонкая регулировка потока на узле отбора.</p>
             <div class="card__price">от 790 ₽</div>
-            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%98%D0%B3%D0%BE%D0%BB%D1%8C%D1%87%D0%B0%D1%82%D1%8B%D0%B9%20%D0%BA%D1%80%D0%B0%D0%BD">Заказать</a></div>
+            <div class="card__actions">
+              <button type="button" class="btn btn--ghost btn--sm" data-open-sku="31">Подробнее</button>
+              <a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%98%D0%B3%D0%BE%D0%BB%D1%8C%D1%87%D0%B0%D1%82%D1%8B%D0%B9%20%D0%BA%D1%80%D0%B0%D0%BD">Заказать</a>
+            </div>
           </div>
         </article>
 
-        <article class="card reveal" id="sku-32">
-          <div class="card__media">
-            <img src="assets/img/sku-32-clamp-extra.png" alt="Хомут кламп 2 дюйма" width="600" height="600" loading="lazy" />
-            <ul class="facts-bar" aria-label="Факты о товаре">
+        <article class="card reveal" id="sku-32" data-sku="32">
+          <button type="button" class="card__hit" data-open-sku="32" aria-label="Открыть карточку: Хомут кламп 2″ (дополнительный)">
+            <div class="card__media">
+              <div class="card__photo">
+                <img src="assets/img/sku-32-clamp-extra.png" alt="Хомут кламп 2 дюйма" width="600" height="600" loading="lazy" />
+              </div>
+              <ul class="facts-bar" aria-label="Факты о товаре">
             <li class="facts-bar__item">
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-size"></use></svg></span>
               <span class="facts-bar__text">2″</span>
@@ -927,13 +1240,20 @@
               <span class="facts-bar__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-clamp"></use></svg></span>
               <span class="facts-bar__text">запас на стык</span>
             </li>
-            </ul>
-          </div>
+              </ul>
+            </div>
+          </button>
           <div class="card__body">
             <span class="card__sku">SKU 32</span>
-            <h3 class="card__title">Хомут кламп 2″ (дополнительный)</h3>
+            <h3 class="card__title">
+              <button type="button" class="card__title-btn" data-open-sku="32">Хомут кламп 2″ (дополнительный)</button>
+            </h3>
+            <p class="card__use"><span class="card__use-label">Для чего</span> Запасной хомут на стык кламп 2″.</p>
             <div class="card__price">от 190 ₽</div>
-            <div class="card__actions"><a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%A5%D0%BE%D0%BC%D1%83%D1%82%20%D0%BA%D0%BB%D0%B0%D0%BC%D0%BF%202%E2%80%B3">Заказать</a></div>
+            <div class="card__actions">
+              <button type="button" class="btn btn--ghost btn--sm" data-open-sku="32">Подробнее</button>
+              <a class="btn btn--primary btn--sm" href="https://t.me/puholet?text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%3A%20%D0%A5%D0%BE%D0%BC%D1%83%D1%82%20%D0%BA%D0%BB%D0%B0%D0%BC%D0%BF%202%E2%80%B3">Заказать</a>
+            </div>
           </div>
         </article>
 
@@ -975,6 +1295,31 @@
       <span>© 2026 · не продаём спирт</span>
     </div>
   </footer>
+
+  
+  <div class="sku-modal" id="sku-modal" hidden>
+    <div class="sku-modal__backdrop" data-close-modal></div>
+    <div class="sku-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="sku-modal-title">
+      <button type="button" class="sku-modal__close" data-close-modal aria-label="Закрыть">×</button>
+      <div class="sku-modal__grid">
+        <div class="sku-modal__media">
+          <img id="sku-modal-img" src="" alt="" width="600" height="600" />
+        </div>
+        <div class="sku-modal__body">
+          <span class="card__sku" id="sku-modal-sku"></span>
+          <h2 class="sku-modal__title" id="sku-modal-title"></h2>
+          <p class="sku-modal__use"><strong>Для чего:</strong> <span id="sku-modal-use"></span></p>
+          <ul class="facts-bar" id="sku-modal-facts" aria-label="Факты о товаре"></ul>
+          <div class="card__price" id="sku-modal-price"></div>
+          <div class="sku-modal__actions">
+            <a class="btn btn--primary" id="sku-modal-order" href="#" target="_blank" rel="noopener">Заказать</a>
+            <a class="btn btn--ghost" id="sku-modal-schema" href="schema.html">На схеме</a>
+            <button type="button" class="btn btn--ghost" data-close-modal>Закрыть</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="assets/js/main.js"></script>
 </body>
