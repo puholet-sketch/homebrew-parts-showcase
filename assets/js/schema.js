@@ -120,14 +120,15 @@
     return state.mode === "brewery" ? "brew-root" : "root";
   }
 
-  function setSvgVisible(svg, on) {
+  function setSvgVisible(id, on) {
+    var svg = typeof id === "string" ? document.getElementById(id) : id;
     if (!svg) return;
     if (on) {
       svg.removeAttribute("hidden");
-      svg.style.display = "";
+      svg.style.setProperty("display", "block", "important");
     } else {
       svg.setAttribute("hidden", "");
-      svg.style.display = "none";
+      svg.style.setProperty("display", "none", "important");
     }
   }
 
@@ -142,8 +143,10 @@
       btn.setAttribute("aria-pressed", on ? "true" : "false");
     });
 
-    setSvgVisible(els.svgDistiller, mode === "distiller");
-    setSvgVisible(els.svgBrewery, mode === "brewery");
+    els.svgDistiller = document.getElementById("svg-distiller");
+    els.svgBrewery = document.getElementById("svg-brewery");
+    setSvgVisible("svg-distiller", mode === "distiller");
+    setSvgVisible("svg-brewery", mode === "brewery");
 
     showLayer(state.layer, false);
     renderEmptyPanel();

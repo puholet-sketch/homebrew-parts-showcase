@@ -135,7 +135,7 @@
 }
 
 .schema-svg[hidden] {
-  display: none;
+  display: none !important;
 }
 
 .schema-svg .hotspot {
