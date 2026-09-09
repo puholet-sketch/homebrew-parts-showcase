@@ -21,10 +21,32 @@
   color: var(--muted);
 }
 
+.schema-hero__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem 1rem;
+  margin-top: 1rem;
+}
+
+.schema-coverage {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--muted);
+  padding: 0.35rem 0.65rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.schema-coverage strong {
+  color: var(--crimson);
+  font-family: var(--font-display);
+}
+
 .schema-modes {
   display: inline-flex;
   gap: 0;
-  margin-top: 1.25rem;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   overflow: hidden;
@@ -64,7 +86,8 @@
 
 @media (min-width: 960px) {
   .schema-layout {
-    grid-template-columns: minmax(0, 1.35fr) minmax(280px, 0.85fr);
+    /* ~70% stage / ~30% side — аппарат крупнее */
+    grid-template-columns: minmax(0, 2.45fr) minmax(240px, 1fr);
     align-items: start;
   }
 
@@ -83,15 +106,49 @@
   min-height: 420px;
 }
 
+.schema-crumb-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.75rem;
+  margin-bottom: 0.75rem;
+  min-height: 1.6rem;
+}
+
+.schema-back {
+  appearance: none;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 0.35rem 0.7rem;
+  font: inherit;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--ink);
+  cursor: pointer;
+  display: none;
+}
+
+.schema-back.is-on {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.schema-back:hover {
+  border-color: rgba(192, 0, 0, 0.35);
+  color: var(--crimson);
+}
+
 .schema-crumb {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 0.35rem 0.45rem;
-  margin-bottom: 0.75rem;
   font-size: 0.82rem;
   color: var(--muted);
-  min-height: 1.4rem;
+  flex: 1;
+  min-width: 0;
 }
 
 .schema-crumb button {
@@ -120,6 +177,7 @@
 .schema-canvas-wrap {
   position: relative;
   width: 100%;
+  max-width: 100%;
   overflow: auto;
   background: var(--paper);
   border: 1px solid rgba(26, 26, 26, 0.04);
@@ -142,7 +200,14 @@
   cursor: pointer;
 }
 
-.schema-svg .hotspot .hit {
+/* Avoid UA focus ring around the whole <g> bbox (looks like a red box in empty space) */
+.schema-svg .hotspot:focus,
+.schema-svg .hotspot:focus-visible {
+  outline: none;
+}
+
+/* Filled hit areas (solid parts) */
+.schema-svg .hotspot .hit:not(.hit--path) {
   fill: rgba(192, 0, 0, 0);
   stroke: transparent;
   stroke-width: 2;
@@ -150,11 +215,36 @@
   transition: fill 0.18s ease, stroke 0.18s ease, stroke-width 0.18s ease;
 }
 
-.schema-svg .hotspot.is-hover .hit,
-.schema-svg .hotspot.is-active .hit {
+.schema-svg .hotspot.is-hover .hit:not(.hit--path),
+.schema-svg .hotspot.is-active .hit:not(.hit--path) {
   fill: rgba(192, 0, 0, 0.16);
   stroke: #c00000;
   stroke-width: 2.4;
+}
+
+/* Invisible wide stroke hit for path-like parts (hoses) */
+.schema-svg .hotspot .hit--path {
+  fill: none !important;
+  stroke: transparent;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  pointer-events: stroke;
+}
+
+/* Visible highlight follows the detail path, not a blob */
+.schema-svg .hotspot .hl {
+  fill: none;
+  stroke: #c00000;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.18s ease;
+}
+
+.schema-svg .hotspot.is-hover .hl,
+.schema-svg .hotspot.is-active .hl {
+  opacity: 0.72;
 }
 
 .schema-svg .hotspot.is-dim {
@@ -186,7 +276,8 @@
 
 @media (prefers-reduced-motion: reduce) {
   .schema-svg .layer.is-in,
-  .schema-svg .hotspot {
+  .schema-svg .hotspot .hl,
+  .schema-svg .hotspot .hit {
     animation: none !important;
     transition: none !important;
   }
@@ -364,7 +455,7 @@
 .schema-note {
   max-width: var(--max);
   margin: 0 auto;
-  padding: 0  var(--space) 2.5rem;
+  padding: 0 var(--space) 2.5rem;
   color: var(--muted);
   font-size: 0.88rem;
 }
@@ -375,18 +466,75 @@
 }
 
 @media (max-width: 959px) {
-  .schema-canvas-wrap {
-    overflow: auto;
+  html,
+  body {
+    overflow-x: hidden;
   }
 
+  .schema-layout {
+    padding-bottom: 0.5rem;
+    gap: 0.85rem;
+  }
+
+  .schema-canvas-wrap {
+    overflow: hidden;
+    max-width: 100%;
+  }
+
+  /* Fill the stage — no forced min-width that spills the page */
   .schema-svg {
-    min-width: 640px;
-    max-height: none;
+    min-width: 0 !important;
+    width: 100%;
+    max-height: min(68vh, 640px);
+  }
+
+  .schema-side {
+    position: sticky;
+    bottom: 0;
+    z-index: 30;
+    gap: 0.65rem;
+    padding: 0.65rem 0.15rem calc(0.65rem + env(safe-area-inset-bottom, 0));
+    margin: 0 calc(-1 * var(--space));
+    padding-left: var(--space);
+    padding-right: var(--space);
+    background: linear-gradient(180deg, rgba(247, 245, 242, 0), var(--paper) 18%);
+    border-top: 1px solid var(--line);
+    max-height: 46vh;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .schema-panel {
+    min-height: 0;
+    padding: 0.9rem 1rem;
+  }
+
+  .schema-panel__media {
+    max-width: 112px;
   }
 
   .schema-parts__list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
     max-height: none;
+  }
+
+  .schema-back.is-on {
+    display: inline-flex;
+  }
+}
+
+@media (max-width: 400px) {
+  .schema-modes button {
+    padding: 0.55rem 0.7rem;
+    font-size: 0.8rem;
+  }
+
+  .schema-hero h1 {
+    font-size: 1.35rem;
+  }
+
+  .schema-svg {
+    max-height: min(62vh, 560px);
   }
 }

@@ -14,6 +14,8 @@
     panel: document.getElementById("schema-panel"),
     list: document.getElementById("schema-parts-list"),
     crumb: document.getElementById("schema-crumb"),
+    back: document.getElementById("schema-back"),
+    coverage: document.getElementById("schema-coverage"),
     tooltip: document.getElementById("schema-tooltip"),
     stage: document.getElementById("schema-stage"),
     svgDistiller: document.getElementById("svg-distiller"),
@@ -21,7 +23,6 @@
     modeBtns: document.querySelectorAll(".schema-modes [data-mode]"),
   };
 
-  // mobile nav (schema page has no main.js)
   (function bindNav() {
     var toggle = document.querySelector(".nav-toggle");
     var mobile = document.getElementById("mobile-nav");
@@ -132,6 +133,30 @@
     }
   }
 
+  function coverageSkus() {
+    var seen = {};
+    var modes = state.data.modes || {};
+    Object.keys(modes).forEach(function (modeKey) {
+      var svgId = modeKey === "brewery" ? "svg-brewery" : "svg-distiller";
+      var svg = document.getElementById(svgId);
+      var modeNodes = modes[modeKey].nodes || {};
+      if (!svg) return;
+      svg.querySelectorAll(".hotspot[data-id]").forEach(function (h) {
+        var n = modeNodes[h.getAttribute("data-id")];
+        if (n && n.skuId) seen[pad(n.skuId)] = true;
+      });
+    });
+    return Object.keys(seen).sort();
+  }
+
+  function renderCoverage() {
+    if (!els.coverage || !state.data || !state.data.skus) return;
+    var total = Object.keys(state.data.skus).length;
+    var covered = coverageSkus().length;
+    els.coverage.innerHTML =
+      "Покрытие каталога: <strong>" + covered + "/" + total + "</strong> SKU";
+  }
+
   function setMode(mode) {
     state.mode = mode;
     state.selectedId = null;
@@ -152,6 +177,7 @@
     renderEmptyPanel();
     renderList();
     renderCrumb();
+    renderCoverage();
   }
 
   function showLayer(layerId, animate) {
@@ -241,7 +267,7 @@
 
   function renderEmptyPanel() {
     els.panel.innerHTML =
-      '<p class="schema-panel__empty">Наведите на деталь — название во всплывающей подсказке. Клик открывает карточку справа. Повторный клик по кубу, царге или холодильнику показывает разрез.</p>';
+      '<p class="schema-panel__empty">Наведите на деталь — подсветка по контуру. Клик открывает карточку. Повторный клик по кубу, царге, Димроту или заторнику — разрез. Спирт не продаём.</p>';
   }
 
   function renderPanel(node) {
@@ -263,6 +289,21 @@
       })
       .join("");
     var price = sku && sku.price ? '<div class="schema-panel__price">' + escapeHtml(sku.price) + "</div>" : "";
+    var related = (node.related || [])
+      .map(function (rid) {
+        var rn = getNode(rid);
+        if (!rn) return "";
+        return (
+          '<button type="button" class="btn btn--ghost btn--sm" data-pick="' +
+          escapeHtml(rid) +
+          '">' +
+          escapeHtml(rn.name) +
+          (rn.skuId ? " · SKU " + pad(rn.skuId) : "") +
+          "</button>"
+        );
+      })
+      .filter(Boolean)
+      .join("");
     var actions = [];
     if (node.skuId) {
       actions.push(
@@ -289,6 +330,7 @@
       "</p>" +
       (facts ? '<ul class="schema-panel__facts">' + facts + "</ul>" : "") +
       price +
+      (related ? '<div class="schema-panel__actions">' + related + "</div>" : "") +
       (actions.length ? '<div class="schema-panel__actions">' + actions.join("") + "</div>" : "");
 
     var drill = document.getElementById("schema-drill");
@@ -297,6 +339,19 @@
         drillInto(node);
       });
     }
+
+    els.panel.querySelectorAll("[data-pick]").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var pick = btn.getAttribute("data-pick");
+        var target = getNode(pick);
+        if (!target) return;
+        if (target.drillable && target.layer && target.layer !== state.layer) {
+          selectNode(pick, { forceDrill: true });
+        } else {
+          selectNode(pick, { skipDrill: true });
+        }
+      });
+    });
   }
 
   function layerHotspotIds() {
@@ -321,11 +376,11 @@
         var sub = n.skuId ? "SKU " + pad(n.skuId) : n.drillable ? "сборка" : "узел";
         var active = id === state.selectedId ? " is-active" : "";
         return (
-          "<li><button type=\"button\" class=\"" +
+          '<li><button type="button" class="' +
           active.trim() +
-          "\" data-pick=\"" +
+          '" data-pick="' +
           escapeHtml(id) +
-          "\">" +
+          '">' +
           escapeHtml(n.name) +
           "<small>" +
           escapeHtml(sub) +
@@ -371,9 +426,29 @@
             "</button>"
           );
         }
-        return sep + "<button type=\"button\" disabled>" + escapeHtml(p.label) + "</button>";
+        return sep + '<button type="button" disabled>' + escapeHtml(p.label) + "</button>";
       })
       .join("");
+
+    if (els.back) {
+      var canBack = state.crumb.length > 0 || !!state.selectedId;
+      els.back.hidden = !canBack;
+      els.back.classList.toggle("is-on", canBack);
+    }
+  }
+
+  function goBack() {
+    if (state.crumb.length) {
+      goCrumb(state.crumb.length - 1);
+      return;
+    }
+    if (state.selectedId) {
+      state.selectedId = null;
+      clearHotspotState();
+      renderEmptyPanel();
+      renderList();
+      renderCrumb();
+    }
   }
 
   function goRoot() {
@@ -476,8 +551,20 @@
       });
     }
 
+    if (els.back) {
+      els.back.addEventListener("click", goBack);
+    }
+
     if (els.list) {
       els.list.addEventListener("click", function (e) {
+        var btn = e.target.closest("[data-pick]");
+        if (!btn) return;
+        selectNode(btn.getAttribute("data-pick"), { fromClick: true });
+      });
+    }
+
+    if (els.panel) {
+      els.panel.addEventListener("click", function (e) {
         var btn = e.target.closest("[data-pick]");
         if (!btn) return;
         selectNode(btn.getAttribute("data-pick"), { fromClick: true });

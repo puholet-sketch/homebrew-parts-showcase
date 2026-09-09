@@ -45,7 +45,7 @@
           "name": "Аппарат в сборе",
           "description": "Универсальная колонна из узлов витрины: куб, нагрев, царги, отбор, охлаждение.",
           "facts": ["домашнее использование", "кламп-обвязка", "без продажи спирта"],
-          "children": ["cube", "ten", "lid", "tsarga-assy", "diopter", "takeoff", "dimroth", "parrot", "receiver", "pid", "hoses"],
+          "children": ["cube", "ten", "lid", "tsarga-assy", "diopter", "takeoff", "dimroth", "parrot", "receiver", "pid", "hoses", "hose-clamps", "hydro"],
           "layer": "root"
         },
         "cube": {
@@ -53,7 +53,7 @@
           "name": "Перегонный куб",
           "description": "Ёмкость нагрева сырья. На схеме — узел с ТЭНом, сливом и портами под крышку.",
           "facts": ["основа колонны", "порты кламп", "слив снизу"],
-          "children": ["ten", "drain", "thermo", "prv"],
+          "children": ["ten", "drain", "thermo", "prv", "valve", "blank", "adapter", "clamp2"],
           "drillable": true,
           "layer": "cube-detail"
         },
@@ -94,14 +94,16 @@
           "name": "Крышка куба",
           "skuId": "11",
           "description": "Съёмная крышка с кламп-портами под царгу и контрольные приборы.",
-          "facts": ["кламп-порты", "AISI 304", "съёмная"]
+          "facts": ["кламп-порты", "AISI 304", "съёмная"],
+          "children": ["blank", "adapter", "clamp2"],
+          "related": ["blank", "adapter", "clamp2"]
         },
         "tsarga-assy": {
           "id": "tsarga-assy",
           "name": "Царга в сборе",
           "description": "Секция колонны: труба, насадка, клампы и прокладки. Можно провалиться внутрь.",
           "facts": ["под насадку", "кламп-стыки", "drill-down"],
-          "children": ["tsarga", "packing-spn", "packing-rpn", "clamp-tsarga", "gasket-tsarga"],
+          "children": ["tsarga", "packing-spn", "packing-rpn", "clamp-tsarga", "clamp2", "gasket-tsarga", "gasket2", "clamp-extra"],
           "drillable": true,
           "skuId": "12",
           "layer": "tsarga-detail"
@@ -132,19 +134,21 @@
         },
         "clamp-tsarga": {
           "id": "clamp-tsarga",
-          "name": "Кламп / хомут",
+          "name": "Кламп 1,5″",
           "skuId": "01",
-          "description": "Быстросъёмное соединение царги с соседними узлами.",
-          "facts": ["1,5″ / 2″", "с прокладкой", "AISI 304"],
-          "parent": "tsarga-assy"
+          "description": "Быстросъёмное соединение царги с соседними узлами. Вариант 2″ — отдельно.",
+          "facts": ["1,5″", "с прокладкой", "AISI 304"],
+          "parent": "tsarga-assy",
+          "related": ["clamp2", "clamp-extra"]
         },
         "gasket-tsarga": {
           "id": "gasket-tsarga",
-          "name": "Прокладка кламп",
+          "name": "Прокладка 1,5″",
           "skuId": "04",
-          "description": "Расходник герметичности на каждом кламп-стыке.",
-          "facts": ["силикон", "1,5″ / 2″", "сменный"],
-          "parent": "tsarga-assy"
+          "description": "Расходник герметичности на кламп-стыке 1,5″. Есть вариант 2″.",
+          "facts": ["силикон", "1,5″", "сменный"],
+          "parent": "tsarga-assy",
+          "related": ["gasket2"]
         },
         "diopter": {
           "id": "diopter",
@@ -175,18 +179,34 @@
           "id": "dimroth",
           "name": "Холодильник Димрота",
           "skuId": "08",
-          "description": "Конденсация паров: змеевик внутри стеклянной рубашки, вода по контуру.",
+          "description": "Конденсация паров: змеевик внутри стеклянной рубашки, вода по контуру. Альтернатива на пивоварне — чиллер.",
           "facts": ["Димрот", "кламп 1,5″", "вода на охлаждение"],
-          "children": ["hoses"],
+          "children": ["hoses", "hose-clamps"],
+          "related": ["chiller-link"],
           "drillable": true,
           "layer": "dimroth-detail"
+        },
+        "chiller-link": {
+          "id": "chiller-link",
+          "name": "Чиллер (альтернатива)",
+          "skuId": "25",
+          "description": "Погружной чиллер — вариант охлаждения на пивоварне вместо Димрота.",
+          "facts": ["погружной", "сусло", "вода"]
         },
         "parrot": {
           "id": "parrot",
           "name": "Попугай",
           "skuId": "15",
           "description": "Проточный карман под ареометр для контроля на выходе.",
-          "facts": ["под АСП", "проточный", "нерж."]
+          "facts": ["под АСП", "проточный", "нерж."],
+          "related": ["hydro"]
+        },
+        "hydro": {
+          "id": "hydro",
+          "name": "Ареометр",
+          "skuId": "16",
+          "description": "Контроль крепости на выходе попугая или плотности сусла.",
+          "facts": ["АС-3", "карман попугая", "контроль"]
         },
         "receiver": {
           "id": "receiver",
@@ -204,24 +224,36 @@
         },
         "hoses": {
           "id": "hoses",
-          "name": "Шланги и хомуты",
+          "name": "Шланги",
           "skuId": "06",
-          "description": "Вода на холодильник, отбор продукта, фиксация червячными хомутами.",
-          "facts": ["силикон пищевой", "хомуты нерж.", "обвязка"]
+          "description": "Силиконовый пищевой шланг: вода на холодильник и линия отбора.",
+          "facts": ["силикон пищевой", "гибкий", "обвязка"],
+          "related": ["hose-clamps"]
+        },
+        "hose-clamps": {
+          "id": "hose-clamps",
+          "name": "Хомуты червячные",
+          "skuId": "10",
+          "description": "Фиксация шлангов на штуцерах холодильника и отбора — отдельно от самого шланга.",
+          "facts": ["червячные", "нерж.", "на штуцер"],
+          "related": ["hoses"]
         },
         "clamp2": {
           "id": "clamp2",
           "name": "Кламп 2″",
           "skuId": "02",
-          "description": "Стык крупных узлов: ТЭН, отбор, переходники.",
-          "facts": ["2″ DN51", "быстрый съём", "пищевая сталь"]
+          "description": "Стык крупных узлов: ТЭН, отбор, переходники. Вариант к 1,5″.",
+          "facts": ["2″ DN51", "быстрый съём", "пищевая сталь"],
+          "related": ["clamp-tsarga", "clamp-extra"]
         },
         "gasket2": {
           "id": "gasket2",
           "name": "Прокладка 2″",
           "skuId": "23",
           "description": "Силиконовая прокладка под кламп 2″.",
-          "facts": ["2″", "силикон", "герметичность"]
+          "facts": ["2″", "силикон", "герметичность"],
+          "parent": "tsarga-assy",
+          "related": ["gasket-tsarga"]
         },
         "adapter": {
           "id": "adapter",
@@ -242,14 +274,17 @@
           "name": "Хомут кламп 2″",
           "skuId": "32",
           "description": "Дополнительный хомут в запасе на стык 2″.",
-          "facts": ["2″", "нерж.", "расходник обвязки"]
+          "facts": ["2″", "нерж.", "расходник обвязки"],
+          "parent": "tsarga-assy",
+          "related": ["clamp2", "clamp-tsarga"]
         },
         "valve": {
           "id": "valve",
           "name": "Кран шаровый кламп",
           "skuId": "19",
           "description": "Перекрытие потока на линии слива / отбора.",
-          "facts": ["полнопроход", "1,5″", "AISI"]
+          "facts": ["полнопроход", "1,5″", "AISI"],
+          "parent": "cube"
         }
       }
     },
@@ -263,7 +298,7 @@
           "name": "Пивоварня в сборе",
           "description": "Мини-схема: заторник → нагрев/PID → чиллер → ферментер → гидрозатвор. Расходники рядом.",
           "facts": ["домашнее пиво", "без продажи алкоголя", "узлы из витрины"],
-          "children": ["mash", "ten-brew", "pid-brew", "chiller", "fermenter", "airlock", "brew-hoses", "sanitizer", "malt"],
+          "children": ["mash", "ten-brew", "pid-brew", "chiller", "fermenter", "airlock", "brew-hoses", "hose-clamps-brew", "sanitizer", "malt", "hydro"],
           "layer": "brew-root"
         },
         "mash": {
@@ -304,8 +339,16 @@
           "id": "chiller",
           "name": "Чиллер / змеевик",
           "skuId": "25",
-          "description": "Охлаждение сусла перед внесением дрожжей. Альтернатива — Димрот/змеевик из каталога.",
-          "facts": ["погружной", "быстрое охлаждение", "вода"]
+          "description": "Охлаждение сусла перед внесением дрожжей. Альтернатива — Димрот из колонны.",
+          "facts": ["погружной", "быстрое охлаждение", "вода"],
+          "related": ["dimroth-link"]
+        },
+        "dimroth-link": {
+          "id": "dimroth-link",
+          "name": "Димрот (альтернатива)",
+          "skuId": "08",
+          "description": "Холодильник Димрота — вариант конденсации на колонне.",
+          "facts": ["Димрот", "кламп", "вода"]
         },
         "fermenter": {
           "id": "fermenter",
@@ -335,10 +378,19 @@
         },
         "brew-hoses": {
           "id": "brew-hoses",
-          "name": "Шланги и краны",
+          "name": "Шланги",
           "skuId": "06",
-          "description": "Переливы сусла, вода на чиллер, фиксация хомутами.",
-          "facts": ["силикон", "хомуты", "обвязка"]
+          "description": "Переливы сусла и вода на чиллер — без хомутов (они отдельно).",
+          "facts": ["силикон", "перелив", "обвязка"],
+          "related": ["hose-clamps-brew"]
+        },
+        "hose-clamps-brew": {
+          "id": "hose-clamps-brew",
+          "name": "Хомуты червячные",
+          "skuId": "10",
+          "description": "Фиксация шлангов на штуцерах чиллера и слива.",
+          "facts": ["червячные", "нерж.", "на штуцер"],
+          "related": ["brew-hoses"]
         },
         "sanitizer": {
           "id": "sanitizer",
