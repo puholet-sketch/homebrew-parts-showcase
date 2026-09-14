@@ -1,741 +1,3659 @@
 {
-  "disclaimer": "Для домашнего использования. Спирт и готовый алкоголь не продаём. Цены — ориентиры «от X ₽».",
+  "disclaimer": "Для домашнего использования. Спирт и готовый алкоголь не продаём. Цены — ориентиры «от X ₽» по витрине партнёра (alkotrademsk.ru), не оферта.",
+  "source": {
+    "name": "Алкотрейд",
+    "url": "https://alkotrademsk.ru/",
+    "migrated": "2026-09-15",
+    "archive": "assets/data/archive-sku-old.json"
+  },
+  "categories": [
+    {
+      "id": "fittings",
+      "name": "Хомуты и царги"
+    },
+    {
+      "id": "valves",
+      "name": "Краны и переходники"
+    },
+    {
+      "id": "lab",
+      "name": "КИПиА и лаборатория"
+    },
+    {
+      "id": "other",
+      "name": "Прочее оборудование"
+    },
+    {
+      "id": "electro",
+      "name": "Электрооборудование"
+    },
+    {
+      "id": "hoses",
+      "name": "Шланги"
+    },
+    {
+      "id": "membranes",
+      "name": "Мембраны"
+    },
+    {
+      "id": "silicone",
+      "name": "Прокладки и уплотнения"
+    }
+  ],
   "skus": {
-    "01": {
-      "name": "Кламп 1,5″ в сборе",
-      "price": "от 220 ₽",
-      "href": "index.html#sku-01",
-      "slug": "clamp-15",
-      "image": "assets/img/sku-01-clamp-15.png",
+    "001": {
+      "name": "Базука 15 см, сталь 304",
+      "price": "от 290 ₽",
+      "href": "index.html#sku-001",
+      "slug": "bazuka-15-sm-stal-304",
+      "image": "assets/img/alko/sku-001-bazuka-15-sm-stal-304.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%b1%d0%b0%d0%b7%d1%83%d0%ba%d0%b0-15-%d1%81%d0%bc-%d1%81%d1%82%d0%b0%d0%bb%d1%8c-304/",
       "facts": [
         {
           "icon": "steel",
           "text": "AISI 304"
         },
         {
-          "icon": "size",
-          "text": "Ø 50,5 мм"
-        },
-        {
-          "icon": "gasket",
-          "text": "с прокладкой"
-        }
-      ],
-      "use": "Быстросъёмное соединение узлов колонны и куба на 1,5″.",
-      "tg": "Кламп 1,5″"
-    },
-    "02": {
-      "name": "Кламп 2″ в сборе",
-      "price": "от 220 ₽",
-      "href": "index.html#sku-02",
-      "slug": "clamp-20",
-      "image": "assets/img/sku-02-clamp-20.png",
-      "facts": [
-        {
-          "icon": "size",
-          "text": "2″ DN51"
+          "icon": "steel",
+          "text": "пищевая сталь"
         },
         {
           "icon": "clamp",
-          "text": "быстрый съём"
+          "text": "арматура"
+        }
+      ],
+      "use": "Базука 15 см, сталь 304 — трубопроводная арматура для сборки колонны и куба.",
+      "tg": "Базука 15 см, сталь 304"
+    },
+    "002": {
+      "name": "Базука 30 см, сталь 304",
+      "price": "от 300 ₽",
+      "href": "index.html#sku-002",
+      "slug": "bazuka-30-sm-stal-304",
+      "image": "assets/img/alko/sku-002-bazuka-30-sm-stal-304.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%b1%d0%b0%d0%b7%d1%83%d0%ba%d0%b0-30-%d1%81%d0%bc-%d1%81%d1%82%d0%b0%d0%bb%d1%8c-304/",
+      "facts": [
+        {
+          "icon": "steel",
+          "text": "AISI 304"
+        },
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        },
+        {
+          "icon": "clamp",
+          "text": "арматура"
+        }
+      ],
+      "use": "Базука 30 см, сталь 304 — трубопроводная арматура для сборки колонны и куба.",
+      "tg": "Базука 30 см, сталь 304"
+    },
+    "003": {
+      "name": "Диоптр смотровой для DN 1,5",
+      "price": "от 1 150 ₽",
+      "href": "index.html#sku-003",
+      "slug": "dioptr-smotrovoy-dlya-dn-1-5",
+      "image": "assets/img/alko/sku-003-dioptr-smotrovoy-dlya-dn-1-5.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%b4%d0%b8%d0%be%d0%bf%d1%82%d1%80-%d1%81%d0%bc%d0%be%d1%82%d1%80%d0%be%d0%b2%d0%be%d0%b9-%d0%b4%d0%bb%d1%8f-dn-15/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 1,5"
+        },
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        },
+        {
+          "icon": "clamp",
+          "text": "арматура"
+        }
+      ],
+      "use": "Диоптр 1.5 для самогонного аппарата является неотъемлемой частью любого самогонного аппарата.",
+      "tg": "Диоптр смотровой для DN 1,5"
+    },
+    "004": {
+      "name": "Диоптр смотровой для DN 2",
+      "price": "от 1 300 ₽",
+      "href": "index.html#sku-004",
+      "slug": "dioptr-smotrovoy-dlya-dn-2",
+      "image": "assets/img/alko/sku-004-dioptr-smotrovoy-dlya-dn-2.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%b4%d0%b8%d0%be%d0%bf%d1%82%d1%80-%d1%81%d0%bc%d0%be%d1%82%d1%80%d0%be%d0%b2%d0%be%d0%b9-%d0%b4%d0%bb%d1%8f-dn-2/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 2"
+        },
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        },
+        {
+          "icon": "clamp",
+          "text": "арматура"
+        }
+      ],
+      "use": "Каждый винокур рано или поздно задумывался о приобретении диоптра.",
+      "tg": "Диоптр смотровой для DN 2"
+    },
+    "005": {
+      "name": "Диоптр смотровой для DN 3",
+      "price": "от 2 700 ₽",
+      "href": "index.html#sku-005",
+      "slug": "dioptr-smotrovoy-dlya-dn-3",
+      "image": "assets/img/alko/sku-005-dioptr-smotrovoy-dlya-dn-3.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%b4%d0%b8%d0%be%d0%bf%d1%82%d1%80-%d1%81%d0%bc%d0%be%d1%82%d1%80%d0%be%d0%b2%d0%be%d0%b9-%d0%b4%d0%bb%d1%8f-dn-3/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 3"
+        },
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        },
+        {
+          "icon": "clamp",
+          "text": "арматура"
+        }
+      ],
+      "use": "Диоптр представляет собой элементарный прибор из стеклянной трубки.",
+      "tg": "Диоптр смотровой для DN 3"
+    },
+    "006": {
+      "name": "Заглушка под кламп DN 2",
+      "price": "от 75 ₽",
+      "href": "index.html#sku-006",
+      "slug": "zaglushka-pod-klamp-dn-2",
+      "image": "assets/img/alko/sku-006-zaglushka-pod-klamp-dn-2.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%b7%d0%b0%d0%b3%d0%bb%d1%83%d1%88%d0%ba%d0%b0-%d0%bf%d0%be%d0%b4-%d0%ba%d0%bb%d0%b0%d0%bc%d0%bf-dn-2/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 2"
+        },
+        {
+          "icon": "clamp",
+          "text": "кламп"
         },
         {
           "icon": "steel",
           "text": "пищевая сталь"
         }
       ],
-      "use": "Соединение крупных узлов: ТЭН, царга, отбор на 2″.",
-      "tg": "Кламп 2″"
+      "use": "Кламповая заглушка размером 2 дюйма изготовлена из нержавеющей стали.",
+      "tg": "Заглушка под кламп DN 2"
     },
-    "03": {
-      "name": "ТЭН под кламп 2″ (2–3,5 кВт)",
-      "price": "от 1 300 ₽",
-      "href": "index.html#sku-03",
-      "slug": "ten-clamp",
-      "image": "assets/img/sku-03-ten-clamp.png",
-      "facts": [
-        {
-          "icon": "power",
-          "text": "3 кВт 220 В"
-        },
-        {
-          "icon": "clamp",
-          "text": "кламп 2″"
-        },
-        {
-          "icon": "steel",
-          "text": "AISI 304"
-        }
-      ],
-      "use": "Электроподогрев куба или заторника через кламп-фланец.",
-      "tg": "ТЭН кламп 2″"
-    },
-    "04": {
-      "name": "Прокладка силикон на кламп 1,5″",
-      "price": "от 25 ₽",
-      "href": "index.html#sku-04",
-      "slug": "gaskets",
-      "image": "assets/img/sku-04-gaskets.png",
-      "facts": [
-        {
-          "icon": "gasket",
-          "text": "пищевой силикон"
-        },
-        {
-          "icon": "size",
-          "text": "1,5″"
-        },
-        {
-          "icon": "seal",
-          "text": "герметичность"
-        }
-      ],
-      "use": "Герметичность каждого кламп-стыка 1,5″ — сменный расходник.",
-      "tg": "Прокладка кламп 1,5″"
-    },
-    "05": {
-      "name": "Гидрозатвор трёхсоставной + пробка",
-      "price": "от 80 ₽",
-      "href": "index.html#sku-05",
-      "slug": "airlock",
-      "image": "assets/img/sku-05-airlock.png",
-      "facts": [
-        {
-          "icon": "packing",
-          "text": "трёхсоставной"
-        },
-        {
-          "icon": "quiet",
-          "text": "тихий"
-        },
-        {
-          "icon": "lid",
-          "text": "с пробкой"
-        }
-      ],
-      "use": "Сброс CO₂ при брожении без доступа воздуха в ферментер.",
-      "tg": "Гидрозатвор"
-    },
-    "06": {
-      "name": "Шланг силикон пищевой 8–12 мм",
-      "price": "от 99 ₽/м",
-      "href": "index.html#sku-06",
-      "slug": "hose",
-      "image": "assets/img/sku-06-hose.png",
-      "facts": [
-        {
-          "icon": "hose",
-          "text": "пищевой"
-        },
-        {
-          "icon": "size",
-          "text": "Ø 8–12 мм"
-        },
-        {
-          "icon": "temp",
-          "text": "до +200°C"
-        }
-      ],
-      "use": "Вода на холодильник и переливы сусла / продукта.",
-      "tg": "Шланг силикон"
-    },
-    "07": {
-      "name": "Ферментер 30 л с крышкой",
-      "price": "от 1 400 ₽",
-      "href": "index.html#sku-07",
-      "slug": "fermenter",
-      "image": "assets/img/sku-07-fermenter.png",
-      "facts": [
-        {
-          "icon": "volume",
-          "text": "30 л"
-        },
-        {
-          "icon": "lid",
-          "text": "с крышкой"
-        },
-        {
-          "icon": "tap",
-          "text": "под кран"
-        }
-      ],
-      "use": "Ёмкость брожения сусла для домашнего пива.",
-      "tg": "Ферментер 30 л"
-    },
-    "08": {
-      "name": "Холодильник Димрота / змеевик",
-      "price": "от 2 200 ₽",
-      "href": "index.html#sku-08",
-      "slug": "dimroth",
-      "image": "assets/img/sku-08-dimroth.png",
-      "facts": [
-        {
-          "icon": "glass",
-          "text": "Димрот"
-        },
-        {
-          "icon": "clamp",
-          "text": "кламп 1,5″"
-        },
-        {
-          "icon": "hose",
-          "text": "проходной"
-        }
-      ],
-      "use": "Конденсация паров и охлаждение на колонне.",
-      "tg": "Димрот"
-    },
-    "09": {
-      "name": "PID / терморегулятор + SSR",
-      "price": "от 1 950 ₽",
-      "href": "index.html#sku-09",
-      "slug": "pid",
-      "image": "assets/img/sku-09-pid.png",
-      "facts": [
-        {
-          "icon": "temp",
-          "text": "PID"
-        },
-        {
-          "icon": "power",
-          "text": "SSR комплект"
-        },
-        {
-          "icon": "temp",
-          "text": "щуп К"
-        }
-      ],
-      "use": "Удержание температуры ТЭНа и пауз затирания.",
-      "tg": "PID + SSR"
-    },
-    "10": {
-      "name": "Хомуты червячные нерж. набор",
-      "price": "от 150 ₽",
-      "href": "index.html#sku-10",
-      "slug": "hose-clamps",
-      "image": "assets/img/sku-10-hose-clamps.png",
-      "facts": [
-        {
-          "icon": "steel",
-          "text": "нерж."
-        },
-        {
-          "icon": "packing",
-          "text": "набор"
-        },
-        {
-          "icon": "hose",
-          "text": "на шланг"
-        }
-      ],
-      "use": "Фиксация силиконовых шлангов на штуцерах.",
-      "tg": "хомуты червячные"
-    },
-    "11": {
-      "name": "Крышка куба с кламп-портами",
-      "price": "от 3 900 ₽",
-      "href": "index.html#sku-11",
-      "slug": "cube-lid",
-      "image": "assets/img/sku-11-cube-lid.png",
-      "facts": [
-        {
-          "icon": "clamp",
-          "text": "кламп-порты"
-        },
-        {
-          "icon": "steel",
-          "text": "AISI 304"
-        },
-        {
-          "icon": "lid",
-          "text": "съёмная"
-        }
-      ],
-      "use": "Крышка куба с портами под царгу и контрольные приборы.",
-      "tg": "Крышка куба"
-    },
-    "12": {
-      "name": "Царга 1,5″ ~50 см",
-      "price": "от 850 ₽",
-      "href": "index.html#sku-12",
-      "slug": "tsarga",
-      "image": "assets/img/sku-12-tsarga.png",
+    "007": {
+      "name": "Заглушка под кламп DN 3",
+      "price": "от 200 ₽",
+      "href": "index.html#sku-007",
+      "slug": "zaglushka-pod-klamp-dn-3",
+      "image": "assets/img/alko/sku-007-zaglushka-pod-klamp-dn-3.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%b7%d0%b0%d0%b3%d0%bb%d1%83%d1%88%d0%ba%d0%b0-%d0%bf%d0%be%d0%b4-%d0%ba%d0%bb%d0%b0%d0%bc%d0%bf-dn-3/",
       "facts": [
         {
           "icon": "size",
-          "text": "50 см"
-        },
-        {
-          "icon": "size",
-          "text": "1,5″"
-        },
-        {
-          "icon": "packing",
-          "text": "под насадку"
-        }
-      ],
-      "use": "Секция колонны под насадку СПН или РПН.",
-      "tg": "Царга 1,5″"
-    },
-    "13": {
-      "name": "Диоптр (стеклянная царга)",
-      "price": "от 2 750 ₽",
-      "href": "index.html#sku-13",
-      "slug": "diopter",
-      "image": "assets/img/sku-13-diopter.png",
-      "facts": [
-        {
-          "icon": "glass",
-          "text": "стекло"
+          "text": "DN 3"
         },
         {
           "icon": "clamp",
           "text": "кламп"
         },
         {
-          "icon": "glass",
-          "text": "обзор флегмы"
+          "icon": "steel",
+          "text": "пищевая сталь"
         }
       ],
-      "use": "Визуальный контроль флегмы и кипения в колонне.",
-      "tg": "Диоптр"
+      "use": "Заглушка в 3 дюйма – представляет собой приспособление круглой формы, которое подходит под кламп.",
+      "tg": "Заглушка под кламп DN 3"
     },
-    "14": {
-      "name": "Узел отбора по жидкости",
-      "price": "от 2 090 ₽",
-      "href": "index.html#sku-14",
-      "slug": "takeoff",
-      "image": "assets/img/sku-14-takeoff.png",
+    "008": {
+      "name": "Кламповое соединение 1,5 дюйма в сборе",
+      "price": "от 275 ₽",
+      "href": "index.html#sku-008",
+      "slug": "klampovoe-soedinenie-1-5-dyuyma-v-sbore",
+      "image": "assets/img/alko/sku-008-klampovoe-soedinenie-1-5-dyuyma-v-sbore.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%ba%d0%bb%d0%b0%d0%bc%d0%bf%d0%be%d0%b2%d0%be%d0%b5-%d1%81%d0%be%d0%b5%d0%b4%d0%b8%d0%bd%d0%b5%d0%bd%d0%b8%d0%b5-15-%d0%b4%d1%8e%d0%b9%d0%bc%d0%b0-%d0%b2-%d1%81%d0%b1%d0%be%d1%80%d0%b5/",
       "facts": [
         {
-          "icon": "needle",
-          "text": "игольчатый кран"
+          "icon": "size",
+          "text": "1,5″"
         },
+        {
+          "icon": "clamp",
+          "text": "кламп"
+        },
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        }
+      ],
+      "use": "Кламповое соединение 1,5 дюйма в сборе — трубопроводная арматура для сборки колонны и куба.",
+      "tg": "Кламповое соединение 1,5 дюйма в сборе"
+    },
+    "009": {
+      "name": "Кламповое соединение 2 дюйма в сборе",
+      "price": "от 320 ₽",
+      "href": "index.html#sku-009",
+      "slug": "klampovoe-soedinenie-2-dyuyma-v-sbore",
+      "image": "assets/img/alko/sku-009-klampovoe-soedinenie-2-dyuyma-v-sbore.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%ba%d0%bb%d0%b0%d0%bc%d0%bf%d0%be%d0%b2%d0%be%d0%b5-%d1%81%d0%be%d0%b5%d0%b4%d0%b8%d0%bd%d0%b5%d0%bd%d0%b8%d0%b5-2-%d0%b4%d1%8e%d0%b9%d0%bc%d0%b0-%d0%b2-%d1%81%d0%b1%d0%be%d1%80%d0%b5/",
+      "facts": [
         {
           "icon": "size",
           "text": "2″"
         },
         {
-          "icon": "hose",
-          "text": "доохладитель"
-        }
-      ],
-      "use": "Точный отбор по жидкости с игольчатым краном.",
-      "tg": "Узел отбора"
-    },
-    "15": {
-      "name": "Попугай (проточный под ареометр)",
-      "price": "от 990 ₽",
-      "href": "index.html#sku-15",
-      "slug": "parrot",
-      "image": "assets/img/sku-15-parrot.png",
-      "facts": [
-        {
-          "icon": "temp",
-          "text": "онлайн °"
+          "icon": "clamp",
+          "text": "кламп"
         },
         {
-          "icon": "glass",
-          "text": "под АСП"
+          "icon": "steel",
+          "text": "пищевая сталь"
+        }
+      ],
+      "use": "Кламповое соединение 2 дюйма в сборе — трубопроводная арматура для сборки колонны и куба.",
+      "tg": "Кламповое соединение 2 дюйма в сборе"
+    },
+    "010": {
+      "name": "Патрубок (фланец) 101,6 (DN 4)",
+      "price": "от 150 ₽",
+      "href": "index.html#sku-010",
+      "slug": "patrubok-flanets-101-6-dn-4",
+      "image": "assets/img/alko/sku-010-patrubok-flanets-101-6-dn-4.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bf%d0%b0%d1%82%d1%80%d1%83%d0%b1%d0%be%d0%ba-%d1%84%d0%bb%d0%b0%d0%bd%d0%b5%d1%86-1016-dn-4/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 4"
+        },
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        },
+        {
+          "icon": "clamp",
+          "text": "арматура"
+        }
+      ],
+      "use": "Патрубок (фланец) 101,6 (DN 4) — трубопроводная арматура для сборки колонны и куба.",
+      "tg": "Патрубок (фланец) 101,6 (DN 4)"
+    },
+    "011": {
+      "name": "Патрубок (фланец) 50.8 мм (DN 2)",
+      "price": "от 75 ₽",
+      "href": "index.html#sku-011",
+      "slug": "patrubok-flanets-50-8-mm-dn-2",
+      "image": "assets/img/alko/sku-011-patrubok-flanets-50-8-mm-dn-2.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bf%d0%b0%d1%82%d1%80%d1%83%d0%b1%d0%be%d0%ba-%d1%84%d0%bb%d0%b0%d0%bd%d0%b5%d1%86-50-8-%d0%bc%d0%bc-dn-2-2/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 2"
+        },
+        {
+          "icon": "size",
+          "text": "Ø 8 мм"
+        },
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        }
+      ],
+      "use": "Патрубок (фланец) 50.8 мм (DN 2) — трубопроводная арматура для сборки колонны и куба.",
+      "tg": "Патрубок (фланец) 50.8 мм (DN 2)"
+    },
+    "012": {
+      "name": "Патрубок (фланец) 63,5 мм (DN 2,5)",
+      "price": "от 120 ₽",
+      "href": "index.html#sku-012",
+      "slug": "patrubok-flanets-63-5-mm-dn-2-5",
+      "image": "assets/img/alko/sku-012-patrubok-flanets-63-5-mm-dn-2-5.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bf%d0%b0%d1%82%d1%80%d1%83%d0%b1%d0%be%d0%ba-%d1%84%d0%bb%d0%b0%d0%bd%d0%b5%d1%86-635-%d0%bc%d0%bc-dn-25/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 2,5"
+        },
+        {
+          "icon": "size",
+          "text": "Ø 5 мм"
+        },
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        }
+      ],
+      "use": "Патрубок (фланец) 63,5 мм (DN 2,5) — трубопроводная арматура для сборки колонны и куба.",
+      "tg": "Патрубок (фланец) 63,5 мм (DN 2,5)"
+    },
+    "013": {
+      "name": "Патрубок (фланец) 76,2 (DN 3)",
+      "price": "от 130 ₽",
+      "href": "index.html#sku-013",
+      "slug": "patrubok-flanets-76-2-dn-3",
+      "image": "assets/img/alko/sku-013-patrubok-flanets-76-2-dn-3.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bf%d0%b0%d1%82%d1%80%d1%83%d0%b1%d0%be%d0%ba-%d1%84%d0%bb%d0%b0%d0%bd%d0%b5%d1%86-762-dn-3/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 3"
+        },
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        },
+        {
+          "icon": "clamp",
+          "text": "арматура"
+        }
+      ],
+      "use": "Патрубок (фланец) 76,2 (DN 3) — трубопроводная арматура для сборки колонны и куба.",
+      "tg": "Патрубок (фланец) 76,2 (DN 3)"
+    },
+    "014": {
+      "name": "Патрубок переходной 1,5″- 2″ дюйма",
+      "price": "от 380 ₽",
+      "href": "index.html#sku-014",
+      "slug": "patrubok-perehodnoy-1-5in-2in-dyuyma",
+      "image": "assets/img/alko/sku-014-patrubok-perehodnoy-1-5in-2in-dyuyma.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bf%d0%b0%d1%82%d1%80%d1%83%d0%b1%d0%be%d0%ba-%d0%bf%d0%b5%d1%80%d0%b5%d1%85%d0%be%d0%b4%d0%bd%d0%be%d0%b9-15-2-%d0%b4%d1%8e%d0%b9%d0%bc%d0%b0/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "1,5″"
+        },
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        },
+        {
+          "icon": "clamp",
+          "text": "арматура"
+        }
+      ],
+      "use": "Патрубок переходной 1,5″- 2″ дюйма — трубопроводная арматура для сборки колонны и куба.",
+      "tg": "Патрубок переходной 1,5″- 2″ дюйма"
+    },
+    "015": {
+      "name": "Патрубок переходной 2″- 3″ дюйма",
+      "price": "от 390 ₽",
+      "href": "index.html#sku-015",
+      "slug": "patrubok-perehodnoy-2in-3in-dyuyma",
+      "image": "assets/img/alko/sku-015-patrubok-perehodnoy-2in-3in-dyuyma.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bf%d0%b5%d1%80%d0%b5%d1%85%d0%be%d0%b4%d0%bd%d0%b8%d0%ba-%d1%81-2-%d0%b4%d1%8e%d0%b9%d0%bc%d0%b0-%d0%bd%d0%b0-3-%d0%b4%d1%8e%d0%b9%d0%bc%d0%b0/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "2″"
+        },
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        },
+        {
+          "icon": "clamp",
+          "text": "арматура"
+        }
+      ],
+      "use": "Патрубок переходной 2″- 3″ дюйма — трубопроводная арматура для сборки колонны и куба.",
+      "tg": "Патрубок переходной 2″- 3″ дюйма"
+    },
+    "016": {
+      "name": "Патрубок переходной 2″- 3″ дюйма",
+      "price": "от 480 ₽",
+      "href": "index.html#sku-016",
+      "slug": "patrubok-perehodnoy-2in-3in-dyuyma",
+      "image": "assets/img/alko/sku-016-patrubok-perehodnoy-2in-3in-dyuyma.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bf%d0%b0%d1%82%d1%80%d1%83%d0%b1%d0%be%d0%ba-%d0%bf%d0%b5%d1%80%d0%b5%d1%85%d0%be%d0%b4%d0%bd%d0%be%d0%b9-2-3-%d0%b4%d1%8e%d0%b9%d0%bc%d0%b0-%d0%ba%d0%be%d0%bf%d0%b8%d1%80%d0%be%d0%b2%d0%b0/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "2″"
+        },
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        },
+        {
+          "icon": "clamp",
+          "text": "арматура"
+        }
+      ],
+      "use": "Патрубок переходной 2″- 3″ дюйма — трубопроводная арматура для сборки колонны и куба.",
+      "tg": "Патрубок переходной 2″- 3″ дюйма"
+    },
+    "017": {
+      "name": "Переходник на ТЭН DN32",
+      "price": "от 300 ₽",
+      "href": "index.html#sku-017",
+      "slug": "perehodnik-na-ten-dn32",
+      "image": "assets/img/alko/sku-017-perehodnik-na-ten-dn32.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bf%d0%b5%d1%80%d0%b5%d1%85%d0%be%d0%b4%d0%bd%d0%b8%d0%ba-%d0%bd%d0%b0-%d1%82%d1%8d%d0%bd-dn32/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 32"
+        },
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        },
+        {
+          "icon": "clamp",
+          "text": "арматура"
+        }
+      ],
+      "use": "Переходник с клампа 2″ (k64) на ТЭН DN32 внутрення резьба 38 мм, высота патрубка 21 мм.",
+      "tg": "Переходник на ТЭН DN32"
+    },
+    "018": {
+      "name": "Переходник на ТЭН DN40",
+      "price": "от 320 ₽",
+      "href": "index.html#sku-018",
+      "slug": "perehodnik-na-ten-dn40",
+      "image": "assets/img/alko/sku-018-perehodnik-na-ten-dn40.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bf%d0%b5%d1%80%d0%b5%d1%85%d0%be%d0%b4%d0%bd%d0%b8%d0%ba-%d0%bd%d0%b0-%d1%82%d1%8d%d0%bd-dn40/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 40"
+        },
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        },
+        {
+          "icon": "clamp",
+          "text": "арматура"
+        }
+      ],
+      "use": "Переходник с клампа 2″ (k64) на ТЭН DN40, внутренняя резьба 45 мм, высота патрубка 21 мм.",
+      "tg": "Переходник на ТЭН DN40"
+    },
+    "019": {
+      "name": "Сетка Панченкова(медь)",
+      "price": "от 170 ₽",
+      "href": "index.html#sku-019",
+      "slug": "setka-panchenkova-med",
+      "image": "assets/img/alko/sku-019-setka-panchenkova-med.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%81%d0%b5%d1%82%d0%ba%d0%b0-%d0%bf%d0%b0%d0%bd%d1%87%d0%b5%d0%bd%d0%ba%d0%be%d0%b2%d0%b0%d0%bc%d0%b5%d0%b4%d1%8c/",
+      "facts": [
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        },
+        {
+          "icon": "clamp",
+          "text": "арматура"
+        },
+        {
+          "icon": "seal",
+          "text": "для колонны"
+        }
+      ],
+      "use": "Медная сетка панченкова — это один из важных элементов современного самогонного аппарата.",
+      "tg": "Сетка Панченкова(медь)"
+    },
+    "020": {
+      "name": "Сетка Панченкова(сталь)",
+      "price": "от 110 ₽",
+      "href": "index.html#sku-020",
+      "slug": "setka-panchenkova-stal",
+      "image": "assets/img/alko/sku-020-setka-panchenkova-stal.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%81%d0%b5%d1%82%d0%ba%d0%b0-%d0%bf%d0%b0%d0%bd%d1%87%d0%b5%d0%bd%d0%ba%d0%be%d0%b2%d0%b0%d1%81%d1%82%d0%b0%d0%bb%d1%8c/",
+      "facts": [
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        },
+        {
+          "icon": "clamp",
+          "text": "арматура"
+        },
+        {
+          "icon": "seal",
+          "text": "для колонны"
+        }
+      ],
+      "use": "Сетка Панченкова(сталь) — трубопроводная арматура для сборки колонны и куба.",
+      "tg": "Сетка Панченкова(сталь)"
+    },
+    "021": {
+      "name": "Стаканчик под ароматизацию диаметр 32 мм",
+      "price": "от 240 ₽",
+      "href": "index.html#sku-021",
+      "slug": "stakanchik-pod-aromatizatsiyu-diametr-32-mm",
+      "image": "assets/img/alko/sku-021-stakanchik-pod-aromatizatsiyu-diametr-32-mm.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%81%d1%82%d0%b0%d0%ba%d0%b0%d0%bd%d1%87%d0%b8%d0%ba-%d0%bf%d0%be%d0%b4-%d0%b0%d1%80%d0%be%d0%bc%d0%b0%d1%82%d0%b8%d0%b7%d0%b0%d1%86%d0%b8%d1%8e-%d0%b4%d0%b8%d0%b0%d0%bc%d0%b5%d1%82%d1%80-32-%d0%bc/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "Ø 32 мм"
+        },
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        },
+        {
+          "icon": "clamp",
+          "text": "арматура"
+        }
+      ],
+      "use": "Стаканчик под ароматизацию диаметр 32 мм — трубопроводная арматура для сборки колонны и куба.",
+      "tg": "Стаканчик под ароматизацию диаметр 32 мм"
+    },
+    "022": {
+      "name": "Стаканчик под ароматизацию диаметр 40 мм",
+      "price": "от 240 ₽",
+      "href": "index.html#sku-022",
+      "slug": "stakanchik-pod-aromatizatsiyu-diametr-40-mm",
+      "image": "assets/img/alko/sku-022-stakanchik-pod-aromatizatsiyu-diametr-40-mm.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%81%d1%82%d0%b0%d0%ba%d0%b0%d0%bd%d1%87%d0%b8%d0%ba-%d0%bf%d0%be%d0%b4-%d0%b0%d1%80%d0%be%d0%bc%d0%b0%d1%82%d0%b8%d0%b7%d0%b0%d1%86%d0%b8%d1%8e-%d0%b4%d0%b8%d0%b0%d0%bc%d0%b5%d1%82%d1%80-40-%d0%bc/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "Ø 40 мм"
+        },
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        },
+        {
+          "icon": "clamp",
+          "text": "арматура"
+        }
+      ],
+      "use": "Стаканчик под ароматизацию диаметр 40 мм — трубопроводная арматура для сборки колонны и куба.",
+      "tg": "Стаканчик под ароматизацию диаметр 40 мм"
+    },
+    "023": {
+      "name": "Съемный носик DN 1,5",
+      "price": "от 500 ₽",
+      "href": "index.html#sku-023",
+      "slug": "semnyy-nosik-dn-1-5",
+      "image": "assets/img/alko/sku-023-semnyy-nosik-dn-1-5.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%81%d1%8c%d0%b5%d0%bc%d0%bd%d1%8b%d0%b9-%d0%bd%d0%be%d1%81%d0%b8%d0%ba-dn-15/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 1,5"
+        },
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        },
+        {
+          "icon": "clamp",
+          "text": "арматура"
+        }
+      ],
+      "use": "Носик для дефлегматора (холодильника) DN 1,5, под трубку 8 мм с атомсферником.",
+      "tg": "Съемный носик DN 1,5"
+    },
+    "024": {
+      "name": "Съемный носик DN 2",
+      "price": "от 220 ₽",
+      "href": "index.html#sku-024",
+      "slug": "semnyy-nosik-dn-2",
+      "image": "assets/img/alko/sku-024-semnyy-nosik-dn-2.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%81%d1%8c%d0%b5%d0%bc%d0%bd%d1%8b%d0%b9-%d0%bd%d0%be%d1%81%d0%b8%d0%ba-dn-2/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 2"
+        },
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        },
+        {
+          "icon": "clamp",
+          "text": "арматура"
+        }
+      ],
+      "use": "Носик для дефлегматора (холодильника) DN 2, под трубку 12 мм с атомсферником.",
+      "tg": "Съемный носик DN 2"
+    },
+    "025": {
+      "name": "Угол отвода 135",
+      "price": "от 600 ₽",
+      "href": "index.html#sku-025",
+      "slug": "ugol-otvoda-135",
+      "image": "assets/img/alko/sku-025-ugol-otvoda-135.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%83%d0%b3%d0%be%d0%bb-%d0%be%d1%82%d0%b2%d0%be%d0%b4%d0%b0-135/",
+      "facts": [
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        },
+        {
+          "icon": "clamp",
+          "text": "арматура"
+        },
+        {
+          "icon": "seal",
+          "text": "для колонны"
+        }
+      ],
+      "use": "Узел трубопроводной арматуры: Угол отвода 135 — соединение и комплектация колонны/куба.",
+      "tg": "Угол отвода 135"
+    },
+    "026": {
+      "name": "Угол отвода, 180 градусов (труба 38 мм)",
+      "price": "от 650 ₽",
+      "href": "index.html#sku-026",
+      "slug": "ugol-otvoda-180-gradusov-truba-38-mm",
+      "image": "assets/img/alko/sku-026-ugol-otvoda-180-gradusov-truba-38-mm.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%83%d0%b3%d0%be%d0%bb-%d0%be%d1%82%d0%b2%d0%be%d0%b4%d0%b0-180-%d0%b3%d1%80%d0%b0%d0%b4%d1%83%d1%81%d0%be%d0%b2-%d1%82%d1%80%d1%83%d0%b1%d0%b0-38-%d0%bc%d0%bc/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "Ø 38 мм"
+        },
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        },
+        {
+          "icon": "clamp",
+          "text": "арматура"
+        }
+      ],
+      "use": "Узел трубопроводной арматуры: Угол отвода, 180 градусов (труба 38 мм) — соединение и комплектация колонны/куба.",
+      "tg": "Угол отвода, 180 градусов (труба 38 мм)"
+    },
+    "027": {
+      "name": "Угол отвода, 45 градусов (труба 38 мм)",
+      "price": "от 220 ₽",
+      "href": "index.html#sku-027",
+      "slug": "ugol-otvoda-45-gradusov-truba-38-mm",
+      "image": "assets/img/alko/sku-027-ugol-otvoda-45-gradusov-truba-38-mm.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%83%d0%b3%d0%be%d0%bb-%d0%be%d1%82%d0%b2%d0%be%d0%b4%d0%b0-45-%d0%b3%d1%80%d0%b0%d0%b4%d1%83%d1%81%d0%be%d0%b2-%d1%82%d1%80%d1%83%d0%b1%d0%b0-38-%d0%bc%d0%bc/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "Ø 38 мм"
+        },
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        },
+        {
+          "icon": "clamp",
+          "text": "арматура"
+        }
+      ],
+      "use": "Узел трубопроводной арматуры: Угол отвода, 45 градусов (труба 38 мм) — соединение и комплектация колонны/куба.",
+      "tg": "Угол отвода, 45 градусов (труба 38 мм)"
+    },
+    "028": {
+      "name": "Угол отвода, 90 градусов (труба 38 мм)",
+      "price": "от 300 ₽",
+      "href": "index.html#sku-028",
+      "slug": "ugol-otvoda-90-gradusov-truba-38-mm",
+      "image": "assets/img/alko/sku-028-ugol-otvoda-90-gradusov-truba-38-mm.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%83%d0%b3%d0%be%d0%bb-%d0%be%d1%82%d0%b2%d0%be%d0%b4%d0%b0-90-%d0%b3%d1%80%d0%b0%d0%b4%d1%83%d1%81%d0%be%d0%b2-%d1%82%d1%80%d1%83%d0%b1%d0%b0-38-%d0%bc%d0%bc/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "Ø 38 мм"
+        },
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        },
+        {
+          "icon": "clamp",
+          "text": "арматура"
+        }
+      ],
+      "use": "Узел трубопроводной арматуры: Угол отвода, 90 градусов (труба 38 мм) — соединение и комплектация колонны/куба.",
+      "tg": "Угол отвода, 90 градусов (труба 38 мм)"
+    },
+    "029": {
+      "name": "Угол отвода, 90 градусов (труба 50,8 мм)",
+      "price": "от 400 ₽",
+      "href": "index.html#sku-029",
+      "slug": "ugol-otvoda-90-gradusov-truba-50-8-mm",
+      "image": "assets/img/alko/sku-029-ugol-otvoda-90-gradusov-truba-50-8-mm.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%83%d0%b3%d0%be%d0%bb-%d0%be%d1%82%d0%b2%d0%be%d0%b4%d0%b0-90-%d0%b3%d1%80%d0%b0%d0%b4%d1%83%d1%81%d0%be%d0%b2-%d1%82%d1%80%d1%83%d0%b1%d0%b0-508-%d0%bc%d0%bc/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "Ø 8 мм"
+        },
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        },
+        {
+          "icon": "clamp",
+          "text": "арматура"
+        }
+      ],
+      "use": "Узел трубопроводной арматуры: Угол отвода, 90 градусов (труба 50,8 мм) — соединение и комплектация колонны/куба.",
+      "tg": "Угол отвода, 90 градусов (труба 50,8 мм)"
+    },
+    "030": {
+      "name": "Фланец без патрубка 2 дюйма",
+      "price": "от 70 ₽",
+      "href": "index.html#sku-030",
+      "slug": "flanets-bez-patrubka-2-dyuyma",
+      "image": "assets/img/alko/sku-030-flanets-bez-patrubka-2-dyuyma.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%84%d0%bb%d0%b0%d0%bd%d0%b5%d1%86-%d0%b1%d0%b5%d0%b7-%d0%bf%d0%b0%d1%82%d1%80%d1%83%d0%b1%d0%ba%d0%b0-2-%d0%b4%d1%8e%d0%b9%d0%bc%d0%b0/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "2″"
+        },
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        },
+        {
+          "icon": "clamp",
+          "text": "арматура"
+        }
+      ],
+      "use": "Узел трубопроводной арматуры: Фланец без патрубка 2 дюйма — соединение и комплектация колонны/куба.",
+      "tg": "Фланец без патрубка 2 дюйма"
+    },
+    "031": {
+      "name": "Хомут зажимной без шлифовки",
+      "price": "от 80 ₽",
+      "href": "index.html#sku-031",
+      "slug": "homut-zazhimnoy-bez-shlifovki",
+      "image": "assets/img/alko/sku-031-homut-zazhimnoy-bez-shlifovki.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%85%d0%be%d0%bc%d1%83%d1%82-%d0%b7%d0%b0%d0%b6%d0%b8%d0%bc%d0%bd%d0%be%d0%b9-%d0%b1%d0%b5%d0%b7-%d1%88%d0%bb%d0%b8%d1%84%d0%be%d0%b2%d0%ba%d0%b8/",
+      "facts": [
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        },
+        {
+          "icon": "clamp",
+          "text": "арматура"
+        },
+        {
+          "icon": "seal",
+          "text": "для колонны"
+        }
+      ],
+      "use": "Узел трубопроводной арматуры: Хомут зажимной без шлифовки — соединение и комплектация колонны/куба.",
+      "tg": "Хомут зажимной без шлифовки"
+    },
+    "032": {
+      "name": "Хомут зажимной шлифованный DN 1,5",
+      "price": "от 85 ₽",
+      "href": "index.html#sku-032",
+      "slug": "homut-zazhimnoy-shlifovannyy-dn-1-5",
+      "image": "assets/img/alko/sku-032-homut-zazhimnoy-shlifovannyy-dn-1-5.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%85%d0%be%d0%bc%d1%83%d1%82-%d0%b7%d0%b0%d0%b6%d0%b8%d0%bc%d0%bd%d0%be%d0%b9-%d1%88%d0%bb%d0%b8%d1%84%d0%be%d0%b2%d0%b0%d0%bd%d0%bd%d1%8b%d0%b9-dn-15/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 1,5"
+        },
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        },
+        {
+          "icon": "clamp",
+          "text": "арматура"
+        }
+      ],
+      "use": "Узел трубопроводной арматуры: Хомут зажимной шлифованный DN 1,5 — соединение и комплектация колонны/куба.",
+      "tg": "Хомут зажимной шлифованный DN 1,5"
+    },
+    "033": {
+      "name": "Хомут зажимной шлифованный DN 2",
+      "price": "от 170 ₽",
+      "href": "index.html#sku-033",
+      "slug": "homut-zazhimnoy-shlifovannyy-dn-2",
+      "image": "assets/img/alko/sku-033-homut-zazhimnoy-shlifovannyy-dn-2.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%85%d0%be%d0%bc%d1%83%d1%82-%d0%b7%d0%b0%d0%b6%d0%b8%d0%bc%d0%bd%d0%be%d0%b9-%d1%88%d0%bb%d0%b8%d1%84%d0%be%d0%b2%d0%b0%d0%bd%d0%bd%d1%8b%d0%b9-dn-2/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 2"
+        },
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        },
+        {
+          "icon": "clamp",
+          "text": "арматура"
+        }
+      ],
+      "use": "Узел трубопроводной арматуры: Хомут зажимной шлифованный DN 2 — соединение и комплектация колонны/куба.",
+      "tg": "Хомут зажимной шлифованный DN 2"
+    },
+    "034": {
+      "name": "Хомут зажимной шлифованный DN 2,5",
+      "price": "от 160 ₽",
+      "href": "index.html#sku-034",
+      "slug": "homut-zazhimnoy-shlifovannyy-dn-2-5",
+      "image": "assets/img/alko/sku-034-homut-zazhimnoy-shlifovannyy-dn-2-5.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%85%d0%be%d0%bc%d1%83%d1%82-%d0%b7%d0%b0%d0%b6%d0%b8%d0%bc%d0%bd%d0%be%d0%b9-%d1%88%d0%bb%d0%b8%d1%84%d0%be%d0%b2%d0%b0%d0%bd%d0%bd%d1%8b%d0%b9-dn-25/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 2,5"
+        },
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        },
+        {
+          "icon": "clamp",
+          "text": "арматура"
+        }
+      ],
+      "use": "Узел трубопроводной арматуры: Хомут зажимной шлифованный DN 2,5 — соединение и комплектация колонны/куба.",
+      "tg": "Хомут зажимной шлифованный DN 2,5"
+    },
+    "035": {
+      "name": "Хомут зажимной шлифованный DN 3",
+      "price": "от 250 ₽",
+      "href": "index.html#sku-035",
+      "slug": "homut-zazhimnoy-shlifovannyy-dn-3",
+      "image": "assets/img/alko/sku-035-homut-zazhimnoy-shlifovannyy-dn-3.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%85%d0%be%d0%bc%d1%83%d1%82-%d0%b7%d0%b0%d0%b6%d0%b8%d0%bc%d0%bd%d0%be%d0%b9-%d1%88%d0%bb%d0%b8%d1%84%d0%be%d0%b2%d0%b0%d0%bd%d0%bd%d1%8b%d0%b9-dn-3/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 3"
+        },
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        },
+        {
+          "icon": "clamp",
+          "text": "арматура"
+        }
+      ],
+      "use": "Узел трубопроводной арматуры: Хомут зажимной шлифованный DN 3 — соединение и комплектация колонны/куба.",
+      "tg": "Хомут зажимной шлифованный DN 3"
+    },
+    "036": {
+      "name": "Хомут зажимной шлифованный DN 4",
+      "price": "от 330 ₽",
+      "href": "index.html#sku-036",
+      "slug": "homut-zazhimnoy-shlifovannyy-dn-4",
+      "image": "assets/img/alko/sku-036-homut-zazhimnoy-shlifovannyy-dn-4.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%85%d0%be%d0%bc%d1%83%d1%82-%d0%b7%d0%b0%d0%b6%d0%b8%d0%bc%d0%bd%d0%be%d0%b9-%d1%88%d0%bb%d0%b8%d1%84%d0%be%d0%b2%d0%b0%d0%bd%d0%bd%d1%8b%d0%b9-dn-4/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 4"
+        },
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        },
+        {
+          "icon": "clamp",
+          "text": "арматура"
+        }
+      ],
+      "use": "Узел трубопроводной арматуры: Хомут зажимной шлифованный DN 4 — соединение и комплектация колонны/куба.",
+      "tg": "Хомут зажимной шлифованный DN 4"
+    },
+    "037": {
+      "name": "Царга под кламп 15 см (под кламп DN1,5)",
+      "price": "от 505 ₽",
+      "href": "index.html#sku-037",
+      "slug": "tsarga-pod-klamp-15-sm-pod-klamp-dn1-5",
+      "image": "assets/img/alko/sku-037-tsarga-pod-klamp-15-sm-pod-klamp-dn1-5.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%86%d0%b0%d1%80%d0%b3%d0%b0-%d0%bf%d0%be%d0%b4-%d0%ba%d0%bb%d0%b0%d0%bc%d0%bf-35-%d1%81%d0%bc-%d0%bf%d0%be%d0%b4-%d0%ba%d0%bb%d0%b0%d0%bc%d0%bf-dn15/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 1,5"
+        },
+        {
+          "icon": "clamp",
+          "text": "кламп"
+        },
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        }
+      ],
+      "use": "Узел трубопроводной арматуры: Царга под кламп 15 см (под кламп DN1,5) — соединение и комплектация колонны/куба.",
+      "tg": "Царга под кламп 15 см (под кламп DN1,5)"
+    },
+    "038": {
+      "name": "Царга под кламп 15 см (под кламп DN2)",
+      "price": "от 790 ₽",
+      "href": "index.html#sku-038",
+      "slug": "tsarga-pod-klamp-15-sm-pod-klamp-dn2",
+      "image": "assets/img/alko/sku-038-tsarga-pod-klamp-15-sm-pod-klamp-dn2.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%86%d0%b0%d1%80%d0%b3%d0%b0-%d0%bf%d0%be%d0%b4-%d0%ba%d0%bb%d0%b0%d0%bc%d0%bf-35-%d1%81%d0%bc-%d0%bf%d0%be%d0%b4-%d0%ba%d0%bb%d0%b0%d0%bc%d0%bf-dn2/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 2"
+        },
+        {
+          "icon": "clamp",
+          "text": "кламп"
+        },
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        }
+      ],
+      "use": "Узел трубопроводной арматуры: Царга под кламп 15 см (под кламп DN2) — соединение и комплектация колонны/куба.",
+      "tg": "Царга под кламп 15 см (под кламп DN2)"
+    },
+    "039": {
+      "name": "Царга под кламп 30 см (под кламп DN1,5)",
+      "price": "от 500 ₽",
+      "href": "index.html#sku-039",
+      "slug": "tsarga-pod-klamp-30-sm-pod-klamp-dn1-5",
+      "image": "assets/img/alko/sku-039-tsarga-pod-klamp-30-sm-pod-klamp-dn1-5.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%86%d0%b0%d1%80%d0%b3%d0%b0-%d0%bf%d0%be%d0%b4-%d0%ba%d0%bb%d0%b0%d0%bc%d0%bf-30-%d1%81%d0%bc-%d0%bf%d0%be%d0%b4-%d0%ba%d0%bb%d0%b0%d0%bc%d0%bf-dn15/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 1,5"
+        },
+        {
+          "icon": "clamp",
+          "text": "кламп"
+        },
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        }
+      ],
+      "use": "Узел трубопроводной арматуры: Царга под кламп 30 см (под кламп DN1,5) — соединение и комплектация колонны/куба.",
+      "tg": "Царга под кламп 30 см (под кламп DN1,5)"
+    },
+    "040": {
+      "name": "Царга под кламп 30 см (под кламп DN1,5)",
+      "price": "от 510 ₽",
+      "href": "index.html#sku-040",
+      "slug": "tsarga-pod-klamp-30-sm-pod-klamp-dn1-5",
+      "image": "assets/img/alko/sku-040-tsarga-pod-klamp-30-sm-pod-klamp-dn1-5.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%86%d0%b0%d1%80%d0%b3%d0%b0-%d0%bf%d0%be%d0%b4-%d0%ba%d0%bb%d0%b0%d0%bc%d0%bf-45-%d1%81%d0%bc-%d0%bf%d0%be%d0%b4-%d0%ba%d0%bb%d0%b0%d0%bc%d0%bf-dn15/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 1,5"
+        },
+        {
+          "icon": "clamp",
+          "text": "кламп"
+        },
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        }
+      ],
+      "use": "Узел трубопроводной арматуры: Царга под кламп 30 см (под кламп DN1,5) — соединение и комплектация колонны/куба.",
+      "tg": "Царга под кламп 30 см (под кламп DN1,5)"
+    },
+    "041": {
+      "name": "Царга под кламп 30 см (под кламп DN2)",
+      "price": "от 770 ₽",
+      "href": "index.html#sku-041",
+      "slug": "tsarga-pod-klamp-30-sm-pod-klamp-dn2",
+      "image": "assets/img/alko/sku-041-tsarga-pod-klamp-30-sm-pod-klamp-dn2.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%86%d0%b0%d1%80%d0%b3%d0%b0-%d0%bf%d0%be%d0%b4-%d0%ba%d0%bb%d0%b0%d0%bc%d0%bf-30-%d1%81%d0%bc-%d0%bf%d0%be%d0%b4-%d0%ba%d0%bb%d0%b0%d0%bc%d0%bf-dn2/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 2"
+        },
+        {
+          "icon": "clamp",
+          "text": "кламп"
+        },
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        }
+      ],
+      "use": "Узел трубопроводной арматуры: Царга под кламп 30 см (под кламп DN2) — соединение и комплектация колонны/куба.",
+      "tg": "Царга под кламп 30 см (под кламп DN2)"
+    },
+    "042": {
+      "name": "Царга под кламп 50 см (под кламп DN1,5)",
+      "price": "от 520 ₽",
+      "href": "index.html#sku-042",
+      "slug": "tsarga-pod-klamp-50-sm-pod-klamp-dn1-5",
+      "image": "assets/img/alko/sku-042-tsarga-pod-klamp-50-sm-pod-klamp-dn1-5.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%86%d0%b0%d1%80%d0%b3%d0%b0-%d0%bf%d0%be%d0%b4-%d0%ba%d0%bb%d0%b0%d0%bc%d0%bf-50-%d1%81%d0%bc-%d0%bf%d0%be%d0%b4-%d0%ba%d0%bb%d0%b0%d0%bc%d0%bf-dn15/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 1,5"
+        },
+        {
+          "icon": "clamp",
+          "text": "кламп"
+        },
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        }
+      ],
+      "use": "Узел трубопроводной арматуры: Царга под кламп 50 см (под кламп DN1,5) — соединение и комплектация колонны/куба.",
+      "tg": "Царга под кламп 50 см (под кламп DN1,5)"
+    },
+    "043": {
+      "name": "Царга под кламп 50 см (под кламп DN2)",
+      "price": "от 820 ₽",
+      "href": "index.html#sku-043",
+      "slug": "tsarga-pod-klamp-50-sm-pod-klamp-dn2",
+      "image": "assets/img/alko/sku-043-tsarga-pod-klamp-50-sm-pod-klamp-dn2.jpg",
+      "category": "fittings",
+      "categoryName": "Хомуты и царги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%86%d0%b0%d1%80%d0%b3%d0%b0-%d0%bf%d0%be%d0%b4-%d0%ba%d0%bb%d0%b0%d0%bc%d0%bf-50-%d1%81%d0%bc-%d0%bf%d0%be%d0%b4-%d0%ba%d0%bb%d0%b0%d0%bc%d0%bf-dn2/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 2"
+        },
+        {
+          "icon": "clamp",
+          "text": "кламп"
+        },
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        }
+      ],
+      "use": "Узел трубопроводной арматуры: Царга под кламп 50 см (под кламп DN2) — соединение и комплектация колонны/куба.",
+      "tg": "Царга под кламп 50 см (под кламп DN2)"
+    },
+    "044": {
+      "name": "Быстросъемная гайка 10 мм (мама)",
+      "price": "от 50 ₽",
+      "href": "index.html#sku-044",
+      "slug": "bystrosemnaya-gayka-10-mm-mama",
+      "image": "assets/img/alko/sku-044-bystrosemnaya-gayka-10-mm-mama.jpg",
+      "category": "valves",
+      "categoryName": "Краны и переходники",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%b1%d1%8b%d1%81%d1%82%d1%80%d0%be%d1%81%d1%8a%d0%b5%d0%bc%d0%bd%d0%b0%d1%8f-%d0%b3%d0%b0%d0%b9%d0%ba%d0%b0-10-%d0%bc%d0%bc-%d0%bc%d0%b0%d0%bc%d0%b0/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "Ø 10 мм"
+        },
+        {
+          "icon": "tap",
+          "text": "быстрый съём"
         },
         {
           "icon": "steel",
           "text": "нерж."
         }
       ],
-      "use": "Проточный карман под ареометр на выходе продукта.",
-      "tg": "Попугай"
+      "use": "Внешний диаметр 10 мм, внутренний диаметр 6 мм Резьба 1/2.",
+      "tg": "Быстросъемная гайка 10 мм (мама)"
     },
-    "16": {
-      "name": "Ареометр / рефрактометр",
+    "045": {
+      "name": "Быстросъемная гайка 12 мм (мама)",
+      "price": "от 60 ₽",
+      "href": "index.html#sku-045",
+      "slug": "bystrosemnaya-gayka-12-mm-mama",
+      "image": "assets/img/alko/sku-045-bystrosemnaya-gayka-12-mm-mama.jpg",
+      "category": "valves",
+      "categoryName": "Краны и переходники",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%b1%d1%8b%d1%81%d1%82%d1%80%d0%be%d1%81%d1%8a%d0%b5%d0%bc%d0%bd%d0%b0%d1%8f-%d0%b3%d0%b0%d0%b9%d0%ba%d0%b0-12-%d0%bc%d0%bc-%d0%bc%d0%b0%d0%bc%d0%b0/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "Ø 12 мм"
+        },
+        {
+          "icon": "tap",
+          "text": "быстрый съём"
+        },
+        {
+          "icon": "steel",
+          "text": "нерж."
+        }
+      ],
+      "use": "Быстросъемная гайка 12 мм (мама) — краны, диверторы и быстросъём для контуров аппарата.",
+      "tg": "Быстросъемная гайка 12 мм (мама)"
+    },
+    "046": {
+      "name": "Дивертор металлический с переходником штуцер 7,9 мм",
+      "price": "от 125 ₽",
+      "href": "index.html#sku-046",
+      "slug": "divertor-metallicheskiy-s-perehodnikom-shtutser-",
+      "image": "assets/img/alko/sku-046-divertor-metallicheskiy-s-perehodnikom-shtutser-.jpg",
+      "category": "valves",
+      "categoryName": "Краны и переходники",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%b4%d0%b8%d0%b2%d0%b5%d1%80%d1%82%d0%be%d1%80-%d0%bc%d0%b5%d1%82%d0%b0%d0%bb%d0%bb%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b8%d0%b9-%d1%81-%d0%bf%d0%b5%d1%80%d0%b5%d1%85%d0%be%d0%b4%d0%bd%d0%b8%d0%ba-2/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "Ø 9 мм"
+        },
+        {
+          "icon": "tap",
+          "text": "быстрый съём"
+        },
+        {
+          "icon": "steel",
+          "text": "нерж."
+        }
+      ],
+      "use": "Дивертор металлический с переходником штуцер 7,9 мм — краны, диверторы и быстросъём для контуров аппарата.",
+      "tg": "Дивертор металлический с переходником штуцер 7,9 мм"
+    },
+    "047": {
+      "name": "Дивертор металлический с переходником штуцер 9,8 мм",
+      "price": "от 125 ₽",
+      "href": "index.html#sku-047",
+      "slug": "divertor-metallicheskiy-s-perehodnikom-shtutser-",
+      "image": "assets/img/alko/sku-047-divertor-metallicheskiy-s-perehodnikom-shtutser-.jpg",
+      "category": "valves",
+      "categoryName": "Краны и переходники",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%b4%d0%b8%d0%b2%d0%b5%d1%80%d1%82%d0%be%d1%80-%d0%bc%d0%b5%d1%82%d0%b0%d0%bb%d0%bb%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b8%d0%b9-%d1%81-%d0%bf%d0%b5%d1%80%d0%b5%d1%85%d0%be%d0%b4%d0%bd%d0%b8%d0%ba-3/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "Ø 8 мм"
+        },
+        {
+          "icon": "tap",
+          "text": "быстрый съём"
+        },
+        {
+          "icon": "steel",
+          "text": "нерж."
+        }
+      ],
+      "use": "Дивертор металлический с переходником штуцер 9,8 мм — краны, диверторы и быстросъём для контуров аппарата.",
+      "tg": "Дивертор металлический с переходником штуцер 9,8 мм"
+    },
+    "048": {
+      "name": "Игольчатый кран D-10, пластик",
+      "price": "от 110 ₽",
+      "href": "index.html#sku-048",
+      "slug": "igolchatyy-kran-d-10-plastik",
+      "image": "assets/img/alko/sku-048-igolchatyy-kran-d-10-plastik.jpg",
+      "category": "valves",
+      "categoryName": "Краны и переходники",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%b8%d0%b3%d0%be%d0%bb%d1%8c%d1%87%d0%b0%d1%82%d1%8b%d0%b9-%d0%ba%d1%80%d0%b0%d0%bd-d-10-%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d0%ba/",
+      "facts": [
+        {
+          "icon": "needle",
+          "text": "регулировка"
+        },
+        {
+          "icon": "packing",
+          "text": "пластик"
+        },
+        {
+          "icon": "tap",
+          "text": "быстрый съём"
+        }
+      ],
+      "use": "Внешний дивметр 10 мм, внутренний диаметр 6 мм.",
+      "tg": "Игольчатый кран D-10, пластик"
+    },
+    "049": {
+      "name": "Игольчатый кран D-12, пластик",
+      "price": "от 120 ₽",
+      "href": "index.html#sku-049",
+      "slug": "igolchatyy-kran-d-12-plastik",
+      "image": "assets/img/alko/sku-049-igolchatyy-kran-d-12-plastik.jpg",
+      "category": "valves",
+      "categoryName": "Краны и переходники",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%b8%d0%b3%d0%be%d0%bb%d1%8c%d1%87%d0%b0%d1%82%d1%8b%d0%b9-%d0%ba%d1%80%d0%b0%d0%bd-d-12-%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d0%ba/",
+      "facts": [
+        {
+          "icon": "needle",
+          "text": "регулировка"
+        },
+        {
+          "icon": "packing",
+          "text": "пластик"
+        },
+        {
+          "icon": "tap",
+          "text": "быстрый съём"
+        }
+      ],
+      "use": "Внешний дивметр 12 мм, внутренний диаметр 8 мм.",
+      "tg": "Игольчатый кран D-12, пластик"
+    },
+    "050": {
+      "name": "Кран врезной металлический",
+      "price": "от 65 ₽",
+      "href": "index.html#sku-050",
+      "slug": "kran-vreznoy-metallicheskiy",
+      "image": "assets/img/alko/sku-050-kran-vreznoy-metallicheskiy.jpg",
+      "category": "valves",
+      "categoryName": "Краны и переходники",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%ba%d1%80%d0%b0%d0%bd-%d0%b2%d1%80%d0%b5%d0%b7%d0%bd%d0%be%d0%b9-%d0%bc%d0%b5%d1%82%d0%b0%d0%bb%d0%bb%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b8%d0%b9/",
+      "facts": [
+        {
+          "icon": "needle",
+          "text": "регулировка"
+        },
+        {
+          "icon": "tap",
+          "text": "быстрый съём"
+        },
+        {
+          "icon": "steel",
+          "text": "нерж."
+        }
+      ],
+      "use": "Кран врезной металлический — краны, диверторы и быстросъём для контуров аппарата.",
+      "tg": "Кран врезной металлический"
+    },
+    "051": {
+      "name": "Кран для бродильных емкостей",
+      "price": "от 25 ₽",
+      "href": "index.html#sku-051",
+      "slug": "kran-dlya-brodilnyh-emkostey",
+      "image": "assets/img/alko/sku-051-kran-dlya-brodilnyh-emkostey.jpg",
+      "category": "valves",
+      "categoryName": "Краны и переходники",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%ba%d1%80%d0%b0%d0%bd-%d0%b4%d0%bb%d1%8f-%d0%b1%d1%80%d0%be%d0%b4%d0%b8%d0%bb%d1%8c%d0%bd%d1%8b%d1%85-%d0%b5%d0%bc%d0%ba%d0%be%d1%81%d1%82%d0%b5%d0%b9/",
+      "facts": [
+        {
+          "icon": "needle",
+          "text": "регулировка"
+        },
+        {
+          "icon": "tap",
+          "text": "быстрый съём"
+        },
+        {
+          "icon": "steel",
+          "text": "нерж."
+        }
+      ],
+      "use": "переключение потоков, отбор и быстросъём на контурах аппарата.",
+      "tg": "Кран для бродильных емкостей"
+    },
+    "052": {
+      "name": "Кран для бродильных емкостей, сливной",
+      "price": "от 80 ₽",
+      "href": "index.html#sku-052",
+      "slug": "kran-dlya-brodilnyh-emkostey-slivnoy",
+      "image": "assets/img/alko/sku-052-kran-dlya-brodilnyh-emkostey-slivnoy.jpg",
+      "category": "valves",
+      "categoryName": "Краны и переходники",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%ba%d1%80%d0%b0%d0%bd-%d0%b4%d0%bb%d1%8f-%d0%b1%d1%80%d0%be%d0%b4%d0%b8%d0%bb%d1%8c%d0%bd%d1%8b%d1%85-%d0%b5%d0%bc%d0%ba%d0%be%d1%81%d1%82%d0%b5%d0%b9-%d1%81%d0%bb%d0%b8%d0%b2%d0%bd%d0%be%d0%b9/",
+      "facts": [
+        {
+          "icon": "needle",
+          "text": "регулировка"
+        },
+        {
+          "icon": "tap",
+          "text": "быстрый съём"
+        },
+        {
+          "icon": "steel",
+          "text": "нерж."
+        }
+      ],
+      "use": "Кран для бродильных емкостей, сливной — краны, диверторы и быстросъём для контуров аппарата.",
+      "tg": "Кран для бродильных емкостей, сливной"
+    },
+    "053": {
+      "name": "Кран игольчатый под трубку 10 мм (304 сталь)",
+      "price": "от 390 ₽",
+      "href": "index.html#sku-053",
+      "slug": "kran-igolchatyy-pod-trubku-10-mm-304-stal",
+      "image": "assets/img/alko/sku-053-kran-igolchatyy-pod-trubku-10-mm-304-stal.jpg",
+      "category": "valves",
+      "categoryName": "Краны и переходники",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%ba%d1%80%d0%b0%d0%bd-%d0%b8%d0%b3%d0%be%d0%bb%d1%8c%d1%87%d0%b0%d1%82%d1%8b%d0%b9-%d0%bf%d0%be%d0%b4-%d1%82%d1%80%d1%83%d0%b1%d0%ba%d1%83-10-%d0%bc%d0%bc-304-%d1%81%d1%82%d0%b0%d0%bb%d1%8c/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "Ø 10 мм"
+        },
+        {
+          "icon": "steel",
+          "text": "AISI 304"
+        },
+        {
+          "icon": "needle",
+          "text": "регулировка"
+        }
+      ],
+      "use": "Кран игольчатый под трубку 10 мм (304 сталь) — краны, диверторы и быстросъём для контуров аппарата.",
+      "tg": "Кран игольчатый под трубку 10 мм (304 сталь)"
+    },
+    "054": {
+      "name": "Кран игольчатый под трубку 10 мм (латунь)",
+      "price": "от 110 ₽",
+      "href": "index.html#sku-054",
+      "slug": "kran-igolchatyy-pod-trubku-10-mm-latun",
+      "image": "assets/img/alko/sku-054-kran-igolchatyy-pod-trubku-10-mm-latun.jpg",
+      "category": "valves",
+      "categoryName": "Краны и переходники",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%ba%d1%80%d0%b0%d0%bd-%d0%b8%d0%b3%d0%be%d0%bb%d1%8c%d1%87%d0%b0%d1%82%d1%8b%d0%b9-%d0%bf%d0%be%d0%b4-%d1%82%d1%80%d1%83%d0%b1%d0%ba%d1%83-10-%d0%bc%d0%bc-%d0%bb%d0%b0%d1%82%d1%83%d0%bd%d1%8c/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "Ø 10 мм"
+        },
+        {
+          "icon": "needle",
+          "text": "регулировка"
+        },
+        {
+          "icon": "tap",
+          "text": "быстрый съём"
+        }
+      ],
+      "use": "Кран игольчатый под трубку 10 мм (латунь) — краны, диверторы и быстросъём для контуров аппарата.",
+      "tg": "Кран игольчатый под трубку 10 мм (латунь)"
+    },
+    "055": {
+      "name": "Кран игольчатый под трубку 12 мм (304 сталь)",
+      "price": "от 370 ₽",
+      "href": "index.html#sku-055",
+      "slug": "kran-igolchatyy-pod-trubku-12-mm-304-stal",
+      "image": "assets/img/alko/sku-055-kran-igolchatyy-pod-trubku-12-mm-304-stal.jpg",
+      "category": "valves",
+      "categoryName": "Краны и переходники",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%ba%d1%80%d0%b0%d0%bd-%d0%b8%d0%b3%d0%be%d0%bb%d1%8c%d1%87%d0%b0%d1%82%d1%8b%d0%b9-%d0%bf%d0%be%d0%b4-%d1%82%d1%80%d1%83%d0%b1%d0%ba%d1%83-12-%d0%bc%d0%bc-304-%d1%81%d1%82%d0%b0%d0%bb%d1%8c/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "Ø 12 мм"
+        },
+        {
+          "icon": "steel",
+          "text": "AISI 304"
+        },
+        {
+          "icon": "needle",
+          "text": "регулировка"
+        }
+      ],
+      "use": "Кран игольчатый под трубку 12 мм (304 сталь) — краны, диверторы и быстросъём для контуров аппарата.",
+      "tg": "Кран игольчатый под трубку 12 мм (304 сталь)"
+    },
+    "056": {
+      "name": "Кран игольчатый под трубку 12 мм (латунь)",
+      "price": "от 115 ₽",
+      "href": "index.html#sku-056",
+      "slug": "kran-igolchatyy-pod-trubku-12-mm-latun",
+      "image": "assets/img/alko/sku-056-kran-igolchatyy-pod-trubku-12-mm-latun.jpg",
+      "category": "valves",
+      "categoryName": "Краны и переходники",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%ba%d1%80%d0%b0%d0%bd-%d0%b8%d0%b3%d0%be%d0%bb%d1%8c%d1%87%d0%b0%d1%82%d1%8b%d0%b9-%d0%bf%d0%be%d0%b4-%d1%82%d1%80%d1%83%d0%b1%d0%ba%d1%83-12-%d0%bc%d0%bc-%d0%bb%d0%b0%d1%82%d1%83%d0%bd%d1%8c/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "Ø 12 мм"
+        },
+        {
+          "icon": "needle",
+          "text": "регулировка"
+        },
+        {
+          "icon": "tap",
+          "text": "быстрый съём"
+        }
+      ],
+      "use": "Кран игольчатый под трубку 12 мм (латунь) — краны, диверторы и быстросъём для контуров аппарата.",
+      "tg": "Кран игольчатый под трубку 12 мм (латунь)"
+    },
+    "057": {
+      "name": "Кран игольчатый под трубку 6 мм (304 сталь)",
+      "price": "от 350 ₽",
+      "href": "index.html#sku-057",
+      "slug": "kran-igolchatyy-pod-trubku-6-mm-304-stal",
+      "image": "assets/img/alko/sku-057-kran-igolchatyy-pod-trubku-6-mm-304-stal.jpg",
+      "category": "valves",
+      "categoryName": "Краны и переходники",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%ba%d1%80%d0%b0%d0%bd-%d0%b8%d0%b3%d0%be%d0%bb%d1%8c%d1%87%d0%b0%d1%82%d1%8b%d0%b9-%d0%bf%d0%be%d0%b4-%d1%82%d1%80%d1%83%d0%b1%d0%ba%d1%83-6-%d0%bc%d0%bc-304-%d1%81%d1%82%d0%b0%d0%bb%d1%8c/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "Ø 6 мм"
+        },
+        {
+          "icon": "steel",
+          "text": "AISI 304"
+        },
+        {
+          "icon": "needle",
+          "text": "регулировка"
+        }
+      ],
+      "use": "Кран игольчатый под трубку 6 мм (304 сталь) — краны, диверторы и быстросъём для контуров аппарата.",
+      "tg": "Кран игольчатый под трубку 6 мм (304 сталь)"
+    },
+    "058": {
+      "name": "Кран игольчатый под трубку 6 мм (латунь)",
+      "price": "от 100 ₽",
+      "href": "index.html#sku-058",
+      "slug": "kran-igolchatyy-pod-trubku-6-mm-latun",
+      "image": "assets/img/alko/sku-058-kran-igolchatyy-pod-trubku-6-mm-latun.jpg",
+      "category": "valves",
+      "categoryName": "Краны и переходники",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%ba%d1%80%d0%b0%d0%bd-%d0%b8%d0%b3%d0%be%d0%bb%d1%8c%d1%87%d0%b0%d1%82%d1%8b%d0%b9-%d0%bf%d0%be%d0%b4-%d1%82%d1%80%d1%83%d0%b1%d0%ba%d1%83-6-%d0%bc%d0%bc-%d0%bb%d0%b0%d1%82%d1%83%d0%bd%d1%8c/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "Ø 6 мм"
+        },
+        {
+          "icon": "needle",
+          "text": "регулировка"
+        },
+        {
+          "icon": "tap",
+          "text": "быстрый съём"
+        }
+      ],
+      "use": "Кран игольчатый под трубку 6 мм (латунь) — краны, диверторы и быстросъём для контуров аппарата.",
+      "tg": "Кран игольчатый под трубку 6 мм (латунь)"
+    },
+    "059": {
+      "name": "Кран игольчатый под трубку 8 мм (304 сталь)",
+      "price": "от 380 ₽",
+      "href": "index.html#sku-059",
+      "slug": "kran-igolchatyy-pod-trubku-8-mm-304-stal",
+      "image": "assets/img/alko/sku-059-kran-igolchatyy-pod-trubku-8-mm-304-stal.jpg",
+      "category": "valves",
+      "categoryName": "Краны и переходники",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%ba%d1%80%d0%b0%d0%bd-%d0%b8%d0%b3%d0%be%d0%bb%d1%8c%d1%87%d0%b0%d1%82%d1%8b%d0%b9-%d0%bf%d0%be%d0%b4-%d1%82%d1%80%d1%83%d0%b1%d0%ba%d1%83-8-%d0%bc%d0%bc-304-%d1%81%d1%82%d0%b0%d0%bb%d1%8c/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "Ø 8 мм"
+        },
+        {
+          "icon": "steel",
+          "text": "AISI 304"
+        },
+        {
+          "icon": "needle",
+          "text": "регулировка"
+        }
+      ],
+      "use": "Кран игольчатый под трубку 8 мм (304 сталь) — краны, диверторы и быстросъём для контуров аппарата.",
+      "tg": "Кран игольчатый под трубку 8 мм (304 сталь)"
+    },
+    "060": {
+      "name": "Кран игольчатый под трубку 8 мм (304 сталь) (Копировать)",
+      "price": "от 400 ₽",
+      "href": "index.html#sku-060",
+      "slug": "kran-igolchatyy-pod-trubku-8-mm-304-stal-kopirov",
+      "image": "assets/img/alko/sku-060-kran-igolchatyy-pod-trubku-8-mm-304-stal-kopirov.jpg",
+      "category": "valves",
+      "categoryName": "Краны и переходники",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%ba%d1%80%d0%b0%d0%bd-%d0%b8%d0%b3%d0%be%d0%bb%d1%8c%d1%87%d0%b0%d1%82%d1%8b%d0%b9-%d0%bf%d0%be%d0%b4-%d1%82%d1%80%d1%83%d0%b1%d0%ba%d1%83-8-%d0%bc%d0%bc-304-%d1%81%d1%82%d0%b0%d0%bb%d1%8c-2/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "Ø 8 мм"
+        },
+        {
+          "icon": "steel",
+          "text": "AISI 304"
+        },
+        {
+          "icon": "needle",
+          "text": "регулировка"
+        }
+      ],
+      "use": "Кран игольчатый под трубку 8 мм (304 сталь) (Копировать) — краны, диверторы и быстросъём для контуров аппарата.",
+      "tg": "Кран игольчатый под трубку 8 мм (304 сталь) (Копировать)"
+    },
+    "061": {
+      "name": "Кран игольчатый под трубку 8 мм (латунь)",
+      "price": "от 105 ₽",
+      "href": "index.html#sku-061",
+      "slug": "kran-igolchatyy-pod-trubku-8-mm-latun",
+      "image": "assets/img/alko/sku-061-kran-igolchatyy-pod-trubku-8-mm-latun.jpg",
+      "category": "valves",
+      "categoryName": "Краны и переходники",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%ba%d1%80%d0%b0%d0%bd-%d0%b8%d0%b3%d0%be%d0%bb%d1%8c%d1%87%d0%b0%d1%82%d1%8b%d0%b9-%d0%bf%d0%be%d0%b4-%d1%82%d1%80%d1%83%d0%b1%d0%ba%d1%83-8-%d0%bc%d0%bc-%d0%bb%d0%b0%d1%82%d1%83%d0%bd%d1%8c/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "Ø 8 мм"
+        },
+        {
+          "icon": "needle",
+          "text": "регулировка"
+        },
+        {
+          "icon": "tap",
+          "text": "быстрый съём"
+        }
+      ],
+      "use": "Кран игольчатый под трубку 8 мм (латунь) — краны, диверторы и быстросъём для контуров аппарата.",
+      "tg": "Кран игольчатый под трубку 8 мм (латунь)"
+    },
+    "062": {
+      "name": "Кран мама / папа 1/2",
+      "price": "от 98 ₽",
+      "href": "index.html#sku-062",
+      "slug": "kran-mama-papa-1-2",
+      "image": "assets/img/alko/sku-062-kran-mama-papa-1-2.jpg",
+      "category": "valves",
+      "categoryName": "Краны и переходники",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%ba%d1%80%d0%b0%d0%bd-%d0%bc%d0%b0%d0%bc%d0%b0-%d0%bf%d0%b0%d0%bf%d0%b0-1-2/",
+      "facts": [
+        {
+          "icon": "needle",
+          "text": "регулировка"
+        },
+        {
+          "icon": "tap",
+          "text": "быстрый съём"
+        },
+        {
+          "icon": "steel",
+          "text": "нерж."
+        }
+      ],
+      "use": "Кран резьба 1/2 папа/мама.",
+      "tg": "Кран мама / папа 1/2"
+    },
+    "063": {
+      "name": "Кран шаровый 1/4 с переходником на шланг 10 мм",
+      "price": "от 45 ₽",
+      "href": "index.html#sku-063",
+      "slug": "kran-sharovyy-1-4-s-perehodnikom-na-shlang-10-mm",
+      "image": "assets/img/alko/sku-063-kran-sharovyy-1-4-s-perehodnikom-na-shlang-10-mm.jpg",
+      "category": "valves",
+      "categoryName": "Краны и переходники",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%ba%d1%80%d0%b0%d0%bd-%d1%88%d0%b0%d1%80%d0%be%d0%b2%d1%8b%d0%b9-1-4-%d1%81-%d0%bf%d0%b5%d1%80%d0%b5%d1%85%d0%be%d0%b4%d0%bd%d0%b8%d0%ba%d0%be%d0%bc-%d0%bd%d0%b0-%d1%88%d0%bb%d0%b0%d0%bd%d0%b3-10/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "Ø 10 мм"
+        },
+        {
+          "icon": "needle",
+          "text": "регулировка"
+        },
+        {
+          "icon": "hose",
+          "text": "шланг"
+        }
+      ],
+      "use": "Кран шаровый 1/4 с переходником на шланг 10 мм — краны, диверторы и быстросъём для контуров аппарата.",
+      "tg": "Кран шаровый 1/4 с переходником на шланг 10 мм"
+    },
+    "064": {
+      "name": "Кран шаровый-переходник на шланг 10 мм",
+      "price": "от 45 ₽",
+      "href": "index.html#sku-064",
+      "slug": "kran-sharovyy-perehodnik-na-shlang-10-mm",
+      "image": "assets/img/alko/sku-064-kran-sharovyy-perehodnik-na-shlang-10-mm.png",
+      "category": "valves",
+      "categoryName": "Краны и переходники",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%ba%d1%80%d0%b0%d0%bd-%d1%88%d0%b0%d1%80%d0%be%d0%b2%d1%8b%d0%b9-%d0%bf%d0%b5%d1%80%d0%b5%d1%85%d0%be%d0%b4%d0%bd%d0%b8%d0%ba-%d0%bd%d0%b0-%d1%88%d0%bb%d0%b0%d0%bd%d0%b3-10-%d0%bc%d0%bc/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "Ø 10 мм"
+        },
+        {
+          "icon": "needle",
+          "text": "регулировка"
+        },
+        {
+          "icon": "hose",
+          "text": "шланг"
+        }
+      ],
+      "use": "Кран шаровый-переходник на шланг 10 мм — краны, диверторы и быстросъём для контуров аппарата.",
+      "tg": "Кран шаровый-переходник на шланг 10 мм"
+    },
+    "065": {
+      "name": "кран-бабочка 1/2 мама/мама",
       "price": "от 260 ₽",
-      "href": "index.html#sku-16",
-      "slug": "hydrometer",
-      "image": "assets/img/sku-16-hydrometer.png",
+      "href": "index.html#sku-065",
+      "slug": "kran-babochka-1-2-mama-mama",
+      "image": "assets/img/alko/sku-065-kran-babochka-1-2-mama-mama.jpg",
+      "category": "valves",
+      "categoryName": "Краны и переходники",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%ba%d1%80%d0%b0%d0%bd-%d0%b1%d0%b0%d0%b1%d0%be%d1%87%d0%ba%d0%b0-1-2-%d0%bc%d0%b0%d0%bc%d0%b0-%d0%bc%d0%b0%d0%bc%d0%b0/",
+      "facts": [
+        {
+          "icon": "needle",
+          "text": "регулировка"
+        },
+        {
+          "icon": "tap",
+          "text": "быстрый съём"
+        },
+        {
+          "icon": "steel",
+          "text": "нерж."
+        }
+      ],
+      "use": "кран-бабочка 1/2 мама/мама — краны, диверторы и быстросъём для контуров аппарата.",
+      "tg": "кран-бабочка 1/2 мама/мама"
+    },
+    "066": {
+      "name": "кран-бабочка 1/2 папа/мама",
+      "price": "от 160 ₽",
+      "href": "index.html#sku-066",
+      "slug": "kran-babochka-1-2-papa-mama",
+      "image": "assets/img/alko/sku-066-kran-babochka-1-2-papa-mama.jpg",
+      "category": "valves",
+      "categoryName": "Краны и переходники",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%ba%d1%80%d0%b0%d0%bd-%d0%b1%d0%b0%d0%b1%d0%be%d1%87%d0%ba%d0%b0-1-2-%d0%bf%d0%b0%d0%bf%d0%b0-%d0%bc%d0%b0%d0%bc%d0%b0/",
+      "facts": [
+        {
+          "icon": "needle",
+          "text": "регулировка"
+        },
+        {
+          "icon": "tap",
+          "text": "быстрый съём"
+        },
+        {
+          "icon": "steel",
+          "text": "нерж."
+        }
+      ],
+      "use": "кран-бабочка 1/2 папа/мама — краны, диверторы и быстросъём для контуров аппарата.",
+      "tg": "кран-бабочка 1/2 папа/мама"
+    },
+    "067": {
+      "name": "Тройник латунный 10 мм",
+      "price": "от 29 ₽",
+      "href": "index.html#sku-067",
+      "slug": "troynik-latunnyy-10-mm",
+      "image": "assets/img/alko/sku-067-troynik-latunnyy-10-mm.jpg",
+      "category": "valves",
+      "categoryName": "Краны и переходники",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%82%d1%80%d0%be%d0%b9%d0%bd%d0%b8%d0%ba-%d0%bb%d0%b0%d1%82%d1%83%d0%bd%d0%bd%d1%8b%d0%b9-10-%d0%bc%d0%bc/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "Ø 10 мм"
+        },
+        {
+          "icon": "tap",
+          "text": "быстрый съём"
+        },
+        {
+          "icon": "steel",
+          "text": "нерж."
+        }
+      ],
+      "use": "Тройник латунный 10 мм — краны, диверторы и быстросъём для контуров аппарата.",
+      "tg": "Тройник латунный 10 мм"
+    },
+    "068": {
+      "name": "Тройник латунный 12 мм",
+      "price": "от 25 ₽",
+      "href": "index.html#sku-068",
+      "slug": "troynik-latunnyy-12-mm",
+      "image": "assets/img/alko/sku-068-troynik-latunnyy-12-mm.jpg",
+      "category": "valves",
+      "categoryName": "Краны и переходники",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%82%d1%80%d0%be%d0%b9%d0%bd%d0%b8%d0%ba-%d0%bb%d0%b0%d1%82%d1%83%d0%bd%d0%bd%d1%8b%d0%b9-12-%d0%bc%d0%bc/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "Ø 12 мм"
+        },
+        {
+          "icon": "tap",
+          "text": "быстрый съём"
+        },
+        {
+          "icon": "steel",
+          "text": "нерж."
+        }
+      ],
+      "use": "Тройник латунный 12 мм — краны, диверторы и быстросъём для контуров аппарата.",
+      "tg": "Тройник латунный 12 мм"
+    },
+    "069": {
+      "name": "Тройник латунный 6 мм",
+      "price": "от 29 ₽",
+      "href": "index.html#sku-069",
+      "slug": "troynik-latunnyy-6-mm",
+      "image": "assets/img/alko/sku-069-troynik-latunnyy-6-mm.jpg",
+      "category": "valves",
+      "categoryName": "Краны и переходники",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%82%d1%80%d0%be%d0%b9%d0%bd%d0%b8%d0%ba-%d0%bb%d0%b0%d1%82%d1%83%d0%bd%d0%bd%d1%8b%d0%b9-6-%d0%bc%d0%bc/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "Ø 6 мм"
+        },
+        {
+          "icon": "tap",
+          "text": "быстрый съём"
+        },
+        {
+          "icon": "steel",
+          "text": "нерж."
+        }
+      ],
+      "use": "Тройник латунный 6 мм — краны, диверторы и быстросъём для контуров аппарата.",
+      "tg": "Тройник латунный 6 мм"
+    },
+    "070": {
+      "name": "Тройник латунный 8 мм",
+      "price": "от 29 ₽",
+      "href": "index.html#sku-070",
+      "slug": "troynik-latunnyy-8-mm",
+      "image": "assets/img/alko/sku-070-troynik-latunnyy-8-mm.jpg",
+      "category": "valves",
+      "categoryName": "Краны и переходники",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%82%d1%80%d0%be%d0%b9%d0%bd%d0%b8%d0%ba-%d0%bb%d0%b0%d1%82%d1%83%d0%bd%d0%bd%d1%8b%d0%b9-8-%d0%bc%d0%bc/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "Ø 8 мм"
+        },
+        {
+          "icon": "tap",
+          "text": "быстрый съём"
+        },
+        {
+          "icon": "steel",
+          "text": "нерж."
+        }
+      ],
+      "use": "Тройник латунный 8 мм — краны, диверторы и быстросъём для контуров аппарата.",
+      "tg": "Тройник латунный 8 мм"
+    },
+    "071": {
+      "name": "Тройник, пластик под пневмошланг 10х6",
+      "price": "от 35 ₽",
+      "href": "index.html#sku-071",
+      "slug": "troynik-plastik-pod-pnevmoshlang-10h6",
+      "image": "assets/img/alko/sku-071-troynik-plastik-pod-pnevmoshlang-10h6.jpg",
+      "category": "valves",
+      "categoryName": "Краны и переходники",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%82%d1%80%d0%be%d0%b9%d0%bd%d0%b8%d0%ba-%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d0%ba-%d0%bf%d0%be%d0%b4-%d0%bf%d0%bd%d0%b5%d0%b2%d0%bc%d0%be%d1%88%d0%bb%d0%b0%d0%bd%d0%b3-10%d1%856/",
+      "facts": [
+        {
+          "icon": "hose",
+          "text": "шланг"
+        },
+        {
+          "icon": "packing",
+          "text": "пластик"
+        },
+        {
+          "icon": "tap",
+          "text": "быстрый съём"
+        }
+      ],
+      "use": "Внешний дивметр 10 мм, внутренний диаметр 6 мм.",
+      "tg": "Тройник, пластик под пневмошланг 10х6"
+    },
+    "072": {
+      "name": "Тройник, пластик под пневмошланг 12х8",
+      "price": "от 35 ₽",
+      "href": "index.html#sku-072",
+      "slug": "troynik-plastik-pod-pnevmoshlang-12h8",
+      "image": "assets/img/alko/sku-072-troynik-plastik-pod-pnevmoshlang-12h8.jpg",
+      "category": "valves",
+      "categoryName": "Краны и переходники",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%82%d1%80%d0%be%d0%b9%d0%bd%d0%b8%d0%ba-%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d0%ba-%d0%bf%d0%be%d0%b4-%d0%bf%d0%bd%d0%b5%d0%b2%d0%bc%d0%be%d1%88%d0%bb%d0%b0%d0%bd%d0%b3-12%d1%858/",
+      "facts": [
+        {
+          "icon": "hose",
+          "text": "шланг"
+        },
+        {
+          "icon": "packing",
+          "text": "пластик"
+        },
+        {
+          "icon": "tap",
+          "text": "быстрый съём"
+        }
+      ],
+      "use": "Внешний дивметр 12 мм, внутренний диаметр 8 мм.",
+      "tg": "Тройник, пластик под пневмошланг 12х8"
+    },
+    "073": {
+      "name": "Ареометр в тубусе",
+      "price": "от 85 ₽",
+      "href": "index.html#sku-073",
+      "slug": "areometr-v-tubuse",
+      "image": "assets/img/alko/sku-073-areometr-v-tubuse.jpg",
+      "category": "lab",
+      "categoryName": "КИПиА и лаборатория",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%b0%d1%80%d0%b5%d0%be%d0%bc%d0%b5%d1%82%d1%80-%d0%b2-%d1%82%d1%83%d0%b1%d1%83%d1%81%d0%b5/",
       "facts": [
         {
           "icon": "glass",
-          "text": "АС-3 / АСП"
+          "text": "измерения"
         },
         {
-          "icon": "size",
-          "text": "Brix"
+          "icon": "temp",
+          "text": "контроль"
+        },
+        {
+          "icon": "packing",
+          "text": "лаборатория"
+        }
+      ],
+      "use": "Ареометр в тубусе — контроль плотности, температуры или объёма в домашнем процессе.",
+      "tg": "Ареометр в тубусе"
+    },
+    "074": {
+      "name": "Ареометр профессиональный 40-70 спирт",
+      "price": "от 65 ₽",
+      "href": "index.html#sku-074",
+      "slug": "areometr-professionalnyy-40-70-spirt",
+      "image": "assets/img/alko/sku-074-areometr-professionalnyy-40-70-spirt.jpg",
+      "category": "lab",
+      "categoryName": "КИПиА и лаборатория",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%b0%d1%80%d0%b5%d0%be%d0%bc%d0%b5%d1%82%d1%80-%d0%bf%d1%80%d0%be%d1%84%d0%b5%d1%81%d1%81%d0%b8%d0%be%d0%bd%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-40-70-%d1%81%d0%bf%d0%b8%d1%80%d1%82/",
+      "facts": [
+        {
+          "icon": "glass",
+          "text": "измерения"
+        },
+        {
+          "icon": "temp",
+          "text": "контроль"
+        },
+        {
+          "icon": "packing",
+          "text": "лаборатория"
+        }
+      ],
+      "use": "контроль плотности, температуры или объёма при домашнем производстве.",
+      "tg": "Ареометр профессиональный 40-70 спирт"
+    },
+    "075": {
+      "name": "Ареометр профессиональный 70-100 спирт",
+      "price": "от 65 ₽",
+      "href": "index.html#sku-075",
+      "slug": "areometr-professionalnyy-70-100-spirt",
+      "image": "assets/img/alko/sku-075-areometr-professionalnyy-70-100-spirt.jpg",
+      "category": "lab",
+      "categoryName": "КИПиА и лаборатория",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%b0%d1%80%d0%b5%d0%be%d0%bc%d0%b5%d1%82%d1%80-%d0%bf%d1%80%d0%be%d1%84%d0%b5%d1%81%d1%81%d0%b8%d0%be%d0%bd%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-70-100-%d1%81%d0%bf%d0%b8%d1%80%d1%82/",
+      "facts": [
+        {
+          "icon": "glass",
+          "text": "измерения"
+        },
+        {
+          "icon": "temp",
+          "text": "контроль"
+        },
+        {
+          "icon": "packing",
+          "text": "лаборатория"
+        }
+      ],
+      "use": "70-100 спирт, ГОСТ 18481-81 РОССИЯ.",
+      "tg": "Ареометр профессиональный 70-100 спирт"
+    },
+    "076": {
+      "name": "Капиллярный виномер",
+      "price": "от 105 ₽",
+      "href": "index.html#sku-076",
+      "slug": "kapillyarnyy-vinomer",
+      "image": "assets/img/alko/sku-076-kapillyarnyy-vinomer.png",
+      "category": "lab",
+      "categoryName": "КИПиА и лаборатория",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%ba%d0%b0%d0%bf%d0%b8%d0%bb%d0%bb%d1%8f%d1%80%d0%bd%d1%8b%d0%b9-%d0%b2%d0%b8%d0%bd%d0%be%d0%bc%d0%b5%d1%80/",
+      "facts": [
+        {
+          "icon": "glass",
+          "text": "измерения"
+        },
+        {
+          "icon": "temp",
+          "text": "контроль"
+        },
+        {
+          "icon": "packing",
+          "text": "лаборатория"
+        }
+      ],
+      "use": "0-25% (измеряет фактическое содержание алкоголя в вине).",
+      "tg": "Капиллярный виномер"
+    },
+    "077": {
+      "name": "Ложка — весы",
+      "price": "от 300 ₽",
+      "href": "index.html#sku-077",
+      "slug": "lozhka-vesy",
+      "image": "assets/img/alko/sku-077-lozhka-vesy.jpg",
+      "category": "lab",
+      "categoryName": "КИПиА и лаборатория",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bb%d0%be%d0%b6%d0%ba%d0%b0-%d0%b2%d0%b5%d1%81%d1%8b/",
+      "facts": [
+        {
+          "icon": "glass",
+          "text": "измерения"
+        },
+        {
+          "icon": "temp",
+          "text": "контроль"
+        },
+        {
+          "icon": "packing",
+          "text": "лаборатория"
+        }
+      ],
+      "use": "Ложка -весы Вес до 500 гр.",
+      "tg": "Ложка — весы"
+    },
+    "078": {
+      "name": "Мерный стакан 2000 мл, пластик",
+      "price": "от 110 ₽",
+      "href": "index.html#sku-078",
+      "slug": "mernyy-stakan-2000-ml-plastik",
+      "image": "assets/img/alko/sku-078-mernyy-stakan-2000-ml-plastik.jpg",
+      "category": "lab",
+      "categoryName": "КИПиА и лаборатория",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bc%d0%b5%d1%80%d0%bd%d1%8b%d0%b9-%d1%81%d1%82%d0%b0%d0%ba%d0%b0%d0%bd-2000-%d0%bc%d0%bb-%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d0%ba/",
+      "facts": [
+        {
+          "icon": "volume",
+          "text": "2000 мл"
+        },
+        {
+          "icon": "packing",
+          "text": "пластик"
+        },
+        {
+          "icon": "glass",
+          "text": "измерения"
+        }
+      ],
+      "use": "Мерный стакан 2000 мл, пластик — контроль плотности, температуры или объёма в домашнем процессе.",
+      "tg": "Мерный стакан 2000 мл, пластик"
+    },
+    "079": {
+      "name": "Мерный стакан 5000 мл, пластик",
+      "price": "от 140 ₽",
+      "href": "index.html#sku-079",
+      "slug": "mernyy-stakan-5000-ml-plastik",
+      "image": "assets/img/alko/sku-079-mernyy-stakan-5000-ml-plastik.jpg",
+      "category": "lab",
+      "categoryName": "КИПиА и лаборатория",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bc%d0%b5%d1%80%d0%bd%d1%8b%d0%b9-%d1%81%d1%82%d0%b0%d0%ba%d0%b0%d0%bd-5000-%d0%bc%d0%bb-%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d0%ba/",
+      "facts": [
+        {
+          "icon": "volume",
+          "text": "5000 мл"
+        },
+        {
+          "icon": "packing",
+          "text": "пластик"
+        },
+        {
+          "icon": "glass",
+          "text": "измерения"
+        }
+      ],
+      "use": "Мерный стакан 5000 мл, пластик — контроль плотности, температуры или объёма в домашнем процессе.",
+      "tg": "Мерный стакан 5000 мл, пластик"
+    },
+    "080": {
+      "name": "Профессиональный набор ареометров",
+      "price": "от 190 ₽",
+      "href": "index.html#sku-080",
+      "slug": "professionalnyy-nabor-areometrov",
+      "image": "assets/img/alko/sku-080-professionalnyy-nabor-areometrov.jpg",
+      "category": "lab",
+      "categoryName": "КИПиА и лаборатория",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bf%d1%80%d0%be%d1%84%d0%b5%d1%81%d0%b8%d0%be%d0%bd%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bd%d0%b0%d0%b1%d0%be%d1%80-%d0%b0%d1%80%d0%b5%d0%be%d0%bc%d0%b5%d1%82%d1%80%d0%be%d0%b2/",
+      "facts": [
+        {
+          "icon": "glass",
+          "text": "измерения"
+        },
+        {
+          "icon": "temp",
+          "text": "контроль"
+        },
+        {
+          "icon": "packing",
+          "text": "лаборатория"
+        }
+      ],
+      "use": "Професиональный набор ареометров Комплектация: 4 шт.",
+      "tg": "Профессиональный набор ареометров"
+    },
+    "081": {
+      "name": "Рефрактометр АТС40",
+      "price": "от 850 ₽",
+      "href": "index.html#sku-081",
+      "slug": "refraktometr-ats40",
+      "image": "assets/img/alko/sku-081-refraktometr-ats40.jpg",
+      "category": "lab",
+      "categoryName": "КИПиА и лаборатория",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%80%d0%b5%d1%84%d1%80%d0%b0%d0%ba%d1%82%d0%be%d0%bc%d0%b5%d1%82%d1%80-%d0%b0%d1%82%d1%8140/",
+      "facts": [
+        {
+          "icon": "glass",
+          "text": "измерения"
+        },
+        {
+          "icon": "temp",
+          "text": "контроль"
+        },
+        {
+          "icon": "packing",
+          "text": "лаборатория"
+        }
+      ],
+      "use": "Рефрактометр АТС40 — контроль плотности, температуры или объёма в домашнем процессе.",
+      "tg": "Рефрактометр АТС40"
+    },
+    "082": {
+      "name": "Рефрактометр АТС80",
+      "price": "от 850 ₽",
+      "href": "index.html#sku-082",
+      "slug": "refraktometr-ats80",
+      "image": "assets/img/alko/sku-082-refraktometr-ats80.jpg",
+      "category": "lab",
+      "categoryName": "КИПиА и лаборатория",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%80%d0%b5%d1%84%d1%80%d0%b0%d0%ba%d1%82%d0%be%d0%bc%d0%b5%d1%82%d1%80-%d0%b0%d1%82%d1%8180/",
+      "facts": [
+        {
+          "icon": "glass",
+          "text": "измерения"
+        },
+        {
+          "icon": "temp",
+          "text": "контроль"
+        },
+        {
+          "icon": "packing",
+          "text": "лаборатория"
+        }
+      ],
+      "use": "контроль плотности, температуры или объёма при домашнем производстве.",
+      "tg": "Рефрактометр АТС80"
+    },
+    "083": {
+      "name": "САХАРОМЕР профессиональный для вина",
+      "price": "от 75 ₽",
+      "href": "index.html#sku-083",
+      "slug": "saharomer-professionalnyy-dlya-vina",
+      "image": "assets/img/alko/sku-083-saharomer-professionalnyy-dlya-vina.jpg",
+      "category": "lab",
+      "categoryName": "КИПиА и лаборатория",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%81%d0%b0%d1%85%d0%b0%d1%80%d0%be%d0%bc%d0%b5%d1%80-%d0%bf%d1%80%d0%be%d1%84%d0%b5%d1%81%d1%81%d0%b8%d0%be%d0%bd%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%b4%d0%bb%d1%8f-%d0%b2%d0%b8%d0%bd%d0%b0/",
+      "facts": [
+        {
+          "icon": "glass",
+          "text": "измерения"
+        },
+        {
+          "icon": "temp",
+          "text": "контроль"
+        },
+        {
+          "icon": "packing",
+          "text": "лаборатория"
+        }
+      ],
+      "use": "0-25% сахар, длина 28 см, ГОСТ 18481-80 РОССИЯ.",
+      "tg": "САХАРОМЕР профессиональный для вина"
+    },
+    "084": {
+      "name": "Термометр осевой биметаллический",
+      "price": "от 190 ₽",
+      "href": "index.html#sku-084",
+      "slug": "termometr-osevoy-bimetallicheskiy",
+      "image": "assets/img/alko/sku-084-termometr-osevoy-bimetallicheskiy.jpg",
+      "category": "lab",
+      "categoryName": "КИПиА и лаборатория",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%b1%d0%b8%d0%bc%d0%b5%d1%82%d0%b0%d0%bb%d0%bb%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b8%d0%b9-%d1%82%d0%b5%d1%80%d0%bc%d0%be%d0%bc%d0%b5%d1%82%d1%80-%d0%be%d1%81%d0%b5%d0%b2%d0%be%d0%b9/",
+      "facts": [
+        {
+          "icon": "temp",
+          "text": "термометрия"
+        },
+        {
+          "icon": "glass",
+          "text": "измерения"
         },
         {
           "icon": "temp",
           "text": "контроль"
         }
       ],
-      "use": "Контроль плотности и крепости сусла / дистиллята.",
-      "tg": "Ареометр"
+      "use": "Термометр осевой биметаллический — контроль плотности, температуры или объёма в домашнем процессе.",
+      "tg": "Термометр осевой биметаллический"
     },
-    "17": {
-      "name": "Солод пилснер + дрожжи пивные",
-      "price": "от 390 ₽",
-      "href": "index.html#sku-17",
-      "slug": "malt-yeast",
-      "image": "assets/img/sku-17-malt-yeast.png",
+    "085": {
+      "name": "Термометр цифровой с выносным сенсором",
+      "price": "от 85 ₽",
+      "href": "index.html#sku-085",
+      "slug": "termometr-tsifrovoy-s-vynosnym-sensorom",
+      "image": "assets/img/alko/sku-085-termometr-tsifrovoy-s-vynosnym-sensorom.jpg",
+      "category": "lab",
+      "categoryName": "КИПиА и лаборатория",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%82%d0%b5%d1%80%d0%bc%d0%be%d0%bc%d0%b5%d1%82%d1%80-%d1%86%d0%b8%d1%84%d1%80%d0%be%d0%b2%d0%be%d0%b9-%d1%81-%d0%b2%d1%8b%d0%bd%d0%be%d1%81%d0%bd%d1%8b%d0%bc-%d1%81%d0%b5%d0%bd%d1%81%d0%be%d1%80/",
       "facts": [
         {
-          "icon": "packing",
-          "text": "пилснер"
+          "icon": "temp",
+          "text": "термометрия"
         },
         {
-          "icon": "packing",
-          "text": "элевые дрожжи"
+          "icon": "glass",
+          "text": "измерения"
         },
         {
-          "icon": "volume",
-          "text": "домашнее"
+          "icon": "temp",
+          "text": "контроль"
         }
       ],
-      "use": "Сырьё для домашнего пива: солод и пивные дрожжи.",
-      "tg": "солод + дрожжи"
+      "use": "диапазон измерения -50…+99 гр.С.",
+      "tg": "Термометр цифровой с выносным сенсором"
     },
-    "18": {
-      "name": "Дезинфекция для ПВК и ферментера",
-      "price": "от 299 ₽",
-      "href": "index.html#sku-18",
-      "slug": "sanitizer",
-      "image": "assets/img/sku-18-sanitizer.png",
+    "086": {
+      "name": "Термометр цифровой, игольчатый (пакет, щуп 3,5 мм)",
+      "price": "от 95 ₽",
+      "href": "index.html#sku-086",
+      "slug": "termometr-tsifrovoy-igolchatyy-paket-schup-3-5-m",
+      "image": "assets/img/alko/sku-086-termometr-tsifrovoy-igolchatyy-paket-schup-3-5-m.jpg",
+      "category": "lab",
+      "categoryName": "КИПиА и лаборатория",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%82%d0%b5%d1%80%d0%bc%d0%be%d0%bc%d0%b5%d1%82%d1%80-%d1%86%d0%b8%d1%84%d1%80%d0%be%d0%b2%d0%be%d0%b9-%d0%b8%d0%b3%d0%be%d0%bb%d1%8c%d1%87%d0%b0%d1%82%d1%8b%d0%b9-%d0%bf%d0%b0%d0%ba%d0%b5%d1%82/",
       "facts": [
         {
+          "icon": "size",
+          "text": "Ø 5 мм"
+        },
+        {
+          "icon": "temp",
+          "text": "термометрия"
+        },
+        {
+          "icon": "needle",
+          "text": "регулировка"
+        }
+      ],
+      "use": "Термометр цифровой, игольчатый (пакет, щуп 3,5 мм) — контроль плотности, температуры или объёма в домашнем процессе.",
+      "tg": "Термометр цифровой, игольчатый (пакет, щуп 3,5 мм)"
+    },
+    "087": {
+      "name": "Термометр цифровой, игольчатый (щуп 4 мм)",
+      "price": "от 90 ₽",
+      "href": "index.html#sku-087",
+      "slug": "termometr-tsifrovoy-igolchatyy-schup-4-mm",
+      "image": "assets/img/alko/sku-087-termometr-tsifrovoy-igolchatyy-schup-4-mm.jpg",
+      "category": "lab",
+      "categoryName": "КИПиА и лаборатория",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%82%d0%b5%d1%80%d0%bc%d0%be%d0%bc%d0%b5%d1%82%d1%80-%d1%86%d0%b8%d1%84%d1%80%d0%be%d0%b2%d0%be%d0%b9-%d0%b8%d0%b3%d0%be%d0%bb%d1%8c%d1%87%d0%b0%d1%82%d1%8b%d0%b9/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "Ø 4 мм"
+        },
+        {
+          "icon": "temp",
+          "text": "термометрия"
+        },
+        {
+          "icon": "needle",
+          "text": "регулировка"
+        }
+      ],
+      "use": "Термометр цифровой, игольчатый (щуп 4 мм) — контроль плотности, температуры или объёма в домашнем процессе.",
+      "tg": "Термометр цифровой, игольчатый (щуп 4 мм)"
+    },
+    "088": {
+      "name": "Термометр цифровой, игольчатый (щуп 4 мм)",
+      "price": "от 110 ₽",
+      "href": "index.html#sku-088",
+      "slug": "termometr-tsifrovoy-igolchatyy-schup-4-mm",
+      "image": "assets/img/alko/sku-088-termometr-tsifrovoy-igolchatyy-schup-4-mm.jpg",
+      "category": "lab",
+      "categoryName": "КИПиА и лаборатория",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%82%d0%b5%d1%80%d0%bc%d0%be%d0%bc%d0%b5%d1%82%d1%80-%d1%86%d0%b8%d1%84%d1%80%d0%be%d0%b2%d0%be%d0%b9-%d0%b8%d0%b3%d0%be%d0%bb%d1%8c%d1%87%d0%b0%d1%82%d1%8b%d0%b9-3/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "Ø 4 мм"
+        },
+        {
+          "icon": "temp",
+          "text": "термометрия"
+        },
+        {
+          "icon": "needle",
+          "text": "регулировка"
+        }
+      ],
+      "use": "Термометр цифровой, игольчатый (щуп 4 мм) — контроль плотности, температуры или объёма в домашнем процессе.",
+      "tg": "Термометр цифровой, игольчатый (щуп 4 мм)"
+    },
+    "089": {
+      "name": "Термометр цифровой, игольчатый (щуп 4 мм)",
+      "price": "от 125 ₽",
+      "href": "index.html#sku-089",
+      "slug": "termometr-tsifrovoy-igolchatyy-schup-4-mm",
+      "image": "assets/img/alko/sku-089-termometr-tsifrovoy-igolchatyy-schup-4-mm.jpg",
+      "category": "lab",
+      "categoryName": "КИПиА и лаборатория",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%82%d0%b5%d1%80%d0%bc%d0%be%d0%bc%d0%b5%d1%82%d1%80-%d1%86%d0%b8%d1%84%d1%80%d0%be%d0%b2%d0%be%d0%b9-%d0%b8%d0%b3%d0%be%d0%bb%d1%8c%d1%87%d0%b0%d1%82%d1%8b%d0%b9-2/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "Ø 4 мм"
+        },
+        {
+          "icon": "temp",
+          "text": "термометрия"
+        },
+        {
+          "icon": "needle",
+          "text": "регулировка"
+        }
+      ],
+      "use": "контроль плотности, температуры или объёма при домашнем производстве.",
+      "tg": "Термометр цифровой, игольчатый (щуп 4 мм)"
+    },
+    "090": {
+      "name": "Термометр-щуп с звуковым сигналом",
+      "price": "от 450 ₽",
+      "href": "index.html#sku-090",
+      "slug": "termometr-schup-s-zvukovym-signalom",
+      "image": "assets/img/alko/sku-090-termometr-schup-s-zvukovym-signalom.jpg",
+      "category": "lab",
+      "categoryName": "КИПиА и лаборатория",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%82%d0%b5%d1%80%d0%bc%d0%be%d0%bc%d0%b5%d1%82%d1%80-%d1%89%d1%83%d0%bf-%d1%81-%d0%b7%d0%b2%d1%83%d0%ba%d0%be%d0%b2%d1%8b%d0%bc-%d1%81%d0%b8%d0%b3%d0%bd%d0%b0%d0%bb%d0%be%d0%bc/",
+      "facts": [
+        {
+          "icon": "temp",
+          "text": "термометрия"
+        },
+        {
+          "icon": "glass",
+          "text": "измерения"
+        },
+        {
+          "icon": "temp",
+          "text": "контроль"
+        }
+      ],
+      "use": "Цифровой термометр со щупом, с функцией звукового сигнала при достижении заданной температуры.",
+      "tg": "Термометр-щуп с звуковым сигналом"
+    },
+    "091": {
+      "name": "Цилиндр мерный пластиковый 250 мл",
+      "price": "от 88 ₽",
+      "href": "index.html#sku-091",
+      "slug": "tsilindr-mernyy-plastikovyy-250-ml",
+      "image": "assets/img/alko/sku-091-tsilindr-mernyy-plastikovyy-250-ml.jpg",
+      "category": "lab",
+      "categoryName": "КИПиА и лаборатория",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%86%d0%b8%d0%bb%d0%b8%d0%bd%d0%b4%d1%80-%d0%bc%d0%b5%d1%80%d0%bd%d1%8b%d0%b9-%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d0%ba%d0%be%d0%b2%d1%8b%d0%b9-250-%d0%bc%d0%bb/",
+      "facts": [
+        {
+          "icon": "volume",
+          "text": "250 мл"
+        },
+        {
+          "icon": "packing",
+          "text": "пластик"
+        },
+        {
+          "icon": "glass",
+          "text": "измерения"
+        }
+      ],
+      "use": "градуированный с носиком 250 мл (ПЛАСТИК).",
+      "tg": "Цилиндр мерный пластиковый 250 мл"
+    },
+    "092": {
+      "name": "Цилиндр мерный пластиковый 500 мл",
+      "price": "от 140 ₽",
+      "href": "index.html#sku-092",
+      "slug": "tsilindr-mernyy-plastikovyy-500-ml",
+      "image": "assets/img/alko/sku-092-tsilindr-mernyy-plastikovyy-500-ml.jpg",
+      "category": "lab",
+      "categoryName": "КИПиА и лаборатория",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%86%d0%b8%d0%bb%d0%b8%d0%bd%d0%b4%d1%80-%d0%bc%d0%b5%d1%80%d0%bd%d1%8b%d0%b9-%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d0%ba%d0%be%d0%b2%d1%8b%d0%b9-500-%d0%bc%d0%bb/",
+      "facts": [
+        {
+          "icon": "volume",
+          "text": "500 мл"
+        },
+        {
+          "icon": "packing",
+          "text": "пластик"
+        },
+        {
+          "icon": "glass",
+          "text": "измерения"
+        }
+      ],
+      "use": "градуированный с носиком 500 мл (ПЛАСТИК).",
+      "tg": "Цилиндр мерный пластиковый 500 мл"
+    },
+    "093": {
+      "name": "Воронка с фильтром 11 см",
+      "price": "от 175 ₽",
+      "href": "index.html#sku-093",
+      "slug": "voronka-s-filtrom-11-sm",
+      "image": "assets/img/alko/sku-093-voronka-s-filtrom-11-sm.jpg",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%b2%d0%be%d1%80%d0%be%d0%bd%d0%ba%d0%b0-%d1%81-%d1%84%d0%b8%d0%bb%d1%8c%d1%82%d1%80%d0%be%d0%bc-11-%d1%81%d0%bc/",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        },
+        {
           "icon": "seal",
-          "text": "без ополаск."
+          "text": "расходник"
+        }
+      ],
+      "use": "A160:A167D203A160:A166A160:A169A160:A17A160:A174 Воронка с фильтром 11 см.",
+      "tg": "Воронка с фильтром 11 см"
+    },
+    "094": {
+      "name": "Воронка с фильтром 13 см",
+      "price": "от 185 ₽",
+      "href": "index.html#sku-094",
+      "slug": "voronka-s-filtrom-13-sm",
+      "image": "assets/img/alko/sku-094-voronka-s-filtrom-13-sm.jpg",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%b2%d0%be%d1%80%d0%be%d0%bd%d0%ba%d0%b0-%d1%81-%d1%84%d0%b8%d0%bb%d1%8c%d1%82%d1%80%d0%be%d0%bc-13-%d1%81%d0%bc/",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        },
+        {
+          "icon": "seal",
+          "text": "расходник"
+        }
+      ],
+      "use": "Воронка с фильтром 13 см — комплектация домашнего аппарата и ферментера.",
+      "tg": "Воронка с фильтром 13 см"
+    },
+    "095": {
+      "name": "Воронка с фильтром 15см",
+      "price": "от 200 ₽",
+      "href": "index.html#sku-095",
+      "slug": "voronka-s-filtrom-15sm",
+      "image": "assets/img/alko/sku-095-voronka-s-filtrom-15sm.jpg",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%b2%d0%be%d1%80%d0%be%d0%bd%d0%ba%d0%b0-%d1%81-%d1%84%d0%b8%d0%bb%d1%8c%d1%82%d1%80%d0%be%d0%bc-15%d1%81%d0%bc/",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        },
+        {
+          "icon": "seal",
+          "text": "расходник"
+        }
+      ],
+      "use": "Воронка с фильтром 15см — комплектация домашнего аппарата и ферментера.",
+      "tg": "Воронка с фильтром 15см"
+    },
+    "096": {
+      "name": "Гидрозатвор с резиновым уплотнителем",
+      "price": "от 41 ₽",
+      "href": "index.html#sku-096",
+      "slug": "gidrozatvor-s-rezinovym-uplotnitelem",
+      "image": "assets/img/alko/sku-096-gidrozatvor-s-rezinovym-uplotnitelem.jpg",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%b3%d0%b8%d0%b4%d1%80%d0%be%d0%b7%d0%b0%d1%82%d0%b2%d0%be%d1%80-%d1%81-%d1%80%d0%b5%d0%b7%d0%b8%d0%bd%d0%be%d0%b2%d1%8b%d0%bc-%d1%83%d0%bf%d0%bb%d0%be%d1%82%d0%bd%d0%b8%d1%82%d0%b5%d0%bb%d0%b5/",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        },
+        {
+          "icon": "seal",
+          "text": "расходник"
+        }
+      ],
+      "use": "двухкамерный с красным резиновым уплотнителем в комплекте (прозрачный»).",
+      "tg": "Гидрозатвор с резиновым уплотнителем"
+    },
+    "097": {
+      "name": "Гидрозатвор с резиновым уплотнителем",
+      "price": "от 50 ₽",
+      "href": "index.html#sku-097",
+      "slug": "gidrozatvor-s-rezinovym-uplotnitelem",
+      "image": "assets/img/alko/sku-097-gidrozatvor-s-rezinovym-uplotnitelem.jpg",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%b3%d0%b8%d0%b4%d1%80%d0%be%d0%b7%d0%b0%d1%82%d0%b2%d0%be%d1%80-%d1%81-%d1%80%d0%b5%d0%b7%d0%b8%d0%bd%d0%be%d0%b2%d1%8b%d0%bc-%d1%83%d0%bf%d0%bb%d0%be%d1%82%d0%bd%d0%b8%d1%82%d0%b5%d0%bb%d0%b5-2/",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        },
+        {
+          "icon": "seal",
+          "text": "расходник"
+        }
+      ],
+      "use": "трехкамерный с резиновым уплотнителем в комплекте (прозрачный).",
+      "tg": "Гидрозатвор с резиновым уплотнителем"
+    },
+    "098": {
+      "name": "Зажим Гоффмана",
+      "price": "от 100 ₽",
+      "href": "index.html#sku-098",
+      "slug": "zazhim-goffmana",
+      "image": "assets/img/alko/sku-098-zazhim-goffmana.jpg",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%b7%d0%b0%d0%b6%d0%b8%d0%bc-%d0%b3%d0%be%d1%84%d1%84%d0%bc%d0%b0%d0%bd%d0%b0/",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        },
+        {
+          "icon": "seal",
+          "text": "расходник"
+        }
+      ],
+      "use": "Сталь нержавеющая — пищевая (304).",
+      "tg": "Зажим Гоффмана"
+    },
+    "099": {
+      "name": "Зажим Гоффмана Простой",
+      "price": "от 22 ₽",
+      "href": "index.html#sku-099",
+      "slug": "zazhim-goffmana-prostoy",
+      "image": "assets/img/alko/sku-099-zazhim-goffmana-prostoy.jpg",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%b7%d0%b0%d0%b6%d0%b8%d0%bc-%d0%b3%d0%be%d1%84%d1%84%d0%bc%d0%b0%d0%bd%d0%b0-%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%be%d0%b9/",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        },
+        {
+          "icon": "seal",
+          "text": "расходник"
+        }
+      ],
+      "use": "Сталь нержавеющая — пищевая (201).",
+      "tg": "Зажим Гоффмана Простой"
+    },
+    "100": {
+      "name": "Клапан избыточного давления",
+      "price": "от 40 ₽",
+      "href": "index.html#sku-100",
+      "slug": "klapan-izbytochnogo-davleniya",
+      "image": "assets/img/alko/sku-100-klapan-izbytochnogo-davleniya.jpg",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%ba%d0%bb%d0%b0%d0%bf%d0%b0%d0%bd-%d0%b8%d0%b7%d0%b1%d1%8b%d1%82%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d0%b4%d0%b0%d0%b2%d0%bb%d0%b5%d0%bd%d0%b8%d1%8f/",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        },
+        {
+          "icon": "seal",
+          "text": "расходник"
+        }
+      ],
+      "use": "резьба 3/8″, диаметр 13 мм, до 160 кПа.",
+      "tg": "Клапан избыточного давления"
+    },
+    "101": {
+      "name": "Ложка для перемешивания сусла 60 см",
+      "price": "от 85 ₽",
+      "href": "index.html#sku-101",
+      "slug": "lozhka-dlya-peremeshivaniya-susla-60-sm",
+      "image": "assets/img/alko/sku-101-lozhka-dlya-peremeshivaniya-susla-60-sm.jpg",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bb%d0%be%d0%b6%d0%ba%d0%b0-%d0%b4%d0%bb%d1%8f-%d0%bf%d0%b5%d1%80%d0%b5%d0%bc%d0%b5%d1%88%d0%b8%d0%b2%d0%b0%d0%bd%d0%b8%d1%8f-%d1%81%d1%83%d1%81%d0%bb%d0%b0/",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        },
+        {
+          "icon": "seal",
+          "text": "расходник"
+        }
+      ],
+      "use": "Ложка для перемешивания сусла 60 см — комплектация домашнего аппарата и ферментера.",
+      "tg": "Ложка для перемешивания сусла 60 см"
+    },
+    "102": {
+      "name": "Мельница для солода «Comfort 500»",
+      "price": "от 1 250 ₽",
+      "href": "index.html#sku-102",
+      "slug": "melnitsa-dlya-soloda-comfort-500",
+      "image": "assets/img/alko/sku-102-melnitsa-dlya-soloda-comfort-500.jpg",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bc%d0%b5%d0%bb%d1%8c%d0%bd%d0%b8%d1%86%d0%b0-%d0%b4%d0%bb%d1%8f-%d1%81%d0%be%d0%bb%d0%be%d0%b4%d0%b0-comfort-500/",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        },
+        {
+          "icon": "seal",
+          "text": "расходник"
+        }
+      ],
+      "use": "Мельница для солода «Comfort 500» — комплектация домашнего аппарата и ферментера.",
+      "tg": "Мельница для солода «Comfort 500»"
+    },
+    "103": {
+      "name": "Мельница для солода Роликовая",
+      "price": "от 6 300 ₽",
+      "href": "index.html#sku-103",
+      "slug": "melnitsa-dlya-soloda-rolikovaya",
+      "image": "assets/img/alko/sku-103-melnitsa-dlya-soloda-rolikovaya.jpg",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bc%d0%b5%d0%bb%d1%8c%d0%bd%d0%b8%d1%86%d0%b0-%d0%b4%d0%bb%d1%8f-%d1%81%d0%be%d0%bb%d0%be%d0%b4%d0%b0-%d1%80%d0%be%d0%bb%d0%b8%d0%ba%d0%be%d0%b2%d0%b0%d1%8f/",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        },
+        {
+          "icon": "seal",
+          "text": "расходник"
+        }
+      ],
+      "use": "Мельница для солода Роликовая — комплектация домашнего аппарата и ферментера.",
+      "tg": "Мельница для солода Роликовая"
+    },
+    "104": {
+      "name": "Мешок для затирки солода. 20х30 мс.100",
+      "price": "от 38 ₽",
+      "href": "index.html#sku-104",
+      "slug": "meshok-dlya-zatirki-soloda-20h30-ms-100",
+      "image": "assets/img/alko/sku-104-meshok-dlya-zatirki-soloda-20h30-ms-100.jpg",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bc%d0%b5%d1%88%d0%be%d0%ba-%d0%b4%d0%bb%d1%8f-%d0%b7%d0%b0%d1%82%d0%b8%d1%80%d0%ba%d0%b8-%d1%81%d0%be%d0%bb%d0%be%d0%b4%d0%b0-20%d1%8530-%d0%bc%d1%81-100/",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        },
+        {
+          "icon": "seal",
+          "text": "расходник"
+        }
+      ],
+      "use": "Мешок для затирки солода. 20х30 мс.100 — комплектация домашнего аппарата и ферментера.",
+      "tg": "Мешок для затирки солода. 20х30 мс.100"
+    },
+    "105": {
+      "name": "Мешок для затирки солода. 45х62 мс.100",
+      "price": "от 78 ₽",
+      "href": "index.html#sku-105",
+      "slug": "meshok-dlya-zatirki-soloda-45h62-ms-100",
+      "image": "assets/img/alko/sku-105-meshok-dlya-zatirki-soloda-45h62-ms-100.jpg",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bc%d0%b5%d1%88%d0%be%d0%ba-%d0%b4%d0%bb%d1%8f-%d0%b7%d0%b0%d1%82%d0%b8%d1%80%d0%ba%d0%b8-%d1%81%d0%be%d0%bb%d0%be%d0%b4%d0%b0-45%d1%8562-%d0%bc%d1%81-100/",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        },
+        {
+          "icon": "seal",
+          "text": "расходник"
+        }
+      ],
+      "use": "Мешок для затирки солода. 45х62 мс.100 — комплектация домашнего аппарата и ферментера.",
+      "tg": "Мешок для затирки солода. 45х62 мс.100"
+    },
+    "106": {
+      "name": "Мешок для затирки солода. 45х62 мс.200",
+      "price": "от 78 ₽",
+      "href": "index.html#sku-106",
+      "slug": "meshok-dlya-zatirki-soloda-45h62-ms-200",
+      "image": "assets/img/alko/sku-106-meshok-dlya-zatirki-soloda-45h62-ms-200.jpg",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bc%d0%b5%d1%88%d0%be%d0%ba-%d0%b4%d0%bb%d1%8f-%d0%b7%d0%b0%d1%82%d0%b8%d1%80%d0%ba%d0%b8-%d1%81%d0%be%d0%bb%d0%be%d0%b4%d0%b0-45%d1%8562-%d0%bc%d1%81-200/",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        },
+        {
+          "icon": "seal",
+          "text": "расходник"
+        }
+      ],
+      "use": "Мешок для затирки солода. 45х62 мс.200 — комплектация домашнего аппарата и ферментера.",
+      "tg": "Мешок для затирки солода. 45х62 мс.200"
+    },
+    "107": {
+      "name": "Ниппель для установки термометра гайка М12",
+      "price": "от 33 ₽",
+      "href": "index.html#sku-107",
+      "slug": "nippel-dlya-ustanovki-termometra-gayka-m12",
+      "image": "assets/img/alko/sku-107-nippel-dlya-ustanovki-termometra-gayka-m12.jpg",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bd%d0%b8%d0%bf%d0%bf%d0%b5%d0%bb%d1%8c-%d0%b4%d0%bb%d1%8f-%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b8-%d1%82%d0%b5%d1%80%d0%bc%d0%be%d0%bc%d0%b5%d1%82%d1%80%d0%b0-%d0%b3%d0%b0%d0%b9-2/",
+      "facts": [
+        {
+          "icon": "temp",
+          "text": "термометрия"
+        },
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        }
+      ],
+      "use": "Используется для установки игольчатого термометра в бак, гайка М12.",
+      "tg": "Ниппель для установки термометра гайка М12"
+    },
+    "108": {
+      "name": "Ниппель для установки термометра гайка М8",
+      "price": "от 40 ₽",
+      "href": "index.html#sku-108",
+      "slug": "nippel-dlya-ustanovki-termometra-gayka-m8",
+      "image": "assets/img/alko/sku-108-nippel-dlya-ustanovki-termometra-gayka-m8.jpg",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bd%d0%b8%d0%bf%d0%bf%d0%b5%d0%bb%d1%8c-%d0%b4%d0%bb%d1%8f-%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b8-%d1%82%d0%b5%d1%80%d0%bc%d0%be%d0%bc%d0%b5%d1%82%d1%80%d0%b0-%d0%b3%d0%b0%d0%b9/",
+      "facts": [
+        {
+          "icon": "temp",
+          "text": "термометрия"
+        },
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        }
+      ],
+      "use": "Используется для установки игольчатого термометра в бак, гайка М8.",
+      "tg": "Ниппель для установки термометра гайка М8"
+    },
+    "109": {
+      "name": "Ручной укупориватель корковых пробок",
+      "price": "от 850 ₽",
+      "href": "index.html#sku-109",
+      "slug": "ruchnoy-ukuporivatel-korkovyh-probok",
+      "image": "assets/img/alko/sku-109-ruchnoy-ukuporivatel-korkovyh-probok.jpg",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%80%d1%83%d1%87%d0%bd%d0%be%d0%b9-%d1%83%d0%ba%d1%83%d0%bf%d0%be%d1%80%d0%b8%d0%b2%d0%b0%d1%82%d0%b5%d0%bb%d1%8c-%d0%ba%d0%be%d1%80%d0%ba%d0%be%d0%b2%d1%8b%d1%85-%d0%bf%d1%80%d0%be%d0%b1%d0%be/",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        },
+        {
+          "icon": "seal",
+          "text": "расходник"
+        }
+      ],
+      "use": "Ручной укупориватель корковых пробок — комплектация домашнего аппарата и ферментера.",
+      "tg": "Ручной укупориватель корковых пробок"
+    },
+    "110": {
+      "name": "Ручной укупориватель кроненпробок",
+      "price": "от 800 ₽",
+      "href": "index.html#sku-110",
+      "slug": "ruchnoy-ukuporivatel-kronenprobok",
+      "image": "assets/img/alko/sku-110-ruchnoy-ukuporivatel-kronenprobok.jpg",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%80%d1%83%d1%87%d0%bd%d0%be%d0%b9-%d1%83%d0%ba%d1%83%d0%bf%d0%be%d1%80%d0%b8%d0%b2%d0%b0%d1%82%d0%b5%d0%bb%d1%8c-%d0%ba%d1%80%d0%be%d0%bd%d0%b5%d0%bd%d0%bf%d1%80%d0%be%d0%b1%d0%be%d0%ba/",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        },
+        {
+          "icon": "seal",
+          "text": "расходник"
+        }
+      ],
+      "use": "Ручной укупориватель кроненпробок — комплектация домашнего аппарата и ферментера.",
+      "tg": "Ручной укупориватель кроненпробок"
+    },
+    "111": {
+      "name": "Сифон переливной",
+      "price": "от 75 ₽",
+      "href": "index.html#sku-111",
+      "slug": "sifon-perelivnoy",
+      "image": "assets/img/alko/sku-111-sifon-perelivnoy.jpg",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%81%d0%b8%d1%84%d0%be%d0%bd-%d0%bf%d0%b5%d1%80%d0%b5%d0%bb%d0%b8%d0%b2%d0%bd%d0%be%d0%b9/",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        },
+        {
+          "icon": "seal",
+          "text": "расходник"
+        }
+      ],
+      "use": "С помпой и фильтром длинна трубки 2м.",
+      "tg": "Сифон переливной"
+    },
+    "112": {
+      "name": "Сифон переливной автоматический",
+      "price": "от 400 ₽",
+      "href": "index.html#sku-112",
+      "slug": "sifon-perelivnoy-avtomaticheskiy",
+      "image": "assets/img/alko/sku-112-sifon-perelivnoy-avtomaticheskiy.jpg",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%81%d0%b8%d1%84%d0%be%d0%bd-%d0%bf%d0%b5%d1%80%d0%b5%d0%bb%d0%b8%d0%b2%d0%bd%d0%be%d0%b9-%d0%b0%d0%b2%d1%82%d0%be%d0%bc%d0%b0%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b8%d0%b9/",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        },
+        {
+          "icon": "seal",
+          "text": "расходник"
+        }
+      ],
+      "use": "Сифон переливной автоматический — комплектация домашнего аппарата и ферментера.",
+      "tg": "Сифон переливной автоматический"
+    },
+    "113": {
+      "name": "Трубка наливная с клапаном",
+      "price": "от 120 ₽",
+      "href": "index.html#sku-113",
+      "slug": "trubka-nalivnaya-s-klapanom",
+      "image": "assets/img/alko/sku-113-trubka-nalivnaya-s-klapanom.jpg",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%82%d1%80%d1%83%d0%b1%d0%ba%d0%b0-%d0%bd%d0%b0%d0%bb%d0%b8%d0%b2%d0%bd%d0%b0%d1%8f-%d1%81-%d0%ba%d0%bb%d0%b0%d0%bf%d0%b0%d0%bd%d0%be%d0%bc/",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        },
+        {
+          "icon": "seal",
+          "text": "расходник"
+        }
+      ],
+      "use": "Трубка наливная с клапаном — комплектация домашнего аппарата и ферментера.",
+      "tg": "Трубка наливная с клапаном"
+    },
+    "114": {
+      "name": "Уплотнитель к гидрозатвору",
+      "price": "от 10 ₽",
+      "href": "index.html#sku-114",
+      "slug": "uplotnitel-k-gidrozatvoru",
+      "image": "assets/img/alko/sku-114-uplotnitel-k-gidrozatvoru.png",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%83%d0%bf%d0%bb%d0%be%d1%82%d0%bd%d0%b8%d1%82%d0%b5%d0%bb%d1%8c-%d0%ba-%d0%b3%d0%b8%d0%b4%d1%80%d0%be%d0%b7%d0%b0%d1%82%d0%b2%d0%be%d1%80%d1%83/",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        },
+        {
+          "icon": "seal",
+          "text": "расходник"
+        }
+      ],
+      "use": "Уплотнитель к гидрозатвору — комплектация домашнего аппарата и ферментера.",
+      "tg": "Уплотнитель к гидрозатвору"
+    },
+    "115": {
+      "name": "Щетка для бутылок",
+      "price": "от 75 ₽",
+      "href": "index.html#sku-115",
+      "slug": "schetka-dlya-butylok",
+      "image": "assets/img/alko/sku-115-schetka-dlya-butylok.jpg",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%89%d0%b5%d1%82%d0%ba%d0%b0-%d0%b4%d0%bb%d1%8f-%d0%b1%d1%83%d1%82%d1%8b%d0%bb%d0%be%d0%ba/",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        },
+        {
+          "icon": "seal",
+          "text": "расходник"
+        }
+      ],
+      "use": "Щетка для бутылок — комплектация домашнего аппарата и ферментера.",
+      "tg": "Щетка для бутылок"
+    },
+    "116": {
+      "name": "Компрессор для автономного охлаждения КС8",
+      "price": "от 350 ₽",
+      "href": "index.html#sku-116",
+      "slug": "kompressor-dlya-avtonomnogo-ohlazhdeniya-ks8",
+      "image": "assets/img/alko/sku-116-kompressor-dlya-avtonomnogo-ohlazhdeniya-ks8.jpg",
+      "category": "electro",
+      "categoryName": "Электрооборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%ba%d0%be%d0%bc%d0%bf%d1%80%d0%b5%d1%81%d1%81%d0%be%d1%80-%d0%b4%d0%bb%d1%8f-%d0%b0%d0%b2%d1%82%d0%be%d0%bd%d0%be%d0%bc%d0%bd%d0%be%d0%b3%d0%be-%d0%be%d1%85%d0%bb%d0%b0%d0%b6%d0%b4%d0%b5%d0%bd/",
+      "facts": [
+        {
+          "icon": "power",
+          "text": "220 В"
+        },
+        {
+          "icon": "temp",
+          "text": "электроника"
+        },
+        {
+          "icon": "seal",
+          "text": "комплект"
+        }
+      ],
+      "use": "Компрессор для автономного охлаждения КС8 — нагрев и электроника для стабильной работы установки.",
+      "tg": "Компрессор для автономного охлаждения КС8"
+    },
+    "117": {
+      "name": "Нагреватель для браги 100 W",
+      "price": "от 350 ₽",
+      "href": "index.html#sku-117",
+      "slug": "nagrevatel-dlya-bragi-100-w",
+      "image": "assets/img/alko/sku-117-nagrevatel-dlya-bragi-100-w.jpg",
+      "category": "electro",
+      "categoryName": "Электрооборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bd%d0%b0%d0%b3%d1%80%d0%b5%d0%b2%d0%b0%d1%82%d0%b5%d0%bb%d1%8c-%d0%b4%d0%bb%d1%8f-%d0%b1%d1%80%d0%b0%d0%b3%d0%b8-xilong-at-700/",
+      "facts": [
+        {
+          "icon": "power",
+          "text": "220 В"
+        },
+        {
+          "icon": "temp",
+          "text": "электроника"
+        },
+        {
+          "icon": "seal",
+          "text": "комплект"
+        }
+      ],
+      "use": "электроника и нагрев для стабильного процесса на домашней установке.",
+      "tg": "Нагреватель для браги 100 W"
+    },
+    "118": {
+      "name": "Насос MP-15RM",
+      "price": "от 3 800 ₽",
+      "href": "index.html#sku-118",
+      "slug": "nasos-mp-15rm",
+      "image": "assets/img/alko/sku-118-nasos-mp-15rm.jpg",
+      "category": "electro",
+      "categoryName": "Электрооборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bd%d0%b0%d1%81%d0%be%d1%81-mp-15rm/",
+      "facts": [
+        {
+          "icon": "power",
+          "text": "220 В"
+        },
+        {
+          "icon": "temp",
+          "text": "электроника"
+        },
+        {
+          "icon": "seal",
+          "text": "комплект"
+        }
+      ],
+      "use": "Насос высокотемпературный с магнитной муфтой.",
+      "tg": "Насос MP-15RM"
+    },
+    "119": {
+      "name": "ТЭН Dn40, 3 кВт",
+      "price": "от 950 ₽",
+      "href": "index.html#sku-119",
+      "slug": "ten-dn40-3-kvt",
+      "image": "assets/img/alko/sku-119-ten-dn40-3-kvt.jpg",
+      "category": "electro",
+      "categoryName": "Электрооборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%82%d1%8d%d0%bd-dn40-3-%d0%ba%d0%b2%d1%82/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 40"
         },
         {
           "icon": "power",
-          "text": "кислотный"
+          "text": "3 кВт"
         },
         {
-          "icon": "volume",
-          "text": "ПВК/ферм."
+          "icon": "power",
+          "text": "220 В"
         }
       ],
-      "use": "Санитарная обработка ПВК, шлангов и ферментера.",
-      "tg": "Bio San"
+      "use": "ТЭН Dn40 (47 мм), 4,5 кВт, длина нагревательного элемента 26 см., стальная основа.",
+      "tg": "ТЭН Dn40, 3 кВт"
     },
-    "19": {
-      "name": "Кран шаровый кламп 1,5″",
-      "price": "от 1 200 ₽",
-      "href": "index.html#sku-19",
-      "slug": "ball-valve",
-      "image": "assets/img/sku-19-ball-valve.png",
+    "120": {
+      "name": "ТЭН Dn40, 3 кВт с переходником под кламп",
+      "price": "от 1 150 ₽",
+      "href": "index.html#sku-120",
+      "slug": "ten-dn40-3-kvt-s-perehodnikom-pod-klamp",
+      "image": "assets/img/alko/sku-120-ten-dn40-3-kvt-s-perehodnikom-pod-klamp.jpg",
+      "category": "electro",
+      "categoryName": "Электрооборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%82%d1%8d%d0%bd-dn40-3-%d0%ba%d0%b2%d1%82-2/",
       "facts": [
-        {
-          "icon": "tap",
-          "text": "полнопроход"
-        },
-        {
-          "icon": "clamp",
-          "text": "кламп 1,5″"
-        },
-        {
-          "icon": "steel",
-          "text": "AISI"
-        }
-      ],
-      "use": "Перекрытие потока на сливе ферментера или линии отбора.",
-      "tg": "Кран кламп 1,5″"
-    },
-    "20": {
-      "name": "Термометр биметаллический кламп 1,5″",
-      "price": "от 2 380 ₽",
-      "href": "index.html#sku-20",
-      "slug": "thermometer",
-      "image": "assets/img/sku-20-thermometer.png",
-      "facts": [
-        {
-          "icon": "temp",
-          "text": "биметалл"
-        },
-        {
-          "icon": "clamp",
-          "text": "кламп 1,5″"
-        },
-        {
-          "icon": "temp",
-          "text": "0–120°C"
-        }
-      ],
-      "use": "Визуальный контроль температуры в кубе без электроники.",
-      "tg": "термометр кламп"
-    },
-    "21": {
-      "name": "Насадка СПН (спирально-призматическая)",
-      "price": "от 890 ₽/л",
-      "href": "index.html#sku-21",
-      "slug": "spn",
-      "image": "assets/img/sku-21-spn.png",
-      "facts": [
-        {
-          "icon": "packing",
-          "text": "СПН нерж."
-        },
-        {
-          "icon": "packing",
-          "text": "насыпная"
-        },
-        {
-          "icon": "clamp",
-          "text": "для царги"
-        }
-      ],
-      "use": "Насадка в царге: больше поверхность контакта пара и флегмы.",
-      "tg": "СПН"
-    },
-    "22": {
-      "name": "Насадка РПН (регулярная проволочная)",
-      "price": "от 1 450 ₽",
-      "href": "index.html#sku-22",
-      "slug": "rpn",
-      "image": "assets/img/sku-22-rpn.png",
-      "facts": [
-        {
-          "icon": "packing",
-          "text": "РПН"
-        },
-        {
-          "icon": "packing",
-          "text": "рулон"
-        },
-        {
-          "icon": "packing",
-          "text": "высокая эфф."
-        }
-      ],
-      "use": "Альтернатива СПН — регулярная проволочная насадка в царгу.",
-      "tg": "РПН"
-    },
-    "23": {
-      "name": "Прокладка силикон на кламп 2″",
-      "price": "от 35 ₽",
-      "href": "index.html#sku-23",
-      "slug": "gasket-20",
-      "image": "assets/img/sku-23-gasket-20.png",
-      "facts": [
-        {
-          "icon": "gasket",
-          "text": "пищевой силикон"
-        },
         {
           "icon": "size",
-          "text": "2″"
+          "text": "DN 40"
         },
         {
-          "icon": "seal",
-          "text": "герметичность"
-        }
-      ],
-      "use": "Герметичность кламп-стыка 2″ — сменный расходник.",
-      "tg": "Прокладка 2″"
-    },
-    "24": {
-      "name": "Кран слива куба",
-      "price": "от 650 ₽",
-      "href": "index.html#sku-24",
-      "slug": "drain",
-      "image": "assets/img/sku-24-drain.png",
-      "facts": [
-        {
-          "icon": "tap",
-          "text": "полнопроход"
-        },
-        {
-          "icon": "steel",
-          "text": "нерж."
-        },
-        {
-          "icon": "tap",
-          "text": "нижний слив"
-        }
-      ],
-      "use": "Слив куба после прогона или мойки.",
-      "tg": "Кран слива"
-    },
-    "25": {
-      "name": "Чиллер погружной / змеевик",
-      "price": "от 1 800 ₽",
-      "href": "index.html#sku-25",
-      "slug": "chiller",
-      "image": "assets/img/sku-25-chiller.png",
-      "facts": [
-        {
-          "icon": "hose",
-          "text": "погружной"
-        },
-        {
-          "icon": "steel",
-          "text": "медь/нерж."
-        },
-        {
-          "icon": "temp",
-          "text": "охлаждение"
-        }
-      ],
-      "use": "Охлаждение сусла перед внесением дрожжей.",
-      "tg": "Чиллер"
-    },
-    "26": {
-      "name": "Воздушный / вакуумный клапан",
-      "price": "от 480 ₽",
-      "href": "index.html#sku-26",
-      "slug": "prv",
-      "image": "assets/img/sku-26-prv.png",
-      "facts": [
-        {
-          "icon": "seal",
-          "text": "вакуум-защита"
+          "icon": "power",
+          "text": "3 кВт"
         },
         {
           "icon": "clamp",
           "text": "кламп"
-        },
-        {
-          "icon": "lid",
-          "text": "страховка крышки"
         }
       ],
-      "use": "Сброс и выравнивание давления — защита крышки куба.",
-      "tg": "Воздушный клапан"
+      "use": "ТЭН Dn32, 3 кВт Dn32 (42 мм), 3 кВт, длина нагревательного элемента 20 см.стальная основа.",
+      "tg": "ТЭН Dn40, 3 кВт с переходником под кламп"
     },
-    "27": {
-      "name": "Приёмная ёмкость 3–5 л",
-      "price": "от 190 ₽",
-      "href": "index.html#sku-27",
-      "slug": "receiver",
-      "image": "assets/img/sku-27-receiver.png",
+    "121": {
+      "name": "ТЭН Dn40, 4,5 кВт",
+      "price": "от 1 100 ₽",
+      "href": "index.html#sku-121",
+      "slug": "ten-dn40-4-5-kvt",
+      "image": "assets/img/alko/sku-121-ten-dn40-4-5-kvt.jpg",
+      "category": "electro",
+      "categoryName": "Электрооборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%82%d1%8d%d0%bd-dn40-45-%d0%ba%d0%b2%d1%82/",
       "facts": [
         {
-          "icon": "volume",
-          "text": "3–5 л"
+          "icon": "size",
+          "text": "DN 40"
         },
         {
-          "icon": "seal",
+          "icon": "power",
+          "text": "4,5 кВт"
+        },
+        {
+          "icon": "power",
+          "text": "220 В"
+        }
+      ],
+      "use": "ТЭН Dn40 (47 мм), 4,5 кВт, длина нагревательного элемента 26 см.",
+      "tg": "ТЭН Dn40, 4,5 кВт"
+    },
+    "122": {
+      "name": "ТЭН Dn40, 4,5 кВт с переходником под кламп",
+      "price": "от 1 200 ₽",
+      "href": "index.html#sku-122",
+      "slug": "ten-dn40-4-5-kvt-s-perehodnikom-pod-klamp",
+      "image": "assets/img/alko/sku-122-ten-dn40-4-5-kvt-s-perehodnikom-pod-klamp.jpg",
+      "category": "electro",
+      "categoryName": "Электрооборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%82%d1%8d%d0%bd-dn32-45-%d0%ba%d0%b2%d1%82/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 40"
+        },
+        {
+          "icon": "power",
+          "text": "4,5 кВт"
+        },
+        {
+          "icon": "clamp",
+          "text": "кламп"
+        }
+      ],
+      "use": "ТЭН Dn40, 4,5 кВт с переходником под кламп — нагрев и электроника для стабильной работы установки.",
+      "tg": "ТЭН Dn40, 4,5 кВт с переходником под кламп"
+    },
+    "123": {
+      "name": "ТЭН Dn40, 6 кВт",
+      "price": "от 1 250 ₽",
+      "href": "index.html#sku-123",
+      "slug": "ten-dn40-6-kvt",
+      "image": "assets/img/alko/sku-123-ten-dn40-6-kvt.jpg",
+      "category": "electro",
+      "categoryName": "Электрооборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%82%d1%8d%d0%bd-dn40-6-%d0%ba%d0%b2%d1%82/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 40"
+        },
+        {
+          "icon": "power",
+          "text": "6 кВт"
+        },
+        {
+          "icon": "power",
+          "text": "220 В"
+        }
+      ],
+      "use": "ТЭН Dn40 (47 мм), 6 кВт, длина нагревательного элемента 26 см., стальная основа.",
+      "tg": "ТЭН Dn40, 6 кВт"
+    },
+    "124": {
+      "name": "ТЭН Dn40, 6 кВт c переходником под кламп",
+      "price": "от 1 300 ₽",
+      "href": "index.html#sku-124",
+      "slug": "ten-dn40-6-kvt-c-perehodnikom-pod-klamp",
+      "image": "assets/img/alko/sku-124-ten-dn40-6-kvt-c-perehodnikom-pod-klamp.jpg",
+      "category": "electro",
+      "categoryName": "Электрооборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%82%d1%8d%d0%bd-dn32-6-%d0%ba%d0%b2%d1%82/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 40"
+        },
+        {
+          "icon": "power",
+          "text": "6 кВт"
+        },
+        {
+          "icon": "clamp",
+          "text": "кламп"
+        }
+      ],
+      "use": "ТЭН Dn32, 6 кВт ТЭН Dn32 (42 мм), 6 кВт, длина нагревательного элемента 26 см.,стальная основа.",
+      "tg": "ТЭН Dn40, 6 кВт c переходником под кламп"
+    },
+    "125": {
+      "name": "Пневмошланг красный 10х6.5 (PU)",
+      "price": "от 45 ₽",
+      "href": "index.html#sku-125",
+      "slug": "pnevmoshlang-krasnyy-10h6-5-pu",
+      "image": "assets/img/alko/sku-125-pnevmoshlang-krasnyy-10h6-5-pu.jpg",
+      "category": "hoses",
+      "categoryName": "Шланги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bf%d0%bd%d0%b5%d0%b2%d0%bc%d0%be%d1%88%d0%bb%d0%b0%d0%bd%d0%b3-%d0%ba%d1%80%d0%b0%d1%81%d0%bd%d1%8b%d0%b9-10%d1%856-5-pu/",
+      "facts": [
+        {
+          "icon": "hose",
+          "text": "шланг"
+        },
+        {
+          "icon": "hose",
           "text": "пищевой"
         },
         {
-          "icon": "glass",
-          "text": "под попугай"
+          "icon": "temp",
+          "text": "гибкий"
         }
       ],
-      "use": "Приём дистиллята с попугая рядом с отбором.",
-      "tg": "Приёмная ёмкость"
+      "use": "Шланг высокого давления полиуретановый, толщина стенки 2 мм.",
+      "tg": "Пневмошланг красный 10х6.5 (PU)"
     },
-    "28": {
-      "name": "Переходник кламп 1,5↔2″",
-      "price": "от 420 ₽",
-      "href": "index.html#sku-28",
-      "slug": "adapter",
-      "image": "assets/img/sku-28-adapter.png",
+    "126": {
+      "name": "Пневмошланг красный 12х8 (PU)",
+      "price": "от 55 ₽",
+      "href": "index.html#sku-126",
+      "slug": "pnevmoshlang-krasnyy-12h8-pu",
+      "image": "assets/img/alko/sku-126-pnevmoshlang-krasnyy-12h8-pu.jpg",
+      "category": "hoses",
+      "categoryName": "Шланги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bf%d0%bd%d0%b5%d0%b2%d0%bc%d0%be%d1%88%d0%bb%d0%b0%d0%bd%d0%b3-%d0%ba%d1%80%d0%b0%d1%81%d0%bd%d1%8b%d0%b9-12%d1%858-pu/",
+      "facts": [
+        {
+          "icon": "hose",
+          "text": "шланг"
+        },
+        {
+          "icon": "hose",
+          "text": "пищевой"
+        },
+        {
+          "icon": "temp",
+          "text": "гибкий"
+        }
+      ],
+      "use": "Шланг высокого давления полиуретановый, толщина стенки 2 мм.",
+      "tg": "Пневмошланг красный 12х8 (PU)"
+    },
+    "127": {
+      "name": "Пневмошланг синий 10х6.5 (PU)",
+      "price": "от 45 ₽",
+      "href": "index.html#sku-127",
+      "slug": "pnevmoshlang-siniy-10h6-5-pu",
+      "image": "assets/img/alko/sku-127-pnevmoshlang-siniy-10h6-5-pu.jpg",
+      "category": "hoses",
+      "categoryName": "Шланги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bf%d0%bd%d0%b5%d0%b2%d0%bc%d0%be%d1%88%d0%bb%d0%b0%d0%bd%d0%b3-%d1%81%d0%b8%d0%bd%d0%b8%d0%b9-10%d1%856-5-pu/",
+      "facts": [
+        {
+          "icon": "hose",
+          "text": "шланг"
+        },
+        {
+          "icon": "hose",
+          "text": "пищевой"
+        },
+        {
+          "icon": "temp",
+          "text": "гибкий"
+        }
+      ],
+      "use": "Шланг высокого давления полиуретановый, толщина стенки 2 мм.",
+      "tg": "Пневмошланг синий 10х6.5 (PU)"
+    },
+    "128": {
+      "name": "Пневмошланг синий 12х8 (PU)",
+      "price": "от 55 ₽",
+      "href": "index.html#sku-128",
+      "slug": "pnevmoshlang-siniy-12h8-pu",
+      "image": "assets/img/alko/sku-128-pnevmoshlang-siniy-12h8-pu.jpg",
+      "category": "hoses",
+      "categoryName": "Шланги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bf%d0%bd%d0%b5%d0%b2%d0%bc%d0%be%d1%88%d0%bb%d0%b0%d0%bd%d0%b3-%d1%81%d0%b8%d0%bd%d0%b8%d0%b9-12%d1%858-pu/",
+      "facts": [
+        {
+          "icon": "hose",
+          "text": "шланг"
+        },
+        {
+          "icon": "hose",
+          "text": "пищевой"
+        },
+        {
+          "icon": "temp",
+          "text": "гибкий"
+        }
+      ],
+      "use": "Шланг высокого давления полиуретановый, толщина стенки 2 мм.",
+      "tg": "Пневмошланг синий 12х8 (PU)"
+    },
+    "129": {
+      "name": "Шланг (силикон) 10 мм, толщина стенки 1,5 мм.",
+      "price": "от 105 ₽",
+      "href": "index.html#sku-129",
+      "slug": "shlang-silikon-10-mm-tolschina-stenki-1-5-mm",
+      "image": "assets/img/alko/sku-129-shlang-silikon-10-mm-tolschina-stenki-1-5-mm.jpg",
+      "category": "hoses",
+      "categoryName": "Шланги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%88%d0%bb%d0%b0%d0%bd%d0%b3-%d1%81%d0%b8%d0%bb%d0%b8%d0%ba%d0%be%d0%bd-10-%d0%bc%d0%bc-%d1%82%d0%be%d0%bb%d1%89%d0%b8%d0%bd%d0%b0-%d1%81%d1%82%d0%b5%d0%bd%d0%ba%d0%b8-15-%d0%bc%d0%bc/",
       "facts": [
         {
           "icon": "size",
-          "text": "1,5↔2″"
-        },
-        {
-          "icon": "steel",
-          "text": "AISI 304"
-        },
-        {
-          "icon": "clamp",
-          "text": "без сварки"
-        }
-      ],
-      "use": "Стык кламп 1,5″ и 2″ без сварки.",
-      "tg": "Переходник кламп"
-    },
-    "29": {
-      "name": "Заглушка кламп 1,5″",
-      "price": "от 180 ₽",
-      "href": "index.html#sku-29",
-      "slug": "blank",
-      "image": "assets/img/sku-29-blank.png",
-      "facts": [
-        {
-          "icon": "size",
-          "text": "1,5″"
+          "text": "Ø 10 мм"
         },
         {
           "icon": "gasket",
-          "text": "с прокладкой"
+          "text": "силикон"
         },
         {
-          "icon": "seal",
-          "text": "закрыть порт"
+          "icon": "hose",
+          "text": "шланг"
         }
       ],
-      "use": "Закрытие незанятого порта на крышке или кубе.",
-      "tg": "Заглушка кламп"
+      "use": "Шланг (силикон) 10 мм, толщина стенки 1,5 мм. — шланг для охлаждения и переливов (пищевой контур).",
+      "tg": "Шланг (силикон) 10 мм, толщина стенки 1,5 мм."
     },
-    "30": {
-      "name": "Заторный котёл / ПВК",
-      "price": "от 8 900 ₽",
-      "href": "index.html#sku-30",
-      "slug": "mash",
-      "image": "assets/img/sku-30-mash.png",
-      "facts": [
-        {
-          "icon": "power",
-          "text": "под ТЭН"
-        },
-        {
-          "icon": "volume",
-          "text": "домашний объём"
-        },
-        {
-          "icon": "steel",
-          "text": "нерж."
-        }
-      ],
-      "use": "Затирание и кипячение сусла в домашней пивоварне.",
-      "tg": "Заторный котёл"
-    },
-    "31": {
-      "name": "Игольчатый кран (на отбор)",
-      "price": "от 790 ₽",
-      "href": "index.html#sku-31",
-      "slug": "needle",
-      "image": "assets/img/sku-31-needle.png",
-      "facts": [
-        {
-          "icon": "needle",
-          "text": "тонкая регул."
-        },
-        {
-          "icon": "steel",
-          "text": "нерж."
-        },
-        {
-          "icon": "needle",
-          "text": "на отбор"
-        }
-      ],
-      "use": "Тонкая регулировка потока на узле отбора.",
-      "tg": "Игольчатый кран"
-    },
-    "32": {
-      "name": "Хомут кламп 2″ (дополнительный)",
-      "price": "от 190 ₽",
-      "href": "index.html#sku-32",
-      "slug": "clamp-extra",
-      "image": "assets/img/sku-32-clamp-extra.png",
+    "130": {
+      "name": "Шланг (силикон) 6 мм, толщина стенки 1,5 мм.",
+      "price": "от 80 ₽",
+      "href": "index.html#sku-130",
+      "slug": "shlang-silikon-6-mm-tolschina-stenki-1-5-mm",
+      "image": "assets/img/alko/sku-130-shlang-silikon-6-mm-tolschina-stenki-1-5-mm.jpg",
+      "category": "hoses",
+      "categoryName": "Шланги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%88%d0%bb%d0%b0%d0%bd%d0%b3-%d1%81%d0%b8%d0%bb%d0%b8%d0%ba%d0%be%d0%bd-6-%d0%bc%d0%bc-%d1%82%d0%be%d0%bb%d1%89%d0%b8%d0%bd%d0%b0-%d1%81%d1%82%d0%b5%d0%bd%d0%ba%d0%b8-15-%d0%bc%d0%bc/",
       "facts": [
         {
           "icon": "size",
-          "text": "2″"
+          "text": "Ø 6 мм"
         },
         {
-          "icon": "steel",
-          "text": "нерж."
+          "icon": "gasket",
+          "text": "силикон"
+        },
+        {
+          "icon": "hose",
+          "text": "шланг"
+        }
+      ],
+      "use": "Шланг (силикон) 6 мм, толщина стенки 1,5 мм. — шланг для охлаждения и переливов (пищевой контур).",
+      "tg": "Шланг (силикон) 6 мм, толщина стенки 1,5 мм."
+    },
+    "131": {
+      "name": "Шланг (силикон) 8 мм, толщина стенки 1,5 мм.",
+      "price": "от 101 ₽",
+      "href": "index.html#sku-131",
+      "slug": "shlang-silikon-8-mm-tolschina-stenki-1-5-mm",
+      "image": "assets/img/alko/sku-131-shlang-silikon-8-mm-tolschina-stenki-1-5-mm.jpg",
+      "category": "hoses",
+      "categoryName": "Шланги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%88%d0%bb%d0%b0%d0%bd%d0%b3-%d1%81%d0%b8%d0%bb%d0%b8%d0%ba%d0%be%d0%bd-8-%d0%bc%d0%bc-%d1%82%d0%be%d0%bb%d1%89%d0%b8%d0%bd%d0%b0-%d1%81%d1%82%d0%b5%d0%bd%d0%ba%d0%b8-15-%d0%bc%d0%bc/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "Ø 8 мм"
+        },
+        {
+          "icon": "gasket",
+          "text": "силикон"
+        },
+        {
+          "icon": "hose",
+          "text": "шланг"
+        }
+      ],
+      "use": "Шланг (силикон) 8 мм, толщина стенки 1,5 мм. — шланг для охлаждения и переливов (пищевой контур).",
+      "tg": "Шланг (силикон) 8 мм, толщина стенки 1,5 мм."
+    },
+    "132": {
+      "name": "Мембрана 1812 Vontron 50",
+      "price": "от 550 ₽",
+      "href": "index.html#sku-132",
+      "slug": "membrana-1812-vontron-50",
+      "image": "assets/img/alko/sku-132-membrana-1812-vontron-50.png",
+      "category": "membranes",
+      "categoryName": "Мембраны",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bc%d0%b5%d0%bc%d0%b1%d1%80%d0%b0%d0%bd%d0%b0-1812-vontron-50/",
+      "facts": [
+        {
+          "icon": "seal",
+          "text": "обратный осмос"
+        },
+        {
+          "icon": "seal",
+          "text": "Vontron"
+        },
+        {
+          "icon": "packing",
+          "text": "фильтрация"
+        }
+      ],
+      "use": "Оригинальная Мембрана 1812 Vontron 50 с QR кодом , в поисковике находится по сециальному коду.",
+      "tg": "Мембрана 1812 Vontron 50"
+    },
+    "133": {
+      "name": "Мембрана 1812 Vontron 75",
+      "price": "от 500 ₽",
+      "href": "index.html#sku-133",
+      "slug": "membrana-1812-vontron-75",
+      "image": "assets/img/alko/sku-133-membrana-1812-vontron-75.jpg",
+      "category": "membranes",
+      "categoryName": "Мембраны",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bc%d0%b5%d0%bc%d0%b1%d1%80%d0%b0%d0%bd%d0%b0-1812-vontron-75/",
+      "facts": [
+        {
+          "icon": "seal",
+          "text": "обратный осмос"
+        },
+        {
+          "icon": "seal",
+          "text": "Vontron"
+        },
+        {
+          "icon": "packing",
+          "text": "фильтрация"
+        }
+      ],
+      "use": "элемент очистки воды (обратный осмос) для подготовки к процессу.",
+      "tg": "Мембрана 1812 Vontron 75"
+    },
+    "134": {
+      "name": "Мембрана 2012 Vontron 100",
+      "price": "от 850 ₽",
+      "href": "index.html#sku-134",
+      "slug": "membrana-2012-vontron-100",
+      "image": "assets/img/alko/sku-134-membrana-2012-vontron-100.jpg",
+      "category": "membranes",
+      "categoryName": "Мембраны",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bc%d0%b5%d0%bc%d0%b1%d1%80%d0%b0%d0%bd%d0%b0-2012-vontron-100/",
+      "facts": [
+        {
+          "icon": "seal",
+          "text": "обратный осмос"
+        },
+        {
+          "icon": "seal",
+          "text": "Vontron"
+        },
+        {
+          "icon": "packing",
+          "text": "фильтрация"
+        }
+      ],
+      "use": "Оригинальная Мембрана 2012 Vontron 100 , идет с новым QR кодом , с помощью него можно увидеть дату производства.",
+      "tg": "Мембрана 2012 Vontron 100"
+    },
+    "135": {
+      "name": "Силиконовая прокладка под кламп DN1,5",
+      "price": "от 8 ₽",
+      "href": "index.html#sku-135",
+      "slug": "silikonovaya-prokladka-pod-klamp-dn1-5",
+      "image": "assets/img/alko/sku-135-silikonovaya-prokladka-pod-klamp-dn1-5.jpg",
+      "category": "silicone",
+      "categoryName": "Прокладки и уплотнения",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%81%d0%b8%d0%bb%d0%b8%d0%ba%d0%be%d0%bd%d0%be%d0%b2%d0%b0%d1%8f-%d0%bf%d1%80%d0%be%d0%ba%d0%bb%d0%b0%d0%b4%d0%ba%d0%b0-%d0%bf%d0%be%d0%b4-%d0%ba%d0%bb%d0%b0%d0%bc%d0%bf-dn15/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 1,5"
+        },
+        {
+          "icon": "gasket",
+          "text": "силикон"
         },
         {
           "icon": "clamp",
-          "text": "запас на стык"
+          "text": "кламп"
         }
       ],
-      "use": "Запасной хомут на стык кламп 2″.",
-      "tg": "Хомут кламп 2″"
+      "use": "герметичность кламп-стыка — сменный расходник.",
+      "tg": "Силиконовая прокладка под кламп DN1,5"
+    },
+    "136": {
+      "name": "Силиконовая прокладка под кламп DN2",
+      "price": "от 12 ₽",
+      "href": "index.html#sku-136",
+      "slug": "silikonovaya-prokladka-pod-klamp-dn2",
+      "image": "assets/img/alko/sku-136-silikonovaya-prokladka-pod-klamp-dn2.jpg",
+      "category": "silicone",
+      "categoryName": "Прокладки и уплотнения",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%81%d0%b8%d0%bb%d0%b8%d0%ba%d0%be%d0%bd%d0%be%d0%b2%d0%b0%d1%8f-%d0%bf%d1%80%d0%be%d0%ba%d0%bb%d0%b0%d0%b4%d0%ba%d0%b0-%d0%bf%d0%be%d0%b4-%d0%ba%d0%bb%d0%b0%d0%bc%d0%bf-dn2/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 2"
+        },
+        {
+          "icon": "gasket",
+          "text": "силикон"
+        },
+        {
+          "icon": "clamp",
+          "text": "кламп"
+        }
+      ],
+      "use": "герметичность кламп-стыка — сменный расходник.",
+      "tg": "Силиконовая прокладка под кламп DN2"
+    },
+    "137": {
+      "name": "Силиконовая прокладка под кламп DN2,5",
+      "price": "от 15 ₽",
+      "href": "index.html#sku-137",
+      "slug": "silikonovaya-prokladka-pod-klamp-dn2-5",
+      "image": "assets/img/alko/sku-137-silikonovaya-prokladka-pod-klamp-dn2-5.jpg",
+      "category": "silicone",
+      "categoryName": "Прокладки и уплотнения",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%81%d0%b8%d0%bb%d0%b8%d0%ba%d0%be%d0%bd%d0%be%d0%b2%d0%b0%d1%8f-%d0%bf%d1%80%d0%be%d0%ba%d0%bb%d0%b0%d0%b4%d0%ba%d0%b0-%d0%bf%d0%be%d0%b4-%d0%ba%d0%bb%d0%b0%d0%bc%d0%bf-dn25/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 2,5"
+        },
+        {
+          "icon": "gasket",
+          "text": "силикон"
+        },
+        {
+          "icon": "clamp",
+          "text": "кламп"
+        }
+      ],
+      "use": "герметичность кламп-стыка — сменный расходник.",
+      "tg": "Силиконовая прокладка под кламп DN2,5"
+    },
+    "138": {
+      "name": "Силиконовая прокладка под кламп DN3",
+      "price": "от 20 ₽",
+      "href": "index.html#sku-138",
+      "slug": "silikonovaya-prokladka-pod-klamp-dn3",
+      "image": "assets/img/alko/sku-138-silikonovaya-prokladka-pod-klamp-dn3.jpg",
+      "category": "silicone",
+      "categoryName": "Прокладки и уплотнения",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%81%d0%b8%d0%bb%d0%b8%d0%ba%d0%be%d0%bd%d0%be%d0%b2%d0%b0%d1%8f-%d0%bf%d1%80%d0%be%d0%ba%d0%bb%d0%b0%d0%b4%d0%ba%d0%b0-%d0%bf%d0%be%d0%b4-%d0%ba%d0%bb%d0%b0%d0%bc%d0%bf-dn3/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 3"
+        },
+        {
+          "icon": "gasket",
+          "text": "силикон"
+        },
+        {
+          "icon": "clamp",
+          "text": "кламп"
+        }
+      ],
+      "use": "герметичность кламп-стыка — сменный расходник.",
+      "tg": "Силиконовая прокладка под кламп DN3"
+    },
+    "139": {
+      "name": "Силиконовая прокладка под кламп DN4",
+      "price": "от 28 ₽",
+      "href": "index.html#sku-139",
+      "slug": "silikonovaya-prokladka-pod-klamp-dn4",
+      "image": "assets/img/alko/sku-139-silikonovaya-prokladka-pod-klamp-dn4.jpg",
+      "category": "silicone",
+      "categoryName": "Прокладки и уплотнения",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%81%d0%b8%d0%bb%d0%b8%d0%ba%d0%be%d0%bd%d0%be%d0%b2%d0%b0%d1%8f-%d0%bf%d1%80%d0%be%d0%ba%d0%bb%d0%b0%d0%b4%d0%ba%d0%b0-%d0%bf%d0%be%d0%b4-%d0%ba%d0%bb%d0%b0%d0%bc%d0%bf-dn4/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 4"
+        },
+        {
+          "icon": "gasket",
+          "text": "силикон"
+        },
+        {
+          "icon": "clamp",
+          "text": "кламп"
+        }
+      ],
+      "use": "герметичность кламп-стыка — сменный расходник.",
+      "tg": "Силиконовая прокладка под кламп DN4"
     }
   },
   "modes": {

@@ -1,0 +1,743 @@
+{
+  "archived_at": "2026-09-15",
+  "note": "Прежний каталог Homebrew Parts SKU 01–32 до миграции на витрину по данным alkotrademsk.ru. Схема аппарата (schema.html) продолжает ссылаться на эти позиции как архивные.",
+  "disclaimer": "Для домашнего использования. Спирт и готовый алкоголь не продаём. Цены — ориентиры «от X ₽».",
+  "skus": {
+    "01": {
+      "name": "Кламп 1,5″ в сборе",
+      "price": "от 220 ₽",
+      "href": "index.html#sku-01",
+      "slug": "clamp-15",
+      "image": "assets/img/sku-01-clamp-15.png",
+      "facts": [
+        {
+          "icon": "steel",
+          "text": "AISI 304"
+        },
+        {
+          "icon": "size",
+          "text": "Ø 50,5 мм"
+        },
+        {
+          "icon": "gasket",
+          "text": "с прокладкой"
+        }
+      ],
+      "use": "Быстросъёмное соединение узлов колонны и куба на 1,5″.",
+      "tg": "Кламп 1,5″"
+    },
+    "02": {
+      "name": "Кламп 2″ в сборе",
+      "price": "от 220 ₽",
+      "href": "index.html#sku-02",
+      "slug": "clamp-20",
+      "image": "assets/img/sku-02-clamp-20.png",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "2″ DN51"
+        },
+        {
+          "icon": "clamp",
+          "text": "быстрый съём"
+        },
+        {
+          "icon": "steel",
+          "text": "пищевая сталь"
+        }
+      ],
+      "use": "Соединение крупных узлов: ТЭН, царга, отбор на 2″.",
+      "tg": "Кламп 2″"
+    },
+    "03": {
+      "name": "ТЭН под кламп 2″ (2–3,5 кВт)",
+      "price": "от 1 300 ₽",
+      "href": "index.html#sku-03",
+      "slug": "ten-clamp",
+      "image": "assets/img/sku-03-ten-clamp.png",
+      "facts": [
+        {
+          "icon": "power",
+          "text": "3 кВт 220 В"
+        },
+        {
+          "icon": "clamp",
+          "text": "кламп 2″"
+        },
+        {
+          "icon": "steel",
+          "text": "AISI 304"
+        }
+      ],
+      "use": "Электроподогрев куба или заторника через кламп-фланец.",
+      "tg": "ТЭН кламп 2″"
+    },
+    "04": {
+      "name": "Прокладка силикон на кламп 1,5″",
+      "price": "от 25 ₽",
+      "href": "index.html#sku-04",
+      "slug": "gaskets",
+      "image": "assets/img/sku-04-gaskets.png",
+      "facts": [
+        {
+          "icon": "gasket",
+          "text": "пищевой силикон"
+        },
+        {
+          "icon": "size",
+          "text": "1,5″"
+        },
+        {
+          "icon": "seal",
+          "text": "герметичность"
+        }
+      ],
+      "use": "Герметичность каждого кламп-стыка 1,5″ — сменный расходник.",
+      "tg": "Прокладка кламп 1,5″"
+    },
+    "05": {
+      "name": "Гидрозатвор трёхсоставной + пробка",
+      "price": "от 80 ₽",
+      "href": "index.html#sku-05",
+      "slug": "airlock",
+      "image": "assets/img/sku-05-airlock.png",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "трёхсоставной"
+        },
+        {
+          "icon": "quiet",
+          "text": "тихий"
+        },
+        {
+          "icon": "lid",
+          "text": "с пробкой"
+        }
+      ],
+      "use": "Сброс CO₂ при брожении без доступа воздуха в ферментер.",
+      "tg": "Гидрозатвор"
+    },
+    "06": {
+      "name": "Шланг силикон пищевой 8–12 мм",
+      "price": "от 99 ₽/м",
+      "href": "index.html#sku-06",
+      "slug": "hose",
+      "image": "assets/img/sku-06-hose.png",
+      "facts": [
+        {
+          "icon": "hose",
+          "text": "пищевой"
+        },
+        {
+          "icon": "size",
+          "text": "Ø 8–12 мм"
+        },
+        {
+          "icon": "temp",
+          "text": "до +200°C"
+        }
+      ],
+      "use": "Вода на холодильник и переливы сусла / продукта.",
+      "tg": "Шланг силикон"
+    },
+    "07": {
+      "name": "Ферментер 30 л с крышкой",
+      "price": "от 1 400 ₽",
+      "href": "index.html#sku-07",
+      "slug": "fermenter",
+      "image": "assets/img/sku-07-fermenter.png",
+      "facts": [
+        {
+          "icon": "volume",
+          "text": "30 л"
+        },
+        {
+          "icon": "lid",
+          "text": "с крышкой"
+        },
+        {
+          "icon": "tap",
+          "text": "под кран"
+        }
+      ],
+      "use": "Ёмкость брожения сусла для домашнего пива.",
+      "tg": "Ферментер 30 л"
+    },
+    "08": {
+      "name": "Холодильник Димрота / змеевик",
+      "price": "от 2 200 ₽",
+      "href": "index.html#sku-08",
+      "slug": "dimroth",
+      "image": "assets/img/sku-08-dimroth.png",
+      "facts": [
+        {
+          "icon": "glass",
+          "text": "Димрот"
+        },
+        {
+          "icon": "clamp",
+          "text": "кламп 1,5″"
+        },
+        {
+          "icon": "hose",
+          "text": "проходной"
+        }
+      ],
+      "use": "Конденсация паров и охлаждение на колонне.",
+      "tg": "Димрот"
+    },
+    "09": {
+      "name": "PID / терморегулятор + SSR",
+      "price": "от 1 950 ₽",
+      "href": "index.html#sku-09",
+      "slug": "pid",
+      "image": "assets/img/sku-09-pid.png",
+      "facts": [
+        {
+          "icon": "temp",
+          "text": "PID"
+        },
+        {
+          "icon": "power",
+          "text": "SSR комплект"
+        },
+        {
+          "icon": "temp",
+          "text": "щуп К"
+        }
+      ],
+      "use": "Удержание температуры ТЭНа и пауз затирания.",
+      "tg": "PID + SSR"
+    },
+    "10": {
+      "name": "Хомуты червячные нерж. набор",
+      "price": "от 150 ₽",
+      "href": "index.html#sku-10",
+      "slug": "hose-clamps",
+      "image": "assets/img/sku-10-hose-clamps.png",
+      "facts": [
+        {
+          "icon": "steel",
+          "text": "нерж."
+        },
+        {
+          "icon": "packing",
+          "text": "набор"
+        },
+        {
+          "icon": "hose",
+          "text": "на шланг"
+        }
+      ],
+      "use": "Фиксация силиконовых шлангов на штуцерах.",
+      "tg": "хомуты червячные"
+    },
+    "11": {
+      "name": "Крышка куба с кламп-портами",
+      "price": "от 3 900 ₽",
+      "href": "index.html#sku-11",
+      "slug": "cube-lid",
+      "image": "assets/img/sku-11-cube-lid.png",
+      "facts": [
+        {
+          "icon": "clamp",
+          "text": "кламп-порты"
+        },
+        {
+          "icon": "steel",
+          "text": "AISI 304"
+        },
+        {
+          "icon": "lid",
+          "text": "съёмная"
+        }
+      ],
+      "use": "Крышка куба с портами под царгу и контрольные приборы.",
+      "tg": "Крышка куба"
+    },
+    "12": {
+      "name": "Царга 1,5″ ~50 см",
+      "price": "от 850 ₽",
+      "href": "index.html#sku-12",
+      "slug": "tsarga",
+      "image": "assets/img/sku-12-tsarga.png",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "50 см"
+        },
+        {
+          "icon": "size",
+          "text": "1,5″"
+        },
+        {
+          "icon": "packing",
+          "text": "под насадку"
+        }
+      ],
+      "use": "Секция колонны под насадку СПН или РПН.",
+      "tg": "Царга 1,5″"
+    },
+    "13": {
+      "name": "Диоптр (стеклянная царга)",
+      "price": "от 2 750 ₽",
+      "href": "index.html#sku-13",
+      "slug": "diopter",
+      "image": "assets/img/sku-13-diopter.png",
+      "facts": [
+        {
+          "icon": "glass",
+          "text": "стекло"
+        },
+        {
+          "icon": "clamp",
+          "text": "кламп"
+        },
+        {
+          "icon": "glass",
+          "text": "обзор флегмы"
+        }
+      ],
+      "use": "Визуальный контроль флегмы и кипения в колонне.",
+      "tg": "Диоптр"
+    },
+    "14": {
+      "name": "Узел отбора по жидкости",
+      "price": "от 2 090 ₽",
+      "href": "index.html#sku-14",
+      "slug": "takeoff",
+      "image": "assets/img/sku-14-takeoff.png",
+      "facts": [
+        {
+          "icon": "needle",
+          "text": "игольчатый кран"
+        },
+        {
+          "icon": "size",
+          "text": "2″"
+        },
+        {
+          "icon": "hose",
+          "text": "доохладитель"
+        }
+      ],
+      "use": "Точный отбор по жидкости с игольчатым краном.",
+      "tg": "Узел отбора"
+    },
+    "15": {
+      "name": "Попугай (проточный под ареометр)",
+      "price": "от 990 ₽",
+      "href": "index.html#sku-15",
+      "slug": "parrot",
+      "image": "assets/img/sku-15-parrot.png",
+      "facts": [
+        {
+          "icon": "temp",
+          "text": "онлайн °"
+        },
+        {
+          "icon": "glass",
+          "text": "под АСП"
+        },
+        {
+          "icon": "steel",
+          "text": "нерж."
+        }
+      ],
+      "use": "Проточный карман под ареометр на выходе продукта.",
+      "tg": "Попугай"
+    },
+    "16": {
+      "name": "Ареометр / рефрактометр",
+      "price": "от 260 ₽",
+      "href": "index.html#sku-16",
+      "slug": "hydrometer",
+      "image": "assets/img/sku-16-hydrometer.png",
+      "facts": [
+        {
+          "icon": "glass",
+          "text": "АС-3 / АСП"
+        },
+        {
+          "icon": "size",
+          "text": "Brix"
+        },
+        {
+          "icon": "temp",
+          "text": "контроль"
+        }
+      ],
+      "use": "Контроль плотности и крепости сусла / дистиллята.",
+      "tg": "Ареометр"
+    },
+    "17": {
+      "name": "Солод пилснер + дрожжи пивные",
+      "price": "от 390 ₽",
+      "href": "index.html#sku-17",
+      "slug": "malt-yeast",
+      "image": "assets/img/sku-17-malt-yeast.png",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "пилснер"
+        },
+        {
+          "icon": "packing",
+          "text": "элевые дрожжи"
+        },
+        {
+          "icon": "volume",
+          "text": "домашнее"
+        }
+      ],
+      "use": "Сырьё для домашнего пива: солод и пивные дрожжи.",
+      "tg": "солод + дрожжи"
+    },
+    "18": {
+      "name": "Дезинфекция для ПВК и ферментера",
+      "price": "от 299 ₽",
+      "href": "index.html#sku-18",
+      "slug": "sanitizer",
+      "image": "assets/img/sku-18-sanitizer.png",
+      "facts": [
+        {
+          "icon": "seal",
+          "text": "без ополаск."
+        },
+        {
+          "icon": "power",
+          "text": "кислотный"
+        },
+        {
+          "icon": "volume",
+          "text": "ПВК/ферм."
+        }
+      ],
+      "use": "Санитарная обработка ПВК, шлангов и ферментера.",
+      "tg": "Bio San"
+    },
+    "19": {
+      "name": "Кран шаровый кламп 1,5″",
+      "price": "от 1 200 ₽",
+      "href": "index.html#sku-19",
+      "slug": "ball-valve",
+      "image": "assets/img/sku-19-ball-valve.png",
+      "facts": [
+        {
+          "icon": "tap",
+          "text": "полнопроход"
+        },
+        {
+          "icon": "clamp",
+          "text": "кламп 1,5″"
+        },
+        {
+          "icon": "steel",
+          "text": "AISI"
+        }
+      ],
+      "use": "Перекрытие потока на сливе ферментера или линии отбора.",
+      "tg": "Кран кламп 1,5″"
+    },
+    "20": {
+      "name": "Термометр биметаллический кламп 1,5″",
+      "price": "от 2 380 ₽",
+      "href": "index.html#sku-20",
+      "slug": "thermometer",
+      "image": "assets/img/sku-20-thermometer.png",
+      "facts": [
+        {
+          "icon": "temp",
+          "text": "биметалл"
+        },
+        {
+          "icon": "clamp",
+          "text": "кламп 1,5″"
+        },
+        {
+          "icon": "temp",
+          "text": "0–120°C"
+        }
+      ],
+      "use": "Визуальный контроль температуры в кубе без электроники.",
+      "tg": "термометр кламп"
+    },
+    "21": {
+      "name": "Насадка СПН (спирально-призматическая)",
+      "price": "от 890 ₽/л",
+      "href": "index.html#sku-21",
+      "slug": "spn",
+      "image": "assets/img/sku-21-spn.png",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "СПН нерж."
+        },
+        {
+          "icon": "packing",
+          "text": "насыпная"
+        },
+        {
+          "icon": "clamp",
+          "text": "для царги"
+        }
+      ],
+      "use": "Насадка в царге: больше поверхность контакта пара и флегмы.",
+      "tg": "СПН"
+    },
+    "22": {
+      "name": "Насадка РПН (регулярная проволочная)",
+      "price": "от 1 450 ₽",
+      "href": "index.html#sku-22",
+      "slug": "rpn",
+      "image": "assets/img/sku-22-rpn.png",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "РПН"
+        },
+        {
+          "icon": "packing",
+          "text": "рулон"
+        },
+        {
+          "icon": "packing",
+          "text": "высокая эфф."
+        }
+      ],
+      "use": "Альтернатива СПН — регулярная проволочная насадка в царгу.",
+      "tg": "РПН"
+    },
+    "23": {
+      "name": "Прокладка силикон на кламп 2″",
+      "price": "от 35 ₽",
+      "href": "index.html#sku-23",
+      "slug": "gasket-20",
+      "image": "assets/img/sku-23-gasket-20.png",
+      "facts": [
+        {
+          "icon": "gasket",
+          "text": "пищевой силикон"
+        },
+        {
+          "icon": "size",
+          "text": "2″"
+        },
+        {
+          "icon": "seal",
+          "text": "герметичность"
+        }
+      ],
+      "use": "Герметичность кламп-стыка 2″ — сменный расходник.",
+      "tg": "Прокладка 2″"
+    },
+    "24": {
+      "name": "Кран слива куба",
+      "price": "от 650 ₽",
+      "href": "index.html#sku-24",
+      "slug": "drain",
+      "image": "assets/img/sku-24-drain.png",
+      "facts": [
+        {
+          "icon": "tap",
+          "text": "полнопроход"
+        },
+        {
+          "icon": "steel",
+          "text": "нерж."
+        },
+        {
+          "icon": "tap",
+          "text": "нижний слив"
+        }
+      ],
+      "use": "Слив куба после прогона или мойки.",
+      "tg": "Кран слива"
+    },
+    "25": {
+      "name": "Чиллер погружной / змеевик",
+      "price": "от 1 800 ₽",
+      "href": "index.html#sku-25",
+      "slug": "chiller",
+      "image": "assets/img/sku-25-chiller.png",
+      "facts": [
+        {
+          "icon": "hose",
+          "text": "погружной"
+        },
+        {
+          "icon": "steel",
+          "text": "медь/нерж."
+        },
+        {
+          "icon": "temp",
+          "text": "охлаждение"
+        }
+      ],
+      "use": "Охлаждение сусла перед внесением дрожжей.",
+      "tg": "Чиллер"
+    },
+    "26": {
+      "name": "Воздушный / вакуумный клапан",
+      "price": "от 480 ₽",
+      "href": "index.html#sku-26",
+      "slug": "prv",
+      "image": "assets/img/sku-26-prv.png",
+      "facts": [
+        {
+          "icon": "seal",
+          "text": "вакуум-защита"
+        },
+        {
+          "icon": "clamp",
+          "text": "кламп"
+        },
+        {
+          "icon": "lid",
+          "text": "страховка крышки"
+        }
+      ],
+      "use": "Сброс и выравнивание давления — защита крышки куба.",
+      "tg": "Воздушный клапан"
+    },
+    "27": {
+      "name": "Приёмная ёмкость 3–5 л",
+      "price": "от 190 ₽",
+      "href": "index.html#sku-27",
+      "slug": "receiver",
+      "image": "assets/img/sku-27-receiver.png",
+      "facts": [
+        {
+          "icon": "volume",
+          "text": "3–5 л"
+        },
+        {
+          "icon": "seal",
+          "text": "пищевой"
+        },
+        {
+          "icon": "glass",
+          "text": "под попугай"
+        }
+      ],
+      "use": "Приём дистиллята с попугая рядом с отбором.",
+      "tg": "Приёмная ёмкость"
+    },
+    "28": {
+      "name": "Переходник кламп 1,5↔2″",
+      "price": "от 420 ₽",
+      "href": "index.html#sku-28",
+      "slug": "adapter",
+      "image": "assets/img/sku-28-adapter.png",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "1,5↔2″"
+        },
+        {
+          "icon": "steel",
+          "text": "AISI 304"
+        },
+        {
+          "icon": "clamp",
+          "text": "без сварки"
+        }
+      ],
+      "use": "Стык кламп 1,5″ и 2″ без сварки.",
+      "tg": "Переходник кламп"
+    },
+    "29": {
+      "name": "Заглушка кламп 1,5″",
+      "price": "от 180 ₽",
+      "href": "index.html#sku-29",
+      "slug": "blank",
+      "image": "assets/img/sku-29-blank.png",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "1,5″"
+        },
+        {
+          "icon": "gasket",
+          "text": "с прокладкой"
+        },
+        {
+          "icon": "seal",
+          "text": "закрыть порт"
+        }
+      ],
+      "use": "Закрытие незанятого порта на крышке или кубе.",
+      "tg": "Заглушка кламп"
+    },
+    "30": {
+      "name": "Заторный котёл / ПВК",
+      "price": "от 8 900 ₽",
+      "href": "index.html#sku-30",
+      "slug": "mash",
+      "image": "assets/img/sku-30-mash.png",
+      "facts": [
+        {
+          "icon": "power",
+          "text": "под ТЭН"
+        },
+        {
+          "icon": "volume",
+          "text": "домашний объём"
+        },
+        {
+          "icon": "steel",
+          "text": "нерж."
+        }
+      ],
+      "use": "Затирание и кипячение сусла в домашней пивоварне.",
+      "tg": "Заторный котёл"
+    },
+    "31": {
+      "name": "Игольчатый кран (на отбор)",
+      "price": "от 790 ₽",
+      "href": "index.html#sku-31",
+      "slug": "needle",
+      "image": "assets/img/sku-31-needle.png",
+      "facts": [
+        {
+          "icon": "needle",
+          "text": "тонкая регул."
+        },
+        {
+          "icon": "steel",
+          "text": "нерж."
+        },
+        {
+          "icon": "needle",
+          "text": "на отбор"
+        }
+      ],
+      "use": "Тонкая регулировка потока на узле отбора.",
+      "tg": "Игольчатый кран"
+    },
+    "32": {
+      "name": "Хомут кламп 2″ (дополнительный)",
+      "price": "от 190 ₽",
+      "href": "index.html#sku-32",
+      "slug": "clamp-extra",
+      "image": "assets/img/sku-32-clamp-extra.png",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "2″"
+        },
+        {
+          "icon": "steel",
+          "text": "нерж."
+        },
+        {
+          "icon": "clamp",
+          "text": "запас на стык"
+        }
+      ],
+      "use": "Запасной хомут на стык кламп 2″.",
+      "tg": "Хомут кламп 2″"
+    }
+  }
+}

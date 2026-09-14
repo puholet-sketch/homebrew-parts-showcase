@@ -401,6 +401,99 @@ a {
   color: var(--muted);
 }
 
+.catalog-toolbar {
+  margin: 0 0 1.25rem;
+}
+
+.catalog-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.cat-chip {
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 0.45rem 0.75rem;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+}
+
+.cat-chip span {
+  color: var(--muted);
+  font-weight: 500;
+  margin-left: 0.2rem;
+}
+
+.cat-chip:hover {
+  border-color: var(--crimson);
+  color: var(--crimson-deep);
+}
+
+.cat-chip.is-active {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: #fff;
+}
+
+.cat-chip.is-active span {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.catalog-search {
+  flex: 1 1 12rem;
+  min-width: 10rem;
+}
+
+.catalog-search input {
+  width: 100%;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--text);
+}
+
+.catalog-search input:focus {
+  outline: 2px solid var(--crimson);
+  outline-offset: 1px;
+}
+
+.catalog-meta,
+.catalog-loading,
+.catalog-empty {
+  margin: 0.75rem 0 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.card__cat {
+  font-weight: 500;
+  color: var(--muted);
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 .catalog {
   display: grid;
   gap: 1.1rem;

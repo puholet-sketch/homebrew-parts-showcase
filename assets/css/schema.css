@@ -441,6 +441,15 @@
   color: var(--crimson);
 }
 
+.schema-panel__note {
+  display: block;
+  width: 100%;
+  margin-top: 0.35rem;
+  font-size: 0.82rem;
+  color: var(--muted);
+  line-height: 1.4;
+}
+
 .schema-panel__actions {
   margin-top: 1rem;
   display: flex;

@@ -1,7 +1,17 @@
 {
-  "v": 5,
-  "updated": "2026-09-09",
-  "next": "verify Pages catalog facts bar screenshot",
-  "hot_files": ["index.html", "assets/css/style.css", "assets/data/parts.json", "assets/img/"],
-  "blockers": []
+  "v": 4,
+  "updated": "2026-09-15",
+  "next": "partner photo consent; Avito ads",
+  "hot_files": [
+    "index.html",
+    "assets/js/main.js",
+    "assets/data/parts.json",
+    "assets/data/archive-sku-old.json",
+    "assets/js/schema.js"
+  ],
+  "blockers": [
+    "schema hotspots map to archived SKU 01-32, not live 001+"
+  ],
+  "skip_index": false,
+  "task_type": "dev"
 }

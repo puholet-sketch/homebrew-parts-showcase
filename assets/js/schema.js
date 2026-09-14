@@ -1,9 +1,11 @@
 (function () {
   var DATA_URL = "assets/data/parts.json";
+  var ARCHIVE_URL = "assets/data/archive-sku-old.json";
   var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   var state = {
     data: null,
+    archiveSkus: null,
     mode: "distiller",
     layer: "root",
     selectedId: null,
@@ -91,13 +93,22 @@
   };
 
   function skuMeta(skuId) {
-    if (!skuId || !state.data.skus) return null;
-    return state.data.skus[skuId] || state.data.skus[pad(skuId)] || null;
+    if (!skuId) return null;
+    var id = pad(skuId);
+    /* Схема ссылается на архивный каталог 01–32; live-каталог — другие ID. */
+    if (state.archiveSkus) {
+      return state.archiveSkus[id] || state.archiveSkus[skuId] || null;
+    }
+    if (!state.data || !state.data.skus) return null;
+    return state.data.skus[id] || state.data.skus[skuId] || null;
   }
 
   function skuImage(skuId) {
     if (!skuId) return "";
-    return SKU_IMG[pad(skuId)] || "";
+    var id = pad(skuId);
+    var meta = skuMeta(id);
+    if (meta && meta.image) return meta.image;
+    return SKU_IMG[id] || "";
   }
 
   function pad(s) {
@@ -325,11 +336,13 @@
     var actions = [];
     if (node.skuId) {
       actions.push(
-        '<a class="btn btn--primary btn--sm" href="index.html#sku-' +
-          pad(node.skuId) +
-          '">Открыть карточку</a>'
+        '<a class="btn btn--primary btn--sm" href="index.html#catalog">Новый каталог</a>'
       );
-      actions.push('<a class="btn btn--ghost btn--sm" href="index.html#catalog">В каталог</a>');
+      actions.push(
+        '<span class="schema-panel__note">SKU ' +
+          pad(node.skuId) +
+          " — архивная позиция (до миграции витрины)</span>"
+      );
     }
     if (node.drillable && node.layer && node.layer !== state.layer) {
       actions.push(
@@ -621,13 +634,22 @@
     selectNode(hit.id, { fromClick: true });
   }
 
-  fetch(DATA_URL)
-    .then(function (r) {
-      if (!r.ok) throw new Error("load failed");
+  Promise.all([
+    fetch(DATA_URL).then(function (r) {
+      if (!r.ok) throw new Error("parts");
       return r.json();
-    })
-    .then(function (data) {
-      state.data = data;
+    }),
+    fetch(ARCHIVE_URL)
+      .then(function (r) {
+        return r.ok ? r.json() : null;
+      })
+      .catch(function () {
+        return null;
+      }),
+  ])
+    .then(function (pair) {
+      state.data = pair[0];
+      state.archiveSkus = (pair[1] && pair[1].skus) || null;
       bindSvg(els.svgDistiller);
       bindSvg(els.svgBrewery);
       bindChrome();
