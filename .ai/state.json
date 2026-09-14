@@ -3,15 +3,12 @@
   "updated": "2026-09-15",
   "next": "partner photo consent; Avito ads",
   "hot_files": [
-    "index.html",
-    "assets/js/main.js",
+    "assets/js/schema.js",
     "assets/data/parts.json",
-    "assets/data/archive-sku-old.json",
-    "assets/js/schema.js"
+    "assets/js/main.js",
+    "schema.html"
   ],
-  "blockers": [
-    "schema hotspots map to archived SKU 01-32, not live 001+"
-  ],
+  "blockers": [],
   "skip_index": false,
   "task_type": "dev"
 }

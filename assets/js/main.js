@@ -22,6 +22,18 @@
   var activeCategory = "all";
   var searchQuery = "";
 
+  (function applyCatalogParams() {
+    try {
+      var params = new URLSearchParams(location.search);
+      var cat = params.get("cat");
+      var q = params.get("q");
+      if (cat) activeCategory = cat;
+      if (q) searchQuery = q;
+    } catch (e) {
+      /* ignore */
+    }
+  })();
+
   function pad(id) {
     id = String(id || "");
     if (/^\d+$/.test(id) && id.length < 3) {
@@ -366,6 +378,13 @@
       renderCatalog(data);
       bindToolbar(data);
       openFromHash();
+      if (
+        (activeCategory !== "all" || searchQuery) &&
+        (!location.hash || location.hash === "#catalog")
+      ) {
+        var section = document.getElementById("catalog");
+        if (section) section.scrollIntoView({ block: "start" });
+      }
     })
     .catch(function () {
       var grid = document.getElementById("catalog-grid");

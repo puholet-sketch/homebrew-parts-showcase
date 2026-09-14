@@ -1,11 +1,9 @@
 (function () {
   var DATA_URL = "assets/data/parts.json";
-  var ARCHIVE_URL = "assets/data/archive-sku-old.json";
   var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   var state = {
     data: null,
-    archiveSkus: null,
     mode: "distiller",
     layer: "root",
     selectedId: null,
@@ -57,63 +55,38 @@
     return nodes()[id] || null;
   }
 
-  var SKU_IMG = {
-    "01": "assets/img/sku-01-clamp-15.png",
-    "02": "assets/img/sku-02-clamp-20.png",
-    "03": "assets/img/sku-03-ten-clamp.png",
-    "04": "assets/img/sku-04-gaskets.png",
-    "05": "assets/img/sku-05-airlock.png",
-    "06": "assets/img/sku-06-hose.png",
-    "07": "assets/img/sku-07-fermenter.png",
-    "08": "assets/img/sku-08-dimroth.png",
-    "09": "assets/img/sku-09-pid.png",
-    "10": "assets/img/sku-10-hose-clamps.png",
-    "11": "assets/img/sku-11-cube-lid.png",
-    "12": "assets/img/sku-12-tsarga.png",
-    "13": "assets/img/sku-13-diopter.png",
-    "14": "assets/img/sku-14-takeoff.png",
-    "15": "assets/img/sku-15-parrot.png",
-    "16": "assets/img/sku-16-hydrometer.png",
-    "17": "assets/img/sku-17-malt-yeast.png",
-    "18": "assets/img/sku-18-sanitizer.png",
-    "19": "assets/img/sku-19-ball-valve.png",
-    "20": "assets/img/sku-20-thermometer.png",
-    "21": "assets/img/sku-21-spn.png",
-    "22": "assets/img/sku-22-rpn.png",
-    "23": "assets/img/sku-23-gasket-20.png",
-    "24": "assets/img/sku-24-drain.png",
-    "25": "assets/img/sku-25-chiller.png",
-    "26": "assets/img/sku-26-prv.png",
-    "27": "assets/img/sku-27-receiver.png",
-    "28": "assets/img/sku-28-adapter.png",
-    "29": "assets/img/sku-29-blank.png",
-    "30": "assets/img/sku-30-mash.png",
-    "31": "assets/img/sku-31-needle.png",
-    "32": "assets/img/sku-32-clamp-extra.png",
-  };
+  function padSku(s) {
+    s = String(s == null ? "" : s).replace(/\D/g, "");
+    if (!s) return "";
+    while (s.length < 3) s = "0" + s;
+    return s;
+  }
 
   function skuMeta(skuId) {
-    if (!skuId) return null;
-    var id = pad(skuId);
-    /* Схема ссылается на архивный каталог 01–32; live-каталог — другие ID. */
-    if (state.archiveSkus) {
-      return state.archiveSkus[id] || state.archiveSkus[skuId] || null;
-    }
-    if (!state.data || !state.data.skus) return null;
+    if (!skuId || !state.data || !state.data.skus) return null;
+    var id = padSku(skuId);
     return state.data.skus[id] || state.data.skus[skuId] || null;
   }
 
   function skuImage(skuId) {
-    if (!skuId) return "";
-    var id = pad(skuId);
-    var meta = skuMeta(id);
-    if (meta && meta.image) return meta.image;
-    return SKU_IMG[id] || "";
+    var meta = skuMeta(skuId);
+    return meta && meta.image ? meta.image : "";
   }
 
-  function pad(s) {
-    s = String(s);
-    return s.length === 1 ? "0" + s : s;
+  function catalogFallbackHref(hint) {
+    hint = hint || {};
+    var params = [];
+    if (hint.category) params.push("cat=" + encodeURIComponent(hint.category));
+    if (hint.q) params.push("q=" + encodeURIComponent(hint.q));
+    return "index.html" + (params.length ? "?" + params.join("&") : "") + "#catalog";
+  }
+
+  function categoryName(catId) {
+    if (!catId || !state.data || !state.data.categories) return "";
+    var hit = state.data.categories.filter(function (c) {
+      return c.id === catId;
+    })[0];
+    return hit ? hit.name : catId;
   }
 
   function escapeHtml(s) {
@@ -148,24 +121,42 @@
     var seen = {};
     var modes = state.data.modes || {};
     Object.keys(modes).forEach(function (modeKey) {
-      var svgId = modeKey === "brewery" ? "svg-brewery" : "svg-distiller";
-      var svg = document.getElementById(svgId);
       var modeNodes = modes[modeKey].nodes || {};
-      if (!svg) return;
-      svg.querySelectorAll(".hotspot[data-id]").forEach(function (h) {
-        var n = modeNodes[h.getAttribute("data-id")];
-        if (n && n.skuId) seen[pad(n.skuId)] = true;
+      Object.keys(modeNodes).forEach(function (nid) {
+        var n = modeNodes[nid];
+        if (n && n.skuId) seen[padSku(n.skuId)] = true;
       });
     });
     return Object.keys(seen).sort();
   }
 
+  function coverageStats() {
+    var modes = state.data.modes || {};
+    var withSku = 0;
+    var total = 0;
+    Object.keys(modes).forEach(function (modeKey) {
+      var modeNodes = modes[modeKey].nodes || {};
+      Object.keys(modeNodes).forEach(function (nid) {
+        var n = modeNodes[nid];
+        if (!n || (!n.skuId && !n.catalogHint)) return;
+        total++;
+        if (n.skuId) withSku++;
+      });
+    });
+    return { matched: withSku, nodes: total, unique: coverageSkus().length };
+  }
+
   function renderCoverage() {
     if (!els.coverage || !state.data || !state.data.skus) return;
-    var total = Object.keys(state.data.skus).length;
-    var covered = coverageSkus().length;
+    var st = coverageStats();
     els.coverage.innerHTML =
-      "Покрытие каталога: <strong>" + covered + "/" + total + "</strong> SKU";
+      "SKU на схеме: <strong>" +
+      st.matched +
+      "/" +
+      st.nodes +
+      "</strong> узлов · " +
+      st.unique +
+      " позиций каталога";
   }
 
   function setMode(mode) {
@@ -288,11 +279,14 @@
       ? '<div class="schema-panel__media"><img src="' +
         escapeHtml(img) +
         '" alt="' +
-        escapeHtml(node.name) +
+        escapeHtml((sku && sku.name) || node.name) +
         '" width="180" height="180"></div>'
       : "";
-    var skuLine = node.skuId
-      ? '<div class="schema-panel__sku">SKU ' + pad(node.skuId) + "</div>"
+    var skuLine = sku
+      ? '<div class="schema-panel__sku">SKU ' +
+        padSku(node.skuId) +
+        (sku.categoryName ? " · " + escapeHtml(sku.categoryName) : "") +
+        "</div>"
       : '<div class="schema-panel__sku">Узел схемы</div>';
     var useText = (sku && sku.use) || "";
     var descText = node.description || "";
@@ -327,21 +321,33 @@
           escapeHtml(rid) +
           '">' +
           escapeHtml(rn.name) +
-          (rn.skuId ? " · SKU " + pad(rn.skuId) : "") +
+          (rn.skuId ? " · SKU " + padSku(rn.skuId) : "") +
           "</button>"
         );
       })
       .filter(Boolean)
       .join("");
     var actions = [];
-    if (node.skuId) {
+    if (sku) {
       actions.push(
-        '<a class="btn btn--primary btn--sm" href="index.html#catalog">Новый каталог</a>'
+        '<a class="btn btn--primary btn--sm" href="index.html#sku-' +
+          padSku(node.skuId) +
+          '">Открыть карточку</a>'
+      );
+    } else if (node.catalogHint) {
+      var hint = node.catalogHint;
+      var catLabel = categoryName(hint.category);
+      actions.push(
+        '<a class="btn btn--primary btn--sm" href="' +
+          escapeHtml(catalogFallbackHref(hint)) +
+          '">' +
+          (hint.q ? "Искать в каталоге" : catLabel ? "Категория: " + escapeHtml(catLabel) : "Открыть каталог") +
+          "</a>"
       );
       actions.push(
-        '<span class="schema-panel__note">SKU ' +
-          pad(node.skuId) +
-          " — архивная позиция (до миграции витрины)</span>"
+        '<span class="schema-panel__note">Нет точного SKU в новом каталоге' +
+          (hint.note ? " — " + escapeHtml(hint.note) : ".") +
+          "</span>"
       );
     }
     if (node.drillable && node.layer && node.layer !== state.layer) {
@@ -403,7 +409,13 @@
       .map(function (id) {
         var n = getNode(id);
         if (!n) return "";
-        var sub = n.skuId ? "SKU " + pad(n.skuId) : n.drillable ? "сборка" : "узел";
+        var sub = n.skuId
+          ? "SKU " + padSku(n.skuId)
+          : n.catalogHint
+            ? "без точного SKU"
+            : n.drillable
+              ? "сборка"
+              : "узел";
         var active = id === state.selectedId ? " is-active" : "";
         return (
           '<li><button type="button" class="' +
@@ -609,7 +621,7 @@
   }
 
   function findNodeBySku(skuId) {
-    skuId = pad(skuId);
+    skuId = padSku(skuId);
     var modes = state.data.modes || {};
     var found = null;
     Object.keys(modes).forEach(function (modeKey) {
@@ -617,7 +629,7 @@
       var nodes = (modes[modeKey] && modes[modeKey].nodes) || {};
       Object.keys(nodes).forEach(function (nid) {
         if (found) return;
-        if (pad(nodes[nid].skuId || "") === skuId) {
+        if (padSku(nodes[nid].skuId || "") === skuId) {
           found = { mode: modeKey, id: nid };
         }
       });
@@ -626,7 +638,7 @@
   }
 
   function openFromHash() {
-    var m = location.hash && location.hash.match(/^#sku-(\d{2})$/);
+    var m = location.hash && location.hash.match(/^#sku-(\d{2,3})$/);
     if (!m) return;
     var hit = findNodeBySku(m[1]);
     if (!hit) return;
@@ -634,22 +646,13 @@
     selectNode(hit.id, { fromClick: true });
   }
 
-  Promise.all([
-    fetch(DATA_URL).then(function (r) {
+  fetch(DATA_URL)
+    .then(function (r) {
       if (!r.ok) throw new Error("parts");
       return r.json();
-    }),
-    fetch(ARCHIVE_URL)
-      .then(function (r) {
-        return r.ok ? r.json() : null;
-      })
-      .catch(function () {
-        return null;
-      }),
-  ])
-    .then(function (pair) {
-      state.data = pair[0];
-      state.archiveSkus = (pair[1] && pair[1].skus) || null;
+    })
+    .then(function (data) {
+      state.data = data;
       bindSvg(els.svgDistiller);
       bindSvg(els.svgBrewery);
       bindChrome();

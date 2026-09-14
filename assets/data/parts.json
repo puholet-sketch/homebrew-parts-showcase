@@ -41,6 +41,1046 @@
     }
   ],
   "skus": {
+    "100": {
+      "name": "Клапан избыточного давления",
+      "price": "от 40 ₽",
+      "href": "index.html#sku-100",
+      "slug": "klapan-izbytochnogo-davleniya",
+      "image": "assets/img/alko/sku-100-klapan-izbytochnogo-davleniya.jpg",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%ba%d0%bb%d0%b0%d0%bf%d0%b0%d0%bd-%d0%b8%d0%b7%d0%b1%d1%8b%d1%82%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d0%b4%d0%b0%d0%b2%d0%bb%d0%b5%d0%bd%d0%b8%d1%8f/",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        },
+        {
+          "icon": "seal",
+          "text": "расходник"
+        }
+      ],
+      "use": "резьба 3/8″, диаметр 13 мм, до 160 кПа.",
+      "tg": "Клапан избыточного давления"
+    },
+    "101": {
+      "name": "Ложка для перемешивания сусла 60 см",
+      "price": "от 85 ₽",
+      "href": "index.html#sku-101",
+      "slug": "lozhka-dlya-peremeshivaniya-susla-60-sm",
+      "image": "assets/img/alko/sku-101-lozhka-dlya-peremeshivaniya-susla-60-sm.jpg",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bb%d0%be%d0%b6%d0%ba%d0%b0-%d0%b4%d0%bb%d1%8f-%d0%bf%d0%b5%d1%80%d0%b5%d0%bc%d0%b5%d1%88%d0%b8%d0%b2%d0%b0%d0%bd%d0%b8%d1%8f-%d1%81%d1%83%d1%81%d0%bb%d0%b0/",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        },
+        {
+          "icon": "seal",
+          "text": "расходник"
+        }
+      ],
+      "use": "Ложка для перемешивания сусла 60 см — комплектация домашнего аппарата и ферментера.",
+      "tg": "Ложка для перемешивания сусла 60 см"
+    },
+    "102": {
+      "name": "Мельница для солода «Comfort 500»",
+      "price": "от 1 250 ₽",
+      "href": "index.html#sku-102",
+      "slug": "melnitsa-dlya-soloda-comfort-500",
+      "image": "assets/img/alko/sku-102-melnitsa-dlya-soloda-comfort-500.jpg",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bc%d0%b5%d0%bb%d1%8c%d0%bd%d0%b8%d1%86%d0%b0-%d0%b4%d0%bb%d1%8f-%d1%81%d0%be%d0%bb%d0%be%d0%b4%d0%b0-comfort-500/",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        },
+        {
+          "icon": "seal",
+          "text": "расходник"
+        }
+      ],
+      "use": "Мельница для солода «Comfort 500» — комплектация домашнего аппарата и ферментера.",
+      "tg": "Мельница для солода «Comfort 500»"
+    },
+    "103": {
+      "name": "Мельница для солода Роликовая",
+      "price": "от 6 300 ₽",
+      "href": "index.html#sku-103",
+      "slug": "melnitsa-dlya-soloda-rolikovaya",
+      "image": "assets/img/alko/sku-103-melnitsa-dlya-soloda-rolikovaya.jpg",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bc%d0%b5%d0%bb%d1%8c%d0%bd%d0%b8%d1%86%d0%b0-%d0%b4%d0%bb%d1%8f-%d1%81%d0%be%d0%bb%d0%be%d0%b4%d0%b0-%d1%80%d0%be%d0%bb%d0%b8%d0%ba%d0%be%d0%b2%d0%b0%d1%8f/",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        },
+        {
+          "icon": "seal",
+          "text": "расходник"
+        }
+      ],
+      "use": "Мельница для солода Роликовая — комплектация домашнего аппарата и ферментера.",
+      "tg": "Мельница для солода Роликовая"
+    },
+    "104": {
+      "name": "Мешок для затирки солода. 20х30 мс.100",
+      "price": "от 38 ₽",
+      "href": "index.html#sku-104",
+      "slug": "meshok-dlya-zatirki-soloda-20h30-ms-100",
+      "image": "assets/img/alko/sku-104-meshok-dlya-zatirki-soloda-20h30-ms-100.jpg",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bc%d0%b5%d1%88%d0%be%d0%ba-%d0%b4%d0%bb%d1%8f-%d0%b7%d0%b0%d1%82%d0%b8%d1%80%d0%ba%d0%b8-%d1%81%d0%be%d0%bb%d0%be%d0%b4%d0%b0-20%d1%8530-%d0%bc%d1%81-100/",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        },
+        {
+          "icon": "seal",
+          "text": "расходник"
+        }
+      ],
+      "use": "Мешок для затирки солода. 20х30 мс.100 — комплектация домашнего аппарата и ферментера.",
+      "tg": "Мешок для затирки солода. 20х30 мс.100"
+    },
+    "105": {
+      "name": "Мешок для затирки солода. 45х62 мс.100",
+      "price": "от 78 ₽",
+      "href": "index.html#sku-105",
+      "slug": "meshok-dlya-zatirki-soloda-45h62-ms-100",
+      "image": "assets/img/alko/sku-105-meshok-dlya-zatirki-soloda-45h62-ms-100.jpg",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bc%d0%b5%d1%88%d0%be%d0%ba-%d0%b4%d0%bb%d1%8f-%d0%b7%d0%b0%d1%82%d0%b8%d1%80%d0%ba%d0%b8-%d1%81%d0%be%d0%bb%d0%be%d0%b4%d0%b0-45%d1%8562-%d0%bc%d1%81-100/",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        },
+        {
+          "icon": "seal",
+          "text": "расходник"
+        }
+      ],
+      "use": "Мешок для затирки солода. 45х62 мс.100 — комплектация домашнего аппарата и ферментера.",
+      "tg": "Мешок для затирки солода. 45х62 мс.100"
+    },
+    "106": {
+      "name": "Мешок для затирки солода. 45х62 мс.200",
+      "price": "от 78 ₽",
+      "href": "index.html#sku-106",
+      "slug": "meshok-dlya-zatirki-soloda-45h62-ms-200",
+      "image": "assets/img/alko/sku-106-meshok-dlya-zatirki-soloda-45h62-ms-200.jpg",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bc%d0%b5%d1%88%d0%be%d0%ba-%d0%b4%d0%bb%d1%8f-%d0%b7%d0%b0%d1%82%d0%b8%d1%80%d0%ba%d0%b8-%d1%81%d0%be%d0%bb%d0%be%d0%b4%d0%b0-45%d1%8562-%d0%bc%d1%81-200/",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        },
+        {
+          "icon": "seal",
+          "text": "расходник"
+        }
+      ],
+      "use": "Мешок для затирки солода. 45х62 мс.200 — комплектация домашнего аппарата и ферментера.",
+      "tg": "Мешок для затирки солода. 45х62 мс.200"
+    },
+    "107": {
+      "name": "Ниппель для установки термометра гайка М12",
+      "price": "от 33 ₽",
+      "href": "index.html#sku-107",
+      "slug": "nippel-dlya-ustanovki-termometra-gayka-m12",
+      "image": "assets/img/alko/sku-107-nippel-dlya-ustanovki-termometra-gayka-m12.jpg",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bd%d0%b8%d0%bf%d0%bf%d0%b5%d0%bb%d1%8c-%d0%b4%d0%bb%d1%8f-%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b8-%d1%82%d0%b5%d1%80%d0%bc%d0%be%d0%bc%d0%b5%d1%82%d1%80%d0%b0-%d0%b3%d0%b0%d0%b9-2/",
+      "facts": [
+        {
+          "icon": "temp",
+          "text": "термометрия"
+        },
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        }
+      ],
+      "use": "Используется для установки игольчатого термометра в бак, гайка М12.",
+      "tg": "Ниппель для установки термометра гайка М12"
+    },
+    "108": {
+      "name": "Ниппель для установки термометра гайка М8",
+      "price": "от 40 ₽",
+      "href": "index.html#sku-108",
+      "slug": "nippel-dlya-ustanovki-termometra-gayka-m8",
+      "image": "assets/img/alko/sku-108-nippel-dlya-ustanovki-termometra-gayka-m8.jpg",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bd%d0%b8%d0%bf%d0%bf%d0%b5%d0%bb%d1%8c-%d0%b4%d0%bb%d1%8f-%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b8-%d1%82%d0%b5%d1%80%d0%bc%d0%be%d0%bc%d0%b5%d1%82%d1%80%d0%b0-%d0%b3%d0%b0%d0%b9/",
+      "facts": [
+        {
+          "icon": "temp",
+          "text": "термометрия"
+        },
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        }
+      ],
+      "use": "Используется для установки игольчатого термометра в бак, гайка М8.",
+      "tg": "Ниппель для установки термометра гайка М8"
+    },
+    "109": {
+      "name": "Ручной укупориватель корковых пробок",
+      "price": "от 850 ₽",
+      "href": "index.html#sku-109",
+      "slug": "ruchnoy-ukuporivatel-korkovyh-probok",
+      "image": "assets/img/alko/sku-109-ruchnoy-ukuporivatel-korkovyh-probok.jpg",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%80%d1%83%d1%87%d0%bd%d0%be%d0%b9-%d1%83%d0%ba%d1%83%d0%bf%d0%be%d1%80%d0%b8%d0%b2%d0%b0%d1%82%d0%b5%d0%bb%d1%8c-%d0%ba%d0%be%d1%80%d0%ba%d0%be%d0%b2%d1%8b%d1%85-%d0%bf%d1%80%d0%be%d0%b1%d0%be/",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        },
+        {
+          "icon": "seal",
+          "text": "расходник"
+        }
+      ],
+      "use": "Ручной укупориватель корковых пробок — комплектация домашнего аппарата и ферментера.",
+      "tg": "Ручной укупориватель корковых пробок"
+    },
+    "110": {
+      "name": "Ручной укупориватель кроненпробок",
+      "price": "от 800 ₽",
+      "href": "index.html#sku-110",
+      "slug": "ruchnoy-ukuporivatel-kronenprobok",
+      "image": "assets/img/alko/sku-110-ruchnoy-ukuporivatel-kronenprobok.jpg",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%80%d1%83%d1%87%d0%bd%d0%be%d0%b9-%d1%83%d0%ba%d1%83%d0%bf%d0%be%d1%80%d0%b8%d0%b2%d0%b0%d1%82%d0%b5%d0%bb%d1%8c-%d0%ba%d1%80%d0%be%d0%bd%d0%b5%d0%bd%d0%bf%d1%80%d0%be%d0%b1%d0%be%d0%ba/",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        },
+        {
+          "icon": "seal",
+          "text": "расходник"
+        }
+      ],
+      "use": "Ручной укупориватель кроненпробок — комплектация домашнего аппарата и ферментера.",
+      "tg": "Ручной укупориватель кроненпробок"
+    },
+    "111": {
+      "name": "Сифон переливной",
+      "price": "от 75 ₽",
+      "href": "index.html#sku-111",
+      "slug": "sifon-perelivnoy",
+      "image": "assets/img/alko/sku-111-sifon-perelivnoy.jpg",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%81%d0%b8%d1%84%d0%be%d0%bd-%d0%bf%d0%b5%d1%80%d0%b5%d0%bb%d0%b8%d0%b2%d0%bd%d0%be%d0%b9/",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        },
+        {
+          "icon": "seal",
+          "text": "расходник"
+        }
+      ],
+      "use": "С помпой и фильтром длинна трубки 2м.",
+      "tg": "Сифон переливной"
+    },
+    "112": {
+      "name": "Сифон переливной автоматический",
+      "price": "от 400 ₽",
+      "href": "index.html#sku-112",
+      "slug": "sifon-perelivnoy-avtomaticheskiy",
+      "image": "assets/img/alko/sku-112-sifon-perelivnoy-avtomaticheskiy.jpg",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%81%d0%b8%d1%84%d0%be%d0%bd-%d0%bf%d0%b5%d1%80%d0%b5%d0%bb%d0%b8%d0%b2%d0%bd%d0%be%d0%b9-%d0%b0%d0%b2%d1%82%d0%be%d0%bc%d0%b0%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b8%d0%b9/",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        },
+        {
+          "icon": "seal",
+          "text": "расходник"
+        }
+      ],
+      "use": "Сифон переливной автоматический — комплектация домашнего аппарата и ферментера.",
+      "tg": "Сифон переливной автоматический"
+    },
+    "113": {
+      "name": "Трубка наливная с клапаном",
+      "price": "от 120 ₽",
+      "href": "index.html#sku-113",
+      "slug": "trubka-nalivnaya-s-klapanom",
+      "image": "assets/img/alko/sku-113-trubka-nalivnaya-s-klapanom.jpg",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%82%d1%80%d1%83%d0%b1%d0%ba%d0%b0-%d0%bd%d0%b0%d0%bb%d0%b8%d0%b2%d0%bd%d0%b0%d1%8f-%d1%81-%d0%ba%d0%bb%d0%b0%d0%bf%d0%b0%d0%bd%d0%be%d0%bc/",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        },
+        {
+          "icon": "seal",
+          "text": "расходник"
+        }
+      ],
+      "use": "Трубка наливная с клапаном — комплектация домашнего аппарата и ферментера.",
+      "tg": "Трубка наливная с клапаном"
+    },
+    "114": {
+      "name": "Уплотнитель к гидрозатвору",
+      "price": "от 10 ₽",
+      "href": "index.html#sku-114",
+      "slug": "uplotnitel-k-gidrozatvoru",
+      "image": "assets/img/alko/sku-114-uplotnitel-k-gidrozatvoru.png",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%83%d0%bf%d0%bb%d0%be%d1%82%d0%bd%d0%b8%d1%82%d0%b5%d0%bb%d1%8c-%d0%ba-%d0%b3%d0%b8%d0%b4%d1%80%d0%be%d0%b7%d0%b0%d1%82%d0%b2%d0%be%d1%80%d1%83/",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        },
+        {
+          "icon": "seal",
+          "text": "расходник"
+        }
+      ],
+      "use": "Уплотнитель к гидрозатвору — комплектация домашнего аппарата и ферментера.",
+      "tg": "Уплотнитель к гидрозатвору"
+    },
+    "115": {
+      "name": "Щетка для бутылок",
+      "price": "от 75 ₽",
+      "href": "index.html#sku-115",
+      "slug": "schetka-dlya-butylok",
+      "image": "assets/img/alko/sku-115-schetka-dlya-butylok.jpg",
+      "category": "other",
+      "categoryName": "Прочее оборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%89%d0%b5%d1%82%d0%ba%d0%b0-%d0%b4%d0%bb%d1%8f-%d0%b1%d1%83%d1%82%d1%8b%d0%bb%d0%be%d0%ba/",
+      "facts": [
+        {
+          "icon": "packing",
+          "text": "комплектация"
+        },
+        {
+          "icon": "steel",
+          "text": "для аппарата"
+        },
+        {
+          "icon": "seal",
+          "text": "расходник"
+        }
+      ],
+      "use": "Щетка для бутылок — комплектация домашнего аппарата и ферментера.",
+      "tg": "Щетка для бутылок"
+    },
+    "116": {
+      "name": "Компрессор для автономного охлаждения КС8",
+      "price": "от 350 ₽",
+      "href": "index.html#sku-116",
+      "slug": "kompressor-dlya-avtonomnogo-ohlazhdeniya-ks8",
+      "image": "assets/img/alko/sku-116-kompressor-dlya-avtonomnogo-ohlazhdeniya-ks8.jpg",
+      "category": "electro",
+      "categoryName": "Электрооборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%ba%d0%be%d0%bc%d0%bf%d1%80%d0%b5%d1%81%d1%81%d0%be%d1%80-%d0%b4%d0%bb%d1%8f-%d0%b0%d0%b2%d1%82%d0%be%d0%bd%d0%be%d0%bc%d0%bd%d0%be%d0%b3%d0%be-%d0%be%d1%85%d0%bb%d0%b0%d0%b6%d0%b4%d0%b5%d0%bd/",
+      "facts": [
+        {
+          "icon": "power",
+          "text": "220 В"
+        },
+        {
+          "icon": "temp",
+          "text": "электроника"
+        },
+        {
+          "icon": "seal",
+          "text": "комплект"
+        }
+      ],
+      "use": "Компрессор для автономного охлаждения КС8 — нагрев и электроника для стабильной работы установки.",
+      "tg": "Компрессор для автономного охлаждения КС8"
+    },
+    "117": {
+      "name": "Нагреватель для браги 100 W",
+      "price": "от 350 ₽",
+      "href": "index.html#sku-117",
+      "slug": "nagrevatel-dlya-bragi-100-w",
+      "image": "assets/img/alko/sku-117-nagrevatel-dlya-bragi-100-w.jpg",
+      "category": "electro",
+      "categoryName": "Электрооборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bd%d0%b0%d0%b3%d1%80%d0%b5%d0%b2%d0%b0%d1%82%d0%b5%d0%bb%d1%8c-%d0%b4%d0%bb%d1%8f-%d0%b1%d1%80%d0%b0%d0%b3%d0%b8-xilong-at-700/",
+      "facts": [
+        {
+          "icon": "power",
+          "text": "220 В"
+        },
+        {
+          "icon": "temp",
+          "text": "электроника"
+        },
+        {
+          "icon": "seal",
+          "text": "комплект"
+        }
+      ],
+      "use": "электроника и нагрев для стабильного процесса на домашней установке.",
+      "tg": "Нагреватель для браги 100 W"
+    },
+    "118": {
+      "name": "Насос MP-15RM",
+      "price": "от 3 800 ₽",
+      "href": "index.html#sku-118",
+      "slug": "nasos-mp-15rm",
+      "image": "assets/img/alko/sku-118-nasos-mp-15rm.jpg",
+      "category": "electro",
+      "categoryName": "Электрооборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bd%d0%b0%d1%81%d0%be%d1%81-mp-15rm/",
+      "facts": [
+        {
+          "icon": "power",
+          "text": "220 В"
+        },
+        {
+          "icon": "temp",
+          "text": "электроника"
+        },
+        {
+          "icon": "seal",
+          "text": "комплект"
+        }
+      ],
+      "use": "Насос высокотемпературный с магнитной муфтой.",
+      "tg": "Насос MP-15RM"
+    },
+    "119": {
+      "name": "ТЭН Dn40, 3 кВт",
+      "price": "от 950 ₽",
+      "href": "index.html#sku-119",
+      "slug": "ten-dn40-3-kvt",
+      "image": "assets/img/alko/sku-119-ten-dn40-3-kvt.jpg",
+      "category": "electro",
+      "categoryName": "Электрооборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%82%d1%8d%d0%bd-dn40-3-%d0%ba%d0%b2%d1%82/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 40"
+        },
+        {
+          "icon": "power",
+          "text": "3 кВт"
+        },
+        {
+          "icon": "power",
+          "text": "220 В"
+        }
+      ],
+      "use": "ТЭН Dn40 (47 мм), 4,5 кВт, длина нагревательного элемента 26 см., стальная основа.",
+      "tg": "ТЭН Dn40, 3 кВт"
+    },
+    "120": {
+      "name": "ТЭН Dn40, 3 кВт с переходником под кламп",
+      "price": "от 1 150 ₽",
+      "href": "index.html#sku-120",
+      "slug": "ten-dn40-3-kvt-s-perehodnikom-pod-klamp",
+      "image": "assets/img/alko/sku-120-ten-dn40-3-kvt-s-perehodnikom-pod-klamp.jpg",
+      "category": "electro",
+      "categoryName": "Электрооборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%82%d1%8d%d0%bd-dn40-3-%d0%ba%d0%b2%d1%82-2/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 40"
+        },
+        {
+          "icon": "power",
+          "text": "3 кВт"
+        },
+        {
+          "icon": "clamp",
+          "text": "кламп"
+        }
+      ],
+      "use": "ТЭН Dn32, 3 кВт Dn32 (42 мм), 3 кВт, длина нагревательного элемента 20 см.стальная основа.",
+      "tg": "ТЭН Dn40, 3 кВт с переходником под кламп"
+    },
+    "121": {
+      "name": "ТЭН Dn40, 4,5 кВт",
+      "price": "от 1 100 ₽",
+      "href": "index.html#sku-121",
+      "slug": "ten-dn40-4-5-kvt",
+      "image": "assets/img/alko/sku-121-ten-dn40-4-5-kvt.jpg",
+      "category": "electro",
+      "categoryName": "Электрооборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%82%d1%8d%d0%bd-dn40-45-%d0%ba%d0%b2%d1%82/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 40"
+        },
+        {
+          "icon": "power",
+          "text": "4,5 кВт"
+        },
+        {
+          "icon": "power",
+          "text": "220 В"
+        }
+      ],
+      "use": "ТЭН Dn40 (47 мм), 4,5 кВт, длина нагревательного элемента 26 см.",
+      "tg": "ТЭН Dn40, 4,5 кВт"
+    },
+    "122": {
+      "name": "ТЭН Dn40, 4,5 кВт с переходником под кламп",
+      "price": "от 1 200 ₽",
+      "href": "index.html#sku-122",
+      "slug": "ten-dn40-4-5-kvt-s-perehodnikom-pod-klamp",
+      "image": "assets/img/alko/sku-122-ten-dn40-4-5-kvt-s-perehodnikom-pod-klamp.jpg",
+      "category": "electro",
+      "categoryName": "Электрооборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%82%d1%8d%d0%bd-dn32-45-%d0%ba%d0%b2%d1%82/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 40"
+        },
+        {
+          "icon": "power",
+          "text": "4,5 кВт"
+        },
+        {
+          "icon": "clamp",
+          "text": "кламп"
+        }
+      ],
+      "use": "ТЭН Dn40, 4,5 кВт с переходником под кламп — нагрев и электроника для стабильной работы установки.",
+      "tg": "ТЭН Dn40, 4,5 кВт с переходником под кламп"
+    },
+    "123": {
+      "name": "ТЭН Dn40, 6 кВт",
+      "price": "от 1 250 ₽",
+      "href": "index.html#sku-123",
+      "slug": "ten-dn40-6-kvt",
+      "image": "assets/img/alko/sku-123-ten-dn40-6-kvt.jpg",
+      "category": "electro",
+      "categoryName": "Электрооборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%82%d1%8d%d0%bd-dn40-6-%d0%ba%d0%b2%d1%82/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 40"
+        },
+        {
+          "icon": "power",
+          "text": "6 кВт"
+        },
+        {
+          "icon": "power",
+          "text": "220 В"
+        }
+      ],
+      "use": "ТЭН Dn40 (47 мм), 6 кВт, длина нагревательного элемента 26 см., стальная основа.",
+      "tg": "ТЭН Dn40, 6 кВт"
+    },
+    "124": {
+      "name": "ТЭН Dn40, 6 кВт c переходником под кламп",
+      "price": "от 1 300 ₽",
+      "href": "index.html#sku-124",
+      "slug": "ten-dn40-6-kvt-c-perehodnikom-pod-klamp",
+      "image": "assets/img/alko/sku-124-ten-dn40-6-kvt-c-perehodnikom-pod-klamp.jpg",
+      "category": "electro",
+      "categoryName": "Электрооборудование",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%82%d1%8d%d0%bd-dn32-6-%d0%ba%d0%b2%d1%82/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 40"
+        },
+        {
+          "icon": "power",
+          "text": "6 кВт"
+        },
+        {
+          "icon": "clamp",
+          "text": "кламп"
+        }
+      ],
+      "use": "ТЭН Dn32, 6 кВт ТЭН Dn32 (42 мм), 6 кВт, длина нагревательного элемента 26 см.,стальная основа.",
+      "tg": "ТЭН Dn40, 6 кВт c переходником под кламп"
+    },
+    "125": {
+      "name": "Пневмошланг красный 10х6.5 (PU)",
+      "price": "от 45 ₽",
+      "href": "index.html#sku-125",
+      "slug": "pnevmoshlang-krasnyy-10h6-5-pu",
+      "image": "assets/img/alko/sku-125-pnevmoshlang-krasnyy-10h6-5-pu.jpg",
+      "category": "hoses",
+      "categoryName": "Шланги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bf%d0%bd%d0%b5%d0%b2%d0%bc%d0%be%d1%88%d0%bb%d0%b0%d0%bd%d0%b3-%d0%ba%d1%80%d0%b0%d1%81%d0%bd%d1%8b%d0%b9-10%d1%856-5-pu/",
+      "facts": [
+        {
+          "icon": "hose",
+          "text": "шланг"
+        },
+        {
+          "icon": "hose",
+          "text": "пищевой"
+        },
+        {
+          "icon": "temp",
+          "text": "гибкий"
+        }
+      ],
+      "use": "Шланг высокого давления полиуретановый, толщина стенки 2 мм.",
+      "tg": "Пневмошланг красный 10х6.5 (PU)"
+    },
+    "126": {
+      "name": "Пневмошланг красный 12х8 (PU)",
+      "price": "от 55 ₽",
+      "href": "index.html#sku-126",
+      "slug": "pnevmoshlang-krasnyy-12h8-pu",
+      "image": "assets/img/alko/sku-126-pnevmoshlang-krasnyy-12h8-pu.jpg",
+      "category": "hoses",
+      "categoryName": "Шланги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bf%d0%bd%d0%b5%d0%b2%d0%bc%d0%be%d1%88%d0%bb%d0%b0%d0%bd%d0%b3-%d0%ba%d1%80%d0%b0%d1%81%d0%bd%d1%8b%d0%b9-12%d1%858-pu/",
+      "facts": [
+        {
+          "icon": "hose",
+          "text": "шланг"
+        },
+        {
+          "icon": "hose",
+          "text": "пищевой"
+        },
+        {
+          "icon": "temp",
+          "text": "гибкий"
+        }
+      ],
+      "use": "Шланг высокого давления полиуретановый, толщина стенки 2 мм.",
+      "tg": "Пневмошланг красный 12х8 (PU)"
+    },
+    "127": {
+      "name": "Пневмошланг синий 10х6.5 (PU)",
+      "price": "от 45 ₽",
+      "href": "index.html#sku-127",
+      "slug": "pnevmoshlang-siniy-10h6-5-pu",
+      "image": "assets/img/alko/sku-127-pnevmoshlang-siniy-10h6-5-pu.jpg",
+      "category": "hoses",
+      "categoryName": "Шланги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bf%d0%bd%d0%b5%d0%b2%d0%bc%d0%be%d1%88%d0%bb%d0%b0%d0%bd%d0%b3-%d1%81%d0%b8%d0%bd%d0%b8%d0%b9-10%d1%856-5-pu/",
+      "facts": [
+        {
+          "icon": "hose",
+          "text": "шланг"
+        },
+        {
+          "icon": "hose",
+          "text": "пищевой"
+        },
+        {
+          "icon": "temp",
+          "text": "гибкий"
+        }
+      ],
+      "use": "Шланг высокого давления полиуретановый, толщина стенки 2 мм.",
+      "tg": "Пневмошланг синий 10х6.5 (PU)"
+    },
+    "128": {
+      "name": "Пневмошланг синий 12х8 (PU)",
+      "price": "от 55 ₽",
+      "href": "index.html#sku-128",
+      "slug": "pnevmoshlang-siniy-12h8-pu",
+      "image": "assets/img/alko/sku-128-pnevmoshlang-siniy-12h8-pu.jpg",
+      "category": "hoses",
+      "categoryName": "Шланги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bf%d0%bd%d0%b5%d0%b2%d0%bc%d0%be%d1%88%d0%bb%d0%b0%d0%bd%d0%b3-%d1%81%d0%b8%d0%bd%d0%b8%d0%b9-12%d1%858-pu/",
+      "facts": [
+        {
+          "icon": "hose",
+          "text": "шланг"
+        },
+        {
+          "icon": "hose",
+          "text": "пищевой"
+        },
+        {
+          "icon": "temp",
+          "text": "гибкий"
+        }
+      ],
+      "use": "Шланг высокого давления полиуретановый, толщина стенки 2 мм.",
+      "tg": "Пневмошланг синий 12х8 (PU)"
+    },
+    "129": {
+      "name": "Шланг (силикон) 10 мм, толщина стенки 1,5 мм.",
+      "price": "от 105 ₽",
+      "href": "index.html#sku-129",
+      "slug": "shlang-silikon-10-mm-tolschina-stenki-1-5-mm",
+      "image": "assets/img/alko/sku-129-shlang-silikon-10-mm-tolschina-stenki-1-5-mm.jpg",
+      "category": "hoses",
+      "categoryName": "Шланги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%88%d0%bb%d0%b0%d0%bd%d0%b3-%d1%81%d0%b8%d0%bb%d0%b8%d0%ba%d0%be%d0%bd-10-%d0%bc%d0%bc-%d1%82%d0%be%d0%bb%d1%89%d0%b8%d0%bd%d0%b0-%d1%81%d1%82%d0%b5%d0%bd%d0%ba%d0%b8-15-%d0%bc%d0%bc/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "Ø 10 мм"
+        },
+        {
+          "icon": "gasket",
+          "text": "силикон"
+        },
+        {
+          "icon": "hose",
+          "text": "шланг"
+        }
+      ],
+      "use": "Шланг (силикон) 10 мм, толщина стенки 1,5 мм. — шланг для охлаждения и переливов (пищевой контур).",
+      "tg": "Шланг (силикон) 10 мм, толщина стенки 1,5 мм."
+    },
+    "130": {
+      "name": "Шланг (силикон) 6 мм, толщина стенки 1,5 мм.",
+      "price": "от 80 ₽",
+      "href": "index.html#sku-130",
+      "slug": "shlang-silikon-6-mm-tolschina-stenki-1-5-mm",
+      "image": "assets/img/alko/sku-130-shlang-silikon-6-mm-tolschina-stenki-1-5-mm.jpg",
+      "category": "hoses",
+      "categoryName": "Шланги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%88%d0%bb%d0%b0%d0%bd%d0%b3-%d1%81%d0%b8%d0%bb%d0%b8%d0%ba%d0%be%d0%bd-6-%d0%bc%d0%bc-%d1%82%d0%be%d0%bb%d1%89%d0%b8%d0%bd%d0%b0-%d1%81%d1%82%d0%b5%d0%bd%d0%ba%d0%b8-15-%d0%bc%d0%bc/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "Ø 6 мм"
+        },
+        {
+          "icon": "gasket",
+          "text": "силикон"
+        },
+        {
+          "icon": "hose",
+          "text": "шланг"
+        }
+      ],
+      "use": "Шланг (силикон) 6 мм, толщина стенки 1,5 мм. — шланг для охлаждения и переливов (пищевой контур).",
+      "tg": "Шланг (силикон) 6 мм, толщина стенки 1,5 мм."
+    },
+    "131": {
+      "name": "Шланг (силикон) 8 мм, толщина стенки 1,5 мм.",
+      "price": "от 101 ₽",
+      "href": "index.html#sku-131",
+      "slug": "shlang-silikon-8-mm-tolschina-stenki-1-5-mm",
+      "image": "assets/img/alko/sku-131-shlang-silikon-8-mm-tolschina-stenki-1-5-mm.jpg",
+      "category": "hoses",
+      "categoryName": "Шланги",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%88%d0%bb%d0%b0%d0%bd%d0%b3-%d1%81%d0%b8%d0%bb%d0%b8%d0%ba%d0%be%d0%bd-8-%d0%bc%d0%bc-%d1%82%d0%be%d0%bb%d1%89%d0%b8%d0%bd%d0%b0-%d1%81%d1%82%d0%b5%d0%bd%d0%ba%d0%b8-15-%d0%bc%d0%bc/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "Ø 8 мм"
+        },
+        {
+          "icon": "gasket",
+          "text": "силикон"
+        },
+        {
+          "icon": "hose",
+          "text": "шланг"
+        }
+      ],
+      "use": "Шланг (силикон) 8 мм, толщина стенки 1,5 мм. — шланг для охлаждения и переливов (пищевой контур).",
+      "tg": "Шланг (силикон) 8 мм, толщина стенки 1,5 мм."
+    },
+    "132": {
+      "name": "Мембрана 1812 Vontron 50",
+      "price": "от 550 ₽",
+      "href": "index.html#sku-132",
+      "slug": "membrana-1812-vontron-50",
+      "image": "assets/img/alko/sku-132-membrana-1812-vontron-50.png",
+      "category": "membranes",
+      "categoryName": "Мембраны",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bc%d0%b5%d0%bc%d0%b1%d1%80%d0%b0%d0%bd%d0%b0-1812-vontron-50/",
+      "facts": [
+        {
+          "icon": "seal",
+          "text": "обратный осмос"
+        },
+        {
+          "icon": "seal",
+          "text": "Vontron"
+        },
+        {
+          "icon": "packing",
+          "text": "фильтрация"
+        }
+      ],
+      "use": "Оригинальная Мембрана 1812 Vontron 50 с QR кодом , в поисковике находится по сециальному коду.",
+      "tg": "Мембрана 1812 Vontron 50"
+    },
+    "133": {
+      "name": "Мембрана 1812 Vontron 75",
+      "price": "от 500 ₽",
+      "href": "index.html#sku-133",
+      "slug": "membrana-1812-vontron-75",
+      "image": "assets/img/alko/sku-133-membrana-1812-vontron-75.jpg",
+      "category": "membranes",
+      "categoryName": "Мембраны",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bc%d0%b5%d0%bc%d0%b1%d1%80%d0%b0%d0%bd%d0%b0-1812-vontron-75/",
+      "facts": [
+        {
+          "icon": "seal",
+          "text": "обратный осмос"
+        },
+        {
+          "icon": "seal",
+          "text": "Vontron"
+        },
+        {
+          "icon": "packing",
+          "text": "фильтрация"
+        }
+      ],
+      "use": "элемент очистки воды (обратный осмос) для подготовки к процессу.",
+      "tg": "Мембрана 1812 Vontron 75"
+    },
+    "134": {
+      "name": "Мембрана 2012 Vontron 100",
+      "price": "от 850 ₽",
+      "href": "index.html#sku-134",
+      "slug": "membrana-2012-vontron-100",
+      "image": "assets/img/alko/sku-134-membrana-2012-vontron-100.jpg",
+      "category": "membranes",
+      "categoryName": "Мембраны",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bc%d0%b5%d0%bc%d0%b1%d1%80%d0%b0%d0%bd%d0%b0-2012-vontron-100/",
+      "facts": [
+        {
+          "icon": "seal",
+          "text": "обратный осмос"
+        },
+        {
+          "icon": "seal",
+          "text": "Vontron"
+        },
+        {
+          "icon": "packing",
+          "text": "фильтрация"
+        }
+      ],
+      "use": "Оригинальная Мембрана 2012 Vontron 100 , идет с новым QR кодом , с помощью него можно увидеть дату производства.",
+      "tg": "Мембрана 2012 Vontron 100"
+    },
+    "135": {
+      "name": "Силиконовая прокладка под кламп DN1,5",
+      "price": "от 8 ₽",
+      "href": "index.html#sku-135",
+      "slug": "silikonovaya-prokladka-pod-klamp-dn1-5",
+      "image": "assets/img/alko/sku-135-silikonovaya-prokladka-pod-klamp-dn1-5.jpg",
+      "category": "silicone",
+      "categoryName": "Прокладки и уплотнения",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%81%d0%b8%d0%bb%d0%b8%d0%ba%d0%be%d0%bd%d0%be%d0%b2%d0%b0%d1%8f-%d0%bf%d1%80%d0%be%d0%ba%d0%bb%d0%b0%d0%b4%d0%ba%d0%b0-%d0%bf%d0%be%d0%b4-%d0%ba%d0%bb%d0%b0%d0%bc%d0%bf-dn15/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 1,5"
+        },
+        {
+          "icon": "gasket",
+          "text": "силикон"
+        },
+        {
+          "icon": "clamp",
+          "text": "кламп"
+        }
+      ],
+      "use": "герметичность кламп-стыка — сменный расходник.",
+      "tg": "Силиконовая прокладка под кламп DN1,5"
+    },
+    "136": {
+      "name": "Силиконовая прокладка под кламп DN2",
+      "price": "от 12 ₽",
+      "href": "index.html#sku-136",
+      "slug": "silikonovaya-prokladka-pod-klamp-dn2",
+      "image": "assets/img/alko/sku-136-silikonovaya-prokladka-pod-klamp-dn2.jpg",
+      "category": "silicone",
+      "categoryName": "Прокладки и уплотнения",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%81%d0%b8%d0%bb%d0%b8%d0%ba%d0%be%d0%bd%d0%be%d0%b2%d0%b0%d1%8f-%d0%bf%d1%80%d0%be%d0%ba%d0%bb%d0%b0%d0%b4%d0%ba%d0%b0-%d0%bf%d0%be%d0%b4-%d0%ba%d0%bb%d0%b0%d0%bc%d0%bf-dn2/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 2"
+        },
+        {
+          "icon": "gasket",
+          "text": "силикон"
+        },
+        {
+          "icon": "clamp",
+          "text": "кламп"
+        }
+      ],
+      "use": "герметичность кламп-стыка — сменный расходник.",
+      "tg": "Силиконовая прокладка под кламп DN2"
+    },
+    "137": {
+      "name": "Силиконовая прокладка под кламп DN2,5",
+      "price": "от 15 ₽",
+      "href": "index.html#sku-137",
+      "slug": "silikonovaya-prokladka-pod-klamp-dn2-5",
+      "image": "assets/img/alko/sku-137-silikonovaya-prokladka-pod-klamp-dn2-5.jpg",
+      "category": "silicone",
+      "categoryName": "Прокладки и уплотнения",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%81%d0%b8%d0%bb%d0%b8%d0%ba%d0%be%d0%bd%d0%be%d0%b2%d0%b0%d1%8f-%d0%bf%d1%80%d0%be%d0%ba%d0%bb%d0%b0%d0%b4%d0%ba%d0%b0-%d0%bf%d0%be%d0%b4-%d0%ba%d0%bb%d0%b0%d0%bc%d0%bf-dn25/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 2,5"
+        },
+        {
+          "icon": "gasket",
+          "text": "силикон"
+        },
+        {
+          "icon": "clamp",
+          "text": "кламп"
+        }
+      ],
+      "use": "герметичность кламп-стыка — сменный расходник.",
+      "tg": "Силиконовая прокладка под кламп DN2,5"
+    },
+    "138": {
+      "name": "Силиконовая прокладка под кламп DN3",
+      "price": "от 20 ₽",
+      "href": "index.html#sku-138",
+      "slug": "silikonovaya-prokladka-pod-klamp-dn3",
+      "image": "assets/img/alko/sku-138-silikonovaya-prokladka-pod-klamp-dn3.jpg",
+      "category": "silicone",
+      "categoryName": "Прокладки и уплотнения",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%81%d0%b8%d0%bb%d0%b8%d0%ba%d0%be%d0%bd%d0%be%d0%b2%d0%b0%d1%8f-%d0%bf%d1%80%d0%be%d0%ba%d0%bb%d0%b0%d0%b4%d0%ba%d0%b0-%d0%bf%d0%be%d0%b4-%d0%ba%d0%bb%d0%b0%d0%bc%d0%bf-dn3/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 3"
+        },
+        {
+          "icon": "gasket",
+          "text": "силикон"
+        },
+        {
+          "icon": "clamp",
+          "text": "кламп"
+        }
+      ],
+      "use": "герметичность кламп-стыка — сменный расходник.",
+      "tg": "Силиконовая прокладка под кламп DN3"
+    },
+    "139": {
+      "name": "Силиконовая прокладка под кламп DN4",
+      "price": "от 28 ₽",
+      "href": "index.html#sku-139",
+      "slug": "silikonovaya-prokladka-pod-klamp-dn4",
+      "image": "assets/img/alko/sku-139-silikonovaya-prokladka-pod-klamp-dn4.jpg",
+      "category": "silicone",
+      "categoryName": "Прокладки и уплотнения",
+      "sourceUrl": "https://alkotrademsk.ru/product/%d1%81%d0%b8%d0%bb%d0%b8%d0%ba%d0%be%d0%bd%d0%be%d0%b2%d0%b0%d1%8f-%d0%bf%d1%80%d0%be%d0%ba%d0%bb%d0%b0%d0%b4%d0%ba%d0%b0-%d0%bf%d0%be%d0%b4-%d0%ba%d0%bb%d0%b0%d0%bc%d0%bf-dn4/",
+      "facts": [
+        {
+          "icon": "size",
+          "text": "DN 4"
+        },
+        {
+          "icon": "gasket",
+          "text": "силикон"
+        },
+        {
+          "icon": "clamp",
+          "text": "кламп"
+        }
+      ],
+      "use": "герметичность кламп-стыка — сменный расходник.",
+      "tg": "Силиконовая прокладка под кламп DN4"
+    },
     "001": {
       "name": "Базука 15 см, сталь 304",
       "price": "от 290 ₽",
@@ -2614,1046 +3654,6 @@
       ],
       "use": "Сталь нержавеющая — пищевая (201).",
       "tg": "Зажим Гоффмана Простой"
-    },
-    "100": {
-      "name": "Клапан избыточного давления",
-      "price": "от 40 ₽",
-      "href": "index.html#sku-100",
-      "slug": "klapan-izbytochnogo-davleniya",
-      "image": "assets/img/alko/sku-100-klapan-izbytochnogo-davleniya.jpg",
-      "category": "other",
-      "categoryName": "Прочее оборудование",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d0%ba%d0%bb%d0%b0%d0%bf%d0%b0%d0%bd-%d0%b8%d0%b7%d0%b1%d1%8b%d1%82%d0%be%d1%87%d0%bd%d0%be%d0%b3%d0%be-%d0%b4%d0%b0%d0%b2%d0%bb%d0%b5%d0%bd%d0%b8%d1%8f/",
-      "facts": [
-        {
-          "icon": "packing",
-          "text": "комплектация"
-        },
-        {
-          "icon": "steel",
-          "text": "для аппарата"
-        },
-        {
-          "icon": "seal",
-          "text": "расходник"
-        }
-      ],
-      "use": "резьба 3/8″, диаметр 13 мм, до 160 кПа.",
-      "tg": "Клапан избыточного давления"
-    },
-    "101": {
-      "name": "Ложка для перемешивания сусла 60 см",
-      "price": "от 85 ₽",
-      "href": "index.html#sku-101",
-      "slug": "lozhka-dlya-peremeshivaniya-susla-60-sm",
-      "image": "assets/img/alko/sku-101-lozhka-dlya-peremeshivaniya-susla-60-sm.jpg",
-      "category": "other",
-      "categoryName": "Прочее оборудование",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bb%d0%be%d0%b6%d0%ba%d0%b0-%d0%b4%d0%bb%d1%8f-%d0%bf%d0%b5%d1%80%d0%b5%d0%bc%d0%b5%d1%88%d0%b8%d0%b2%d0%b0%d0%bd%d0%b8%d1%8f-%d1%81%d1%83%d1%81%d0%bb%d0%b0/",
-      "facts": [
-        {
-          "icon": "packing",
-          "text": "комплектация"
-        },
-        {
-          "icon": "steel",
-          "text": "для аппарата"
-        },
-        {
-          "icon": "seal",
-          "text": "расходник"
-        }
-      ],
-      "use": "Ложка для перемешивания сусла 60 см — комплектация домашнего аппарата и ферментера.",
-      "tg": "Ложка для перемешивания сусла 60 см"
-    },
-    "102": {
-      "name": "Мельница для солода «Comfort 500»",
-      "price": "от 1 250 ₽",
-      "href": "index.html#sku-102",
-      "slug": "melnitsa-dlya-soloda-comfort-500",
-      "image": "assets/img/alko/sku-102-melnitsa-dlya-soloda-comfort-500.jpg",
-      "category": "other",
-      "categoryName": "Прочее оборудование",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bc%d0%b5%d0%bb%d1%8c%d0%bd%d0%b8%d1%86%d0%b0-%d0%b4%d0%bb%d1%8f-%d1%81%d0%be%d0%bb%d0%be%d0%b4%d0%b0-comfort-500/",
-      "facts": [
-        {
-          "icon": "packing",
-          "text": "комплектация"
-        },
-        {
-          "icon": "steel",
-          "text": "для аппарата"
-        },
-        {
-          "icon": "seal",
-          "text": "расходник"
-        }
-      ],
-      "use": "Мельница для солода «Comfort 500» — комплектация домашнего аппарата и ферментера.",
-      "tg": "Мельница для солода «Comfort 500»"
-    },
-    "103": {
-      "name": "Мельница для солода Роликовая",
-      "price": "от 6 300 ₽",
-      "href": "index.html#sku-103",
-      "slug": "melnitsa-dlya-soloda-rolikovaya",
-      "image": "assets/img/alko/sku-103-melnitsa-dlya-soloda-rolikovaya.jpg",
-      "category": "other",
-      "categoryName": "Прочее оборудование",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bc%d0%b5%d0%bb%d1%8c%d0%bd%d0%b8%d1%86%d0%b0-%d0%b4%d0%bb%d1%8f-%d1%81%d0%be%d0%bb%d0%be%d0%b4%d0%b0-%d1%80%d0%be%d0%bb%d0%b8%d0%ba%d0%be%d0%b2%d0%b0%d1%8f/",
-      "facts": [
-        {
-          "icon": "packing",
-          "text": "комплектация"
-        },
-        {
-          "icon": "steel",
-          "text": "для аппарата"
-        },
-        {
-          "icon": "seal",
-          "text": "расходник"
-        }
-      ],
-      "use": "Мельница для солода Роликовая — комплектация домашнего аппарата и ферментера.",
-      "tg": "Мельница для солода Роликовая"
-    },
-    "104": {
-      "name": "Мешок для затирки солода. 20х30 мс.100",
-      "price": "от 38 ₽",
-      "href": "index.html#sku-104",
-      "slug": "meshok-dlya-zatirki-soloda-20h30-ms-100",
-      "image": "assets/img/alko/sku-104-meshok-dlya-zatirki-soloda-20h30-ms-100.jpg",
-      "category": "other",
-      "categoryName": "Прочее оборудование",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bc%d0%b5%d1%88%d0%be%d0%ba-%d0%b4%d0%bb%d1%8f-%d0%b7%d0%b0%d1%82%d0%b8%d1%80%d0%ba%d0%b8-%d1%81%d0%be%d0%bb%d0%be%d0%b4%d0%b0-20%d1%8530-%d0%bc%d1%81-100/",
-      "facts": [
-        {
-          "icon": "packing",
-          "text": "комплектация"
-        },
-        {
-          "icon": "steel",
-          "text": "для аппарата"
-        },
-        {
-          "icon": "seal",
-          "text": "расходник"
-        }
-      ],
-      "use": "Мешок для затирки солода. 20х30 мс.100 — комплектация домашнего аппарата и ферментера.",
-      "tg": "Мешок для затирки солода. 20х30 мс.100"
-    },
-    "105": {
-      "name": "Мешок для затирки солода. 45х62 мс.100",
-      "price": "от 78 ₽",
-      "href": "index.html#sku-105",
-      "slug": "meshok-dlya-zatirki-soloda-45h62-ms-100",
-      "image": "assets/img/alko/sku-105-meshok-dlya-zatirki-soloda-45h62-ms-100.jpg",
-      "category": "other",
-      "categoryName": "Прочее оборудование",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bc%d0%b5%d1%88%d0%be%d0%ba-%d0%b4%d0%bb%d1%8f-%d0%b7%d0%b0%d1%82%d0%b8%d1%80%d0%ba%d0%b8-%d1%81%d0%be%d0%bb%d0%be%d0%b4%d0%b0-45%d1%8562-%d0%bc%d1%81-100/",
-      "facts": [
-        {
-          "icon": "packing",
-          "text": "комплектация"
-        },
-        {
-          "icon": "steel",
-          "text": "для аппарата"
-        },
-        {
-          "icon": "seal",
-          "text": "расходник"
-        }
-      ],
-      "use": "Мешок для затирки солода. 45х62 мс.100 — комплектация домашнего аппарата и ферментера.",
-      "tg": "Мешок для затирки солода. 45х62 мс.100"
-    },
-    "106": {
-      "name": "Мешок для затирки солода. 45х62 мс.200",
-      "price": "от 78 ₽",
-      "href": "index.html#sku-106",
-      "slug": "meshok-dlya-zatirki-soloda-45h62-ms-200",
-      "image": "assets/img/alko/sku-106-meshok-dlya-zatirki-soloda-45h62-ms-200.jpg",
-      "category": "other",
-      "categoryName": "Прочее оборудование",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bc%d0%b5%d1%88%d0%be%d0%ba-%d0%b4%d0%bb%d1%8f-%d0%b7%d0%b0%d1%82%d0%b8%d1%80%d0%ba%d0%b8-%d1%81%d0%be%d0%bb%d0%be%d0%b4%d0%b0-45%d1%8562-%d0%bc%d1%81-200/",
-      "facts": [
-        {
-          "icon": "packing",
-          "text": "комплектация"
-        },
-        {
-          "icon": "steel",
-          "text": "для аппарата"
-        },
-        {
-          "icon": "seal",
-          "text": "расходник"
-        }
-      ],
-      "use": "Мешок для затирки солода. 45х62 мс.200 — комплектация домашнего аппарата и ферментера.",
-      "tg": "Мешок для затирки солода. 45х62 мс.200"
-    },
-    "107": {
-      "name": "Ниппель для установки термометра гайка М12",
-      "price": "от 33 ₽",
-      "href": "index.html#sku-107",
-      "slug": "nippel-dlya-ustanovki-termometra-gayka-m12",
-      "image": "assets/img/alko/sku-107-nippel-dlya-ustanovki-termometra-gayka-m12.jpg",
-      "category": "other",
-      "categoryName": "Прочее оборудование",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bd%d0%b8%d0%bf%d0%bf%d0%b5%d0%bb%d1%8c-%d0%b4%d0%bb%d1%8f-%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b8-%d1%82%d0%b5%d1%80%d0%bc%d0%be%d0%bc%d0%b5%d1%82%d1%80%d0%b0-%d0%b3%d0%b0%d0%b9-2/",
-      "facts": [
-        {
-          "icon": "temp",
-          "text": "термометрия"
-        },
-        {
-          "icon": "packing",
-          "text": "комплектация"
-        },
-        {
-          "icon": "steel",
-          "text": "для аппарата"
-        }
-      ],
-      "use": "Используется для установки игольчатого термометра в бак, гайка М12.",
-      "tg": "Ниппель для установки термометра гайка М12"
-    },
-    "108": {
-      "name": "Ниппель для установки термометра гайка М8",
-      "price": "от 40 ₽",
-      "href": "index.html#sku-108",
-      "slug": "nippel-dlya-ustanovki-termometra-gayka-m8",
-      "image": "assets/img/alko/sku-108-nippel-dlya-ustanovki-termometra-gayka-m8.jpg",
-      "category": "other",
-      "categoryName": "Прочее оборудование",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bd%d0%b8%d0%bf%d0%bf%d0%b5%d0%bb%d1%8c-%d0%b4%d0%bb%d1%8f-%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b8-%d1%82%d0%b5%d1%80%d0%bc%d0%be%d0%bc%d0%b5%d1%82%d1%80%d0%b0-%d0%b3%d0%b0%d0%b9/",
-      "facts": [
-        {
-          "icon": "temp",
-          "text": "термометрия"
-        },
-        {
-          "icon": "packing",
-          "text": "комплектация"
-        },
-        {
-          "icon": "steel",
-          "text": "для аппарата"
-        }
-      ],
-      "use": "Используется для установки игольчатого термометра в бак, гайка М8.",
-      "tg": "Ниппель для установки термометра гайка М8"
-    },
-    "109": {
-      "name": "Ручной укупориватель корковых пробок",
-      "price": "от 850 ₽",
-      "href": "index.html#sku-109",
-      "slug": "ruchnoy-ukuporivatel-korkovyh-probok",
-      "image": "assets/img/alko/sku-109-ruchnoy-ukuporivatel-korkovyh-probok.jpg",
-      "category": "other",
-      "categoryName": "Прочее оборудование",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d1%80%d1%83%d1%87%d0%bd%d0%be%d0%b9-%d1%83%d0%ba%d1%83%d0%bf%d0%be%d1%80%d0%b8%d0%b2%d0%b0%d1%82%d0%b5%d0%bb%d1%8c-%d0%ba%d0%be%d1%80%d0%ba%d0%be%d0%b2%d1%8b%d1%85-%d0%bf%d1%80%d0%be%d0%b1%d0%be/",
-      "facts": [
-        {
-          "icon": "packing",
-          "text": "комплектация"
-        },
-        {
-          "icon": "steel",
-          "text": "для аппарата"
-        },
-        {
-          "icon": "seal",
-          "text": "расходник"
-        }
-      ],
-      "use": "Ручной укупориватель корковых пробок — комплектация домашнего аппарата и ферментера.",
-      "tg": "Ручной укупориватель корковых пробок"
-    },
-    "110": {
-      "name": "Ручной укупориватель кроненпробок",
-      "price": "от 800 ₽",
-      "href": "index.html#sku-110",
-      "slug": "ruchnoy-ukuporivatel-kronenprobok",
-      "image": "assets/img/alko/sku-110-ruchnoy-ukuporivatel-kronenprobok.jpg",
-      "category": "other",
-      "categoryName": "Прочее оборудование",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d1%80%d1%83%d1%87%d0%bd%d0%be%d0%b9-%d1%83%d0%ba%d1%83%d0%bf%d0%be%d1%80%d0%b8%d0%b2%d0%b0%d1%82%d0%b5%d0%bb%d1%8c-%d0%ba%d1%80%d0%be%d0%bd%d0%b5%d0%bd%d0%bf%d1%80%d0%be%d0%b1%d0%be%d0%ba/",
-      "facts": [
-        {
-          "icon": "packing",
-          "text": "комплектация"
-        },
-        {
-          "icon": "steel",
-          "text": "для аппарата"
-        },
-        {
-          "icon": "seal",
-          "text": "расходник"
-        }
-      ],
-      "use": "Ручной укупориватель кроненпробок — комплектация домашнего аппарата и ферментера.",
-      "tg": "Ручной укупориватель кроненпробок"
-    },
-    "111": {
-      "name": "Сифон переливной",
-      "price": "от 75 ₽",
-      "href": "index.html#sku-111",
-      "slug": "sifon-perelivnoy",
-      "image": "assets/img/alko/sku-111-sifon-perelivnoy.jpg",
-      "category": "other",
-      "categoryName": "Прочее оборудование",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d1%81%d0%b8%d1%84%d0%be%d0%bd-%d0%bf%d0%b5%d1%80%d0%b5%d0%bb%d0%b8%d0%b2%d0%bd%d0%be%d0%b9/",
-      "facts": [
-        {
-          "icon": "packing",
-          "text": "комплектация"
-        },
-        {
-          "icon": "steel",
-          "text": "для аппарата"
-        },
-        {
-          "icon": "seal",
-          "text": "расходник"
-        }
-      ],
-      "use": "С помпой и фильтром длинна трубки 2м.",
-      "tg": "Сифон переливной"
-    },
-    "112": {
-      "name": "Сифон переливной автоматический",
-      "price": "от 400 ₽",
-      "href": "index.html#sku-112",
-      "slug": "sifon-perelivnoy-avtomaticheskiy",
-      "image": "assets/img/alko/sku-112-sifon-perelivnoy-avtomaticheskiy.jpg",
-      "category": "other",
-      "categoryName": "Прочее оборудование",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d1%81%d0%b8%d1%84%d0%be%d0%bd-%d0%bf%d0%b5%d1%80%d0%b5%d0%bb%d0%b8%d0%b2%d0%bd%d0%be%d0%b9-%d0%b0%d0%b2%d1%82%d0%be%d0%bc%d0%b0%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b8%d0%b9/",
-      "facts": [
-        {
-          "icon": "packing",
-          "text": "комплектация"
-        },
-        {
-          "icon": "steel",
-          "text": "для аппарата"
-        },
-        {
-          "icon": "seal",
-          "text": "расходник"
-        }
-      ],
-      "use": "Сифон переливной автоматический — комплектация домашнего аппарата и ферментера.",
-      "tg": "Сифон переливной автоматический"
-    },
-    "113": {
-      "name": "Трубка наливная с клапаном",
-      "price": "от 120 ₽",
-      "href": "index.html#sku-113",
-      "slug": "trubka-nalivnaya-s-klapanom",
-      "image": "assets/img/alko/sku-113-trubka-nalivnaya-s-klapanom.jpg",
-      "category": "other",
-      "categoryName": "Прочее оборудование",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d1%82%d1%80%d1%83%d0%b1%d0%ba%d0%b0-%d0%bd%d0%b0%d0%bb%d0%b8%d0%b2%d0%bd%d0%b0%d1%8f-%d1%81-%d0%ba%d0%bb%d0%b0%d0%bf%d0%b0%d0%bd%d0%be%d0%bc/",
-      "facts": [
-        {
-          "icon": "packing",
-          "text": "комплектация"
-        },
-        {
-          "icon": "steel",
-          "text": "для аппарата"
-        },
-        {
-          "icon": "seal",
-          "text": "расходник"
-        }
-      ],
-      "use": "Трубка наливная с клапаном — комплектация домашнего аппарата и ферментера.",
-      "tg": "Трубка наливная с клапаном"
-    },
-    "114": {
-      "name": "Уплотнитель к гидрозатвору",
-      "price": "от 10 ₽",
-      "href": "index.html#sku-114",
-      "slug": "uplotnitel-k-gidrozatvoru",
-      "image": "assets/img/alko/sku-114-uplotnitel-k-gidrozatvoru.png",
-      "category": "other",
-      "categoryName": "Прочее оборудование",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d1%83%d0%bf%d0%bb%d0%be%d1%82%d0%bd%d0%b8%d1%82%d0%b5%d0%bb%d1%8c-%d0%ba-%d0%b3%d0%b8%d0%b4%d1%80%d0%be%d0%b7%d0%b0%d1%82%d0%b2%d0%be%d1%80%d1%83/",
-      "facts": [
-        {
-          "icon": "packing",
-          "text": "комплектация"
-        },
-        {
-          "icon": "steel",
-          "text": "для аппарата"
-        },
-        {
-          "icon": "seal",
-          "text": "расходник"
-        }
-      ],
-      "use": "Уплотнитель к гидрозатвору — комплектация домашнего аппарата и ферментера.",
-      "tg": "Уплотнитель к гидрозатвору"
-    },
-    "115": {
-      "name": "Щетка для бутылок",
-      "price": "от 75 ₽",
-      "href": "index.html#sku-115",
-      "slug": "schetka-dlya-butylok",
-      "image": "assets/img/alko/sku-115-schetka-dlya-butylok.jpg",
-      "category": "other",
-      "categoryName": "Прочее оборудование",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d1%89%d0%b5%d1%82%d0%ba%d0%b0-%d0%b4%d0%bb%d1%8f-%d0%b1%d1%83%d1%82%d1%8b%d0%bb%d0%be%d0%ba/",
-      "facts": [
-        {
-          "icon": "packing",
-          "text": "комплектация"
-        },
-        {
-          "icon": "steel",
-          "text": "для аппарата"
-        },
-        {
-          "icon": "seal",
-          "text": "расходник"
-        }
-      ],
-      "use": "Щетка для бутылок — комплектация домашнего аппарата и ферментера.",
-      "tg": "Щетка для бутылок"
-    },
-    "116": {
-      "name": "Компрессор для автономного охлаждения КС8",
-      "price": "от 350 ₽",
-      "href": "index.html#sku-116",
-      "slug": "kompressor-dlya-avtonomnogo-ohlazhdeniya-ks8",
-      "image": "assets/img/alko/sku-116-kompressor-dlya-avtonomnogo-ohlazhdeniya-ks8.jpg",
-      "category": "electro",
-      "categoryName": "Электрооборудование",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d0%ba%d0%be%d0%bc%d0%bf%d1%80%d0%b5%d1%81%d1%81%d0%be%d1%80-%d0%b4%d0%bb%d1%8f-%d0%b0%d0%b2%d1%82%d0%be%d0%bd%d0%be%d0%bc%d0%bd%d0%be%d0%b3%d0%be-%d0%be%d1%85%d0%bb%d0%b0%d0%b6%d0%b4%d0%b5%d0%bd/",
-      "facts": [
-        {
-          "icon": "power",
-          "text": "220 В"
-        },
-        {
-          "icon": "temp",
-          "text": "электроника"
-        },
-        {
-          "icon": "seal",
-          "text": "комплект"
-        }
-      ],
-      "use": "Компрессор для автономного охлаждения КС8 — нагрев и электроника для стабильной работы установки.",
-      "tg": "Компрессор для автономного охлаждения КС8"
-    },
-    "117": {
-      "name": "Нагреватель для браги 100 W",
-      "price": "от 350 ₽",
-      "href": "index.html#sku-117",
-      "slug": "nagrevatel-dlya-bragi-100-w",
-      "image": "assets/img/alko/sku-117-nagrevatel-dlya-bragi-100-w.jpg",
-      "category": "electro",
-      "categoryName": "Электрооборудование",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bd%d0%b0%d0%b3%d1%80%d0%b5%d0%b2%d0%b0%d1%82%d0%b5%d0%bb%d1%8c-%d0%b4%d0%bb%d1%8f-%d0%b1%d1%80%d0%b0%d0%b3%d0%b8-xilong-at-700/",
-      "facts": [
-        {
-          "icon": "power",
-          "text": "220 В"
-        },
-        {
-          "icon": "temp",
-          "text": "электроника"
-        },
-        {
-          "icon": "seal",
-          "text": "комплект"
-        }
-      ],
-      "use": "электроника и нагрев для стабильного процесса на домашней установке.",
-      "tg": "Нагреватель для браги 100 W"
-    },
-    "118": {
-      "name": "Насос MP-15RM",
-      "price": "от 3 800 ₽",
-      "href": "index.html#sku-118",
-      "slug": "nasos-mp-15rm",
-      "image": "assets/img/alko/sku-118-nasos-mp-15rm.jpg",
-      "category": "electro",
-      "categoryName": "Электрооборудование",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bd%d0%b0%d1%81%d0%be%d1%81-mp-15rm/",
-      "facts": [
-        {
-          "icon": "power",
-          "text": "220 В"
-        },
-        {
-          "icon": "temp",
-          "text": "электроника"
-        },
-        {
-          "icon": "seal",
-          "text": "комплект"
-        }
-      ],
-      "use": "Насос высокотемпературный с магнитной муфтой.",
-      "tg": "Насос MP-15RM"
-    },
-    "119": {
-      "name": "ТЭН Dn40, 3 кВт",
-      "price": "от 950 ₽",
-      "href": "index.html#sku-119",
-      "slug": "ten-dn40-3-kvt",
-      "image": "assets/img/alko/sku-119-ten-dn40-3-kvt.jpg",
-      "category": "electro",
-      "categoryName": "Электрооборудование",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d1%82%d1%8d%d0%bd-dn40-3-%d0%ba%d0%b2%d1%82/",
-      "facts": [
-        {
-          "icon": "size",
-          "text": "DN 40"
-        },
-        {
-          "icon": "power",
-          "text": "3 кВт"
-        },
-        {
-          "icon": "power",
-          "text": "220 В"
-        }
-      ],
-      "use": "ТЭН Dn40 (47 мм), 4,5 кВт, длина нагревательного элемента 26 см., стальная основа.",
-      "tg": "ТЭН Dn40, 3 кВт"
-    },
-    "120": {
-      "name": "ТЭН Dn40, 3 кВт с переходником под кламп",
-      "price": "от 1 150 ₽",
-      "href": "index.html#sku-120",
-      "slug": "ten-dn40-3-kvt-s-perehodnikom-pod-klamp",
-      "image": "assets/img/alko/sku-120-ten-dn40-3-kvt-s-perehodnikom-pod-klamp.jpg",
-      "category": "electro",
-      "categoryName": "Электрооборудование",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d1%82%d1%8d%d0%bd-dn40-3-%d0%ba%d0%b2%d1%82-2/",
-      "facts": [
-        {
-          "icon": "size",
-          "text": "DN 40"
-        },
-        {
-          "icon": "power",
-          "text": "3 кВт"
-        },
-        {
-          "icon": "clamp",
-          "text": "кламп"
-        }
-      ],
-      "use": "ТЭН Dn32, 3 кВт Dn32 (42 мм), 3 кВт, длина нагревательного элемента 20 см.стальная основа.",
-      "tg": "ТЭН Dn40, 3 кВт с переходником под кламп"
-    },
-    "121": {
-      "name": "ТЭН Dn40, 4,5 кВт",
-      "price": "от 1 100 ₽",
-      "href": "index.html#sku-121",
-      "slug": "ten-dn40-4-5-kvt",
-      "image": "assets/img/alko/sku-121-ten-dn40-4-5-kvt.jpg",
-      "category": "electro",
-      "categoryName": "Электрооборудование",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d1%82%d1%8d%d0%bd-dn40-45-%d0%ba%d0%b2%d1%82/",
-      "facts": [
-        {
-          "icon": "size",
-          "text": "DN 40"
-        },
-        {
-          "icon": "power",
-          "text": "4,5 кВт"
-        },
-        {
-          "icon": "power",
-          "text": "220 В"
-        }
-      ],
-      "use": "ТЭН Dn40 (47 мм), 4,5 кВт, длина нагревательного элемента 26 см.",
-      "tg": "ТЭН Dn40, 4,5 кВт"
-    },
-    "122": {
-      "name": "ТЭН Dn40, 4,5 кВт с переходником под кламп",
-      "price": "от 1 200 ₽",
-      "href": "index.html#sku-122",
-      "slug": "ten-dn40-4-5-kvt-s-perehodnikom-pod-klamp",
-      "image": "assets/img/alko/sku-122-ten-dn40-4-5-kvt-s-perehodnikom-pod-klamp.jpg",
-      "category": "electro",
-      "categoryName": "Электрооборудование",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d1%82%d1%8d%d0%bd-dn32-45-%d0%ba%d0%b2%d1%82/",
-      "facts": [
-        {
-          "icon": "size",
-          "text": "DN 40"
-        },
-        {
-          "icon": "power",
-          "text": "4,5 кВт"
-        },
-        {
-          "icon": "clamp",
-          "text": "кламп"
-        }
-      ],
-      "use": "ТЭН Dn40, 4,5 кВт с переходником под кламп — нагрев и электроника для стабильной работы установки.",
-      "tg": "ТЭН Dn40, 4,5 кВт с переходником под кламп"
-    },
-    "123": {
-      "name": "ТЭН Dn40, 6 кВт",
-      "price": "от 1 250 ₽",
-      "href": "index.html#sku-123",
-      "slug": "ten-dn40-6-kvt",
-      "image": "assets/img/alko/sku-123-ten-dn40-6-kvt.jpg",
-      "category": "electro",
-      "categoryName": "Электрооборудование",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d1%82%d1%8d%d0%bd-dn40-6-%d0%ba%d0%b2%d1%82/",
-      "facts": [
-        {
-          "icon": "size",
-          "text": "DN 40"
-        },
-        {
-          "icon": "power",
-          "text": "6 кВт"
-        },
-        {
-          "icon": "power",
-          "text": "220 В"
-        }
-      ],
-      "use": "ТЭН Dn40 (47 мм), 6 кВт, длина нагревательного элемента 26 см., стальная основа.",
-      "tg": "ТЭН Dn40, 6 кВт"
-    },
-    "124": {
-      "name": "ТЭН Dn40, 6 кВт c переходником под кламп",
-      "price": "от 1 300 ₽",
-      "href": "index.html#sku-124",
-      "slug": "ten-dn40-6-kvt-c-perehodnikom-pod-klamp",
-      "image": "assets/img/alko/sku-124-ten-dn40-6-kvt-c-perehodnikom-pod-klamp.jpg",
-      "category": "electro",
-      "categoryName": "Электрооборудование",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d1%82%d1%8d%d0%bd-dn32-6-%d0%ba%d0%b2%d1%82/",
-      "facts": [
-        {
-          "icon": "size",
-          "text": "DN 40"
-        },
-        {
-          "icon": "power",
-          "text": "6 кВт"
-        },
-        {
-          "icon": "clamp",
-          "text": "кламп"
-        }
-      ],
-      "use": "ТЭН Dn32, 6 кВт ТЭН Dn32 (42 мм), 6 кВт, длина нагревательного элемента 26 см.,стальная основа.",
-      "tg": "ТЭН Dn40, 6 кВт c переходником под кламп"
-    },
-    "125": {
-      "name": "Пневмошланг красный 10х6.5 (PU)",
-      "price": "от 45 ₽",
-      "href": "index.html#sku-125",
-      "slug": "pnevmoshlang-krasnyy-10h6-5-pu",
-      "image": "assets/img/alko/sku-125-pnevmoshlang-krasnyy-10h6-5-pu.jpg",
-      "category": "hoses",
-      "categoryName": "Шланги",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bf%d0%bd%d0%b5%d0%b2%d0%bc%d0%be%d1%88%d0%bb%d0%b0%d0%bd%d0%b3-%d0%ba%d1%80%d0%b0%d1%81%d0%bd%d1%8b%d0%b9-10%d1%856-5-pu/",
-      "facts": [
-        {
-          "icon": "hose",
-          "text": "шланг"
-        },
-        {
-          "icon": "hose",
-          "text": "пищевой"
-        },
-        {
-          "icon": "temp",
-          "text": "гибкий"
-        }
-      ],
-      "use": "Шланг высокого давления полиуретановый, толщина стенки 2 мм.",
-      "tg": "Пневмошланг красный 10х6.5 (PU)"
-    },
-    "126": {
-      "name": "Пневмошланг красный 12х8 (PU)",
-      "price": "от 55 ₽",
-      "href": "index.html#sku-126",
-      "slug": "pnevmoshlang-krasnyy-12h8-pu",
-      "image": "assets/img/alko/sku-126-pnevmoshlang-krasnyy-12h8-pu.jpg",
-      "category": "hoses",
-      "categoryName": "Шланги",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bf%d0%bd%d0%b5%d0%b2%d0%bc%d0%be%d1%88%d0%bb%d0%b0%d0%bd%d0%b3-%d0%ba%d1%80%d0%b0%d1%81%d0%bd%d1%8b%d0%b9-12%d1%858-pu/",
-      "facts": [
-        {
-          "icon": "hose",
-          "text": "шланг"
-        },
-        {
-          "icon": "hose",
-          "text": "пищевой"
-        },
-        {
-          "icon": "temp",
-          "text": "гибкий"
-        }
-      ],
-      "use": "Шланг высокого давления полиуретановый, толщина стенки 2 мм.",
-      "tg": "Пневмошланг красный 12х8 (PU)"
-    },
-    "127": {
-      "name": "Пневмошланг синий 10х6.5 (PU)",
-      "price": "от 45 ₽",
-      "href": "index.html#sku-127",
-      "slug": "pnevmoshlang-siniy-10h6-5-pu",
-      "image": "assets/img/alko/sku-127-pnevmoshlang-siniy-10h6-5-pu.jpg",
-      "category": "hoses",
-      "categoryName": "Шланги",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bf%d0%bd%d0%b5%d0%b2%d0%bc%d0%be%d1%88%d0%bb%d0%b0%d0%bd%d0%b3-%d1%81%d0%b8%d0%bd%d0%b8%d0%b9-10%d1%856-5-pu/",
-      "facts": [
-        {
-          "icon": "hose",
-          "text": "шланг"
-        },
-        {
-          "icon": "hose",
-          "text": "пищевой"
-        },
-        {
-          "icon": "temp",
-          "text": "гибкий"
-        }
-      ],
-      "use": "Шланг высокого давления полиуретановый, толщина стенки 2 мм.",
-      "tg": "Пневмошланг синий 10х6.5 (PU)"
-    },
-    "128": {
-      "name": "Пневмошланг синий 12х8 (PU)",
-      "price": "от 55 ₽",
-      "href": "index.html#sku-128",
-      "slug": "pnevmoshlang-siniy-12h8-pu",
-      "image": "assets/img/alko/sku-128-pnevmoshlang-siniy-12h8-pu.jpg",
-      "category": "hoses",
-      "categoryName": "Шланги",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bf%d0%bd%d0%b5%d0%b2%d0%bc%d0%be%d1%88%d0%bb%d0%b0%d0%bd%d0%b3-%d1%81%d0%b8%d0%bd%d0%b8%d0%b9-12%d1%858-pu/",
-      "facts": [
-        {
-          "icon": "hose",
-          "text": "шланг"
-        },
-        {
-          "icon": "hose",
-          "text": "пищевой"
-        },
-        {
-          "icon": "temp",
-          "text": "гибкий"
-        }
-      ],
-      "use": "Шланг высокого давления полиуретановый, толщина стенки 2 мм.",
-      "tg": "Пневмошланг синий 12х8 (PU)"
-    },
-    "129": {
-      "name": "Шланг (силикон) 10 мм, толщина стенки 1,5 мм.",
-      "price": "от 105 ₽",
-      "href": "index.html#sku-129",
-      "slug": "shlang-silikon-10-mm-tolschina-stenki-1-5-mm",
-      "image": "assets/img/alko/sku-129-shlang-silikon-10-mm-tolschina-stenki-1-5-mm.jpg",
-      "category": "hoses",
-      "categoryName": "Шланги",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d1%88%d0%bb%d0%b0%d0%bd%d0%b3-%d1%81%d0%b8%d0%bb%d0%b8%d0%ba%d0%be%d0%bd-10-%d0%bc%d0%bc-%d1%82%d0%be%d0%bb%d1%89%d0%b8%d0%bd%d0%b0-%d1%81%d1%82%d0%b5%d0%bd%d0%ba%d0%b8-15-%d0%bc%d0%bc/",
-      "facts": [
-        {
-          "icon": "size",
-          "text": "Ø 10 мм"
-        },
-        {
-          "icon": "gasket",
-          "text": "силикон"
-        },
-        {
-          "icon": "hose",
-          "text": "шланг"
-        }
-      ],
-      "use": "Шланг (силикон) 10 мм, толщина стенки 1,5 мм. — шланг для охлаждения и переливов (пищевой контур).",
-      "tg": "Шланг (силикон) 10 мм, толщина стенки 1,5 мм."
-    },
-    "130": {
-      "name": "Шланг (силикон) 6 мм, толщина стенки 1,5 мм.",
-      "price": "от 80 ₽",
-      "href": "index.html#sku-130",
-      "slug": "shlang-silikon-6-mm-tolschina-stenki-1-5-mm",
-      "image": "assets/img/alko/sku-130-shlang-silikon-6-mm-tolschina-stenki-1-5-mm.jpg",
-      "category": "hoses",
-      "categoryName": "Шланги",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d1%88%d0%bb%d0%b0%d0%bd%d0%b3-%d1%81%d0%b8%d0%bb%d0%b8%d0%ba%d0%be%d0%bd-6-%d0%bc%d0%bc-%d1%82%d0%be%d0%bb%d1%89%d0%b8%d0%bd%d0%b0-%d1%81%d1%82%d0%b5%d0%bd%d0%ba%d0%b8-15-%d0%bc%d0%bc/",
-      "facts": [
-        {
-          "icon": "size",
-          "text": "Ø 6 мм"
-        },
-        {
-          "icon": "gasket",
-          "text": "силикон"
-        },
-        {
-          "icon": "hose",
-          "text": "шланг"
-        }
-      ],
-      "use": "Шланг (силикон) 6 мм, толщина стенки 1,5 мм. — шланг для охлаждения и переливов (пищевой контур).",
-      "tg": "Шланг (силикон) 6 мм, толщина стенки 1,5 мм."
-    },
-    "131": {
-      "name": "Шланг (силикон) 8 мм, толщина стенки 1,5 мм.",
-      "price": "от 101 ₽",
-      "href": "index.html#sku-131",
-      "slug": "shlang-silikon-8-mm-tolschina-stenki-1-5-mm",
-      "image": "assets/img/alko/sku-131-shlang-silikon-8-mm-tolschina-stenki-1-5-mm.jpg",
-      "category": "hoses",
-      "categoryName": "Шланги",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d1%88%d0%bb%d0%b0%d0%bd%d0%b3-%d1%81%d0%b8%d0%bb%d0%b8%d0%ba%d0%be%d0%bd-8-%d0%bc%d0%bc-%d1%82%d0%be%d0%bb%d1%89%d0%b8%d0%bd%d0%b0-%d1%81%d1%82%d0%b5%d0%bd%d0%ba%d0%b8-15-%d0%bc%d0%bc/",
-      "facts": [
-        {
-          "icon": "size",
-          "text": "Ø 8 мм"
-        },
-        {
-          "icon": "gasket",
-          "text": "силикон"
-        },
-        {
-          "icon": "hose",
-          "text": "шланг"
-        }
-      ],
-      "use": "Шланг (силикон) 8 мм, толщина стенки 1,5 мм. — шланг для охлаждения и переливов (пищевой контур).",
-      "tg": "Шланг (силикон) 8 мм, толщина стенки 1,5 мм."
-    },
-    "132": {
-      "name": "Мембрана 1812 Vontron 50",
-      "price": "от 550 ₽",
-      "href": "index.html#sku-132",
-      "slug": "membrana-1812-vontron-50",
-      "image": "assets/img/alko/sku-132-membrana-1812-vontron-50.png",
-      "category": "membranes",
-      "categoryName": "Мембраны",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bc%d0%b5%d0%bc%d0%b1%d1%80%d0%b0%d0%bd%d0%b0-1812-vontron-50/",
-      "facts": [
-        {
-          "icon": "seal",
-          "text": "обратный осмос"
-        },
-        {
-          "icon": "seal",
-          "text": "Vontron"
-        },
-        {
-          "icon": "packing",
-          "text": "фильтрация"
-        }
-      ],
-      "use": "Оригинальная Мембрана 1812 Vontron 50 с QR кодом , в поисковике находится по сециальному коду.",
-      "tg": "Мембрана 1812 Vontron 50"
-    },
-    "133": {
-      "name": "Мембрана 1812 Vontron 75",
-      "price": "от 500 ₽",
-      "href": "index.html#sku-133",
-      "slug": "membrana-1812-vontron-75",
-      "image": "assets/img/alko/sku-133-membrana-1812-vontron-75.jpg",
-      "category": "membranes",
-      "categoryName": "Мембраны",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bc%d0%b5%d0%bc%d0%b1%d1%80%d0%b0%d0%bd%d0%b0-1812-vontron-75/",
-      "facts": [
-        {
-          "icon": "seal",
-          "text": "обратный осмос"
-        },
-        {
-          "icon": "seal",
-          "text": "Vontron"
-        },
-        {
-          "icon": "packing",
-          "text": "фильтрация"
-        }
-      ],
-      "use": "элемент очистки воды (обратный осмос) для подготовки к процессу.",
-      "tg": "Мембрана 1812 Vontron 75"
-    },
-    "134": {
-      "name": "Мембрана 2012 Vontron 100",
-      "price": "от 850 ₽",
-      "href": "index.html#sku-134",
-      "slug": "membrana-2012-vontron-100",
-      "image": "assets/img/alko/sku-134-membrana-2012-vontron-100.jpg",
-      "category": "membranes",
-      "categoryName": "Мембраны",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d0%bc%d0%b5%d0%bc%d0%b1%d1%80%d0%b0%d0%bd%d0%b0-2012-vontron-100/",
-      "facts": [
-        {
-          "icon": "seal",
-          "text": "обратный осмос"
-        },
-        {
-          "icon": "seal",
-          "text": "Vontron"
-        },
-        {
-          "icon": "packing",
-          "text": "фильтрация"
-        }
-      ],
-      "use": "Оригинальная Мембрана 2012 Vontron 100 , идет с новым QR кодом , с помощью него можно увидеть дату производства.",
-      "tg": "Мембрана 2012 Vontron 100"
-    },
-    "135": {
-      "name": "Силиконовая прокладка под кламп DN1,5",
-      "price": "от 8 ₽",
-      "href": "index.html#sku-135",
-      "slug": "silikonovaya-prokladka-pod-klamp-dn1-5",
-      "image": "assets/img/alko/sku-135-silikonovaya-prokladka-pod-klamp-dn1-5.jpg",
-      "category": "silicone",
-      "categoryName": "Прокладки и уплотнения",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d1%81%d0%b8%d0%bb%d0%b8%d0%ba%d0%be%d0%bd%d0%be%d0%b2%d0%b0%d1%8f-%d0%bf%d1%80%d0%be%d0%ba%d0%bb%d0%b0%d0%b4%d0%ba%d0%b0-%d0%bf%d0%be%d0%b4-%d0%ba%d0%bb%d0%b0%d0%bc%d0%bf-dn15/",
-      "facts": [
-        {
-          "icon": "size",
-          "text": "DN 1,5"
-        },
-        {
-          "icon": "gasket",
-          "text": "силикон"
-        },
-        {
-          "icon": "clamp",
-          "text": "кламп"
-        }
-      ],
-      "use": "герметичность кламп-стыка — сменный расходник.",
-      "tg": "Силиконовая прокладка под кламп DN1,5"
-    },
-    "136": {
-      "name": "Силиконовая прокладка под кламп DN2",
-      "price": "от 12 ₽",
-      "href": "index.html#sku-136",
-      "slug": "silikonovaya-prokladka-pod-klamp-dn2",
-      "image": "assets/img/alko/sku-136-silikonovaya-prokladka-pod-klamp-dn2.jpg",
-      "category": "silicone",
-      "categoryName": "Прокладки и уплотнения",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d1%81%d0%b8%d0%bb%d0%b8%d0%ba%d0%be%d0%bd%d0%be%d0%b2%d0%b0%d1%8f-%d0%bf%d1%80%d0%be%d0%ba%d0%bb%d0%b0%d0%b4%d0%ba%d0%b0-%d0%bf%d0%be%d0%b4-%d0%ba%d0%bb%d0%b0%d0%bc%d0%bf-dn2/",
-      "facts": [
-        {
-          "icon": "size",
-          "text": "DN 2"
-        },
-        {
-          "icon": "gasket",
-          "text": "силикон"
-        },
-        {
-          "icon": "clamp",
-          "text": "кламп"
-        }
-      ],
-      "use": "герметичность кламп-стыка — сменный расходник.",
-      "tg": "Силиконовая прокладка под кламп DN2"
-    },
-    "137": {
-      "name": "Силиконовая прокладка под кламп DN2,5",
-      "price": "от 15 ₽",
-      "href": "index.html#sku-137",
-      "slug": "silikonovaya-prokladka-pod-klamp-dn2-5",
-      "image": "assets/img/alko/sku-137-silikonovaya-prokladka-pod-klamp-dn2-5.jpg",
-      "category": "silicone",
-      "categoryName": "Прокладки и уплотнения",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d1%81%d0%b8%d0%bb%d0%b8%d0%ba%d0%be%d0%bd%d0%be%d0%b2%d0%b0%d1%8f-%d0%bf%d1%80%d0%be%d0%ba%d0%bb%d0%b0%d0%b4%d0%ba%d0%b0-%d0%bf%d0%be%d0%b4-%d0%ba%d0%bb%d0%b0%d0%bc%d0%bf-dn25/",
-      "facts": [
-        {
-          "icon": "size",
-          "text": "DN 2,5"
-        },
-        {
-          "icon": "gasket",
-          "text": "силикон"
-        },
-        {
-          "icon": "clamp",
-          "text": "кламп"
-        }
-      ],
-      "use": "герметичность кламп-стыка — сменный расходник.",
-      "tg": "Силиконовая прокладка под кламп DN2,5"
-    },
-    "138": {
-      "name": "Силиконовая прокладка под кламп DN3",
-      "price": "от 20 ₽",
-      "href": "index.html#sku-138",
-      "slug": "silikonovaya-prokladka-pod-klamp-dn3",
-      "image": "assets/img/alko/sku-138-silikonovaya-prokladka-pod-klamp-dn3.jpg",
-      "category": "silicone",
-      "categoryName": "Прокладки и уплотнения",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d1%81%d0%b8%d0%bb%d0%b8%d0%ba%d0%be%d0%bd%d0%be%d0%b2%d0%b0%d1%8f-%d0%bf%d1%80%d0%be%d0%ba%d0%bb%d0%b0%d0%b4%d0%ba%d0%b0-%d0%bf%d0%be%d0%b4-%d0%ba%d0%bb%d0%b0%d0%bc%d0%bf-dn3/",
-      "facts": [
-        {
-          "icon": "size",
-          "text": "DN 3"
-        },
-        {
-          "icon": "gasket",
-          "text": "силикон"
-        },
-        {
-          "icon": "clamp",
-          "text": "кламп"
-        }
-      ],
-      "use": "герметичность кламп-стыка — сменный расходник.",
-      "tg": "Силиконовая прокладка под кламп DN3"
-    },
-    "139": {
-      "name": "Силиконовая прокладка под кламп DN4",
-      "price": "от 28 ₽",
-      "href": "index.html#sku-139",
-      "slug": "silikonovaya-prokladka-pod-klamp-dn4",
-      "image": "assets/img/alko/sku-139-silikonovaya-prokladka-pod-klamp-dn4.jpg",
-      "category": "silicone",
-      "categoryName": "Прокладки и уплотнения",
-      "sourceUrl": "https://alkotrademsk.ru/product/%d1%81%d0%b8%d0%bb%d0%b8%d0%ba%d0%be%d0%bd%d0%be%d0%b2%d0%b0%d1%8f-%d0%bf%d1%80%d0%be%d0%ba%d0%bb%d0%b0%d0%b4%d0%ba%d0%b0-%d0%bf%d0%be%d0%b4-%d0%ba%d0%bb%d0%b0%d0%bc%d0%bf-dn4/",
-      "facts": [
-        {
-          "icon": "size",
-          "text": "DN 4"
-        },
-        {
-          "icon": "gasket",
-          "text": "силикон"
-        },
-        {
-          "icon": "clamp",
-          "text": "кламп"
-        }
-      ],
-      "use": "герметичность кламп-стыка — сменный расходник.",
-      "tg": "Силиконовая прокладка под кламп DN4"
     }
   },
   "modes": {
@@ -3713,55 +3713,54 @@
         "ten": {
           "id": "ten",
           "name": "ТЭН",
-          "skuId": "03",
           "description": "Электроподогрев куба через кламп-фланец. Мощность подбирают под объём.",
           "facts": [
             "кламп 2″",
             "220 В",
             "AISI 304"
           ],
-          "parent": "cube"
+          "parent": "cube",
+          "skuId": "120"
         },
         "drain": {
           "id": "drain",
           "name": "Кран слива куба",
-          "skuId": "24",
           "description": "Слив куба после прогона или мойки. Ставят в нижней зоне.",
           "facts": [
             "полнопроход",
             "нерж.",
             "удобный слив"
           ],
-          "parent": "cube"
+          "parent": "cube",
+          "skuId": "050"
         },
         "thermo": {
           "id": "thermo",
           "name": "Термометр",
-          "skuId": "20",
           "description": "Контроль температуры в кубе без электроники — биметалл на кламп.",
           "facts": [
             "0–120°C",
             "кламп 1,5″",
             "визуальный контроль"
           ],
-          "parent": "cube"
+          "parent": "cube",
+          "skuId": "084"
         },
         "prv": {
           "id": "prv",
           "name": "Воздушный / вакуумный клапан",
-          "skuId": "26",
           "description": "Сброс / выравнивание давления в кубе при остывании — безопасность обвязки.",
           "facts": [
             "вакуум-защита",
             "кламп",
             "страховка крышки"
           ],
-          "parent": "cube"
+          "parent": "cube",
+          "skuId": "100"
         },
         "lid": {
           "id": "lid",
           "name": "Крышка куба",
-          "skuId": "11",
           "description": "Съёмная крышка с кламп-портами под царгу и контрольные приборы.",
           "facts": [
             "кламп-порты",
@@ -3777,7 +3776,12 @@
             "blank",
             "adapter",
             "clamp2"
-          ]
+          ],
+          "catalogHint": {
+            "category": "fittings",
+            "q": "крышка",
+            "note": "Крышки куба нет в новом каталоге"
+          }
         },
         "tsarga-assy": {
           "id": "tsarga-assy",
@@ -3799,49 +3803,52 @@
             "clamp-extra"
           ],
           "drillable": true,
-          "skuId": "12",
-          "layer": "tsarga-detail"
+          "layer": "tsarga-detail",
+          "skuId": "042"
         },
         "tsarga": {
           "id": "tsarga",
           "name": "Царга 1,5″",
-          "skuId": "12",
           "description": "Труба колонны ~50 см под СПН/РПН. Базовый строительный блок высоты.",
           "facts": [
             "~50 см",
             "1,5″",
             "под насадку"
           ],
-          "parent": "tsarga-assy"
+          "parent": "tsarga-assy",
+          "skuId": "042"
         },
         "packing-spn": {
           "id": "packing-spn",
           "name": "Насадка СПН",
-          "skuId": "21",
           "description": "Спирально-призматическая насадка увеличивает поверхность контакта пара и флегмы.",
           "facts": [
             "СПН",
             "нерж.",
             "насыпная"
           ],
-          "parent": "tsarga-assy"
+          "parent": "tsarga-assy",
+          "catalogHint": {
+            "category": "fittings",
+            "q": "Панченкова",
+            "note": "СПН нет; ближайшее — сетка Панченкова (РПН)"
+          }
         },
         "packing-rpn": {
           "id": "packing-rpn",
           "name": "Насадка РПН",
-          "skuId": "22",
           "description": "Регулярная проволочная насадка — альтернатива СПН для царги.",
           "facts": [
             "РПН",
             "рулон",
             "высокая эффективность"
           ],
-          "parent": "tsarga-assy"
+          "parent": "tsarga-assy",
+          "skuId": "020"
         },
         "clamp-tsarga": {
           "id": "clamp-tsarga",
           "name": "Кламп 1,5″",
-          "skuId": "01",
           "description": "Быстросъёмное соединение царги с соседними узлами. Вариант 2″ — отдельно.",
           "facts": [
             "1,5″",
@@ -3852,12 +3859,12 @@
           "related": [
             "clamp2",
             "clamp-extra"
-          ]
+          ],
+          "skuId": "008"
         },
         "gasket-tsarga": {
           "id": "gasket-tsarga",
           "name": "Прокладка 1,5″",
-          "skuId": "04",
           "description": "Расходник герметичности на кламп-стыке 1,5″. Есть вариант 2″.",
           "facts": [
             "силикон",
@@ -3867,23 +3874,23 @@
           "parent": "tsarga-assy",
           "related": [
             "gasket2"
-          ]
+          ],
+          "skuId": "135"
         },
         "diopter": {
           "id": "diopter",
           "name": "Диоптр",
-          "skuId": "13",
           "description": "Стеклянная секция для визуального контроля флегмы и кипения.",
           "facts": [
             "стекло",
             "кламп",
             "обзор"
-          ]
+          ],
+          "skuId": "003"
         },
         "takeoff": {
           "id": "takeoff",
           "name": "Узел отбора",
-          "skuId": "14",
           "description": "Точный отбор по жидкости игольчатым краном; часто с доохладителем.",
           "facts": [
             "игольчатый кран",
@@ -3894,24 +3901,28 @@
             "needle"
           ],
           "drillable": true,
-          "layer": "takeoff-detail"
+          "layer": "takeoff-detail",
+          "catalogHint": {
+            "category": "fittings",
+            "q": "носик",
+            "note": "Готового узла отбора нет; смотрите носики и краны"
+          }
         },
         "needle": {
           "id": "needle",
           "name": "Игольчатый кран",
-          "skuId": "31",
           "description": "Тонкая регулировка потока отбора — ключевой орган узла.",
           "facts": [
             "тонкая регулировка",
             "нерж.",
             "на отбор"
           ],
-          "parent": "takeoff"
+          "parent": "takeoff",
+          "skuId": "053"
         },
         "dimroth": {
           "id": "dimroth",
           "name": "Холодильник Димрота",
-          "skuId": "08",
           "description": "Конденсация паров: змеевик внутри стеклянной рубашки, вода по контуру. Альтернатива на пивоварне — чиллер.",
           "facts": [
             "Димрот",
@@ -3926,23 +3937,31 @@
             "chiller-link"
           ],
           "drillable": true,
-          "layer": "dimroth-detail"
+          "layer": "dimroth-detail",
+          "catalogHint": {
+            "category": "electro",
+            "q": "охлажд",
+            "note": "Димрота / холодильника колонны нет в новом каталоге"
+          }
         },
         "chiller-link": {
           "id": "chiller-link",
           "name": "Чиллер (альтернатива)",
-          "skuId": "25",
           "description": "Погружной чиллер — вариант охлаждения на пивоварне вместо Димрота.",
           "facts": [
             "погружной",
             "сусло",
             "вода"
-          ]
+          ],
+          "catalogHint": {
+            "category": "electro",
+            "q": "охлажд",
+            "note": "Погружного чиллера нет; есть компрессор автономного охлаждения"
+          }
         },
         "parrot": {
           "id": "parrot",
           "name": "Попугай",
-          "skuId": "15",
           "description": "Проточный карман под ареометр для контроля на выходе.",
           "facts": [
             "под АСП",
@@ -3951,45 +3970,57 @@
           ],
           "related": [
             "hydro"
-          ]
+          ],
+          "catalogHint": {
+            "category": "lab",
+            "q": "ареометр",
+            "note": "Попугая нет в новом каталоге"
+          }
         },
         "hydro": {
           "id": "hydro",
           "name": "Ареометр",
-          "skuId": "16",
           "description": "Контроль крепости на выходе попугая или плотности сусла.",
           "facts": [
             "АС-3",
             "карман попугая",
             "контроль"
-          ]
+          ],
+          "skuId": "073"
         },
         "receiver": {
           "id": "receiver",
           "name": "Приёмная ёмкость",
-          "skuId": "27",
           "description": "Банка / ёмкость под готовый дистиллят с попугая.",
           "facts": [
             "3–5 л",
             "пищевой пластик/стекло",
             "рядом с отбором"
-          ]
+          ],
+          "catalogHint": {
+            "category": "lab",
+            "q": "стакан",
+            "note": "Отдельной приёмной ёмкости нет; мерные стаканы в лаборатории"
+          }
         },
         "pid": {
           "id": "pid",
           "name": "PID / терморегулятор",
-          "skuId": "09",
           "description": "Удержание мощности ТЭНа: PID + SSR + щуп.",
           "facts": [
             "PID",
             "SSR",
             "щуп К"
-          ]
+          ],
+          "catalogHint": {
+            "category": "electro",
+            "q": "ТЭН",
+            "note": "PID / терморегулятора нет в новом каталоге"
+          }
         },
         "hoses": {
           "id": "hoses",
           "name": "Шланги",
-          "skuId": "06",
           "description": "Силиконовый пищевой шланг: вода на холодильник и линия отбора.",
           "facts": [
             "силикон пищевой",
@@ -3998,12 +4029,12 @@
           ],
           "related": [
             "hose-clamps"
-          ]
+          ],
+          "skuId": "129"
         },
         "hose-clamps": {
           "id": "hose-clamps",
           "name": "Хомуты червячные",
-          "skuId": "10",
           "description": "Фиксация шлангов на штуцерах холодильника и отбора — отдельно от самого шланга.",
           "facts": [
             "червячные",
@@ -4012,12 +4043,16 @@
           ],
           "related": [
             "hoses"
-          ]
+          ],
+          "catalogHint": {
+            "category": "hoses",
+            "q": "шланг",
+            "note": "Червячных хомутов нет; смотрите шланги и фитинги"
+          }
         },
         "clamp2": {
           "id": "clamp2",
           "name": "Кламп 2″",
-          "skuId": "02",
           "description": "Стык крупных узлов: ТЭН, отбор, переходники. Вариант к 1,5″.",
           "facts": [
             "2″ DN51",
@@ -4027,12 +4062,12 @@
           "related": [
             "clamp-tsarga",
             "clamp-extra"
-          ]
+          ],
+          "skuId": "009"
         },
         "gasket2": {
           "id": "gasket2",
           "name": "Прокладка 2″",
-          "skuId": "23",
           "description": "Силиконовая прокладка под кламп 2″.",
           "facts": [
             "2″",
@@ -4042,34 +4077,34 @@
           "parent": "tsarga-assy",
           "related": [
             "gasket-tsarga"
-          ]
+          ],
+          "skuId": "136"
         },
         "adapter": {
           "id": "adapter",
           "name": "Переходник 1,5↔2″",
-          "skuId": "28",
           "description": "Сводит разные диаметры кламп-линии без сварки.",
           "facts": [
             "1,5↔2″",
             "AISI",
             "универсальный"
-          ]
+          ],
+          "skuId": "014"
         },
         "blank": {
           "id": "blank",
           "name": "Заглушка кламп",
-          "skuId": "29",
           "description": "Закрывает незанятый порт на крышке или кубе.",
           "facts": [
             "1,5″",
             "с прокладкой",
             "порт «закрыт»"
-          ]
+          ],
+          "skuId": "006"
         },
         "clamp-extra": {
           "id": "clamp-extra",
           "name": "Хомут кламп 2″",
-          "skuId": "32",
           "description": "Дополнительный хомут в запасе на стык 2″.",
           "facts": [
             "2″",
@@ -4080,19 +4115,24 @@
           "related": [
             "clamp2",
             "clamp-tsarga"
-          ]
+          ],
+          "skuId": "033"
         },
         "valve": {
           "id": "valve",
           "name": "Кран шаровый кламп",
-          "skuId": "19",
           "description": "Перекрытие потока на линии слива / отбора.",
           "facts": [
             "полнопроход",
             "1,5″",
             "AISI"
           ],
-          "parent": "cube"
+          "parent": "cube",
+          "catalogHint": {
+            "category": "valves",
+            "q": "шаровый",
+            "note": "Кламп-шарового 1,5″ нет; смотрите краны в категории"
+          }
         }
       }
     },
@@ -4128,7 +4168,6 @@
         "mash": {
           "id": "mash",
           "name": "Заторник / котёл",
-          "skuId": "30",
           "description": "Котёл для затирания и кипячения сусла. Часто совмещают с ТЭНом и PID.",
           "facts": [
             "ПВК / котёл",
@@ -4141,48 +4180,56 @@
             "drain-brew"
           ],
           "drillable": true,
-          "layer": "mash-detail"
+          "layer": "mash-detail",
+          "catalogHint": {
+            "category": "other",
+            "q": "затир",
+            "note": "Заторного котла / ПВК нет; есть мешки для затирания"
+          }
         },
         "ten-brew": {
           "id": "ten-brew",
           "name": "ТЭН",
-          "skuId": "03",
           "description": "Подогрев затора и кипячения сусла.",
           "facts": [
             "кламп 2″",
             "2–3,5 кВт",
             "с PID"
           ],
-          "parent": "mash"
+          "parent": "mash",
+          "skuId": "120"
         },
         "pid-brew": {
           "id": "pid-brew",
           "name": "PID",
-          "skuId": "09",
           "description": "Удержание температур пауз затирания.",
           "facts": [
             "паузы",
             "SSR",
             "щуп"
           ],
-          "parent": "mash"
+          "parent": "mash",
+          "catalogHint": {
+            "category": "electro",
+            "q": "ТЭН",
+            "note": "PID / терморегулятора нет в новом каталоге"
+          }
         },
         "drain-brew": {
           "id": "drain-brew",
           "name": "Кран слива",
-          "skuId": "24",
           "description": "Слив сусла в ферментер или на чиллер.",
           "facts": [
             "слив сусла",
             "нерж.",
             "с хомутами"
           ],
-          "parent": "mash"
+          "parent": "mash",
+          "skuId": "052"
         },
         "chiller": {
           "id": "chiller",
           "name": "Чиллер / змеевик",
-          "skuId": "25",
           "description": "Охлаждение сусла перед внесением дрожжей. Альтернатива — Димрот из колонны.",
           "facts": [
             "погружной",
@@ -4191,23 +4238,31 @@
           ],
           "related": [
             "dimroth-link"
-          ]
+          ],
+          "catalogHint": {
+            "category": "electro",
+            "q": "охлажд",
+            "note": "Погружного чиллера нет; есть компрессор автономного охлаждения"
+          }
         },
         "dimroth-link": {
           "id": "dimroth-link",
           "name": "Димрот (альтернатива)",
-          "skuId": "08",
           "description": "Холодильник Димрота — вариант конденсации на колонне.",
           "facts": [
             "Димрот",
             "кламп",
             "вода"
-          ]
+          ],
+          "catalogHint": {
+            "category": "electro",
+            "q": "охлажд",
+            "note": "Димрота нет в новом каталоге"
+          }
         },
         "fermenter": {
           "id": "fermenter",
           "name": "Ферментер",
-          "skuId": "07",
           "description": "Ёмкость брожения с крышкой под гидрозатвор и сливной кран.",
           "facts": [
             "30 л",
@@ -4219,36 +4274,44 @@
             "valve-brew"
           ],
           "drillable": true,
-          "layer": "fermenter-detail"
+          "layer": "fermenter-detail",
+          "catalogHint": {
+            "category": "other",
+            "q": "гидрозатвор",
+            "note": "Ферментера нет; есть гидрозатворы и краны для бродильных ёмкостей"
+          }
         },
         "airlock": {
           "id": "airlock",
           "name": "Гидрозатвор",
-          "skuId": "05",
           "description": "Сброс CO₂ без доступа воздуха в ферментер.",
           "facts": [
             "трёхсоставной",
             "тихий",
             "с пробкой"
           ],
-          "parent": "fermenter"
+          "parent": "fermenter",
+          "skuId": "096"
         },
         "valve-brew": {
           "id": "valve-brew",
           "name": "Кран / кламп",
-          "skuId": "19",
           "description": "Слив готового пива или промежуточный отбор.",
           "facts": [
             "шаровый",
             "кламп",
             "слив"
           ],
-          "parent": "fermenter"
+          "parent": "fermenter",
+          "catalogHint": {
+            "category": "valves",
+            "q": "бродильн",
+            "note": "Кламп-шарового нет; есть краны для бродильных ёмкостей"
+          }
         },
         "brew-hoses": {
           "id": "brew-hoses",
           "name": "Шланги",
-          "skuId": "06",
           "description": "Переливы сусла и вода на чиллер — без хомутов (они отдельно).",
           "facts": [
             "силикон",
@@ -4257,12 +4320,12 @@
           ],
           "related": [
             "hose-clamps-brew"
-          ]
+          ],
+          "skuId": "129"
         },
         "hose-clamps-brew": {
           "id": "hose-clamps-brew",
           "name": "Хомуты червячные",
-          "skuId": "10",
           "description": "Фиксация шлангов на штуцерах чиллера и слива.",
           "facts": [
             "червячные",
@@ -4271,40 +4334,53 @@
           ],
           "related": [
             "brew-hoses"
-          ]
+          ],
+          "catalogHint": {
+            "category": "hoses",
+            "q": "шланг",
+            "note": "Червячных хомутов нет; смотрите шланги"
+          }
         },
         "sanitizer": {
           "id": "sanitizer",
           "name": "Дезинфекция",
-          "skuId": "18",
           "description": "Санитайзер для ПВК, шлангов и ферментера — расходник рядом со схемой.",
           "facts": [
             "без ополаскивания",
             "кислотный",
             "обязательный шаг"
-          ]
+          ],
+          "catalogHint": {
+            "category": "other",
+            "q": "щетка",
+            "note": "Дезинфектанта нет в новом каталоге"
+          }
         },
         "malt": {
           "id": "malt",
           "name": "Солод и дрожжи",
-          "skuId": "17",
           "description": "Легальные расходники домашнего пива: солод и пивные дрожжи.",
           "facts": [
             "пилснер",
             "элевые дрожжи",
             "домашнее"
-          ]
+          ],
+          "catalogHint": {
+            "category": "other",
+            "q": "солод",
+            "note": "Солода и дрожжей нет; есть мельницы для солода"
+          }
         },
         "hydro": {
           "id": "hydro",
           "name": "Ареометр",
-          "skuId": "16",
           "description": "Контроль плотности сусла до и после брожения.",
           "facts": [
             "АС-3",
             "Brix",
             "контроль"
-          ]
+          ],
+          "skuId": "073"
         }
       }
     }
